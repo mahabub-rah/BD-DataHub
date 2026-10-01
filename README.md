@@ -212,6 +212,9 @@ It uses the same daily credit budget and resume behaviour as the harvester. Its 
 
 Every setting has a default, so configuration is optional. To override a setting, set an environment
 variable or add it to a `.env` file in the project root (`.env` is git-ignored).
+For local setup, copy [`.env.example`](.env.example) to `.env`; never commit credentials or signed
+URLs. Link-check results redact API keys, access keys, tokens, signatures, and other authentication
+parameters before they are stored in the database or [`seed/link_checks.json`](seed/link_checks.json).
 
 | Variable | Default | Purpose |
 |---|---|---|

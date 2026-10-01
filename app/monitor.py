@@ -21,7 +21,7 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from urllib.robotparser import RobotFileParser
 
 import httpx
@@ -34,6 +34,22 @@ log = logging.getLogger(__name__)
 
 MAX_BYTES = 2_000_000
 BROKEN_AFTER_FAILURES = 3
+_SENSITIVE_QUERY_KEY = re.compile(
+    r"(?:api[_-]?key|access[_-]?key|secret|token|signature|credential|password|auth)",
+    re.IGNORECASE,
+)
+
+
+def redact_url_credentials(url: str | None) -> str | None:
+    """Remove credentials and signed-auth parameters before storing a URL."""
+    if not url:
+        return url
+    parts = urlsplit(url)
+    query = [
+        (key, value) for key, value in parse_qsl(parts.query, keep_blank_values=True)
+        if not key.lower().startswith("x-amz-") and not _SENSITIVE_QUERY_KEY.search(key)
+    ]
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), ""))
 
 
 @dataclass
@@ -173,7 +189,7 @@ class Monitor:
                                    elapsed_ms=int((time.monotonic() - started) * 1000))
         elapsed = int((time.monotonic() - started) * 1000)
         code = resp.status_code
-        final = str(resp.url)
+        final = redact_url_credentials(str(resp.url))
         if code in (404, 410):
             status = "broken"
         elif code in (401, 403, 429):
@@ -219,7 +235,8 @@ def _record(conn: sqlite3.Connection, dataset: sqlite3.Row, result: CheckResult,
     conn.execute(
         """INSERT INTO link_checks (dataset_id, url, status, http_status, final_url, fingerprint, changed,
                                     elapsed_ms, error) VALUES (?,?,?,?,?,?,?,?,?)""",
-        (dataset["id"], result.url, result.status, result.http_status, result.final_url, result.fingerprint,
+        (dataset["id"], result.url, result.status, result.http_status, redact_url_credentials(result.final_url),
+         result.fingerprint,
          int(changed), result.elapsed_ms, result.error),
     )
     return changed
@@ -289,7 +306,13 @@ def export_snapshot(conn: sqlite3.Connection, path: Path = SNAPSHOT_PATH) -> int
                WHERE n <= ? ORDER BY id""", (ds["id"], SNAPSHOT_CHECKS_PER_URL)).fetchall()
         entry = {k: ds[k] for k in ("source_url", "link_status", "http_status", "link_checked_at",
                                     "content_fingerprint", "source_changed_at")}
-        entry["checks"] = [{k: v for k, v in dict(c).items() if v is not None} for c in checks]
+        entry["checks"] = [
+            {
+                **{k: v for k, v in dict(c).items() if v is not None},
+                "final_url": redact_url_credentials(c["final_url"]),
+            }
+            for c in checks
+        ]
         out[ds["slug"]] = entry
     data = {"exported_at": now_iso(), "datasets": out}
     tmp = path.with_suffix(".json.tmp")
