@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block title %}{{ org.name }} · BD DataHub{% endblock %}
+{% block description %}Datasets published by {{ org.name }}{% if org.acronym %} ({{ org.acronym }}){% endif %}, catalogued on BD DataHub.{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="breadcrumb"><a href="/">Home</a> › <a href="/organizations">Organizations</a> › {{ org.acronym or org.name }}</div>
+  <header class="org-head">
+    <h1>{{ org.name }}{% if org.acronym %} <span class="muted" style="font-weight:400">({{ org.acronym }})</span>{% endif %}</h1>
+    {% if org.name_bn %}<div class="muted">{{ org.name_bn }}</div>{% endif %}
+    {% if org.parent %}<p class="small muted" style="margin:0 0 .5rem">Part of {{ org.parent }}</p>{% endif %}
+    {% if org.description %}<p>{{ org.description }}</p>{% endif %}
+    {% if org.website %}<a href="{{ org.website }}" target="_blank" rel="noopener external">{{ org.website | host }} ↗</a>{% endif %}
+  </header>
+  <div class="section-head"><h2>{{ res.total }} dataset{{ 's' if res.total != 1 }}</h2>
+    {% if res.total %}<a href="/datasets?organization={{ org.slug }}">Search and filter these</a>{% endif %}</div>
+  {% for ds in res['items'] %}{{ m.result(ds) }}{% else %}<p class="muted">No datasets from this organization have been catalogued yet.</p>{% endfor %}
+  {% if res.total > res['items'] | length %}<p><a href="/datasets?organization={{ org.slug }}">Showing {{ res['items'] | length }} of {{ res.total }}. See all →</a></p>{% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Organizations · BD DataHub{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="breadcrumb"><a href="/">Home</a> › Organizations</div>
+  <h1>Organizations</h1>
+  <p class="muted" style="max-width:44em">Government ministries, departments, public institutions and international organizations that publish Bangladesh data.</p>
+  <form class="filter-form" method="get">
+    <input name="q" value="{{ q }}" placeholder="Name or acronym" style="flex:2;min-width:200px" aria-label="Filter organizations">
+    <select name="type" style="flex:1;min-width:180px" aria-label="Organization type">
+      <option value="">All types</option>
+      {% for t in vocab.ORG_TYPES %}<option {{ 'selected' if t == org_type }}>{{ t }}</option>{% endfor %}
+    </select>
+    <button class="btn secondary">Filter</button>
+  </form>
+  {% if orgs %}
+  <table class="org-table">
+    <thead><tr><th class="acr">Acronym</th><th>Name</th><th class="type">Type</th><th class="num">Datasets</th></tr></thead>
+    <tbody>
+    {% for o in orgs %}
+      <tr>
+        <td class="acr">{{ o.acronym or '' }}</td>
+        <td><a href="/organizations/{{ o.slug }}">{{ o.name }}</a>{% if o.name_bn %}<span class="bn">{{ o.name_bn }}</span>{% endif %}</td>
+        <td class="type muted">{{ o.org_type or 'Organization' }}</td>
+        <td class="num">{{ o.dataset_count }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p class="muted">No organizations match.</p>
+  {% endif %}
+</div>
+{% endblock %}

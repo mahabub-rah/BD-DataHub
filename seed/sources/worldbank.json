@@ -1,0 +1,1946 @@
+{
+  "organizations": [],
+  "datasets": [
+    {
+      "slug": "wb-dbs-bangladesh",
+      "title": "Doing Business - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Doing Business database, available through the World Bank Indicators API and DataBank. It holds 194 indicators; all 20 checked returned values for Bangladesh (2013–2019). Indicators with Bangladesh data include: Enforcing contracts: Alternative dispute resolution (0-3) (DB16-20 methodology); Enforcing contracts: Attorney fees (% of claim); Enforcing contracts: Cost (% of claim); Enforcing contracts: Cost (% of claim) - Score; Enforcing contracts: Case management (0-6) (DB16-20 methodology); Enforcing contracts: Court automation (0-4) (DB17-20 methodology); Enforcing contracts: Court fees (% of claim); Enforcing contracts: Court structure and proceedings (0-5) (DB17-20 methodology); Enforcing contracts (DB04-15 methodology) - Score; Enforcing contracts (DB17-20 methodology) - Score; Enforcing contracts: Enforcement fees (% of claim); Enforcing contracts: Enforcement of judgment (days); Enforcing contracts: Filing and service (days); Enforcing contracts: Procedures (number); Enforcing contracts: Procedures (number) - Score; Enforcing contracts: Quality of the judicial processes index (0-19) (DB17-20 methodology) - Score; Enforcing contracts: Quality of the judicial processes index (0-18) (DB17-20 methodology); Rank: Enforcing contracts (1=most business-friendly regulations); Enforcing contracts: Trial and judgment (days); Enforcing contracts: Time (days).",
+      "source_url": "https://databank.worldbank.org/source/doing-business",
+      "download_url": null,
+      "categories": [
+        "Industry & Business"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2013,
+      "temporal_end": 2019,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "dbs",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/ENF.CONT.COEN.ATFE.PR?source=1&format=json",
+      "evidence_note": "World Bank Indicators API (source 1, DBS) returned 7 non-null Bangladesh values for 'Enforcing contracts: Attorney fees (% of claim)' (2013–2019); source last updated 2021-08-18; DataBank page https://databank.worldbank.org/source/doing-business loaded (HTTP 200) with title 'Doing Business | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-wgi-bangladesh",
+      "title": "Worldwide Governance Indicators - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Worldwide Governance Indicators database, available through the World Bank Indicators API and DataBank. It holds 36 indicators; all 20 checked returned values for Bangladesh (1996–2025). Indicators with Bangladesh data include: Control of Corruption - Governance estimate (approx. -2.5 to +2.5); Control of Corruption - Governance score (0-100); Control of Corruption - Lower bound of the 90% confidence interval for the governance score; Control of Corruption - Upper bound of the 90% confidence interval for the governance score; Control of Corruption - Standard error of the governance estimate; Control of Corruption - Number of sources; Government Effectiveness - Governance estimate (approx. -2.5 to +2.5); Government Effectiveness - Governance score (0-100); Government Effectiveness - Lower bound of the 90% confidence interval for the governance score; Government Effectiveness - Upper bound of the 90% confidence interval for the governance score; Government Effectiveness - Standard error of the governance estimate; Government Effectiveness - Number of sources; Political Stability - Governance estimate (approx. -2.5 to +2.5); Political Stability - Governance score (0-100); Political Stability - Lower bound of the 90% confidence interval for the governance score; Political Stability - Upper bound of the 90% confidence interval for the governance score; Political Stability - Standard error of the governance estimate; Political Stability - Number of sources; Rule of Law - Governance estimate (approx. -2.5 to +2.5); Rule of Law - Governance score (0-100).",
+      "source_url": "https://databank.worldbank.org/source/worldwide-governance-indicators",
+      "download_url": null,
+      "categories": [
+        "Government & Public Administration"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1996,
+      "temporal_end": 2025,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "wgi",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/GOV_WGI_CC.EST?source=3&format=json",
+      "evidence_note": "World Bank Indicators API (source 3, WGI) returned 27 non-null Bangladesh values for 'Control of Corruption - Governance estimate (approx. -2.5 to +2.5)' (1996–2025); source last updated 2026-09-25; DataBank page https://databank.worldbank.org/source/worldwide-governance-indicators loaded (HTTP 200) with title 'Worldwide Governance Indicators | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-ids-bangladesh",
+      "title": "International Debt Statistics - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank International Debt Statistics database, available through the World Bank Indicators API and DataBank. It holds 577 indicators; of the 24 checked, 20 returned values for Bangladesh (1970–2026), plus projections to 2032. Indicators with Bangladesh data include: Imports of goods, services and primary income (BoP, current US$); Current account balance (BoP, current US$); Grants, excluding technical cooperation (current US$); Technical cooperation grants (current US$); Exports of goods, services and primary income (BoP, current US$); Foreign direct investment, net inflows in reporting economy (DRS, current US$); Primary income on FDI (current US$); Portfolio investment, equity (DRS, current US$); Personal remittances, received (current US$); PPG, bilateral (AMT, current US$); GG, bilateral (AMT, current US$); OPS, bilateral (AMT, current US$); PS, bilateral (AMT, current US$); PPG, bilateral concessional (AMT, current US$); GG, bilateral concessional (AMT, current US$); OPS, bilateral concessional (AMT, current US$); PS, bilateral concessional (AMT, current US$); Principal repayments on external debt, central bank (PPG) (AMT, current US$); Principal repayments on external debt, general government sector (PPG) (AMT, current US$); Principal repayments on external debt, public sector (PPG) (AMT, current US$).",
+      "source_url": "https://databank.worldbank.org/source/international-debt-statistics",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance",
+        "Trade & Commerce"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1970,
+      "temporal_end": 2026,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "ids",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/sources/6/country/BGD/series/DT.AMT.BLAT.CD/counterpart-area/WLD/time/all?format=json",
+      "evidence_note": "World Bank Indicators API (source 6, IDS) returned 60 non-null Bangladesh values for 'PPG, bilateral (AMT, current US$)' (1973–2032); source last updated 2025-12-03; DataBank page https://databank.worldbank.org/source/international-debt-statistics loaded (HTTP 200) with title 'International Debt Statistics | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-eds-bangladesh",
+      "title": "Education Statistics - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Education Statistics database, available through the World Bank Indicators API and DataBank. It holds 8,450 indicators; of the 40 checked, 35 returned values for Bangladesh (1960–2010). Indicators with Bangladesh data include: EDSTATS: Average Adjusted Test Score; EDSTATS: Adjusted Secondary Math Score; EDSTATS: Average Adjusted Secondary Test Score; EDSTATS: Adjusted Secondary Science Score; Barro-Lee: Percentage of female population age 15-19 with no education; Barro-Lee: Percentage of population age 15-19 with no education; Barro-Lee: Percentage of female population age 15+ with no education; Barro-Lee: Percentage of population age 15+ with no education; Barro-Lee: Percentage of female population age 20-24 with no education; Barro-Lee: Percentage of population age 20-24 with no education; Barro-Lee: Percentage of female population age 25-29 with no education; Barro-Lee: Percentage of population age 25-29 with no education; Barro-Lee: Percentage of female population age 25+ with no education; Barro-Lee: Percentage of population age 25+ with no education; Barro-Lee: Percentage of female population age 30-34 with no education; Barro-Lee: Percentage of population age 30-34 with no education; Barro-Lee: Percentage of female population age 35-39 with no education; Barro-Lee: Percentage of population age 35-39 with no education; Barro-Lee: Percentage of female population age 40-44 with no education; Barro-Lee: Percentage of population age 40-44 with no education.",
+      "source_url": "https://databank.worldbank.org/source/education-statistics",
+      "download_url": null,
+      "categories": [
+        "Education"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1960,
+      "temporal_end": 2010,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "eds",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/BAR.NOED.1519.FE.ZS?source=12&format=json",
+      "evidence_note": "World Bank Indicators API (source 12, EDS) returned 11 non-null Bangladesh values for 'Barro-Lee: Percentage of female population age 15-19 with no education' (1960–2010); source last updated 2024-06-25; DataBank page https://databank.worldbank.org/source/education-statistics loaded (HTTP 200) with title 'Education Statistics - All Indicators | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-esy-bangladesh",
+      "title": "Enterprise Surveys - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Enterprise Surveys database, available through the World Bank Indicators API and DataBank. It holds 115 indicators; all 20 checked returned values for Bangladesh (2007–2013). Indicators with Bangladesh data include: Bribery depth (% of public transactions where a gift or informal payment was requested); Bribery incidence (percent of firms experiencing at least one bribe payment request); Percent of firms expected to give gifts in meetings with tax officials; Percent of firms expected to give gifts to get an operating license; Percent of firms identifying corruption as a major constraint; Percent of firms expected to give gifts to secure government contract; Value of gift expected to secure a government contract (% of contract value); Percent of firms expected to give gifts to public officials \"to get things done\"; Percent of firms expected to give gifts to get an electrical connection; Percent of firms expected to give gifts to get a water connection; Percent of firms expected to give gifts to get a construction permit; Percent of firms expected to give gifts to get an import license; Percent of firms identifying the courts system as a major constraint; Percent of firms paying for security; Percent of firms experiencing losses due to theft and vandalism; If the establishment pays for security, average security costs (% of annual sales); If there were losses, average losses due to theft and vandalism (% of annual sales); Products shipped to supply domestic markets that were lost due to theft (% of product value); Percent of firms identifying crime, theft and disorder as a major constraint; Annual employment growth (%).",
+      "source_url": "https://databank.worldbank.org/source/enterprise-surveys",
+      "download_url": null,
+      "categories": [
+        "Industry & Business"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2007,
+      "temporal_end": 2013,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "esy",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/IC.FRM.BRIB.GRAFT2?source=13&format=json",
+      "evidence_note": "World Bank Indicators API (source 13, ESY) returned 2 non-null Bangladesh values for 'Bribery depth (% of public transactions where a gift or informal payment was requested)' (2007–2013); source last updated 2022-03-25; DataBank page https://databank.worldbank.org/source/enterprise-surveys loaded (HTTP 200) with title 'Home | Enterprise Surveys - World Bank Group'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-gds-bangladesh",
+      "title": "Gender Statistics - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Gender Statistics database, available through the World Bank Indicators API and DataBank. It holds 1,411 indicators; all 20 checked returned values for Bangladesh (2011–2024). Indicators with Bangladesh data include: Account (% age 15+); Account, female (% age 15+); Account, male (% age 15+); Borrowed any money  (% age 15+); Borrowed any money, women (% age 15+); Borrowed any money, men (% age 15+); Own a mobile phone  (% age 15+); Own a mobile phone, women (% age 15+); Own a mobile phone, men (% age 15+); SIM number registered in own name  (% age 15+); SIM number registered in own name, women (% age 15+); SIM number registered in own name, men (% age 15+); Daily mobile phone use  (% age 15+); Daily mobile phone use, women (% age 15+); Daily mobile phone use, men (% age 15+); Read a text message on a mobile phone  (% age 15+); Read a text message on a mobile phone, women (% age 15+); Read a text message on a mobile phone, men (% age 15+); Can send a text message on a mobile phone  (% age 15+); Can send a text message on a mobile phone, women (% age 15+).",
+      "source_url": "https://databank.worldbank.org/source/gender-statistics",
+      "download_url": null,
+      "categories": [
+        "Population & Demographics"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2011,
+      "temporal_end": 2024,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "gds",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/account.t.d?source=14&format=json",
+      "evidence_note": "World Bank Indicators API (source 14, GDS) returned 5 non-null Bangladesh values for 'Account (% age 15+)' (2011–2024); source last updated 2026-07-22; DataBank page https://databank.worldbank.org/source/gender-statistics loaded (HTTP 200) with title 'Gender Statistics | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-gem-bangladesh",
+      "title": "Global Economic Monitor - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Global Economic Monitor database, available through the World Bank Indicators API and DataBank. It holds 36 indicators; 14 of them returned values for Bangladesh (1987–2026). Indicators with Bangladesh data include: CPI Price, nominal; CPI Price, nominal, seas. adj.; CPI Price, % y-o-y, nominal, seas. adj.; Imports Merchandise, Customs, current US$, millions; Imports Merchandise, Customs, current US$, millions, seas. adj.; Official exchange rate, LCU per USD, period average; Exchange rate, new LCU per USD extended backward, period average; Exchange rate, old LCU per USD extended forward, period average; Exports Merchandise, Customs, current US$, millions; Exports Merchandise, Customs, current US$, millions, seas. adj.; Foreign Reserves, Months Import Cover, Goods; Industrial Production, constant US$; Industrial Production, constant US$, seas. adj.; Total Reserves.",
+      "source_url": "https://databank.worldbank.org/source/global-economic-monitor",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1987,
+      "temporal_end": 2026,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "gem",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/DPANUSLCU?source=15&format=json",
+      "evidence_note": "World Bank Indicators API (source 15, GEM) returned 40 non-null Bangladesh values for 'Official exchange rate, LCU per USD, period average' (1987–2026); source last updated 2026-09-08; DataBank page https://databank.worldbank.org/source/global-economic-monitor loaded (HTTP 200) with title 'Global Economic Monitor (GEM) | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-hnp-bangladesh",
+      "title": "Health Nutrition and Population Statistics - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Health Nutrition and Population Statistics database, available through the World Bank Indicators API and DataBank. It holds 475 indicators; all 20 checked returned values for Bangladesh (1973–2025). Indicators with Bangladesh data include: Human Capital Index (HCI) (scale 0-1); Human Capital Index (HCI), Female (scale 0-1); Human Capital Index (HCI), Lower Bound (scale 0-1); Human Capital Index (HCI), Female, Lower Bound (scale 0-1); Human Capital Index (HCI), Male, Lower Bound (scale 0-1); Human Capital Index (HCI), Male (scale 0-1); Human Capital Index (HCI), Upper Bound (scale 0-1); Human Capital Index (HCI), Female, Upper Bound (scale 0-1); Human Capital Index (HCI), Male, Upper Bound (scale 0-1); GNI per capita, Atlas method (current US$); Literacy rate, youth (ages 15-24), gender parity index (GPI); Literacy rate, youth male (% of males ages 15-24); Literacy rate, youth total (% of people ages 15-24); Literacy rate, adult female (% of females ages 15 and above); Literacy rate, adult male (% of males ages 15 and above); Literacy rate, adult total (% of people ages 15 and above); Ratio of school attendance of orphans to school attendance of non-orphans ages 10-14; Primary completion rate, female (% of relevant age group); Primary completion rate, male (% of relevant age group); Primary completion rate, total (% of relevant age group).",
+      "source_url": "https://databank.worldbank.org/source/health-nutrition-and-population-statistics",
+      "download_url": null,
+      "categories": [
+        "Health",
+        "Government & Public Administration"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1973,
+      "temporal_end": 2025,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "hnp",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GNP.PCAP.CD?source=16&format=json",
+      "evidence_note": "World Bank Indicators API (source 16, HNP) returned 53 non-null Bangladesh values for 'GNI per capita, Atlas method (current US$)' (1973–2025); source last updated 2026-07-01; DataBank page https://databank.worldbank.org/source/health-nutrition-and-population-statistics loaded (HTTP 200) with title 'Health Nutrition and Population Statistics | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-ida-bangladesh",
+      "title": "IDA Results Measurement System - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank IDA Results Measurement System database, available through the World Bank Indicators API and DataBank. It holds 29 indicators; 28 of them returned values for Bangladesh (1990–2020). Indicators with Bangladesh data include: Access to electricity (% of population); CO2 emissions (metric tons per capita); PM2.5 air pollution, population exposed to levels exceeding WHO guideline value (% of total); Annual deforestation (% of change); Annual freshwater withdrawals, total (% of internal resources); Overall level of statistical capacity (scale 0 - 100); Logistics performance index: Overall (1=low to 5=high); GDP per capita growth (annual %); Lower secondary completion rate, female (% of relevant age group); Lower secondary completion rate, total (% of relevant age group); Gross enrolment ratio, lower secondary, both sexes (%); Gross enrolment ratio, lower secondary, female (%); Mortality rate, under-5 (per 1,000 live births); People using at least basic drinking water services (% of population); People using at least basic sanitation services (% of population); Births attended by skilled health staff (% of total); Maternal mortality ratio (modeled estimate, per 100,000 live births); Prevalence of stunting, height for age, female (% of children under 5); Prevalence of stunting, height for age (% of children under 5); Employment to population ratio, ages 15-24, female (%) (modeled ILO estimate).",
+      "source_url": "https://databank.worldbank.org/source/ida-results-measurement-system",
+      "download_url": null,
+      "categories": [
+        "Health",
+        "Population & Demographics"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1990,
+      "temporal_end": 2020,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "ida",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.GDP.PCAP.KD.ZG?source=18&format=json",
+      "evidence_note": "World Bank Indicators API (source 18, IDA) returned 31 non-null Bangladesh values for 'GDP per capita growth (annual %)' (1990–2020); source last updated 2021-07-23; DataBank page https://databank.worldbank.org/source/ida-results-measurement-system loaded (HTTP 200) with title 'IDA Results Measurement System, Tier I Database – WDI | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-mdg-bangladesh",
+      "title": "Millennium Development Goals - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Millennium Development Goals database, available through the World Bank Indicators API and DataBank. It holds 132 indicators; of the 40 checked, 22 returned values for Bangladesh (1990–2015). Indicators with Bangladesh data include: Forest area (sq. km); Forest area (% of land area); Net official development assistance and official aid received (current US$); Net official development assistance received (current US$); Net ODA received (% of GNI); Net ODA received per capita (current US$); Total debt service (% of exports of goods, services and primary income); Debt service (PPG and IMF only, % of exports of goods, services and primary income); GDP per unit of energy use (constant 2021 PPP $ per kg of oil equivalent); Energy use (kg of oil equivalent) per $1,000 GDP (constant 2021 PPP); CO2 emissions (kt); CO2 emissions (metric tons per capita); CO2 emissions (kg per PPP $ of GDP); Population living in slums (% of urban population); Annual freshwater withdrawals, total (% of internal resources); Renewable internal freshwater resources per capita (cubic meters); Mobile cellular subscriptions (per 100 people); Fixed telephone subscriptions (per 100 people); Internet users (per 100 people); Gross capital formation (% of GDP).",
+      "source_url": "https://databank.worldbank.org/source/millennium-development-goals",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance",
+        "Environment"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1990,
+      "temporal_end": 2015,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "mdg",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/AG.LND.FRST.K2?source=19&format=json",
+      "evidence_note": "World Bank Indicators API (source 19, MDG) returned 26 non-null Bangladesh values for 'Forest area (sq. km)' (1990–2015); source last updated 2018-09-19; DataBank page https://databank.worldbank.org/source/millennium-development-goals loaded (HTTP 200) with title 'Millennium Development Goals | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-psd-bangladesh",
+      "title": "Quarterly Public Sector Debt - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Quarterly Public Sector Debt database, available through the World Bank Indicators API and DataBank. It holds 564 indicators; of the 40 checked, 31 returned values for Bangladesh (2009–2026). Indicators with Bangladesh data include: Gross PSD, Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency; Gross PSD, Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, US$; Gross PSD, Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP; Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency; Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, US$; Gross PSD, Financial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP; Gross PSD, General Gov., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency; Gross PSD, General Gov., All maturities, All instruments, Domestic creditors, Nominal Value, US$; Gross PSD, General Gov., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP; Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency; Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, US$; Gross PSD, Nonfinancial Public Corp., All maturities, All instruments, Domestic creditors, Nominal Value, % of GDP; Gross PSD, Public Sector, All maturities, All instruments, Domestic creditors, Nominal Value, National Currency; Gross PSD, Total, All maturities, All instruments, Domestic creditors, Nominal Value, US$; Gross PSD, Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, National Currency; Gross PSD, Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, US$; Gross PSD, Central Gov., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP; Gross PSD, Financial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, National Currency; Gross PSD, Financial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, US$; Gross PSD, Financial Public Corp., All maturities, All instruments, Foreign currency, Nominal Value, % of GDP.",
+      "source_url": "https://databank.worldbank.org/source/quarterly-public-sector-debt",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2009,
+      "temporal_end": 2026,
+      "update_frequency": "Quarterly",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "psd",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/DP.DOD.DECD.CR.CG?source=20&format=json",
+      "evidence_note": "World Bank Indicators API (source 20, PSD) returned 67 non-null Bangladesh values for 'Gross PSD, Central Gov., All maturities, All instruments, Domestic creditors, Nominal Value, National Currency' (2009Q3–2026Q1); source last updated 2026-09-18; DataBank page https://databank.worldbank.org/source/quarterly-public-sector-debt loaded (HTTP 200) with title 'Quarterly Public Sector Debt | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-qds-bangladesh",
+      "title": "Quarterly External Debt Statistics SDDS - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Quarterly External Debt Statistics SDDS database, available through the World Bank Indicators API and DataBank. It holds 1,800 indicators; of the 300 checked, 4 returned values for Bangladesh (2011–2026). Indicators with Bangladesh data include: Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, Arrears, USD; Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, All instruments, Arrears, USD; Gross Ext. Debt Pos., Deposit-Taking Corp., exc. CB, All maturities, Debt Securities, Memo item, USD; Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, USD.",
+      "source_url": "https://databank.worldbank.org/source/quarterly-external-debt-statistics-sdds",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2011,
+      "temporal_end": 2026,
+      "update_frequency": "Quarterly",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "qds",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/DT.DOD.DECT.CD.AR.US?source=22&format=json",
+      "evidence_note": "World Bank Indicators API (source 22, QDS) returned 59 non-null Bangladesh values for 'Gross Ext. Debt Pos., All Sectors, All maturities, All instruments, USD' (2011Q3–2026Q1); source last updated 2026-08-07; DataBank page https://databank.worldbank.org/source/quarterly-external-debt-statistics-sdds loaded (HTTP 200) with title 'Quarterly External Debt Statistics SDDS | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-qdg-bangladesh",
+      "title": "Quarterly External Debt Statistics GDDS - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Quarterly External Debt Statistics GDDS database, available through the World Bank Indicators API and DataBank. It holds 256 indicators; all 20 checked returned values for Bangladesh (2014–2026). Indicators with Bangladesh data include: Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 9 to 12 mo., All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 10 to 15 yrs, All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 12 to 18 mo., All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, More than15yrs, All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 18 to 24 mo., All instruments, Principal, USD; Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, Immediately, All instruments, Principal, USD; Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD; Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3yrs, All instruments, Principal, USD; Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 3 to 6 mo., All instruments, Principal, USD; Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 4yrs, All instruments, Principal, USD; Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5 to 10 yrs, All instruments, Principal, USD; Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 5yrs, All instruments, Principal, USD; Ext. Debt Service Pmt, Publicly Guar. Private Sector Ext. Debt, 6 to 9 mo., All instruments, Principal, USD.",
+      "source_url": "https://databank.worldbank.org/source/quarterly-external-debt-statistics-gdds",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2014,
+      "temporal_end": 2026,
+      "update_frequency": "Quarterly",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "qdg",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/DT.AMT.DECT.CD.00.03.MO.US?source=23&format=json",
+      "evidence_note": "World Bank Indicators API (source 23, QDG) returned 28 non-null Bangladesh values for 'Ext. Debt Service Pmt, Public and Publicly Guar. Private Sector Ext. Debt, 0 to 3 mo., All instruments, Principal, USD' (2014Q2–2026Q1); source last updated 2026-08-12; DataBank page https://databank.worldbank.org/source/quarterly-external-debt-statistics-gdds loaded (HTTP 200) with title 'Quarterly External Debt Statistics GDDS | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-job-bangladesh",
+      "title": "Jobs - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Jobs database, available through the World Bank Indicators API and DataBank. It holds 166 indicators; of the 40 checked, 38 returned values for Bangladesh (1990–2016). Indicators with Bangladesh data include: Foreign direct investment, net outflows (% of GDP); Personal remittances, paid (current US$); Foreign direct investment, net inflows (% of GDP); Personal transfers, receipts (BoP, current US$); Market capitalization of listed domestic companies (% of GDP); Access to electricity (% of population); Electric power consumption (kWh per capita); Population density (people per sq. km of land area); Automated teller machines (ATMs) (per 100,000 adults); Borrowers from commercial banks (per 1,000 adults); Consumer price index (2010 = 100); Inflation, consumer prices (annual %); Domestic credit provided by financial sector (% of GDP); Domestic credit to private sector (% of GDP); Tax revenue (% of GDP); Taxes on income, profits and capital gains (% of total taxes); New business density (new registrations per 1,000 people ages 15-64); New businesses registered (number); Depth of credit information index (0=low to 8=high); Private credit bureau coverage (% of adults).",
+      "source_url": "https://databank.worldbank.org/source/jobs",
+      "download_url": null,
+      "categories": [
+        "Labour & Employment",
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1990,
+      "temporal_end": 2016,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "job",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/BM.KLT.DINV.WD.GD.ZS?source=25&format=json",
+      "evidence_note": "World Bank Indicators API (source 25, JOB) returned 27 non-null Bangladesh values for 'Foreign direct investment, net outflows (% of GDP)' (1990–2016); source last updated 2025-07-01; DataBank page https://databank.worldbank.org/source/jobs loaded (HTTP 200) with title 'Jobs | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-gep-bangladesh",
+      "title": "Global Economic Prospects - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Global Economic Prospects database, available through the World Bank Indicators API and DataBank. It holds 1 indicators; 1 of them returned values for Bangladesh (2023–2026), plus projections to 2028. Indicators with Bangladesh data include: GDP growth, constant (average 2010-19 prices and exchange rates).",
+      "source_url": "https://databank.worldbank.org/source/global-economic-prospects",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2023,
+      "temporal_end": 2026,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "gep",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/NYGDPMKTPKDZ?source=27&format=json",
+      "evidence_note": "World Bank Indicators API (source 27, GEP) returned 6 non-null Bangladesh values for 'GDP growth, constant (average 2010-19 prices and exchange rates)' (2023–2028); source last updated 2026-06-11; DataBank page https://databank.worldbank.org/source/global-economic-prospects loaded (HTTP 200) with title 'Global Economic Prospects | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-fdx-bangladesh",
+      "title": "Global Findex database - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Global Findex database database, available through the World Bank Indicators API and DataBank. It holds 3,313 indicators; all 20 checked returned values for Bangladesh (2011–2024). Indicators with Bangladesh data include: Account (% age 15+); Account, female (% age 15+); Account, urban (% age 15+); Account, out of labor force (% age 15+); Account, in labor force (% age 15+); Account, male (% age 15+); Account, young (% ages 15-24); Account, older (% age 25+); Account, primary education or less (% ages 15+); Account, secondary education or more (% ages 15+); Account, income, poorest 40% (% ages 15+); Account, income, richest 60% (% ages 15+); Account, rural (% age 15+); Borrowed any money  (% age 15+); Borrowed any money, women (% age 15+); Borrowed any money, urban (% age 15+); Borrowed any money, out of laborforce (% age 15+); Borrowed any money, in laborforce (% age 15+); Borrowed any money, men (% age 15+); Borrowed any money, young (% ages 15-24).",
+      "source_url": "https://databank.worldbank.org/source/global-findex-database",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2011,
+      "temporal_end": 2024,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "fdx",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/account.t.d?source=28&format=json",
+      "evidence_note": "World Bank Indicators API (source 28, FDX) returned 5 non-null Bangladesh values for 'Account (% age 15+)' (2011–2024); source last updated 2025-10-06; DataBank page https://databank.worldbank.org/source/global-findex-database loaded (HTTP 200) with title 'Global Findex database | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-gsp-bangladesh",
+      "title": "The Atlas of Social Protection: Indicators of Resilience and Equity - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank The Atlas of Social Protection: Indicators of Resilience and Equity database, available through the World Bank Indicators API. It holds 3,588 indicators; all 20 checked returned values for Bangladesh (2005–2022). Indicators with Bangladesh data include: Adequacy of benefits in extreme poor (<$2.15 a day) (%) -All Social Protection and Labor  (preT); Adequacy of benefits in extreme poor (<$2.15 a day) (%) -All Social Protection and Labor; Adequacy of benefits (%) -All Social Protection and Labor -rural; Adequacy of social protection and labor programs (% of total welfare of beneficiary households); Adequacy of benefits (%) -All Social Protection and Labor -urban; Adequacy of benefits in 1st quintile (poorest) (%) -All Social Protection and Labor (preT); Adequacy of benefits in 1st quintile (poorest) (%) -All Social Protection and Labor -rural; Adequacy of benefits in 1st quintile (poorest) (%) -All Social Protection and Labor; Adequacy of benefits in 1st quintile (poorest) (%) -All Social Protection and Labor -urban; Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor (preT); Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor -rural; Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor; Adequacy of benefits in 2nd quintile (%) -All Social Protection and Labor -urban; Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor (preT); Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor -rural; Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor; Adequacy of benefits in 3rd quintile (%) -All Social Protection and Labor -urban; Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor (preT); Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor -rural; Adequacy of benefits in 4th quintile (%) -All Social Protection and Labor.",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/per_allsp.adq_ep_preT_tot?source=29&format=json",
+      "download_url": null,
+      "categories": [
+        "Social Protection"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2005,
+      "temporal_end": 2022,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "gsp",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/per_allsp.adq_ep_preT_tot?source=29&format=json",
+      "evidence_note": "World Bank Indicators API (source 29, GSP) returned 4 non-null Bangladesh values for 'Adequacy of benefits in extreme poor (<$2.15 a day) (%) -All Social Protection and Labor  (preT)' (2005–2022); source last updated 2025-08-25; no matching DataBank page at https://databank.worldbank.org/source/the-atlas-of-social-protection-indicators-of-resilience-and-equity (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-ed1-bangladesh",
+      "title": "Exporter Dynamics Database – Indicators at Country-Year Level - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Exporter Dynamics Database – Indicators at Country-Year Level database, available through the World Bank Indicators API. It holds 98 indicators; all 20 checked returned values for Bangladesh (2005–2014). Indicators with Bangladesh data include: 001.Number of Exporters; 026.Export Value per Incumbent: Mean; 027.Export Value per Incumbent: Median; 028.Export Value per Incumbent: StDev.; 029.Export Value per Incumbent: First Quartile; 030.Export Value per Incumbent: Third Quartile; 031.Growth of Incumbents: Mean; 032.Growth of Incumbents: Median; 033.Growth of Incumbents: StDev.; 034.Growth of Incumbents: First Quartile; 035.Growth of Incumbents: Third Quartile; 036.Growth of Surviving Entrants: Mean; 037.Growth of Surviving Entrants: Median; 038.Growth of Surviving Entrants: StDev.; 039.Growth of Surviving Entrants: First Quartile; 040.Growth of Surviving Entrants: Third Quartile; 002.Number of Entrants; 003.Number of Exiters; 004.Number of Surviving Entrants; 005.Number of Incumbents.",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/A1?source=30&format=json",
+      "download_url": null,
+      "categories": [
+        "Industry & Business"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2005,
+      "temporal_end": 2014,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "ed1",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/A1?source=30&format=json",
+      "evidence_note": "World Bank Indicators API (source 30, ED1) returned 10 non-null Bangladesh values for '001.Number of Exporters' (2005–2014); source last updated 2016-03-31; no matching DataBank page at https://databank.worldbank.org/source/exporter-dynamics-database-indicators-at-country-year-level (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-cpi-bangladesh",
+      "title": "Country Policy and Institutional Assessment - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Country Policy and Institutional Assessment database, available through the World Bank Indicators API and DataBank. It holds 21 indicators; all 20 checked returned values for Bangladesh (2005–2025). Indicators with Bangladesh data include: CPIA business regulatory environment rating (1=low to 6=high); CPIA debt policy rating (1=low to 6=high); CPIA economic management cluster average (1=low to 6=high); CPIA policy and institutions for environmental sustainability rating (1=low to 6=high); CPIA quality of budgetary and financial management rating (1=low to 6=high); CPIA financial sector rating (1=low to 6=high); CPIA fiscal policy rating (1=low to 6=high); CPIA gender equality rating (1=low to 6=high); CPIA building human resources rating (1=low to 6=high); IDA resource allocation index (1=low to 6=high); CPIA macroeconomic management rating (1=low to 6=high); CPIA quality of public administration rating (1=low to 6=high); CPIA equity of public resource use rating (1=low to 6=high); CPIA property rights and rule-based governance rating (1=low to 6=high); CPIA social protection rating (1=low to 6=high); CPIA public sector management and institutions cluster average (1=low to 6=high); CPIA efficiency of revenue mobilization rating (1=low to 6=high); CPIA policies for social inclusion/equity cluster average (1=low to 6=high); CPIA structural policies cluster average (1=low to 6=high); CPIA trade rating (1=low to 6=high).",
+      "source_url": "https://databank.worldbank.org/source/country-policy-and-institutional-assessment",
+      "download_url": null,
+      "categories": [
+        "Government & Public Administration",
+        "Climate & Weather"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2005,
+      "temporal_end": 2025,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "cpi",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/IQ.CPA.BREG.XQ?source=31&format=json",
+      "evidence_note": "World Bank Indicators API (source 31, CPI) returned 21 non-null Bangladesh values for 'CPIA business regulatory environment rating (1=low to 6=high)' (2005–2025); source last updated 2026-08-03; DataBank page https://databank.worldbank.org/source/country-policy-and-institutional-assessment loaded (HTTP 200) with title 'Country Policy and Institutional Assessment | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-gfd-bangladesh",
+      "title": "Global Financial Development - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Global Financial Development database, available through the World Bank Indicators API and DataBank. It holds 108 indicators; of the 40 checked, 38 returned values for Bangladesh (1974–2021). Indicators with Bangladesh data include: Bank accounts per 1,000 adults; Bank branches per 100,000 adults; Firms with a bank loan or line of credit (%); Small firms with a bank loan or line of credit (%); Account at a formal financial institution (% age 15+); Saved at a financial institution in the past year (% age 15+); Loan from a financial institution in the past year (% age 15+); Account used for business purposes (% age 15+); Account used to receive remittances (% age 15+); Account used to receive wages (% age 15+); Saved any money in the past year (% age 15+); Saved using a savings club in the past year (% age 15+); Loan in the past year (% age 15+); Loan from a private lender in the past year (% age 15+); Loan from an employer in the past year (% age 15+); Loan through store credit in the past year (% age 15+); Loan from family or friends in the past year (% age 15+); Checks used to make payments (% age 15+); Credit card (% age 15+); Debit card (% age 15+).",
+      "source_url": "https://databank.worldbank.org/source/global-financial-development",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1974,
+      "temporal_end": 2021,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "gfd",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/GFDD.DI.01?source=32&format=json",
+      "evidence_note": "World Bank Indicators API (source 32, GFD) returned 48 non-null Bangladesh values for 'Private credit by deposit money banks to GDP (%)' (1974–2021); source last updated 2022-09-23; DataBank page https://databank.worldbank.org/source/global-financial-development loaded (HTTP 200) with title 'Global Financial Development | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-g2f-bangladesh",
+      "title": "G20 Financial Inclusion Indicators - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank G20 Financial Inclusion Indicators database, available through the World Bank Indicators API and DataBank. It holds 131 indicators; all 20 checked returned values for Bangladesh (2011–2017). Indicators with Bangladesh data include: Account (% age 15+); Account, female (% age 15+); Account, male (% age 15+); Account, income, poorest 40% (% age 15+); Account, income, richest 60% (% age 15+); Account (% ages 15-34); Account (% ages 35-59); Account (% age 60+); SMEs with at least one female owner with a proportion of loans requiring collateral; SMEs with a proportion of loans requiring collateral; SMEs with at least one female owner with an outstanding loan or line of credit; SMEs with an outstanding loan or line of credit; SMEs with at least one female owner with an account at a formal financial institution; SMEs with an account at a formal financial institution; Saved for old age (% age 15+); Saved for old age, female (% age 15+); Saved for old age, male (% age 15+); Saved for old age, income, poorest 40% (% age 15+); Saved for old age, income, richest 60% (% age 15+); Saved for old age (% ages 15-34).",
+      "source_url": "https://databank.worldbank.org/source/g20-financial-inclusion-indicators",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2011,
+      "temporal_end": 2017,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "g2f",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/account_t_d?source=33&format=json",
+      "evidence_note": "World Bank Indicators API (source 33, G2F) returned 3 non-null Bangladesh values for 'Account (% age 15+)' (2011–2017); source last updated 2019-02-27; DataBank page https://databank.worldbank.org/source/g20-financial-inclusion-indicators loaded (HTTP 200) with title 'G20 Financial Inclusion Indicators | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-se4-bangladesh",
+      "title": "Sustainable Energy for All - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Sustainable Energy for All database, available through the World Bank Indicators API and DataBank. It holds 11 indicators; 11 of them returned values for Bangladesh (1990–2016). Indicators with Bangladesh data include: Access to electricity (% of total population); Total final energy consumption (TFEC); Access to electricity (% of rural population); Access to electricity (% of urban population); Access to Clean Fuels and Technologies for cooking (% of total population); Renewable energy consumption(% in TFEC); Renewable energy consumption (TJ); Total electricity output (GWh); Renewable energy electricity output (GWh); Renewable electricity (% in total electricity output); Energy intensity level of primary energy (MJ/$2005 PPP).",
+      "source_url": "https://databank.worldbank.org/source/sustainable-energy-for-all",
+      "download_url": null,
+      "categories": [
+        "Energy"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1990,
+      "temporal_end": 2016,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "se4",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/1.1_ACCESS.ELECTRICITY.TOT?source=35&format=json",
+      "evidence_note": "World Bank Indicators API (source 35, SE4) returned 27 non-null Bangladesh values for 'Access to electricity (% of total population)' (1990–2016); source last updated 2018-06-30; DataBank page https://databank.worldbank.org/source/sustainable-energy-for-all loaded (HTTP 200) with title 'Sustainable Energy for All | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-hnq-bangladesh",
+      "title": "Health Nutrition and Population Statistics by Wealth Quintile - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Health Nutrition and Population Statistics by Wealth Quintile database, available through the World Bank Indicators API and DataBank. It holds 420 indicators; all 20 checked returned values for Bangladesh (2004–2018). Indicators with Bangladesh data include: Problems in accessing health care (not wanting to go alone) (% of women): Q1 (lowest); Problems in accessing health care (not wanting to go alone) (% of women): Q2; Problems in accessing health care (not wanting to go alone) (% of women): Q3; Problems in accessing health care (not wanting to go alone) (% of women): Q4; Problems in accessing health care (not wanting to go alone) (% of women): Q5 (highest); Problems in accessing health care (distance to health facility) (% of women): Q1 (lowest); Problems in accessing health care (distance to health facility) (% of women): Q2; Problems in accessing health care (distance to health facility) (% of women): Q3; Problems in accessing health care (distance to health facility) (% of women): Q4; Problems in accessing health care (distance to health facility) (% of women): Q5 (highest); Problems in accessing health care (getting money for treatment) (% of women): Q1 (lowest); Problems in accessing health care (getting money for treatment) (% of women): Q2; Problems in accessing health care (getting money for treatment) (% of women): Q3; Problems in accessing health care (getting money for treatment) (% of women): Q4; Problems in accessing health care (getting money for treatment) (% of women): Q5 (highest); Problems in accessing health care (concern there may not be a female provider) (% of women): Q1 (lowest); Problems in accessing health care (concern there may not be a female provider) (% of women): Q2; Problems in accessing health care (concern there may not be a female provider) (% of women): Q3; Problems in accessing health care (concern there may not be a female provider) (% of women): Q4; Problems in accessing health care (concern there may not be a female provider) (% of women): Q5 (highest).",
+      "source_url": "https://databank.worldbank.org/source/health-nutrition-and-population-statistics-by-wealth-quintile",
+      "download_url": null,
+      "categories": [
+        "Health"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2004,
+      "temporal_end": 2018,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "hnq",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.ACS.ALON.Q1.ZS?source=39&format=json",
+      "evidence_note": "World Bank Indicators API (source 39, HNQ) returned 2 non-null Bangladesh values for 'Problems in accessing health care (not wanting to go alone) (% of women): Q1 (lowest)' (2004–2018); source last updated 2022-12-13; DataBank page https://databank.worldbank.org/source/health-nutrition-and-population-statistics-by-wealth-quintile loaded (HTTP 200) with title 'Health Nutrition and Population Statistics by Wealth Quintile | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-hpp-bangladesh",
+      "title": "Population estimates and projections - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Population estimates and projections database, available through the World Bank Indicators API and DataBank. It holds 187 indicators; all 20 checked returned values for Bangladesh (1960–2024). Indicators with Bangladesh data include: Number of deaths ages 5-9 years; Number of deaths ages 10-14 years; Number of deaths ages 10-19 years; Number of deaths ages 15-19 years; Number of deaths ages 20-24 years; Number of infant deaths; Number of infant deaths, female; Number of infant deaths, male; Number of under-five deaths; Number of under-five deaths, female; Number of under-five deaths, male; Number of neonatal deaths; Probability of dying among children ages 5-9 years (per 1,000); Probability of dying among adolescents ages 10-14 years (per 1,000); Probability of dying among adolescents ages 10-19 years (per 1,000); Probability of dying among adolescents ages 15-19 years (per 1,000); Probability of dying among youth ages 20-24 years (per 1,000); Mortality rate, under-5 (per 1,000 live births); Mortality rate, under-5, female (per 1,000 live births); Mortality rate, under-5, male (per 1,000 live births).",
+      "source_url": "https://databank.worldbank.org/source/population-estimates-and-projections",
+      "download_url": null,
+      "categories": [
+        "Population & Demographics",
+        "Health"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1960,
+      "temporal_end": 2024,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "hpp",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.DTH.IMRT?source=40&format=json",
+      "evidence_note": "World Bank Indicators API (source 40, HPP) returned 65 non-null Bangladesh values for 'Number of infant deaths' (1960–2024); source last updated 2026-07-01; DataBank page https://databank.worldbank.org/source/population-estimates-and-projections loaded (HTTP 200) with title 'Population estimates and projections | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-wat-bangladesh",
+      "title": "Adjusted Net Savings - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Adjusted Net Savings database, available through the World Bank Indicators API and DataBank. It holds 36 indicators; all 20 checked returned values for Bangladesh (1970–2021). Indicators with Bangladesh data include: Adjusted savings: education expenditure (current US$); Adjusted savings: education expenditure (% of GNI); Adjusted savings: carbon dioxide damage (current US$); Adjusted savings: carbon dioxide damage (% of GNI); Adjusted savings: net forest depletion (current US$); Adjusted savings: net forest depletion (% of GNI); Adjusted savings: consumption of fixed capital (current US$); Adjusted savings: consumption of fixed capital (% of GNI); Adjusted savings: mineral depletion (current US$); Adjusted savings: mineral depletion (% of GNI); Adjusted savings: energy depletion (current US$); Adjusted savings: energy depletion (% of GNI); Adjusted savings: particulate emission damage (current US$); Adjusted savings: particulate emission damage (% of GNI); Adjusted savings: natural resources depletion (% of GNI); Adjusted savings: gross savings (current US$); Adjusted savings: gross savings (% of GNI); Adjusted savings: net national savings (current US$); Adjusted savings: net national savings (% of GNI); Adjusted net national income (current US$).",
+      "source_url": "https://databank.worldbank.org/source/adjusted-net-savings",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance",
+        "Environment"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1970,
+      "temporal_end": 2021,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "wat",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/NY.ADJ.AEDU.GN.ZS?source=43&format=json",
+      "evidence_note": "World Bank Indicators API (source 43, WAT) returned 52 non-null Bangladesh values for 'Adjusted savings: education expenditure (% of GNI)' (1970–2021); source last updated 2023-06-08; DataBank page https://databank.worldbank.org/source/adjusted-net-savings loaded (HTTP 200) with title 'Adjusted Net Savings | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-sdg-bangladesh",
+      "title": "Sustainable Development Goals - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Sustainable Development Goals database, available through the World Bank Indicators API. It holds 408 indicators; all 20 checked returned values for Bangladesh (1990–2020). Indicators with Bangladesh data include: Forest area (sq. km); Forest area (% of land area); Cereal yield (kg per hectare); Current account balance (% of GDP); Portfolio Investment, net (BoP, current US$); Foreign direct investment, net inflows (BoP, current US$); Foreign direct investment, net inflows (% of GDP); Personal remittances, received (% of GDP); External debt stocks (% of GNI); Net official development assistance and official aid received (current US$); Net official development assistance received (current US$); Net official development assistance received (current US$); Net official development assistance received (constant 2023 US$); Debt service (PPG and IMF only, % of exports of goods, services and primary income); Agriculture value added per worker (constant 2010 US$); Access to clean fuels and technologies for cooking (% of population); Energy intensity level of primary energy (MJ/$2021 PPP GDP); Access to electricity, rural (% of rural population); Access to electricity, urban (% of urban population); Access to electricity (% of population).",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/AG.LND.FRST.K2?source=46&format=json",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance",
+        "Agriculture"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1990,
+      "temporal_end": 2020,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "sdg",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/AG.LND.FRST.K2?source=46&format=json",
+      "evidence_note": "World Bank Indicators API (source 46, SDG) returned 26 non-null Bangladesh values for 'Forest area (sq. km)' (1990–2015); source last updated 2018-09-19; no matching DataBank page at https://databank.worldbank.org/source/sustainable-development-goals (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-snt-bangladesh",
+      "title": "Subnational Population - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Subnational Population database, available through the World Bank Indicators API and DataBank. It holds 2 indicators; 2 of them returned values for Bangladesh (2000–2016). Indicators with Bangladesh data include: Population, total; Population (% of total).",
+      "source_url": "https://databank.worldbank.org/source/subnational-population",
+      "download_url": null,
+      "categories": [
+        "Population & Demographics",
+        "Climate & Weather"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2000,
+      "temporal_end": 2016,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "snt",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/SP.POP.TOTL?source=50&format=json",
+      "evidence_note": "World Bank Indicators API (source 50, SNT) returned 17 non-null Bangladesh values for 'Population, total' (2000–2016); source last updated 2017-09-21; DataBank page https://databank.worldbank.org/source/subnational-population loaded (HTTP 200) with title 'Subnational Population | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-jed-bangladesh",
+      "title": "Joint External Debt Hub - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Joint External Debt Hub database, available through the World Bank Indicators API and DataBank. It holds 28 indicators; all 20 checked returned values for Bangladesh (1990–2026). Indicators with Bangladesh data include: 26_Portfolio investment assets; 24_International reserves (excluding gold); 07_Multilateral loans, IMF; 13_Multilateral loans, IMF, short term; 11_SDR allocation; 14_Debt securities held by nonresidents; 15_Debt securities held by nonresidents, total, short term; 25_SDR holdings; 08_Multilateral loans, other institutions; 06_Multilateral loans, total; 04_Official bilateral loans, aid loans; 05_Official bilateral loans, other; 03_Official bilateral loans, total; 23_Liabilities to BIS banks, consolidated, total; 12_Liabilities to BIS banks (cons.), short term; 22_Liabilities to BIS banks, locational, total; 01_Cross-border loans from BIS reporting banks; 02_Cross-border loans from BIS banks to nonbanks; 27_Cross-border deposits with BIS rep. banks; 28_Cross-border dep. with BIS banks,  nonbanks.",
+      "source_url": "https://databank.worldbank.org/source/joint-external-debt-hub",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1990,
+      "temporal_end": 2026,
+      "update_frequency": "Quarterly",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "jed",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/Q.1C0.1C0.C.9A.MOA.RXGT.1.ALL.MV.TO1.ALL?source=54&format=json",
+      "evidence_note": "World Bank Indicators API (source 54, JED) returned 145 non-null Bangladesh values for '24_International reserves (excluding gold)' (1990Q1–2026Q1); source last updated 2026-09-09; DataBank page https://databank.worldbank.org/source/joint-external-debt-hub loaded (HTTP 200) with title 'Joint External Debt Hub | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-wda-bangladesh",
+      "title": "WDI Database Archives - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank WDI Database Archives database, available through the World Bank Indicators API and DataBank. It holds 2,794 indicators; of the 36 checked, 20 returned values for Bangladesh (1965–1996). Indicators with Bangladesh data include: Agricultural machinery, tractors; Cereal food aid deliveries (FAO, tonnes); Fertilizer consumption (metric tons); Fertilizer consumption (kilograms per hectare of arable land); Pesticide consumption (metric tons); Cereal imports (metric tons); Agricultural land (hectares); Arable land (hectares); Arable land (hectares per person); Land under cereal production (hectares); Permanent cropland (% of land area); Land use, irrigated land (hectares); Irrigated land (% of cropland); Land use, other (% of land area); Arable land (hectares per person); Permanent pasture (% of land area); Land area (hectares); Land area (sq. km); Agriculture production index (1999-2001 = 100); Cereal production (metric tons).",
+      "source_url": "https://databank.worldbank.org/source/wdi-database-archives",
+      "download_url": null,
+      "categories": [
+        "Agriculture",
+        "Environment"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1965,
+      "temporal_end": 1996,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "wda",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/sources/57/country/BGD/series/AG.LND.CREL.HA/time/all?format=json",
+      "evidence_note": "World Bank Indicators API (source 57, WDA) returned 58 non-null Bangladesh values for 'Land under cereal production (hectares)' (1965–1996); source last updated 2025-10-29; DataBank page https://databank.worldbank.org/source/wdi-database-archives loaded (HTTP 200) with title 'WDI Database Archives | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-uhc-bangladesh",
+      "title": "Universal Health Coverage - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Universal Health Coverage database, available through the World Bank Indicators API. It holds 13 indicators; 13 of them returned values for Bangladesh (2000–2015). Indicators with Bangladesh data include: Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD); Number of people pushed below the $2.15 ($ 2017 PPP) poverty line by out-of-pocket health care expenditure; Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line); Proportion of population pushed below the $2.15 ($ 2017 PPP) poverty line by out-of-pocket health care expenditure (%); Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD); Number of people pushed below the $3.65 ($ 2017 PPP) poverty line by out-of-pocket health care expenditure; Increase in poverty gap at $3.20 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (% of poverty line); Proportion of population pushed below the $3.65 ($ 2017 PPP) poverty line by out-of-pocket health care expenditure (%); Number of people spending more than 10% of household consumption or income on out-of-pocket health care expenditure; Proportion of population spending more than 10% of household consumption or income on out-of-pocket health care expenditure (%); Number of people spending more than 25% of household consumption or income on out-of-pocket health care expenditure; Proportion of population spending more than 25% of household consumption or income on out-of-pocket health care expenditure (%); UHC service coverage index.",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.UHC.NOP1.CG?source=58&format=json",
+      "download_url": null,
+      "categories": [
+        "Health"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2000,
+      "temporal_end": 2015,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "uhc",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/SH.UHC.NOP1.CG?source=58&format=json",
+      "evidence_note": "World Bank Indicators API (source 58, UHC) returned 3 non-null Bangladesh values for 'Increase in poverty gap at $1.90 ($ 2011 PPP) poverty line due to out-of-pocket health care expenditure (USD)' (2000–2010); source last updated 2019-04-25; no matching DataBank page at https://databank.worldbank.org/source/universal-health-coverage (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-wac-bangladesh",
+      "title": "Wealth Accounts - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Wealth Accounts database, available through the World Bank Indicators API and DataBank. It holds 146 indicators; all 20 checked returned values for Bangladesh (1995–2020). Indicators with Bangladesh data include: Domestic comprehensive wealth per capita index (real chained 2019 US$); Domestic comprehensive wealth per capita index (current US$); Domestic comprehensive wealth index (real chained 2019 US$); Domestic comprehensive wealth index (current US$); Human capital per capita, female (real chained 2019 US$); Human capital per capita, female (current US$); Human capital, female (real chained 2019 US$); Human capital, female (current US$); Human capital per capita, male (real chained 2019 US$); Human capital per capita, male (current US$); Human capital, male (real chained 2019 US$); Human capital, male (current US$); Human capital per capita (real chained 2019 US$); Human capital per capita (current US$); Human capital (real chained 2019 US$); Human capital (current US$); Renewable natural capital per capita, agricultural land (real chained 2019 US$); Renewable natural capital per capita, agricultural land (current US$); Renewable natural capital, agricultural land (real chained 2019 US$); Renewable natural capital, agricultural land (current US$).",
+      "source_url": "https://databank.worldbank.org/source/wealth-accounts",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1995,
+      "temporal_end": 2020,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "wac",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/NW.DOW.PC?source=59&format=json",
+      "evidence_note": "World Bank Indicators API (source 59, WAC) returned 26 non-null Bangladesh values for 'Domestic comprehensive wealth per capita index (real chained 2019 US$)' (1995–2020); source last updated 2024-10-08; DataBank page https://databank.worldbank.org/source/wealth-accounts loaded (HTTP 200) with title 'Wealth Accounts | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-eft-bangladesh",
+      "title": "Economic Fitness - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Economic Fitness database, available through the World Bank Indicators API and DataBank. It holds 2 indicators; 2 of them returned values for Bangladesh (1995–2015). Indicators with Bangladesh data include: Economic Fitness Metric; Economic Fitness Ranking (1 = high, 149 = low).",
+      "source_url": "https://databank.worldbank.org/source/economic-fitness",
+      "download_url": null,
+      "categories": [
+        "Industry & Business"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1995,
+      "temporal_end": 2015,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "eft",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/EF.EFM.OVRL.XD?source=60&format=json",
+      "evidence_note": "World Bank Indicators API (source 60, EFT) returned 21 non-null Bangladesh values for 'Economic Fitness Metric' (1995–2015); source last updated 2018-04-19; DataBank page https://databank.worldbank.org/source/economic-fitness loaded (HTTP 200) with title 'Economic Fitness | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-prq-bangladesh",
+      "title": "PPPs Regulatory Quality - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank PPPs Regulatory Quality database, available through the World Bank Indicators API and DataBank. It holds 4 indicators; 4 of them returned values for Bangladesh (2018). Indicators with Bangladesh data include: Assessment of country’s adherence to the best regulatory practices at the preparation stage of PPP project (scale 1-100); Assessment of country’s adherence to the best regulatory practices at the procurement stage of PPP project (scale 1-100); Assessment of country’s adherence to the best regulatory practices at the management stage of PPP project (scale 1-100); Assessment of country’s adherence to the best regulatory practices, procurement of unsolicited proposals (scale 1-100).",
+      "source_url": "https://databank.worldbank.org/source/ppps-regulatory-quality",
+      "download_url": null,
+      "categories": [
+        "Government & Public Administration"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2018,
+      "temporal_end": 2018,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "prq",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/IQ.PPN.REGQ.S0?source=61&format=json",
+      "evidence_note": "World Bank Indicators API (source 61, PRQ) returned 1 non-null Bangladesh value for 'Assessment of country’s adherence to the best regulatory practices at the preparation stage of PPP project (scale 1-100)' (2018); source last updated 2019-04-25; DataBank page https://databank.worldbank.org/source/ppps-regulatory-quality loaded (HTTP 200) with title 'PPPs Regulatory Quality | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-hci-bangladesh",
+      "title": "Human Capital Index - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Human Capital Index database, available through the World Bank Indicators API. It holds 27 indicators; all 20 checked returned values for Bangladesh (2010–2020). Indicators with Bangladesh data include: Survival Rate from Age 15-60; Survival Rate from Age 15-60, Female; Survival Rate from Age 15-60, Male; Expected Years of School; Expected Years of School, Female; Expected Years of School, Male; Harmonized Test Scores; Harmonized Test Scores, Female; Harmonized Test Scores, Male; Learning-Adjusted Years of School; Learning-Adjusted Years of School, Female; Learning-Adjusted Years of School, Male; Probability of Survival to Age 5; Probability of Survival to Age 5, Female; Probability of Survival to Age 5, Male; Human Capital Index (HCI) (scale 0-1); Human Capital Index (HCI), Female (scale 0-1); Human Capital Index (HCI), Lower Bound (scale 0-1); Human Capital Index (HCI), Female, Lower Bound (scale 0-1); Human Capital Index (HCI), Male, Lower Bound (scale 0-1).",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/HD.HCI.AMRT?source=63&format=json",
+      "download_url": null,
+      "categories": [
+        "Education",
+        "Government & Public Administration"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2010,
+      "temporal_end": 2020,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "hci",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/HD.HCI.AMRT?source=63&format=json",
+      "evidence_note": "World Bank Indicators API (source 63, HCI) returned 4 non-null Bangladesh values for 'Survival Rate from Age 15-60' (2010–2020); source last updated 2020-09-21; no matching DataBank page at https://databank.worldbank.org/source/human-capital-index (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-wbi-bangladesh",
+      "title": "Worldwide Bureaucracy Indicators - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Worldwide Bureaucracy Indicators database, available through the World Bank Indicators API. It holds 302 indicators; of the 40 checked, 22 returned values for Bangladesh (2003–2015). Indicators with Bangladesh data include: Public sector employment, as a share of formal employment; Public sector female employment, as a share of paid employment by occupational group: Clerks; Public sector female employment, as a share of paid employment by occupational group: Elementary workers; Public sector female employment, as a share of paid employment by occupational group: Professionals; Public sector female employment, as a share of paid employment by occupational group: Manager; Public sector female employment, as a share of paid employment by occupational group: Technicians; Core Public Administration workers, as a share of public paid employees; Education workers, as a share of public paid employees; Health workers, as a share of public paid employees; Medical workers, as a share of public paid employees; Public sector employment, as a share of paid employment, by occupational group: Clerks; Public sector employment, as a share of paid employment, by occupational group: Elementary workers; Public sector employment, as a share of paid employment by gender: Female; Public sector employment, as a share of paid employment, by industry: Health; Public sector employment, as a share of paid employment by gender: Male; Public sector employment, as a share of paid employment, by occupation: Medical workers; Public Administration workers, as a share of public paid employees; Public sector employment, as a share of paid employment, by occupational group: Professionals; Public Safety workers, as a share of public paid employees; Public sector employment, as a share of paid employment by location: Rural.",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/BI.EMP.FRML.PB.ZS?source=64&format=json",
+      "download_url": null,
+      "categories": [
+        "Government & Public Administration"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2003,
+      "temporal_end": 2015,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "wbi",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/BI.EMP.FRML.PB.ZS?source=64&format=json",
+      "evidence_note": "World Bank Indicators API (source 64, WBI) returned 4 non-null Bangladesh values for 'Public sector employment, as a share of formal employment' (2005–2015); source last updated 2025-02-24; no matching DataBank page at https://databank.worldbank.org/source/worldwide-bureaucracy-indicators (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-hpi-bangladesh",
+      "title": "Health Equity and Financial Protection Indicators - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Health Equity and Financial Protection Indicators database, available through the World Bank Indicators API. It holds 315 indicators; of the 40 checked, 28 returned values for Bangladesh (1993–2014). Indicators with Bangladesh data include: Contraceptive prevalence, modern methods (% of females ages 15-49); Contraceptive prevalence, modern methods (% of females ages 15-49): Q1 (lowest); Contraceptive prevalence, modern methods (% of females ages 15-49): Q2; Contraceptive prevalence, modern methods (% of females ages 15-49): Q3; Contraceptive prevalence, modern methods (% of females ages 15-49): Q4; Contraceptive prevalence, modern methods (% of females ages 15-49): Q5 (highest); Mortality rate, infant (per 1,000 live births); Mortality rate, infant (per 1,000 live births): Q1 (lowest); Mortality rate, infant (per 1,000 live births): Q2; Mortality rate, infant (per 1,000 live births): Q3; Mortality rate, infant (per 1,000 live births): Q4; Mortality rate, infant (per 1,000 live births): Q5 (highest); Mortality rate, under-5 (per 1,000); Mortality rate, under-5 (per 1,000): Q1 (lowest); Mortality rate, under-5 (per 1,000): Q2; Mortality rate, under-5 (per 1,000): Q3; Mortality rate, under-5 (per 1,000): Q4; Mortality rate, under-5 (per 1,000): Q5 (highest); Pap smear in last 5 years (% of females 30-49); Pap smear in last 5 years (% of females 30-49): Q1 (lowest).",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/HF.DYN.CONM.ZS?source=65&format=json",
+      "download_url": null,
+      "categories": [
+        "Health",
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1993,
+      "temporal_end": 2014,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "hpi",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/HF.DYN.CONM.ZS?source=65&format=json",
+      "evidence_note": "World Bank Indicators API (source 65, HPI) returned 8 non-null Bangladesh values for 'Contraceptive prevalence, modern methods (% of females ages 15-49)' (1993–2014); source last updated 2019-11-06; no matching DataBank page at https://databank.worldbank.org/source/health-equity-and-financial-protection-indicators (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-lpi-bangladesh",
+      "title": "Logistics Performance Index - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Logistics Performance Index database, available through the World Bank Indicators API. It holds 19 indicators; 19 of them returned values for Bangladesh (2007–2023). Indicators with Bangladesh data include: Efficiency of the clearance process, rank (1=highest performer); Logistics performance index: Efficiency of customs clearance process (1=low to 5=high); Quality- of trade and transport-related infrastructure, rank (1=highest performer); Logistics performance index: Quality of trade and transport-related infrastructure (1=low to 5=high); Ease of arranging competitively priced international shipments, rank (1=highest performer); Logistics performance index: Ease of arranging competitively priced shipments (1=low to 5=high); Competence and quality of logistics services, rank (1=highest performer); Logistics performance index: Competence and quality of logistics services (1=low to 5=high); Logistics performance index: Overall rank (1=highest performance); Logistics performance index: Overall rank (1=highest performance), lower bound; Logistics performance index: Overall rank (1=highest performance), upper bound; Logistics performance index: Percent of highest performer); Logistics performance index: Overall (1=low to 5=high); Logistics performance index: Overall score (1=low to 5=high), lower bound; Logistics performance index: Overall score (1=low to 5=high), upper bound; Frequency with which shipments reach consignee within scheduled or expected time, rank (1=highest performer); Logistics performance index: Frequency with which shipments reach consignee within scheduled or expected time (1=low to 5=high); Ability to track and trace consignments, rank (1=highest performer); Logistics performance index: Ability to track and trace consignments (1=low to 5=high).",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/LP.LPI.CUST.RK?source=66&format=json",
+      "download_url": null,
+      "categories": [
+        "Transport",
+        "Industry & Business"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2007,
+      "temporal_end": 2023,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "lpi",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/LP.LPI.CUST.RK?source=66&format=json",
+      "evidence_note": "World Bank Indicators API (source 66, LPI) returned 6 non-null Bangladesh values for 'Efficiency of the clearance process, rank (1=highest performer)' (2007–2023); source last updated 2024-03-26; no matching DataBank page at https://databank.worldbank.org/source/logistics-performance-index (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-pf1-bangladesh",
+      "title": "PEFA 2011 - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank PEFA 2011 database, available through the World Bank Indicators API. It holds 114 indicators; all 20 checked returned values for Bangladesh. Indicators with Bangladesh data include: Aggregate expenditure out-turn; (i) Aggregate expenditure out-turn; Expenditure composition outturn; (i) Expenditure composition outturn by function; (ii) Expenditure composition outturn by economic type; Revenue outturn; (i) Agregate revenue outturn; Budget Classification; (i) Budget Classification; Budget Documentation; (i) Budget Documentation; Central government operations outside financial reports; (i) Expenditure outside financial reports; Transfers to subnational governments; (i) System for allocating transfers; (ii) Timeliness of information on transfers; Performance information for service delivery; (i) Performance plans for service delivery; (ii) Performance achieved for service delivery; (iii) Resources received by service delivery units.",
+      "source_url": "https://api.worldbank.org/v2/sources/67/country/BGD/series/PI-01/time/all?format=json",
+      "download_url": null,
+      "categories": [
+        "Government & Public Administration"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": null,
+      "temporal_end": null,
+      "update_frequency": "Unknown",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "pf1",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/sources/67/country/BGD/series/PI-01/time/all?format=json",
+      "evidence_note": "World Bank Indicators API (source 67, PF1) returned 1 non-null Bangladesh value for 'Aggregate expenditure out-turn' (Jun.16); source last updated 2025-06-26; no matching DataBank page at https://databank.worldbank.org/source/pefa-2011 (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-pf6-bangladesh",
+      "title": "PEFA 2016 - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank PEFA 2016 database, available through the World Bank Indicators API. It holds 129 indicators; all 20 checked returned values for Bangladesh. Indicators with Bangladesh data include: Aggregate expenditure out-turn; (i) Aggregate expenditure out-turn; Expenditure composition outturn; (i) Expenditure composition outturn by function; (ii) Expenditure composition outturn by economic type; (iii) Expenditure from contingency reserves.; Revenue outturn; (i) Agregate revenue outturn; (ii) Revenue composition outturn; Budget Classification; (i) Budget Classification; Budget Documentation; (i) Budget Documentation; Central government operations outside financial reports; (i) Expenditure outside financial reports; (ii) Revenue outside financial reports; (iii) Financial reports of extra-budgetary units; Transfers to subnational governments; (i) System for allocating transfers; (ii) Timeliness of information on transfers.",
+      "source_url": "https://api.worldbank.org/v2/sources/68/country/BGD/series/PI-01/time/all?format=json",
+      "download_url": null,
+      "categories": [
+        "Government & Public Administration"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": null,
+      "temporal_end": null,
+      "update_frequency": "Unknown",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "pf6",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/sources/68/country/BGD/series/PI-01/time/all?format=json",
+      "evidence_note": "World Bank Indicators API (source 68, PF6) returned 2 non-null Bangladesh values for 'Aggregate expenditure out-turn' (Apr.23–Jun.16); source last updated 2026-09-28; no matching DataBank page at https://databank.worldbank.org/source/pefa-2016 (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-rfa-bangladesh",
+      "title": "Global Financial Inclusion and Consumer Protection Survey - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Global Financial Inclusion and Consumer Protection Survey database, available through the World Bank Indicators API. It holds 347 indicators; of the 40 checked, 36 returned values for Bangladesh (2017). Indicators with Bangladesh data include: 656_Does a dedicated, national, multi-stakeholder structure exist to promote and coordinate provision of financial education?_#VHQB_00; 655_Are there multiple agencies responsible for financial education policy and programs?_#VHQA_01; 654_Is there a single agency responsible for financial education policy and programs?_#VHQA_00; 653_Does this country have a formal definition for financial education or financial literacy or financial capability? _#VHPA_00; 685_Does the government itself or with partners maintain a website with educational content, tools, and resources for broader financial education?_#VHXA_01; 674_Is financial education integrated into any government-provided social assistance programs? _#VHVA_00; 669_Has the government issued written guidelines directed to all providers of financial education on content and/or methodology?; 668_Has the government issued written guidelines directed to a limited set of providers of financial education on content and/or methodology?; 662_Has the government, either by itself or with partners, undertaken a national mapping of financial education activities in the past five years? _#VHRA_00; 667_Has a nationally representative broader survey with a component on financial capability of individuals or households been conducted in the past five years?_#VHTA_01; 666_Has a nationally representative dedicated survey of financial capability of individuals or households been conducted in the past five years?_#VHTA_00; 678_Is financial education at the stage of curriculum development planned within the next 1-2 years within public school curriculums?_#VHWA_03; 675_Is financial education included in public school curriculums as a distinct topic or subject?_#VHWA_00; 677_Is financial education at the stage of implementation planned within the next 1-2 years within public school curriculums?_#VHWA_02; 681_Is financial education currently or soon to be included as a topic in public school curriculums at junior secondary level?_#VHWB_01; 679_Is financial education at the stage of not being included in public school curriculums?_#VHWA_04; 680_Is financial education currently or soon to be included as a topic in public school curriculums at primary level?_#VHWB_00; 682_Is financial education currently or soon to be included as a topic in public school curriculums at senior secondary level?_#VHWB_02; 676_Is financial education included in public school curriculums as a subtopic integrated into one or multiple other topics or subjects?_#VHWA_01; 683_Is financial education currently or soon to be included as a topic in public school curriculums at university level?_#VHWB_03.",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/FB.CAP.INST.ST.DM?source=69&format=json",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2017,
+      "temporal_end": 2017,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "rfa",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/FB.CAP.INST.ST.DM?source=69&format=json",
+      "evidence_note": "World Bank Indicators API (source 69, RFA) returned 1 non-null Bangladesh value for '656_Does a dedicated, national, multi-stakeholder structure exist to promote and coordinate provision of financial education?_#VHQB_00' (2017); source last updated 2019-06-27; no matching DataBank page at https://databank.worldbank.org/source/global-financial-inclusion-and-consumer-protection-survey (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-ef2-bangladesh",
+      "title": "Economic Fitness 2 - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Economic Fitness 2 database, available through the World Bank Indicators API and DataBank. It holds 2 indicators; 2 of them returned values for Bangladesh (2007–2024). Indicators with Bangladesh data include: Economic Fitness Metric; Universal Economic Fitness Metric.",
+      "source_url": "https://databank.worldbank.org/source/economic-fitness-2",
+      "download_url": null,
+      "categories": [
+        "Industry & Business"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2007,
+      "temporal_end": 2024,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "ef2",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/EF.EFM.PROD.XD?source=70&format=json",
+      "evidence_note": "World Bank Indicators API (source 70, EF2) returned 18 non-null Bangladesh values for 'Economic Fitness Metric' (2007–2024); source last updated 2026-01-20; DataBank page https://databank.worldbank.org/source/economic-fitness-2 loaded (HTTP 200) with title 'Economic Fitness 2 | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-ic5-bangladesh",
+      "title": "International Comparison Program (ICP) 2005 - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank International Comparison Program (ICP) 2005 database, available through the World Bank Indicators API. It holds 47 indicators; of the 39 checked, 20 returned values for Bangladesh (2005). Indicators with Bangladesh data include: 100000:GROSS DOMESTIC PRODUCT; 110000:INDIVIDUAL CONSUMPTION EXPENDITURE BY HOUSEHOLDS; 110100:FOOD AND NON-ALCOHOLIC BEVERAGES; 110200:ALCOHOL BEVERAGES, TOBACCO AND NARCOTICS; 110300:CLOTHING AND FOOTWEAR; 110500:FURNISHING, HOUSEHOLD EQUIPMENT AND ROUTINE MAINTENANCE OF THE HOUSE; 110700:TRANSPORT; 110800:COMMUNICATION; 111100:RESTAURANTS AND HOTELS; 111300:BALANCE OF EXPENDITURES OF RESIDENTS ABROAD AND EXPENDITURES OF NON-RESIDENTS IN THE ECONOMIC TERRITORY; 130000:INDIVIDUAL CONSUMPTION EXPENDITURE BY GOVERNMENT; 140000:COLLECTIVE CONSUMPTION EXPENDITURE BY GOVERNMENT; 150000:GROSS FIXED CAPITAL FORMATION; 150100:MACHINERY AND EQUIPMENT; 150200:CONSTRUCTION; 150300:OTHER PRODUCTS; 170000:BALANCE OF EXPORTS AND IMPORTS; 9020000:ACTUAL INDIVIDUAL CONSUMPTION; 9060000:ACTUAL HOUSING, WATER, ELECTRICITY, GAS AND OTHER FUELS; 9080000:ACTUAL HEALTH.",
+      "source_url": "https://api.worldbank.org/v2/sources/71/country/BGD/series/100000/time/all?format=json",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2005,
+      "temporal_end": 2005,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "ic5",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/sources/71/country/BGD/series/100000/time/all?format=json",
+      "evidence_note": "World Bank Indicators API (source 71, IC5) returned 14 non-null Bangladesh values for '100000:GROSS DOMESTIC PRODUCT' (2005); source last updated 2021-09-10; no matching DataBank page at https://databank.worldbank.org/source/international-comparison-program-icp-2005 (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-rfi-bangladesh",
+      "title": "Global Financial Inclusion and Consumer Protection Survey (Internal) - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Global Financial Inclusion and Consumer Protection Survey (Internal) database, available through the World Bank Indicators API. It holds 19 indicators; 16 of them returned values for Bangladesh (2017). Indicators with Bangladesh data include: 670_Has the government issued written guidelines directed to all, some, or none of the providers of financial education on content and/or methodology?_#VHUA_00; 673_Does the government explicitly require all, some, or none of the financial service providers to offer financial education?_#VHUB_00; 665_Does the government regularly collect data from all, some, or none of the known providers of financial education on the reach of their programs?_#VHSA_00; 314_When was the financial consumer protection (FCP) unit in this country established?_#VGUF_00; 319_How many staff work in the financial consumer protection (FCP) unit in this country?_#VGUG_00; 305_What type of institutional structure for financial consumer protection (FCP) regulation and supervision is implemented in this country?_#VGUC_00; 195_For commercial banks, is authorization of new or modified financial products explicitly required?_#VGJA_00; 171_For commercial banks, is all, some, or no lending subject to interest rate caps or pricing limits?_#VGIA_00; 203_For financial cooperatives, is authorization of new or modified financial products explicitly required?_#VGJA_02; 179_For financial cooperatives, is all, some, or no lending subject to interest rate caps or pricing limits?_#VGIA_02; 211_For microcredit institutions (MCIs), is authorization of new or modified financial products explicitly required?_#VGJA_04; 187_For microcredit institutions (MCIs), is all, some, or no lending subject to interest rate caps or pricing limits?_#VGIA_04; 199_For other banks, is authorization of new or modified financial products explicitly required?_#VGJA_01; 175_For other banks, is all, some, or no lending subject to interest rate caps or pricing limits?_#VGIA_01; 207_For other deposit taking institutions (ODTIs), is authorization of new or modified financial products explicitly required?_#VGJA_03; 183_For other deposit taking institutions (ODTIs), is all, some, or no lending subject to interest rate caps or pricing limits?_#VGIA_03.",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/FB.CAP.POLI.GL.WP?source=73&format=json",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2017,
+      "temporal_end": 2017,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "rfi",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/FB.CAP.POLI.GL.WP?source=73&format=json",
+      "evidence_note": "World Bank Indicators API (source 73, RFI) returned 1 non-null Bangladesh value for '670_Has the government issued written guidelines directed to all, some, or none of the providers of financial education on content and/or methodology?_#VHUA_00' (2017); source last updated 2019-06-27; no matching DataBank page at https://databank.worldbank.org/source/global-financial-inclusion-and-consumer-protection-survey-internal (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-esg-bangladesh",
+      "title": "Environment, Social and Governance (ESG) Data - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Environment, Social and Governance (ESG) Data database, available through the World Bank Indicators API. It holds 80 indicators; all 20 checked returned values for Bangladesh (1960–2025). Indicators with Bangladesh data include: Agricultural land (% of land area); Tree Cover Loss (hectares); Forest area (% of land area); Primary Forest Loss; Food production index (2014-2016 = 100); Access to clean fuels and technologies for cooking (% of population); Energy intensity level of primary energy (MJ/$2021 PPP GDP); Access to electricity, rural (% of rural population); Access to electricity (% of population); Electricity production from coal sources (% of total); Renewable electricity output (% of total electricity output); Renewable energy consumption (% of total final energy consumption); Energy imports, net (% of energy use); Fossil fuel energy consumption (% of total); Energy use (kg of oil equivalent per capita); PM2.5 air pollution, mean annual exposure (micrograms per cubic meter); Cooling Degree Days; Coastal protection; Heating Degree Days; Heat Index 35.",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/EN.CLC.CDDY.XD?source=75&format=json",
+      "download_url": null,
+      "categories": [
+        "Environment",
+        "Energy"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1960,
+      "temporal_end": 2025,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "esg",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/EN.CLC.CDDY.XD?source=75&format=json",
+      "evidence_note": "World Bank Indicators API (source 75, ESG) returned 65 non-null Bangladesh values for 'Cooling Degree Days' (1960–2024); source last updated 2026-06-24; no matching DataBank page at https://databank.worldbank.org/source/environment-social-and-governance-esg-data (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-rwr-bangladesh",
+      "title": "Remittance Prices Worldwide (Receiving Countries) - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Remittance Prices Worldwide (Receiving Countries) database, available through the World Bank Indicators API. It holds 1 indicators; 1 of them returned values for Bangladesh (2011–2020). Indicators with Bangladesh data include: Average transaction cost of sending remittances to a specific country (%).",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.RMT.COST.IB.ZS?source=77&format=json",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2011,
+      "temporal_end": 2020,
+      "update_frequency": "Quarterly",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "rwr",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/SI.RMT.COST.IB.ZS?source=77&format=json",
+      "evidence_note": "World Bank Indicators API (source 77, RWR) returned 35 non-null Bangladesh values for 'Average transaction cost of sending remittances to a specific country (%)' (2011Q1–2020Q3); source last updated 2020-12-07; no matching DataBank page at https://databank.worldbank.org/source/remittance-prices-worldwide-receiving-countries (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-ic7-bangladesh",
+      "title": "ICP 2017 - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank ICP 2017 database, available through the World Bank Indicators API and DataBank. It holds 47 indicators; all 20 checked returned values for Bangladesh (2011–2017). Indicators with Bangladesh data include: 1000000:GROSS DOMESTIC PRODUCT; 1101000:FOOD AND NON-ALCOHOLIC BEVERAGES; 1101100:FOOD; 1101110:Bread and cereals; 1101120:Meat; 1101130:Fish and seafood; 1101140:Milk, cheese and eggs; 1101150:Oils and fats; 1101160:Fruit; 1101170:Vegetables; 1101180:Sugar, jam, honey, chocolate and confectionery; 1101190:Food products n.e.c. (Class); 1101200:NON-ALCOHOLIC BEVERAGES; 1102000:ALCOHOLIC BEVERAGES, TOBACCO AND NARCOTICS; 1102100:ALCOHOLIC BEVERAGES; 1102200:TOBACCO; 1103000:CLOTHING AND FOOTWEAR; 1105000:FURNISHINGS, HOUSEHOLD EQUIPMENT AND ROUTINE HOUSEHOLD MAINTENANCE; 1107000:TRANSPORT; 1107100:PURCHASE OF VEHICLES.",
+      "source_url": "https://databank.worldbank.org/source/icp-2017",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2011,
+      "temporal_end": 2017,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "ic7",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/sources/78/country/BGD/series/1000000/time/all?format=json",
+      "evidence_note": "World Bank Indicators API (source 78, IC7) returned 38 non-null Bangladesh values for '1000000:GROSS DOMESTIC PRODUCT' (2011–2017); source last updated 2020-10-21; DataBank page https://databank.worldbank.org/source/icp-2017 loaded (HTTP 200) with title 'ICP 2017 | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-gdl-bangladesh",
+      "title": "Gender Disaggregated Labor Database (GDLD) - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Gender Disaggregated Labor Database (GDLD) database, available through the World Bank Indicators API. It holds 16 indicators; 16 of them returned values for Bangladesh (2014). Indicators with Bangladesh data include: Value-added from Capital in GTAP10P3COD; Value-added from labor in GTAP10P3COD (in USD 2014 million); Share of female unskilled worker out of all workers in this sector, %; Share of female skilled worker out of all workers in this sector, %; Share of male unskilled worker out of all workers in this sector, %; Share of male skilled worker out of all workers in this sector, %; Labor volume for unskilled females, millions; Labor volume for skilled females, millions; Labor volume for unskilled male, millions; Labor volume for skilled males, millions; Annual wage for unskilled female workers in US$; Annual wage for skilled female workers  in US$; Annual wage for unskilled male workers  in US$; Annual wage for skilled male workers  in US$; Wage Premia for Females (the ratio of skilled female workers' wage  to  unskilled female workers' wage); Wage Premia for Males  (the ratio of skilled male workers' wage  to  unskilled male workers' wage).",
+      "source_url": "https://api.worldbank.org/v2/sources/80/country/BGD/series/gtap10VACapital/time/all?format=json",
+      "download_url": null,
+      "categories": [
+        "Labour & Employment"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2014,
+      "temporal_end": 2014,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "gdl",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/sources/80/country/BGD/series/gtap10VACapital/time/all?format=json",
+      "evidence_note": "World Bank Indicators API (source 80, GDL) returned 65 non-null Bangladesh values for 'Value-added from Capital in GTAP10P3COD' (2014); source last updated 2020-07-25; no matching DataBank page at https://databank.worldbank.org/source/gender-disaggregated-labor-database-gdld (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-dsi-bangladesh",
+      "title": "International Debt Statistics: DSSI - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank International Debt Statistics: DSSI database, available through the World Bank Indicators API. It holds 577 indicators; of the 24 checked, 20 returned values for Bangladesh (1970–2026), plus projections to 2027. Indicators with Bangladesh data include: Imports of goods, services and primary income (BoP, current US$); Current account balance (BoP, current US$); Grants, excluding technical cooperation (current US$); Technical cooperation grants (current US$); Exports of goods, services and primary income (BoP, current US$); Foreign direct investment, net inflows in reporting economy (DRS, current US$); Primary income on FDI (current US$); Portfolio investment, equity (DRS, current US$); Personal remittances, received (current US$); PPG, bilateral (AMT, current US$); GG, bilateral (AMT, current US$); OPS, bilateral (AMT, current US$); PS, bilateral (AMT, current US$); PPG, bilateral concessional (AMT, current US$); GG, bilateral concessional (AMT, current US$); OPS, bilateral concessional (AMT, current US$); PS, bilateral concessional (AMT, current US$); Principal repayments on external debt, central bank (PPG) (AMT, current US$); Principal repayments on external debt, general government sector (PPG) (AMT, current US$); Principal repayments on external debt, public sector (PPG) (AMT, current US$).",
+      "source_url": "https://api.worldbank.org/v2/sources/81/country/BGD/series/DT.AMT.BLAT.CD/counterpart-area/WLD/time/all?format=json",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance",
+        "Trade & Commerce"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1970,
+      "temporal_end": 2026,
+      "update_frequency": "Monthly",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "dsi",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/sources/81/country/BGD/series/DT.AMT.BLAT.CD/counterpart-area/WLD/time/all?format=json",
+      "evidence_note": "World Bank Indicators API (source 81, DSI) returned 91 non-null Bangladesh values for 'PPG, bilateral (AMT, current US$)' (1973–2027 M12); source last updated 2025-12-03; no matching DataBank page at https://databank.worldbank.org/source/international-debt-statistics-dssi (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-gpp-bangladesh",
+      "title": "Global Public Procurement - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Global Public Procurement database, available through the World Bank Indicators API and DataBank. It holds 111 indicators; 14 of them returned values for Bangladesh (2018). Indicators with Bangladesh data include: Gross domestic product (in USD); Population; Conversion rate (from local currency to USD); Gross national income (in USD); Gross national income per capita; Percentage(%) of Gross Domestic Product as Public Procurement Expenditure; Number of certified contracting officers (e.g. CIPS); Percentage of value spent through the use of eProcurement over total value spent; Percentage of number of transactions through the use of eProcurement over total number of transactions; Number of professionals certified on eProcurement systems; Estimated annual savings value through the use of eProcurement (in USDs); Percentage of savings value through the use of eProcurement over total cost estimate; Number of days from advertisement to contract award; Average time for bid evaluation.",
+      "source_url": "https://databank.worldbank.org/source/global-public-procurement",
+      "download_url": null,
+      "categories": [
+        "Government & Public Administration"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2018,
+      "temporal_end": 2018,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "gpp",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/C1.12?source=82&format=json",
+      "evidence_note": "World Bank Indicators API (source 82, GPP) returned 1 non-null Bangladesh value for 'Gross domestic product (in USD)' (2018); source last updated 2021-03-24; DataBank page https://databank.worldbank.org/source/global-public-procurement loaded (HTTP 200) with title 'Global Public Procurement | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-spi-bangladesh",
+      "title": "Statistical Performance Indicators (SPI) - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Statistical Performance Indicators (SPI) database, available through the World Bank Indicators API. It holds 72 indicators; all 20 checked returned values for Bangladesh (2004–2023). Indicators with Bangladesh data include: Availability of Mortality rate, under-5 (per 1,000 live births) data meeting quality standards according to UN IGME  (5 year moving average); Quality of Debt service data according to World Bank; Labor force participation rate by sex and age (%); Availability of Comparable Poverty headcount ratio at $2.15 a day (5 year moving average); Safely Managed Drinking Water; SDDS/e-GDDS subscription; Dimension 2.2: Online access - Download Options Score; Dimension 2.2: Online access - Machine Readability Score; Dimension 2.2: Online access - Metadata Available Score; Dimension 2.2: Online access - Non-Proprietary format Score; ODIN Open Data Openness score; Dimension 2.2: Online access - Terms of Use Score; NADA metadata; GOAL 1: No Poverty (5 year moving average); GOAL 10: Reduced Inequality (5 year moving average); GOAL 11: Sustainable Cities and Communities (5 year moving average); GOAL 12: Responsible Consumption and Production (5 year moving average); GOAL 13: Climate Action (5 year moving average); GOAL 15: Life on Land (5 year moving average); GOAL 16: Peace and Justice Strong Institutions (5 year moving average).",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/SPI.D1.5.CHLD.MORT?source=83&format=json",
+      "download_url": null,
+      "categories": [
+        "Government & Public Administration"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2004,
+      "temporal_end": 2023,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "spi",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/SPI.D1.5.CHLD.MORT?source=83&format=json",
+      "evidence_note": "World Bank Indicators API (source 83, SPI) returned 20 non-null Bangladesh values for 'Availability of Mortality rate, under-5 (per 1,000 live births) data meeting quality standards according to UN IGME  (5 year moving average)' (2004–2023); source last updated 2024-11-11; no matching DataBank page at https://databank.worldbank.org/source/statistical-performance-indicators-spi (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-edp-bangladesh",
+      "title": "Education Policy - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Education Policy database, available through the World Bank Indicators API and DataBank. It holds 473 indicators; of the 40 checked, 33 returned values for Bangladesh (2024). Indicators with Bangladesh data include: Student Attendance; (De Facto) Percent of 4th grade students present during an unannounced visit; (De Facto) Percent of 4th grade students present during an unannounced visit - Female; (De Facto) Percent of 4th grade students present during an unannounced visit - Male; (De Facto) Percent of 4th grade students present during an unannounced visit - Rural; (De Facto) Percent of 4th grade students present during an unannounced visit - Urban; Politics & Bureaucratic Capacity - Financing; Financing score; where a score of 1 indicates low effectiveness and 5 indicates high effectiveness in terms of adequacy, efficiency, and equity.; (Financing) - Adequacy expressed by the per child spending; (Financing) Efficiency - Expressed by the score from the Public Expenditure and Financial Accountability (PEFA) assessment; where 0 is the lowest possible efficiency and 1 is the highest; (Financing) Efficiency - Expressed by the relationship between financing and outcomes; where 0 is the lowest possible efficiency and 1 is the highest; (Financing) - Does the country spend 4-5%  of GDP or 15-20% of public expenditures on education spending?; Politics & Bureaucratic Capacity - Impartial Decision-Making; Average score for Impartial Decision-Making; where a score of 1 indicates low effectiveness and 5 indicates high effectiveness; (Impartial Decision-Making) average score for politicized personnel management; (Impartial Decision-Making) average score for politicized policy-making; (Impartial Decision-Making) average score for politicized policy implementation; (Impartial Decision-Making) average score for employee unions as facilitators; Politics & Bureaucratic Capacity - Mandates & Accountability; Average score for Mandates & Accountability; where a score of 1 indicates low effectiveness and 5 indicates high effectiveness.",
+      "source_url": "https://databank.worldbank.org/source/education-policy",
+      "download_url": null,
+      "categories": [
+        "Education"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2024,
+      "temporal_end": 2024,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "edp",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/SE.PRM.ATTD?source=84&format=json",
+      "evidence_note": "World Bank Indicators API (source 84, EDP) returned 1 non-null Bangladesh value for 'Student Attendance' (2024); source last updated 2026-02-19; DataBank page https://databank.worldbank.org/source/education-policy loaded (HTTP 200) with title 'Education Policy | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-jon-bangladesh",
+      "title": "Global Jobs Indicators Database (JOIN) - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Global Jobs Indicators Database (JOIN) database, available through the World Bank Indicators API. It holds 746 indicators; all 20 checked returned values for Bangladesh (1999–2016). Indicators with Bangladesh data include: Average age of employers, aged 15-64, total; Average age of employers, aged 15-64, female; Average age of employers, aged 15-64, above primary education; Average age of employers, aged 15-64, primary education and below; Average age of employers, aged 15-64, male; Average age of employers, aged 25-64; Average age of employers, aged 15-64, rural; Average age of employers, aged 15-64, urban; Average age of employers, aged 15-24; Average age of self-employed or unpaid workers, aged 15-64, total; Average age of self-employed or unpaid workers, aged 15-64, female; Average age of self-employed or unpaid workers, aged 15-64, above primary education; Average age of self-employed or unpaid workers, aged 15-64, primary education and below; Average age of self-employed or unpaid workers, aged 15-64, male; Average age of self-employed or unpaid workers, aged 25-64; Average age of self-employed or unpaid workers, aged 15-64, rural; Average age of self-employed or unpaid workers, aged 15-64, urban; Average age of self-employed or unpaid workers, aged 15-24; Average age, total; Average age, female.",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/JI.AGE.SELF?source=86&format=json",
+      "download_url": null,
+      "categories": [
+        "Labour & Employment"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1999,
+      "temporal_end": 2016,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "jon",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/JI.AGE.SELF?source=86&format=json",
+      "evidence_note": "World Bank Indicators API (source 86, JON) returned 8 non-null Bangladesh values for 'Average age of self-employed or unpaid workers, aged 15-64, total' (1999–2016); source last updated 2023-05-22; no matching DataBank page at https://databank.worldbank.org/source/global-jobs-indicators-database-join (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-ccd-bangladesh",
+      "title": "Country Climate and Development Report (CCDR) - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Country Climate and Development Report (CCDR) database, available through the World Bank Indicators API. It holds 432 indicators; all 20 checked returned values for Bangladesh (1961–2021), plus projections to 2100. Indicators with Bangladesh data include: Account (% age 15+); Account, income, poorest 40% (% ages 15+); Agricultural land (% of land area); Arable land (% of land area); Forest area (% of land area); Total protests and riots since 2018; Additional population exposed to annual coastal floods due to sea level rise, as a share of actual population (%) - Min. exposure, 2100; Additional population exposed to annual coastal floods due to sea level rise, as a share of actual population (%) - Max exposure, 2100; Additional population exposed to annual coastal floods due to sea level rise, as a share of actual population (%) - Min. exposure, 2050; Additional population exposed to annual coastal floods due to sea level rise, as a share of actual population (%) - Max exposure, 2050; Nitrogen application (tons per ha); Additional people below $1.90 as % of total population by impact - All impacts; Additional people below $1.90 as % of total population by impact - Agriculture Revenues; Additional people below $1.90 as % of total population by impact - Disasters; Additional people below $1.90 as % of total population by impact - Food prices; Additional people below $1.90 as % of total population by impact - Health; Additional people below $1.90 as % of total population by impact - Labor productivity; Additional people below $4 as % of total population by impact, by 2030 - Agriculture; Additional people below $4 as % of total population by impact, by 2030 - All Impacts; Additional people below $4 as % of total population by impact, by 2030 - Disasters.",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/AG.LND.AGRI.ZS?source=87&format=json",
+      "download_url": null,
+      "categories": [
+        "Climate & Weather",
+        "Agriculture"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 1961,
+      "temporal_end": 2021,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "ccd",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/AG.LND.AGRI.ZS?source=87&format=json",
+      "evidence_note": "World Bank Indicators API (source 87, CCD) returned 60 non-null Bangladesh values for 'Agricultural land (% of land area)' (1961–2020); source last updated 2022-10-07; no matching DataBank page at https://databank.worldbank.org/source/country-climate-and-development-report-ccdr (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-fpn-bangladesh",
+      "title": "Food Prices for Nutrition - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Food Prices for Nutrition database, available through the World Bank Indicators API and DataBank. It holds 45 indicators; all 20 checked returned values for Bangladesh (2017–2025). Indicators with Bangladesh data include: Affordability of an energy sufficient diet: ratio of cost to food expenditures; Percent of the population who cannot afford sufficient calories; Cost of an energy sufficient diet in local currency unit; Affordability of an energy sufficient diet: ratio of cost to the food poverty line; Cost of an energy sufficient diet in PPP dollars; Millions of people who cannot afford sufficient calories; Cost of animal source foods in local currency unit; Cost of animal source foods in PPP dollars; Cost share for animal-sourced foods in a least-cost healthy diet; Cost of animal-sourced foods relative to the starchy staples in a least-cost healthy diet; Cost of a healthy diet relative to the cost of sufficient energy from starchy staples; Cost of fruits in local currency unit; Cost of fruits in PPP dollars; Cost share for fruits in a least-cost healthy diet; Cost of fruits relative to the starchy staples in a least-cost healthy diet; Affordability of a healthy diet: ratio of cost to food expenditures; Percent of the population who cannot afford a healthy diet; Cost of a healthy diet in local currency unit; Cost of legumes, nuts and seeds in local currency unit; Cost of legumes, nuts and seeds in PPP dollars.",
+      "source_url": "https://databank.worldbank.org/source/food-prices-for-nutrition",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2017,
+      "temporal_end": 2025,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "fpn",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/sources/88/country/BGD/series/CoHD_headcount/time/all?format=json",
+      "evidence_note": "World Bank Indicators API (source 88, FPN) returned 9 non-null Bangladesh values for 'Percent of the population who cannot afford a healthy diet' (2017–2025); source last updated 2026-07-21; DataBank page https://databank.worldbank.org/source/food-prices-for-nutrition loaded (HTTP 200) with title 'Food Prices for Nutrition | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-id4-bangladesh",
+      "title": "Identification for Development (ID4D) Data - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Identification for Development (ID4D) Data database, available through the World Bank Indicators API. It holds 71 indicators; of the 40 checked, 27 returned values for Bangladesh (2017–2024). Indicators with Bangladesh data include: Children under age 5 whose births are registered, total (%); Children under age 5 whose births are registered, female (%); Children under age 5 whose births are registered, male (%); Challenge: Participating in elections, total (% of population ages 15+ without an ID); Challenge: Using financial services, total (% of population ages 15+ without an ID); Challenge: Receiving financial support, total (% of population ages 15+ without an ID); Challenge: Applying for a job, total (% of population ages 15+ without an ID); Challenge: Receiving medical care, total (% of population ages 15+ without an ID); Challenge: Obtaining a SIM card (% of population ages 15+ without an ID); Digital ID Verification (1=yes; 0= no); Online Digital Identity (1=yes; 0= no); Digital Data Use (1=yes; 0= no); ID ownership, ages 15-24 (% of population ages 15-24); ID ownership, ages 25+ (% of population ages 25+); Birth certification (%); ID ownership, poorest 40% (% of population ages 15+ in the poorest 40%); ID ownership, richest 60% (% of population ages 15+ in the richest 60%); ID ownership, female (% of female population ages 15+); ID ownership, male (% of male population ages 15+); ID ownership, out of the workforce (% of population ages 15+ out of the workforce).",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/ID.OWN.1524.ZS?source=89&format=json",
+      "download_url": null,
+      "categories": [
+        "Government & Public Administration"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2017,
+      "temporal_end": 2024,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "id4",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/ID.OWN.1524.ZS?source=89&format=json",
+      "evidence_note": "World Bank Indicators API (source 89, ID4) returned 3 non-null Bangladesh values for 'ID ownership, ages 15-24 (% of population ages 15-24)' (2017–2024); source last updated 2026-07-23; no matching DataBank page at https://databank.worldbank.org/source/identification-for-development-id4d-data (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-ic2-bangladesh",
+      "title": "ICP 2021 - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank ICP 2021 database, available through the World Bank Indicators API and DataBank. It holds 48 indicators; all 20 checked returned values for Bangladesh (2017–2023). Indicators with Bangladesh data include: 1000000:GROSS DOMESTIC PRODUCT; 1101000:FOOD AND NON-ALCOHOLIC BEVERAGES; 1101100:FOOD; 1101110:Bread and cereals; 1101120:Meat; 1101130:Fish and seafood; 1101140:Milk, cheese and eggs; 1101150:Oils and fats; 1101160:Fruit; 1101170:Vegetables; 1101180:Sugar, jam, honey, chocolate and confectionery; 1101190:Food products n.e.c. (Class); 1101200:NON-ALCOHOLIC BEVERAGES; 1102000:ALCOHOLIC BEVERAGES, TOBACCO AND NARCOTICS; 1102100:ALCOHOLIC BEVERAGES; 1102200:TOBACCO; 1103000:CLOTHING AND FOOTWEAR; 1105000:FURNISHINGS, HOUSEHOLD EQUIPMENT AND ROUTINE HOUSEHOLD MAINTENANCE; 1107000:TRANSPORT; 1107100:PURCHASE OF VEHICLES.",
+      "source_url": "https://databank.worldbank.org/source/icp-2021",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2017,
+      "temporal_end": 2023,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "ic2",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/sources/90/country/BGD/series/1000000/time/all?format=json",
+      "evidence_note": "World Bank Indicators API (source 90, IC2) returned 33 non-null Bangladesh values for '1000000:GROSS DOMESTIC PRODUCT' (2017–2023); source last updated 2024-08-04; DataBank page https://databank.worldbank.org/source/icp-2021 loaded (HTTP 200) with title 'ICP 2021 | DataBank'.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-ddh-bangladesh",
+      "title": "Disability Data Hub (DDH) - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank Disability Data Hub (DDH) database, available through the World Bank Indicators API. It holds 1,577 indicators; all 20 checked returned values for Bangladesh (2016). Indicators with Bangladesh data include: Persons aged 15 to 29 years with adequate housing (% of persons aged 15 to 29 years with disability i.e. at least a lot of functional difficulty); Persons aged 30 to 44 years with adequate housing (% of persons aged 30 to 44 years with disability i.e. at least a lot of functional difficulty); Persons aged 45 to 64 years with adequate housing (% of persons aged 45 to 64 years with disability i.e. at least a lot of functional difficulty); Persons aged 65 or older with adequate housing (% of persons aged 65 or older with disability i.e. at least a lot of functional difficulty); Persons with adequate housing (% of persons with disability i.e. at least a lot of functional difficulty); Female persons with adequate housing (% of female persons with disability i.e. at least a lot of functional difficulty); Male persons with adequate housing (% of male persons with disability i.e. at least a lot of functional difficulty); Persons living in rural areas with adequate housing (% of persons living in rural areas with disability i.e. at least a lot of functional difficulty); Persons living in urban areas with adequate housing (% of persons living in urban areas with disability i.e. at least a lot of functional difficulty); Persons aged 15 to 29 years with adequate housing (% of persons aged 15 to 29 years with any degree of functional difficulty); Persons aged 30 to 44 years with adequate housing (% of persons aged 30 to 44 years with any degree of functional difficulty); Persons aged 45 to 64 years with adequate housing (% of persons aged 45 to 64 years with any degree of functional difficulty); Persons aged 65 or older with adequate housing (% of persons aged 65 or older with any degree of functional difficulty); Persons with adequate housing (% of persons with any degree of functional difficulty); Persons with adequate housing (% of persons with any degree of cognitive difficulty); Persons with adequate housing (% of persons with any degree of communication difficulty); Female persons with adequate housing (% of female persons with any degree of functional difficulty); Persons with adequate housing (% of persons with any degree of hearing difficulty); Male persons with adequate housing (% of male persons with any degree of functional difficulty); Persons with adequate housing (% of persons with any degree of mobility difficulty).",
+      "source_url": "https://api.worldbank.org/v2/country/BGD/indicator/ad_hsng_al_alot_dfcl_1529?source=92&format=json",
+      "download_url": null,
+      "categories": [
+        "Population & Demographics"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2016,
+      "temporal_end": 2016,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "ddh",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/country/BGD/indicator/ad_hsng_al_alot_dfcl_1529?source=92&format=json",
+      "evidence_note": "World Bank Indicators API (source 92, DDH) returned 1 non-null Bangladesh value for 'Persons aged 15 to 29 years with adequate housing (% of persons aged 15 to 29 years with disability i.e. at least a lot of functional difficulty)' (2016); source last updated 2025-03-28; no matching DataBank page at https://databank.worldbank.org/source/disability-data-hub-ddh (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    },
+    {
+      "slug": "wb-fpa-bangladesh",
+      "title": "FPN Datahub Archive - Bangladesh",
+      "organization": "world-bank",
+      "description": "World Bank FPN Datahub Archive database, available through the World Bank Indicators API. It holds 43 indicators; all 20 checked returned values for Bangladesh (2017–2024). Indicators with Bangladesh data include: Affordability of an energy sufficient diet: ratio of cost to food expenditures; Percent of the population who cannot afford sufficient calories; Cost of an energy sufficient diet in local currency unit; Affordability of an energy sufficient diet: ratio of cost to the food poverty line; Cost of an energy sufficient diet in PPP dollars; Millions of people who cannot afford sufficient calories; Cost of animal source foods in local currency unit; Cost of animal source foods in PPP dollars; Cost share for animal-sourced foods in a least-cost healthy diet; Cost of animal-sourced foods relative to the starchy staples in a least-cost healthy diet; Cost of a healthy diet relative to the cost of sufficient energy from starchy staples; Cost of fruits in local currency unit; Cost of fruits in PPP dollars; Cost share for fruits in a least-cost healthy diet; Cost of fruits relative to the starchy staples in a least-cost healthy diet; Affordability of a healthy diet: ratio of cost to food expenditures; Percent of the population who cannot afford a healthy diet; Cost of a healthy diet in local currency unit; Cost of legumes, nuts and seeds in local currency unit; Cost of legumes, nuts and seeds in PPP dollars.",
+      "source_url": "https://api.worldbank.org/v2/sources/93/country/BGD/series/CoHD_headcount/time/all?format=json",
+      "download_url": null,
+      "categories": [
+        "Economy & Finance"
+      ],
+      "subcategories": [],
+      "formats": [
+        "JSON",
+        "XML"
+      ],
+      "geographic_coverage": "Bangladesh",
+      "geographic_level": "National",
+      "temporal_start": 2017,
+      "temporal_end": 2024,
+      "update_frequency": "Annual",
+      "license": null,
+      "languages": [
+        "en"
+      ],
+      "tags": [
+        "world bank",
+        "fpa",
+        "indicators api"
+      ],
+      "evidence_url": "https://api.worldbank.org/v2/sources/93/country/BGD/series/CoHD_headcount/time/all?format=json",
+      "evidence_note": "World Bank Indicators API (source 93, FPA) returned 46 non-null Bangladesh values for 'Percent of the population who cannot afford a healthy diet' (2017–2024); source last updated 2026-07-21; no matching DataBank page at https://databank.worldbank.org/source/fpn-datahub-archive (HTTP 200), so the API request is the source link.",
+      "checked_at": "2026-10-01"
+    }
+  ],
+  "unreachable": [
+    {
+      "url": "https://api.worldbank.org/v2/indicator?source=79&format=json",
+      "note": "PEFA_GRPFM: JSONDecodeError"
+    },
+    {
+      "url": "https://api.worldbank.org/v2/indicator?source=91&format=json",
+      "note": "PEFA_CRPFM: JSONDecodeError"
+    }
+  ]
+}

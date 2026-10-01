@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}About · BD DataHub{% endblock %}
+{% block content %}
+<div class="container narrow">
+  <div class="breadcrumb"><a href="/">Home</a> › About</div>
+  <h1>About BD DataHub</h1>
+  <p class="page-tagline">Find Bangladesh data in one place.</p>
+  <p>Public data about Bangladesh is spread across dozens of ministry, department, central bank and international websites. BD DataHub brings the <strong>information about those datasets</strong> into one searchable catalog, so students, researchers, journalists, developers, analysts, policymakers and citizens can find what exists, check who publishes it, and go straight to the original source.</p>
+
+  <h2>What we do — and don't do</h2>
+  <ul>
+    <li>We catalogue <strong>metadata</strong>: publisher, description, source URL, coverage period, formats, update frequency and geographic level.</li>
+    <li>We <strong>link to the original publisher</strong> for every dataset. We do not host, redistribute or modify the data itself.</li>
+    <li>We prioritise official sources: <code>.gov.bd</code> ministries, divisions and departments, Bangladesh Bank, statutory bodies and other public institutions, followed by international organizations that publish Bangladesh-specific data.</li>
+  </ul>
+
+  <h2>Where the data comes from</h2>
+  <div class="callout">
+    <p><strong>We don't generate, create or change any data ourselves.</strong> Every dataset here is published by its original source: a government ministry, department, public institution or international organization.</p>
+    <p>BD DataHub only gathers these sources and gives you a direct link to each one, so you can find everything in one place instead of searching dozens of separate websites.</p>
+  </div>
+
+  <h2>Responsible source monitoring</h2>
+  <p>Our link checker reads only publicly accessible pages. It identifies itself with a descriptive User-Agent, follows <code>robots.txt</code>, spaces out requests to each site, and downloads no more than a small capped amount of each page. It uses that to confirm the link works and to spot new or removed documents, never to copy datasets.</p>
+
+  <h2>Data use</h2>
+  <p>Datasets belong to their publishers and come under the publishers' own terms. Where a license is stated at the source, we record it; otherwise we say so. Always check the original site before you reuse or redistribute data, and cite the publisher.</p>
+
+  <h2>Catalog at a glance</h2>
+  <div class="figures" style="max-width:24rem">
+    <dl>
+      <div><dt>Datasets</dt><dd>{{ stats.datasets }}</dd></div>
+      <div><dt>Machine-readable</dt><dd>{{ stats.machine_readable }}</dd></div>
+    </dl>
+  </div>
+</div>
+{% endblock %}

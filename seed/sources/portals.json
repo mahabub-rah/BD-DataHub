@@ -1,0 +1,1840 @@
+{
+ "organizations": [
+  {
+   "slug": "data-gov-bd",
+   "name": "Bangladesh Open Government Data Portal",
+   "name_bn": null,
+   "acronym": null,
+   "org_type": "Open Data Portal",
+   "parent": "Planning and implementation: PMO, Cabinet Division, BCC, BBS and SID (per site footer)",
+   "website": "https://data.gov.bd",
+   "description": "National open data portal of Bangladesh (DKAN/Drupal-based) hosting datasets mostly from national surveys and censuses."
+  },
+  {
+   "slug": "world-bank",
+   "name": "World Bank",
+   "name_bn": null,
+   "acronym": "WB",
+   "org_type": "International Organization",
+   "parent": "World Bank Group",
+   "website": "https://data.worldbank.org",
+   "description": "International financial institution publishing World Development Indicators and survey microdata through the Microdata Library."
+  },
+  {
+   "slug": "unicef",
+   "name": "United Nations Children's Fund",
+   "name_bn": null,
+   "acronym": "UNICEF",
+   "org_type": "International Organization",
+   "parent": "United Nations",
+   "website": "https://mics.unicef.org",
+   "description": "UN agency for children; runs the Multiple Indicator Cluster Surveys (MICS) programme."
+  },
+  {
+   "slug": "ocha",
+   "name": "United Nations Office for the Coordination of Humanitarian Affairs",
+   "name_bn": null,
+   "acronym": "OCHA",
+   "org_type": "International Organization",
+   "parent": "United Nations",
+   "website": "https://data.humdata.org",
+   "description": "UN humanitarian coordination office; operates the Humanitarian Data Exchange (HDX) and publishes Common Operational Datasets."
+  },
+  {
+   "slug": "unfpa",
+   "name": "United Nations Population Fund",
+   "name_bn": null,
+   "acronym": "UNFPA",
+   "org_type": "International Organization",
+   "parent": "United Nations",
+   "website": "https://data.humdata.org/dataset/cod-ps-bgd",
+   "description": "UN sexual and reproductive health agency; publishes subnational population statistics (COD-PS) on HDX."
+  },
+  {
+   "slug": "un-bangladesh",
+   "name": "United Nations in Bangladesh",
+   "name_bn": null,
+   "acronym": null,
+   "org_type": "International Organization",
+   "parent": "United Nations",
+   "website": "https://data.humdata.org/dataset/populationa-and-housing-census-dataset",
+   "description": "UN country team in Bangladesh; publishes datasets on HDX under the name 'UN in Bangladesh'."
+  },
+  {
+   "slug": "wfp",
+   "name": "World Food Programme",
+   "name_bn": null,
+   "acronym": "WFP",
+   "org_type": "International Organization",
+   "parent": "United Nations",
+   "website": "https://data.humdata.org/dataset/wfp-food-prices-for-bangladesh",
+   "description": "UN food assistance agency; publishes food price and rainfall datasets for Bangladesh on HDX."
+  },
+  {
+   "slug": "iscg",
+   "name": "Inter Sector Coordination Group",
+   "name_bn": null,
+   "acronym": "ISCG",
+   "org_type": "International Organization",
+   "parent": "Rohingya humanitarian response, Cox's Bazar",
+   "website": "https://data.humdata.org/dataset/iscg-4w-influx-cox-s-bazar-bangladesh",
+   "description": "Coordination body of the humanitarian response for Rohingya refugees in Cox's Bazar; publishes camp boundaries, population and 3W data on HDX."
+  },
+  {
+   "slug": "hotosm",
+   "name": "Humanitarian OpenStreetMap Team",
+   "name_bn": null,
+   "acronym": "HOT",
+   "org_type": "International Organization",
+   "parent": null,
+   "website": "https://data.humdata.org/dataset/hotosm_bgd_roads",
+   "description": "International humanitarian mapping organisation publishing OpenStreetMap-derived country extracts on HDX."
+  },
+  {
+   "slug": "dhs-program",
+   "name": "The DHS Program",
+   "name_bn": null,
+   "acronym": "DHS",
+   "org_type": "International Organization",
+   "parent": null,
+   "website": "https://dhsprogram.com",
+   "description": "Demographic and Health Surveys Program; provides survey reports, datasets and an indicator API for nationally representative household surveys."
+  },
+  {
+   "slug": "unhcr",
+   "name": "United Nations High Commissioner for Refugees",
+   "name_bn": null,
+   "acronym": "UNHCR",
+   "org_type": "International Organization",
+   "parent": "United Nations",
+   "website": "https://data.unhcr.org",
+   "description": "UN Refugee Agency; its Operational Data Portal publishes Rohingya refugee population data for Bangladesh."
+  },
+  {
+   "slug": "iom",
+   "name": "International Organization for Migration",
+   "name_bn": null,
+   "acronym": "IOM",
+   "org_type": "International Organization",
+   "parent": "United Nations",
+   "website": "https://dtm.iom.int/bangladesh",
+   "description": "UN migration agency; its Displacement Tracking Matrix (DTM) publishes displacement and migration data for Bangladesh."
+  },
+  {
+   "slug": "who",
+   "name": "World Health Organization",
+   "name_bn": null,
+   "acronym": "WHO",
+   "org_type": "International Organization",
+   "parent": "United Nations",
+   "website": "https://data.who.int",
+   "description": "UN health agency; publishes country health statistics and the Global Health Observatory (GHO) API."
+  },
+  {
+   "slug": "ilo",
+   "name": "International Labour Organization",
+   "name_bn": null,
+   "acronym": "ILO",
+   "org_type": "International Organization",
+   "parent": "United Nations",
+   "website": "https://ilostat.ilo.org",
+   "description": "UN labour agency; ILOSTAT publishes labour statistics with an SDMX API."
+  },
+  {
+   "slug": "sdg-tracker",
+   "name": "SDG Tracker: Bangladesh Development Mirror",
+   "name_bn": null,
+   "acronym": null,
+   "org_type": "Open Data Portal",
+   "parent": "Jointly operated by Bangladesh Bureau of Statistics (BBS) and the Aspire to Innovate (a2i) Programme (per the About page)",
+   "website": "https://sdg.gov.bd",
+   "description": "Government online data repository for monitoring Bangladesh's progress on the Sustainable Development Goals, launched in 2017 and developed by a2i with BBS, SID and the GED of the Planning Commission."
+  },
+  {
+   "slug": "sob",
+   "name": "Survey of Bangladesh",
+   "name_bn": "বাংলাদেশ জরিপ অধিদপ্তর",
+   "acronym": "SOB",
+   "org_type": "Government Department",
+   "parent": "Ministry of Defence (per the SOB Data Service portal header)",
+   "website": "https://sob.gov.bd",
+   "description": "National mapping agency of Bangladesh providing geodetic, photogrammetric, cartographic and GIS mapping services and selling topographic maps and geospatial data."
+  },
+  {
+   "slug": "national-dashboard",
+   "name": "National Dashboard (জাতীয় ড্যাশবোর্ড)",
+   "name_bn": "জাতীয় ড্যাশবোর্ড",
+   "acronym": null,
+   "org_type": "Open Data Portal",
+   "parent": "Implementation and technical support: a2i (per site footer)",
+   "website": "https://dashboard.gov.bd",
+   "description": "Government platform hosting data dashboards of ministries, divisions and agencies to support data-driven decision making and monitoring of SDGs and national development plans; a subset is published as public 'open dashboards'."
+  }
+ ],
+ "datasets": [
+  {
+   "slug": "data-gov-bd-inflation-data",
+   "title": "Inflation Data",
+   "organization": "data-gov-bd",
+   "description": "Monthly inflation data for Bangladesh listed on the national open data portal under the Economy and Finance topics. The dataset page lists three resources; the licence is shown as 'License Not Specified'.",
+   "source_url": "https://data.gov.bd/dataset/inflation-data",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Inflation"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "inflation",
+    "prices",
+    "cpi"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/inflation-data",
+   "evidence_note": "Dataset page titled 'Inflation Data' with description 'Monthly inflation data', topics Economy/Finance, release date 2018-05-09, modified 2020-03-24.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "data-gov-bd-foreign-trade-statistics-2015-16",
+   "title": "Foreign Trade Statistics of Bangladesh 2015-2016",
+   "organization": "data-gov-bd",
+   "description": "Foreign trade statistics of Bangladesh for 2015-16, published as a CSV resource on the national open data portal. Tagged under the Business, Economy and Finance topics.",
+   "source_url": "https://data.gov.bd/dataset/foreign-trade-statistics-bangladesh-2015-2016",
+   "download_url": null,
+   "categories": [
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Foreign Trade"
+   ],
+   "formats": [
+    "CSV"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2015,
+   "temporal_end": 2016,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "foreign trade",
+    "exports",
+    "imports"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/foreign-trade-statistics-bangladesh-2015-2016",
+   "evidence_note": "Dataset page 'Foreign Trade Statistics of Bangladesh 2015-2016' lists one CSV resource with Preview/Download; release date 2020-12-22.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "data-gov-bd-labour-force-survey-2002-03",
+   "title": "Labour Force Survey 2002-03",
+   "organization": "data-gov-bd",
+   "description": "Data from the Labour Force Survey 2002-03 of Bangladesh, provided as three CSV resources on the national open data portal. Useful for historical labour market analysis.",
+   "source_url": "https://data.gov.bd/dataset/labour-force-survey-2002-03",
+   "download_url": null,
+   "categories": [
+    "Labour & Employment"
+   ],
+   "subcategories": [
+    "Labour Force Survey"
+   ],
+   "formats": [
+    "CSV"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2002,
+   "temporal_end": 2003,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "labour force",
+    "employment",
+    "survey"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/labour-force-survey-2002-03",
+   "evidence_note": "Dataset page 'Labour Force Survey 2002-03' ('Labour Force Survey 2002-03 of Bangladesh') lists three CSV resources with Preview/Download and a 'Download All' option.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "data-gov-bd-census-manufacturing-industries-1992-93",
+   "title": "Census of Manufacturing Industries 1992-93",
+   "organization": "data-gov-bd",
+   "description": "Data from the Census of Manufacturing Industries 1992-93, listed as a single CSV resource (about 17.7 MB per portal metadata) on the national open data portal.",
+   "source_url": "https://data.gov.bd/dataset/census-manufacturing-industries-1992-93",
+   "download_url": null,
+   "categories": [
+    "Industry & Business"
+   ],
+   "subcategories": [
+    "Manufacturing",
+    "Census"
+   ],
+   "formats": [
+    "CSV"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 1992,
+   "temporal_end": 1993,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "manufacturing",
+    "industry",
+    "census"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/census-manufacturing-industries-1992-93",
+   "evidence_note": "Dataset page 'Census of Manufacturing Industries 1992-93' lists one CSV resource with Preview/Download; tags economy, census, manufacturing industries.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "data-gov-bd-informal-sector-survey-2009-10",
+   "title": "Informal Sector Survey (ISS) 2009-10",
+   "organization": "data-gov-bd",
+   "description": "Data from the Informal Sector Survey 2009-10 of Bangladesh, split across many resources on the national open data portal. Covers the informal economy.",
+   "source_url": "https://data.gov.bd/dataset/informal-sector-surveyiss2009-10",
+   "download_url": null,
+   "categories": [
+    "Labour & Employment",
+    "Industry & Business"
+   ],
+   "subcategories": [
+    "Informal Sector"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2009,
+   "temporal_end": 2010,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "informal sector",
+    "survey",
+    "employment"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/informal-sector-surveyiss2009-10",
+   "evidence_note": "Dataset page 'Informal Sector Survey(ISS)2009-10' lists 40+ 'Informal Sector Survey(ISS)2009-10' data resources with 'Go to resource' links; release date 2020-03-24.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "wb-wdi-bangladesh",
+   "title": "World Development Indicators - Bangladesh",
+   "organization": "world-bank",
+   "description": "World Bank country data for Bangladesh from the World Development Indicators, covering GDP, population, poverty, life expectancy, inflation, unemployment, environment and more. The full country indicator set downloads as CSV, XML or Excel, and each indicator is available through the World Bank Indicators API (annual series from 1960).",
+   "source_url": "https://data.worldbank.org/country/bangladesh",
+   "download_url": "https://api.worldbank.org/v2/en/country/BGD?downloadformat=csv",
+   "categories": [
+    "Economy & Finance",
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "Development Indicators"
+   ],
+   "formats": [
+    "CSV",
+    "XML",
+    "XLS"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 1960,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "wdi",
+    "gdp",
+    "population",
+    "poverty",
+    "indicators"
+   ],
+   "evidence_url": "https://data.worldbank.org/country/bangladesh",
+   "evidence_note": "Country page shows indicators such as GDP (current US$) 456.32B (2025) and Population 175.7M (2025) with CSV/XML/EXCEL download links; API call for NY.GDP.MKTP.CD returned 66 annual values (last updated 2026-07-13).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "wb-enterprise-survey-2022-bangladesh",
+   "title": "Bangladesh World Bank Enterprise Survey 2022",
+   "organization": "world-bank",
+   "description": "Firm-level survey of over 1,200 private establishments in Bangladesh covering the business environment, infrastructure, finance, competition and performance. Covers formal businesses with at least five employees in manufacturing and selected services; microdata are distributed via the World Bank Microdata Library (registration required).",
+   "source_url": "https://microdata.worldbank.org/index.php/catalog/6497",
+   "download_url": null,
+   "categories": [
+    "Industry & Business"
+   ],
+   "subcategories": [
+    "Enterprise Survey"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2022,
+   "temporal_end": 2022,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "enterprise survey",
+    "firms",
+    "business environment",
+    "microdata"
+   ],
+   "evidence_url": "https://microdata.worldbank.org/index.php/catalog/6497",
+   "evidence_note": "Microdata Library catalog entry 'World Bank Enterprise Survey 2022', reference ID BGD_2022_WBES_v01_M, producer World Bank Group.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "wb-dhaka-low-income-gender-inclusion-poverty-survey-2018",
+   "title": "Dhaka Low Income Area Gender, Inclusion, and Poverty Survey 2018",
+   "organization": "world-bank",
+   "description": "Household survey of about 1,300 households in low-income areas and slums of Dhaka examining women's economic empowerment, employment history, time use and attitudes toward work. Edited, anonymised microdata are distributed via the World Bank Microdata Library.",
+   "source_url": "https://microdata.worldbank.org/index.php/catalog/3635",
+   "download_url": null,
+   "categories": [
+    "Labour & Employment",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Gender",
+    "Urban Poverty"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Dhaka (low-income areas)",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2018,
+   "temporal_end": 2018,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "dhaka",
+    "gender",
+    "poverty",
+    "slums",
+    "microdata"
+   ],
+   "evidence_url": "https://microdata.worldbank.org/index.php/catalog/3635",
+   "evidence_note": "Microdata Library catalog entry 'Dhaka Low Income Area Gender, Inclusion, and Poverty Survey 2018', reference ID BGD_2018_DIGNITY_v01_M.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "unicef-mics-bangladesh-2019",
+   "title": "Bangladesh Multiple Indicator Cluster Survey (MICS) 2019, Round 6",
+   "organization": "unicef",
+   "description": "Sixth-round MICS for Bangladesh, implemented by the Bangladesh Bureau of Statistics with UNICEF technical support. Covers maternal and child health, education, child mortality, child protection, water and sanitation and SDG indicators, with household and individual-level microdata.",
+   "source_url": "https://microdata.worldbank.org/index.php/catalog/4147",
+   "download_url": null,
+   "categories": [
+    "Health",
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "MICS",
+    "Child Welfare"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Division",
+   "temporal_start": 2019,
+   "temporal_end": 2019,
+   "update_frequency": "Multi-year",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "mics",
+    "children",
+    "women",
+    "health",
+    "sdg"
+   ],
+   "evidence_url": "https://microdata.worldbank.org/index.php/catalog/4147",
+   "evidence_note": "World Bank Microdata Library entry 'Multiple Indicator Cluster Survey 2019, Round 6', reference ID BGD_2019_MICS_v01_M, producer Bureau of Statistics with UNICEF support; access via the UNICEF MICS programme.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "hdx-cod-ab-bangladesh",
+   "title": "Bangladesh - Subnational Administrative Boundaries (COD-AB)",
+   "organization": "ocha",
+   "description": "Common Operational Dataset of Bangladesh administrative boundaries at levels 0-3: 8 divisions, 64 districts and 507 upazila-level units (495 upazilas and 12 city corporations). Source is the Bangladesh Bureau of Statistics; available as shapefile, geodatabase, GeoJSON and an XLSX gazetteer with P-codes.",
+   "source_url": "https://data.humdata.org/dataset/cod-ab-bgd",
+   "download_url": "https://data.humdata.org/dataset/401d3fae-4262-48c9-891f-461fd776d49b/resource/05d85fe2-40c0-4b57-b1b5-be9c36a592fb/download/bgd_admin_boundaries.shp.zip",
+   "categories": [
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Administrative Boundaries"
+   ],
+   "formats": [
+    "SHP",
+    "GeoJSON",
+    "XLSX",
+    "ZIP"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": 2023,
+   "temporal_end": 2025,
+   "update_frequency": "Multi-year",
+   "license": "CC BY-IGO",
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "boundaries",
+    "cod-ab",
+    "pcodes",
+    "gis",
+    "upazila"
+   ],
+   "evidence_url": "https://data.humdata.org/api/3/action/package_show?id=cod-ab-bgd",
+   "evidence_note": "HDX metadata: 'Bangladesh administrative level 0-3 boundaries (COD-AB) dataset version 03' with resources bgd_admin_boundaries.shp.zip, .gdb.zip, .geojson.zip and .xlsx.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "hdx-cod-ps-bangladesh-2022",
+   "title": "Bangladesh - Subnational Population Statistics (COD-PS) 2022",
+   "organization": "unfpa",
+   "description": "Sex- and age-disaggregated 2022 population statistics for Bangladesh at administrative levels 0-3, designed to join to the COD-AB boundaries via P-code fields. Provided as CSV files per admin level and XLSX workbooks.",
+   "source_url": "https://data.humdata.org/dataset/cod-ps-bgd",
+   "download_url": "https://data.humdata.org/dataset/fdf0606c-8a3b-421a-b3e8-903301e5b2ff/resource/d3ee1ccb-9efb-412f-9323-cd4dc9606f7d/download/bgd_admpop_2022.xlsx",
+   "categories": [
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "Population Estimates"
+   ],
+   "formats": [
+    "CSV",
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": 2022,
+   "temporal_end": 2022,
+   "update_frequency": "Annual",
+   "license": "CC BY-IGO",
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "population",
+    "age",
+    "sex",
+    "cod-ps",
+    "pcodes"
+   ],
+   "evidence_url": "https://data.humdata.org/api/3/action/package_show?id=cod-ps-bgd",
+   "evidence_note": "HDX metadata: 'Bangladesh administrative level 0-3 sex and age disaggregated 2022 population statistics' with bgd_admpop_adm0..adm3_2022.csv resources.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "hdx-bbs-population-housing-census-2022-dataset",
+   "title": "Bangladesh: Population and Housing Census 2022 Dataset (district level)",
+   "organization": "un-bangladesh",
+   "description": "District-level (admin 2) indicators from the Bangladesh Bureau of Statistics Population and Housing Census 2022, compiled by the UN in Bangladesh. Includes an XLSX dataset and an indicator definition file covering population and housing characteristics.",
+   "source_url": "https://data.humdata.org/dataset/populationa-and-housing-census-dataset",
+   "download_url": "https://data.humdata.org/dataset/a6fedebe-72fe-4fc2-8657-1580acfa32c6/resource/72eaaa6c-6a30-4efd-bad9-02133b316ea8/download/bangladesh_bbs_population-and-housing-census-dataset_2022_admin-02.xlsx",
+   "categories": [
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "Census"
+   ],
+   "formats": [
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "District",
+   "temporal_start": 2022,
+   "temporal_end": 2022,
+   "update_frequency": "Decennial",
+   "license": "CC0",
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "census",
+    "housing",
+    "population",
+    "district"
+   ],
+   "evidence_url": "https://data.humdata.org/api/3/action/package_show?id=populationa-and-housing-census-dataset",
+   "evidence_note": "HDX metadata: 'Population and housing census dataset as of Census 2022 by Bangladesh Bureau of Statistics (BBS)' with resource 'Bangladesh_BBS_Population and Housing Census dataset_2022_Admin-02' (XLSX).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "hdx-wfp-food-prices-bangladesh",
+   "title": "Bangladesh - Food Prices (WFP)",
+   "organization": "wfp",
+   "description": "Market food price series for Bangladesh from the WFP Price Database, covering rice and other staples, with a separate list of markets. Sources include the Department of Agricultural Marketing (DAM) and FAO GIEWS; updated monthly on HDX.",
+   "source_url": "https://data.humdata.org/dataset/wfp-food-prices-for-bangladesh",
+   "download_url": "https://data.humdata.org/dataset/c76eabb7-fdb5-43b7-a5c4-09091bb8acde/resource/966ab7ac-56d6-4dac-8eba-dfe815d59a52/download/wfp_food_prices_bgd.csv",
+   "categories": [
+    "Agriculture",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Food Prices"
+   ],
+   "formats": [
+    "CSV"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": "CC BY-IGO",
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "food prices",
+    "markets",
+    "rice",
+    "wfp"
+   ],
+   "evidence_url": "https://data.humdata.org/api/3/action/package_show?id=wfp-food-prices-for-bangladesh",
+   "evidence_note": "HDX metadata: 'This dataset contains Food Prices data for Bangladesh, sourced from the World Food Programme Price Database' with resources wfp_food_prices_bgd.csv and wfp_markets_bgd.csv.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "hdx-bgd-rainfall-subnational",
+   "title": "Bangladesh: Rainfall Indicators at Subnational Level",
+   "organization": "wfp",
+   "description": "Dekadal (10-day) rainfall indicators derived from CHIRPS satellite rainfall estimates and CHIRPS-GEFS forecasts, aggregated by subnational administrative units, including rolling aggregates and long-term averages. HDX lists the update frequency as every two weeks.",
+   "source_url": "https://data.humdata.org/dataset/bgd-rainfall-subnational",
+   "download_url": "https://data.humdata.org/dataset/4b4650bf-6faa-4659-adf5-521a8be17bf6/resource/ae3bcbdc-bd38-4f0b-bb9f-55ffefb11c38/download/bgd-rainfall-subnat-full.csv",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Rainfall"
+   ],
+   "formats": [
+    "CSV"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 1981,
+   "temporal_end": 2026,
+   "update_frequency": "Irregular",
+   "license": "CC BY",
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rainfall",
+    "chirps",
+    "climate",
+    "dekadal"
+   ],
+   "evidence_url": "https://data.humdata.org/api/3/action/package_show?id=bgd-rainfall-subnational",
+   "evidence_note": "HDX metadata: 'dekadal rainfall indicators, computed from ... CHIRPS version 2 ... aggregated by subnational administrative units' with bgd-rainfall-subnat-full.csv.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "hdx-iscg-rohingya-camp-outlines",
+   "title": "Bangladesh - Outline of Camps of Rohingya Refugees in Cox's Bazar",
+   "organization": "iscg",
+   "description": "Spatial database of the outlines of camps, settlements and sites where Rohingya refugees live in Cox's Bazar, including camp (A1), block (A2) and sub-block (A3) boundaries. Sources include RRRC, the ISCG Site Management Sector, UNHCR and IOM.",
+   "source_url": "https://data.humdata.org/dataset/outline-of-camps-sites-of-rohingya-refugees-in-cox-s-bazar-bangladesh",
+   "download_url": "https://data.humdata.org/dataset/1a67eb3b-57d8-4062-b562-049ad62a85fd/resource/ace4b0a6-ef0f-46e4-a50a-8c552cfe7bf3/download/20230412_a1_camp_outlines.zip",
+   "categories": [
+    "Geography & GIS",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Refugee Camps",
+    "Rohingya"
+   ],
+   "formats": [
+    "SHP",
+    "Other"
+   ],
+   "geographic_coverage": "Cox's Bazar District",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2018,
+   "temporal_end": 2024,
+   "update_frequency": "Irregular",
+   "license": "CC0",
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rohingya",
+    "refugee camps",
+    "cox's bazar",
+    "boundaries"
+   ],
+   "evidence_url": "https://data.humdata.org/api/3/action/package_show?id=outline-of-camps-sites-of-rohingya-refugees-in-cox-s-bazar-bangladesh",
+   "evidence_note": "HDX metadata: 'This spatial database contains the outline of the camps, settlements, and sites where Rohingya refugees are staying in Cox's Bazar' with SHP, KML and geodatabase resources.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "hdx-iscg-rohingya-population-by-location",
+   "title": "Rohingya Refugees Population by Location at Camp and Union Level - Cox's Bazar",
+   "organization": "iscg",
+   "description": "Estimated Rohingya refugee population statistics by location (lat/lon) and settlement type in Cox's Bazar district, based on the RRRC-UNHCR Family Counting Exercise. Published as a series of dated XLSX files.",
+   "source_url": "https://data.humdata.org/dataset/site-location-of-rohingya-refugees-in-cox-s-bazar",
+   "download_url": "https://data.humdata.org/dataset/d1cd6842-dfe1-44c7-a1f5-3769000073af/resource/b3761161-5e83-48de-8690-d7094fe17884/download/20211122_location_fce_rrrc_unhcr_population-registration_public.xlsx",
+   "categories": [
+    "Population & Demographics",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Refugees",
+    "Rohingya"
+   ],
+   "formats": [
+    "XLSX"
+   ],
+   "geographic_coverage": "Cox's Bazar District",
+   "geographic_level": "Union",
+   "temporal_start": 2019,
+   "temporal_end": 2022,
+   "update_frequency": "Irregular",
+   "license": "CC0",
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rohingya",
+    "refugees",
+    "population",
+    "cox's bazar"
+   ],
+   "evidence_url": "https://data.humdata.org/api/3/action/package_show?id=site-location-of-rohingya-refugees-in-cox-s-bazar",
+   "evidence_note": "HDX metadata: 'estimated Rohingya refugee population statistics by location (lat/lon), settlement type in Cox's Bazar district' with dated XLSX resources (latest 20211122).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "hdx-iscg-3w-coxs-bazar",
+   "title": "Bangladesh: ISCG 3W Influx - Cox's Bazar",
+   "organization": "iscg",
+   "description": "Consolidated 3W (who does what where) data collected from partners in the humanitarian response in Cox's Bazar, published as periodic XLSX rounds.",
+   "source_url": "https://data.humdata.org/dataset/iscg-4w-influx-cox-s-bazar-bangladesh",
+   "download_url": "https://data.humdata.org/dataset/bf11f6b9-1a2c-424a-ae22-7cd9060d14d7/resource/ab87102c-7b1e-4901-b70a-8e59d045a250/download/iscg_cxb_3w_r82_hdx_2024_q3.xlsx",
+   "categories": [
+    "Social Protection",
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Humanitarian Response",
+    "3W"
+   ],
+   "formats": [
+    "XLSX",
+    "XLS"
+   ],
+   "geographic_coverage": "Cox's Bazar District",
+   "geographic_level": "Mixed",
+   "temporal_start": 2019,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": "CC0",
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "3w",
+    "humanitarian",
+    "rohingya",
+    "cox's bazar"
+   ],
+   "evidence_url": "https://data.humdata.org/api/3/action/package_show?id=iscg-4w-influx-cox-s-bazar-bangladesh",
+   "evidence_note": "HDX metadata: 'Consolidated 3W data from Inter Sector Coordination Group (ISCG)' with resources such as ISCG_CXB_3W_R82_HDX_2024_Q3.xlsx.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "hdx-ocha-bangladesh-hazards",
+   "title": "Bangladesh - Hazards (Drought, Earthquake, Flood and River Erosion Risk)",
+   "organization": "ocha",
+   "description": "Spatial hazard layers for Bangladesh covering drought risk, earthquake risk, flood risk and river erosion risk, sourced from the Bangladesh Agricultural Research Council (BARC). Each hazard is provided as a separate shapefile.",
+   "source_url": "https://data.humdata.org/dataset/bangladesh-hazards",
+   "download_url": "https://data.humdata.org/dataset/7362ef2d-7282-459f-bc1b-0347076fcc12/resource/ca979980-e533-43f8-83c9-2a6b5ac570c6/download/bgd_nhr_floods_barc.zip",
+   "categories": [
+    "Environment",
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Natural Hazards",
+    "Flood Risk"
+   ],
+   "formats": [
+    "SHP",
+    "ZIP"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2013,
+   "temporal_end": 2013,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "hazards",
+    "flood",
+    "drought",
+    "earthquake",
+    "river erosion"
+   ],
+   "evidence_url": "https://data.humdata.org/api/3/action/package_show?id=bangladesh-hazards",
+   "evidence_note": "HDX metadata: 'Drought risk, Earthquake risk, Flood risk and River erosion risk are included as separated datasets'; source BARC; resources bgd_nhr_*_barc.zip (SHP).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "hdx-hotosm-bangladesh-roads",
+   "title": "Roads of Bangladesh (OpenStreetMap export)",
+   "organization": "hotosm",
+   "description": "Road network of Bangladesh extracted from OpenStreetMap (features tagged highway=*), from motorways to footways. Refreshed monthly by HOT and offered as Shapefile, GeoPackage and metadata JSON.",
+   "source_url": "https://data.humdata.org/dataset/hotosm_bgd_roads",
+   "download_url": "https://production-raw-data-api.s3.amazonaws.com/ISO3/BGD/roads/hotosm_bgd_roads_osm_shp.zip",
+   "categories": [
+    "Transport",
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Roads",
+    "OpenStreetMap"
+   ],
+   "formats": [
+    "SHP",
+    "JSON",
+    "HTML",
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2026,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": "ODbL",
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "roads",
+    "openstreetmap",
+    "transport",
+    "gis"
+   ],
+   "evidence_url": "https://data.humdata.org/api/3/action/package_show?id=hotosm_bgd_roads",
+   "evidence_note": "HDX metadata: 'Road network across the region tagged highway=*' with hotosm_bgd_roads_osm_shp.zip and _gpkg.zip resources; source OpenStreetMap contributors.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "hdx-hotosm-bangladesh-waterways",
+   "title": "Waterways of Bangladesh (OpenStreetMap export)",
+   "organization": "hotosm",
+   "description": "Rivers, streams, canals, lakes, ponds and other water bodies in Bangladesh extracted from OpenStreetMap. Refreshed monthly by HOT and offered as GeoJSON, Shapefile and GeoPackage.",
+   "source_url": "https://data.humdata.org/dataset/hotosm_bgd_waterways",
+   "download_url": "https://production-raw-data-api.s3.amazonaws.com/ISO3/BGD/waterways/hotosm_bgd_waterways_osm_geojson.zip",
+   "categories": [
+    "Environment",
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Rivers",
+    "OpenStreetMap"
+   ],
+   "formats": [
+    "GeoJSON",
+    "SHP",
+    "JSON",
+    "HTML",
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2026,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": "ODbL",
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rivers",
+    "waterways",
+    "openstreetmap",
+    "gis"
+   ],
+   "evidence_url": "https://data.humdata.org/api/3/action/package_show?id=hotosm_bgd_waterways",
+   "evidence_note": "HDX metadata: 'Water features across the region: rivers, streams, canals, lakes, ponds...' with hotosm_bgd_waterways_osm_geojson.zip, _shp.zip and _gpkg.zip.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dhs-bangladesh-dhs-2022",
+   "title": "Bangladesh Demographic and Health Survey (BDHS) 2022",
+   "organization": "dhs-program",
+   "description": "Nationally representative demographic and health survey implemented by NIPORT and Mitra and Associates with DHS Program support, covering fertility, family planning, maternal and child health, nutrition and more. The final report is available as PDF and indicator values are available via the DHS API.",
+   "source_url": "https://dhsprogram.com/Countries/Country-Main.cfm?ctry_id=1&c=Bangladesh",
+   "download_url": "https://dhsprogram.com/pubs/pdf/FR386/FR386.pdf",
+   "categories": [
+    "Health",
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "DHS",
+    "Fertility",
+    "Maternal Health"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Division",
+   "temporal_start": 2022,
+   "temporal_end": 2022,
+   "update_frequency": "Multi-year",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "dhs",
+    "bdhs",
+    "fertility",
+    "child health",
+    "nutrition"
+   ],
+   "evidence_url": "https://api.dhsprogram.com/rest/dhs/publications?surveyIds=BD2022DHS,BD2017DHS&f=json",
+   "evidence_note": "DHS API lists survey BD2022DHS (DHS 2022, NIPORT / Mitra and Associates, released 2024-09-09, Completed) with 'Final Report' at FR386.pdf (PDF confirmed, about 25 MB).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dhs-bangladesh-dhs-2017-18",
+   "title": "Bangladesh Demographic and Health Survey (BDHS) 2017-18",
+   "organization": "dhs-program",
+   "description": "Bangladesh DHS 2017-18 covering fertility, family planning, maternal and child health, nutrition and related topics. The final report is available as PDF and indicators are accessible through the DHS API.",
+   "source_url": "https://dhsprogram.com/Countries/Country-Main.cfm?ctry_id=1&c=Bangladesh",
+   "download_url": "https://dhsprogram.com/pubs/pdf/FR344/FR344.pdf",
+   "categories": [
+    "Health",
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "DHS",
+    "Fertility"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Division",
+   "temporal_start": 2017,
+   "temporal_end": 2018,
+   "update_frequency": "Multi-year",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "dhs",
+    "bdhs",
+    "fertility",
+    "health"
+   ],
+   "evidence_url": "https://api.dhsprogram.com/rest/dhs/publications?surveyIds=BD2022DHS,BD2017DHS&f=json",
+   "evidence_note": "DHS API lists survey BD2017DHS (DHS 2017-18, released 2020-12-14, Completed) with 'Final Report' at FR344.pdf.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "unhcr-rohingya-refugee-population-bangladesh",
+   "title": "Rohingya Refugee Response - Population by Camp (UNHCR Operational Data Portal)",
+   "organization": "unhcr",
+   "description": "Joint Government of Bangladesh-UNHCR population figures for Rohingya refugees in Bangladesh, broken down by camp in Cox's Bazar and Bhasan Char. The portal offers a monthly population breakdown PDF, a dashboard, and a JSON endpoint for camp-level figures.",
+   "source_url": "https://data.unhcr.org/en/country/bgd",
+   "download_url": "https://data.unhcr.org/en/documents/download/123987",
+   "categories": [
+    "Population & Demographics",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Refugees",
+    "Rohingya"
+   ],
+   "formats": [
+    "Dashboard",
+    "PDF",
+    "JSON"
+   ],
+   "geographic_coverage": "Cox's Bazar District and Bhasan Char",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": "CC BY 4.0",
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rohingya",
+    "refugees",
+    "unhcr",
+    "cox's bazar",
+    "bhasan char"
+   ],
+   "evidence_url": "https://data.unhcr.org/en/country/bgd",
+   "evidence_note": "Portal page shows top camps by population as of 31 August 2026 (e.g. Camp 15: 67,752), source Government of Bangladesh/UNHCR; linked document 'Joint Government of Bangladesh - Population breakdown as of August 2026' (PDF, CC BY 4.0).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "iom-dtm-bangladesh-idps-estimate-round-1-2025",
+   "title": "Bangladesh - IDPs Estimate - Round 1 (October 2025)",
+   "organization": "iom",
+   "description": "IOM DTM national assessment of disaster-induced internal displacement in Bangladesh, based on 6,524 key-informant interviews across all 8 divisions, 64 districts and 12 city corporations at admin-3 level (unions, municipalities and wards). Data collected September-October 2025.",
+   "source_url": "https://dtm.iom.int/datasets/bangladesh-idps-estimate-round-1-october-2025",
+   "download_url": null,
+   "categories": [
+    "Population & Demographics",
+    "Environment"
+   ],
+   "subcategories": [
+    "Displacement",
+    "Disasters"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Union",
+   "temporal_start": 2025,
+   "temporal_end": 2025,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "idp",
+    "displacement",
+    "disasters",
+    "dtm",
+    "iom"
+   ],
+   "evidence_url": "https://dtm.iom.int/datasets/bangladesh-idps-estimate-round-1-october-2025",
+   "evidence_note": "DTM dataset page 'Bangladesh — IDPs Estimate — Round 1 - October 2025', published 8 January 2026, also listed on https://dtm.iom.int/bangladesh.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "who-bangladesh-health-data",
+   "title": "WHO Health Data - Bangladesh",
+   "organization": "who",
+   "description": "WHO country data page for Bangladesh with health status (life expectancy, maternal, neonatal and under-5 mortality, HIV/TB/malaria), risk factors, service coverage and health system indicators, each downloadable as CSV. The Global Health Observatory OData API provides the underlying series (e.g. life expectancy 2000-2021).",
+   "source_url": "https://data.who.int/countries/050",
+   "download_url": null,
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Health Indicators",
+    "Mortality"
+   ],
+   "formats": [
+    "Dashboard",
+    "CSV"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2000,
+   "temporal_end": null,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "health",
+    "life expectancy",
+    "mortality",
+    "gho"
+   ],
+   "evidence_url": "https://data.who.int/countries/050",
+   "evidence_note": "WHO data page for Bangladesh shows indicator groups (health status, risk factors, service coverage, health systems) with CSV downloads; GHO API query for WHOSIS_000001 returned 66 records for BGD (2000-2021).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ilostat-bangladesh-unemployment-rate",
+   "title": "ILOSTAT - Unemployment Rate, Bangladesh (SDMX)",
+   "organization": "ilo",
+   "description": "ILO harmonised labour statistics for Bangladesh, e.g. the unemployment rate by sex and age derived from Bangladesh Labour Force Surveys. Accessible programmatically via the ILOSTAT SDMX API as CSV or other SDMX formats.",
+   "source_url": "https://sdmx.ilo.org/rest/data/ILO,DF_UNE_DEAP_SEX_AGE_RT,1.0/BGD.A..SEX_T.AGE_YTHADULT_YGE15?startPeriod=2015&format=csvfile",
+   "download_url": "https://sdmx.ilo.org/rest/data/ILO,DF_UNE_DEAP_SEX_AGE_RT,1.0/BGD.A..SEX_T.AGE_YTHADULT_YGE15?startPeriod=2015&format=csvfile",
+   "categories": [
+    "Labour & Employment"
+   ],
+   "subcategories": [
+    "Unemployment"
+   ],
+   "formats": [
+    "CSV"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2023,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "unemployment",
+    "labour force",
+    "ilostat",
+    "sdmx"
+   ],
+   "evidence_url": "https://sdmx.ilo.org/rest/data/ILO,DF_UNE_DEAP_SEX_AGE_RT,1.0/BGD.A..SEX_T.AGE_YTHADULT_YGE15?startPeriod=2015&format=csvfile",
+   "evidence_note": "SDMX query returned BGD annual unemployment rate (total, 15+) for 2016, 2017, 2022 and 2023 (e.g. 3.352 in 2023), source 'LFS - Labour Force Survey'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "data-gov-bd-economic-census-2013",
+   "title": "Economic Census 2013",
+   "organization": "data-gov-bd",
+   "description": "Data from the Bangladesh Economic Census 2013, published on the national open data portal under the Economy topic as a single zipped resource (Eco2013.zip, about 1 MB).",
+   "source_url": "https://data.gov.bd/dataset/economic-census-2013",
+   "download_url": "https://data.gov.bd/api/download?id=a27d42ec-2546-41ae-844c-07b4580eddca",
+   "categories": [
+    "Industry & Business",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Census",
+    "Establishments"
+   ],
+   "formats": [
+    "ZIP"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2013,
+   "temporal_end": 2013,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "economic census",
+    "establishments",
+    "bbs"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/economic-census-2013",
+   "evidence_note": "Dataset page 'Economic Census-2013' (topic Economy) lists one zip resource 'Economic Census-2013' (Eco2013.zip, 1,038,034 bytes), release date 2018-03-19, licence 'License Not Specified'. The download URL https://data.gov.bd/api/download?id=a27d42ec-2546-41ae-844c-07b4580eddca returned 200 (application/zip) when tested.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "data-gov-bd-agriculture-census-2008",
+   "title": "Agriculture Census 2008",
+   "organization": "data-gov-bd",
+   "description": "Data from the Bangladesh Agriculture Census 2008, published on the national open data portal under the Agriculture topic as one zipped resource (Agri2008.zip).",
+   "source_url": "https://data.gov.bd/dataset/agriculture-census-2008",
+   "download_url": "https://data.gov.bd/api/download?id=3074340b-1519-44af-bf48-a38ec7d71a2b",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Census",
+    "Farm Holdings"
+   ],
+   "formats": [
+    "ZIP"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2008,
+   "temporal_end": 2008,
+   "update_frequency": "Decennial",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "agriculture census",
+    "farm holdings",
+    "bbs"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/agriculture-census-2008",
+   "evidence_note": "Dataset page 'Agriculture Census 2008' (topic Agriculture) lists one resource 'Agriculture Census 2008' with format 'data' and a Download button; release date 2018-03-19, licence 'License Not Specified'. Its resource page shows file Agri2008.zip (application/zip, 2,638,352 bytes). The download URL https://data.gov.bd/api/download?id=3074340b-1519-44af-bf48-a38ec7d71a2b returned 200 (application/zip) when tested.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "data-gov-bd-hies-2010",
+   "title": "Household Income and Expenditure Survey (HIES) 2010",
+   "organization": "data-gov-bd",
+   "description": "Data from the Household Income and Expenditure Survey (HIES) 2010, published on the national open data portal under the Economy, Finance and Health topics; the page notes the report itself is on the BBS website. One zipped resource (HES2010.zip) is listed.",
+   "source_url": "https://data.gov.bd/dataset/household-income-and-expenditure-survey-2010",
+   "download_url": "https://data.gov.bd/api/download?id=2836056d-d76b-4e11-a71b-77957781e409",
+   "categories": [
+    "Economy & Finance",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Household Income",
+    "Poverty"
+   ],
+   "formats": [
+    "ZIP"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2010,
+   "temporal_end": 2010,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "hies",
+    "household income",
+    "expenditure",
+    "poverty"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/household-income-and-expenditure-survey-2010",
+   "evidence_note": "Dataset page 'Household Income and Expenditure Survey-2010' says 'Household Income and Expenditure Survey(HIES)-2010. Report can be seen in BBS websit' and lists one resource with format 'data'; release date 2018-03-19, licence 'License Not Specified'. Its resource page shows file HES2010.zip (application/zip, 3,358,308 bytes). The download URL https://data.gov.bd/api/download?id=2836056d-d76b-4e11-a71b-77957781e409 returned 200 (application/zip) when tested.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "data-gov-bd-banbeis-secondary-institutions-teachers-students",
+   "title": "Basic Information of Secondary Level Institutions with Number of Teachers and Students",
+   "organization": "data-gov-bd",
+   "description": "Institution-level list of secondary schools in Bangladesh compiled by the Statistical Division of BANBEIS, with division, district, upazila, union, EIIN, institute name, type of management, address and numbers of teachers and students by sex. Published as one Excel resource on the national open data portal.",
+   "source_url": "https://data.gov.bd/dataset/basic-information-institute-secondary-level-number-teachers-student",
+   "download_url": "https://data.gov.bd/api/download?id=cbb37502-4cba-4d32-90dc-06b806f2ded9",
+   "categories": [
+    "Education"
+   ],
+   "subcategories": [
+    "Secondary Education",
+    "Schools"
+   ],
+   "formats": [
+    "XLS"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Union",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "secondary schools",
+    "teachers",
+    "students",
+    "eiin",
+    "banbeis"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/basic-information-institute-secondary-level-number-teachers-student",
+   "evidence_note": "Dataset page 'Basic Information of Institute at Secondary Level with Number of Teachers & Student' lists one 'excel' resource with fields Division, District, Upazila, union, EIIN, Name of Institute, Type of Management and teachers/students by sex; Frequency Annually, Author 'Statistical Division, BANBEIS', release date 2018-04-02. Resource file Inst_wise_teacher_stu_info.xls (application/vnd.ms-excel). The download URL https://data.gov.bd/api/download?id=cbb37502-4cba-4d32-90dc-06b806f2ded9 returned 200 (application/xls) when tested.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "data-gov-bd-banbeis-grade-wise-students",
+   "title": "Grade-wise Students in School",
+   "organization": "data-gov-bd",
+   "description": "Institution-level data from BANBEIS on the number of students in each grade and teachers by sex, with division, district, upazila, EIIN, institute name, address and level of education. Published as one Excel resource on the national open data portal.",
+   "source_url": "https://data.gov.bd/dataset/grade-wise-student-school",
+   "download_url": "https://data.gov.bd/api/download?id=b47c62b3-adfb-45a0-93c1-7c7a62cb65bf",
+   "categories": [
+    "Education"
+   ],
+   "subcategories": [
+    "Enrolment",
+    "Schools"
+   ],
+   "formats": [
+    "XLS"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "students",
+    "grade",
+    "enrolment",
+    "teachers",
+    "banbeis"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/grade-wise-student-school",
+   "evidence_note": "Dataset page 'Grade Wise Student in School' ('Grade wise Number of Students and Teachers by sex and basic information of institute') lists one 'excel' resource; Frequency Annually, Author 'Statistical Division, BANBEIS', release date 2018-04-02. Resource file 'GRADE WISE STUDENT IN SCHOOL.xls' (application/vnd.ms-excel). The download URL https://data.gov.bd/api/download?id=b47c62b3-adfb-45a0-93c1-7c7a62cb65bf returned 200 (application/xls) when tested.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "data-gov-bd-gdp-current-constant-prices-2012-16",
+   "title": "GDP at Current and Constant Market Prices 2012-16",
+   "organization": "data-gov-bd",
+   "description": "Gross Domestic Product of Bangladesh at current and constant market prices for 2012 to 2016, published on the national open data portal under the Economy topic in PDF, XLSX and CSV versions.",
+   "source_url": "https://data.gov.bd/dataset/gdp-current-and-constant-market-prices-2012-16",
+   "download_url": "https://data.gov.bd/api/download?id=d7b02833-37c9-433c-9046-346b1352b1cf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "GDP",
+    "National Accounts"
+   ],
+   "formats": [
+    "PDF",
+    "XLSX",
+    "CSV"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2012,
+   "temporal_end": 2016,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "gdp",
+    "national accounts",
+    "constant prices",
+    "current prices"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/gdp-current-and-constant-market-prices-2012-16",
+   "evidence_note": "Dataset page 'GDP at Current and Constant Market Prices 2012-16' says 'This data set contains the GDP at Current and Constant Market Prices between the period of 2012 to 2016' and lists pdf, xlsx and csv resources; release date 2016-11-17, modified 2017-02-01, licence 'License Not Specified'. The CSV download URL returned 200 (application/csv) when tested.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "data-gov-bd-banbeis-students-special-needs-secondary",
+   "title": "Number of Students with Special Needs at Secondary Level by Type of Disability",
+   "organization": "data-gov-bd",
+   "description": "Institution-level data from BANBEIS on the number of students with special needs in secondary schools, by type of disability and sex, with division, district, upazila, EIIN and institute name. Published as one Excel resource on the national open data portal.",
+   "source_url": "https://data.gov.bd/dataset/number-students-special-need-secondary-level-type-disability",
+   "download_url": "https://data.gov.bd/api/download?id=a6b89986-21e3-420f-af16-66552c59037a",
+   "categories": [
+    "Education",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Disability",
+    "Inclusive Education"
+   ],
+   "formats": [
+    "XLS"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "disability",
+    "special needs",
+    "secondary schools",
+    "banbeis"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/number-students-special-need-secondary-level-type-disability",
+   "evidence_note": "Dataset page 'Number of Students of Special Need at Secondary Level by Type of Disability' lists one 'excel' resource with fields Division, District, Upazila, EIIN, Name of Institute, Type of Disabilities and students by sex; Frequency Annually, Author 'Statistical Division, BANBEIS', release date 2018-04-02. The download URL returned 200 (application/xls, 'STUDENT DISABILITY.xls') when tested.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "data-gov-bd-savings-investments-2012-16",
+   "title": "Savings and Investments 2012-16",
+   "organization": "data-gov-bd",
+   "description": "Domestic and national savings and investment figures for Bangladesh at current prices (billion Taka) for 2012 to 2016, sourced from BBS and the Planning Ministry and published on the national open data portal in PDF, XLSX and CSV versions.",
+   "source_url": "https://data.gov.bd/dataset/savings-and-investments-2012-16",
+   "download_url": "https://data.gov.bd/api/download?id=8ff80a79-1f11-446b-b868-9959d4d9bd8a",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Savings",
+    "Investment",
+    "National Accounts"
+   ],
+   "formats": [
+    "PDF",
+    "XLSX",
+    "CSV"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2012,
+   "temporal_end": 2016,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "savings",
+    "investment",
+    "national accounts"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/savings-and-investments-2012-16",
+   "evidence_note": "Dataset page 'Savings and Investments 2012-16' says it 'contains data about savings and investments between the period of 2012 to 2016 with Domestic Savings, National Savings at current prices in Billion Taka', lists pdf/xlsx/csv resources, Source 'BBS, Planning Ministry', release date 2016-11-17. The XLSX download URL returned 200 (application/xlsx) when tested.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "data-gov-bd-banbeis-ethnic-group-students",
+   "title": "Number of Students of Ethnic Groups in Schools",
+   "organization": "data-gov-bd",
+   "description": "Institution-level data from BANBEIS on total students and the number of students from different ethnic groups in schools, with division, district, upazila, EIIN and institute name. Published as one Excel resource on the national open data portal.",
+   "source_url": "https://data.gov.bd/dataset/number-student-ethnic-group-schools",
+   "download_url": "https://data.gov.bd/api/download?id=dd63c4f8-82ca-46b5-be17-ab590dff10c4",
+   "categories": [
+    "Education",
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "Ethnic Minorities",
+    "Schools"
+   ],
+   "formats": [
+    "XLS"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "ethnic groups",
+    "indigenous",
+    "students",
+    "banbeis"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/number-student-ethnic-group-schools",
+   "evidence_note": "Dataset page 'Number of Student of Ethnic Group in Schools' lists one 'excel' resource with fields Division, District, Upazila, EIIN, Name of Institute and number of ethnic students by group; Frequency Annually, Author 'Statistical Division, BANBEIS', release date 2018-04-02. The download URL returned 200 (application/xls, 'SUDENT BY ETHNIC GROUP.xls') when tested.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "data-gov-bd-banbeis-mpo-status-secondary-schools",
+   "title": "MPO Status of Secondary Level Schools",
+   "organization": "data-gov-bd",
+   "description": "List of secondary schools from BANBEIS showing Monthly Pay Order (MPO) status, with division, district, thana, EIIN, institute name, date of establishment and date of MPO. Published as one Excel resource on the national open data portal.",
+   "source_url": "https://data.gov.bd/dataset/mpo-status-schools-secondary-level",
+   "download_url": "https://data.gov.bd/api/download?id=4fd30348-6608-4b58-be15-2897865e02ad",
+   "categories": [
+    "Education",
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "MPO",
+    "Schools"
+   ],
+   "formats": [
+    "XLS"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "mpo",
+    "secondary schools",
+    "teacher salary",
+    "banbeis"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/mpo-status-schools-secondary-level",
+   "evidence_note": "Dataset page 'MPO Status of Schools in Secondary Level' lists one 'excel' resource with fields Division, District, Thana, EIIN, Name of Institute, Date of Establishment and Date of MPO; Author 'Statistical Division, BANBEIS', release date 2018-04-02. The download URL returned 200 (application/xls, 'LIST OF SCHOOL HAVING MPO AND DATE OF MPO.xls') when tested.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "data-gov-bd-technical-vocational-institutes-summary",
+   "title": "Technical and Vocational Institutes of Bangladesh (Summary)",
+   "organization": "data-gov-bd",
+   "description": "Summary table of technical and vocational institutes in Bangladesh, published on the national open data portal under the Education topic as one Excel file.",
+   "source_url": "https://data.gov.bd/dataset/technical-and-vocational-institutes-bangladesh",
+   "download_url": "https://data.gov.bd/api/download?id=2b2f5680-ffd3-4369-9502-4b89747197ae",
+   "categories": [
+    "Education"
+   ],
+   "subcategories": [
+    "Vocational Training",
+    "TVET"
+   ],
+   "formats": [
+    "XLS"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "tvet",
+    "vocational institutes",
+    "technical education"
+   ],
+   "evidence_url": "https://data.gov.bd/dataset/technical-and-vocational-institutes-bangladesh",
+   "evidence_note": "Dataset page 'Technical and Vocational Institutes of Bangladesh' says 'This Dataset includes the Technical and Vocational Institutes Summary' and lists one resource; release date 2018-02-06, licence 'License Not Specified'. The download URL returned 200 (application/xls, 'Technical and Vocational Institutes Summary.xls') when tested.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "sdg-tracker-sdg-indicator-data",
+   "title": "SDG Indicator Data for Bangladesh (SDG Tracker)",
+   "organization": "sdg-tracker",
+   "description": "Indicator-level data for Bangladesh across all 17 Sustainable Development Goals, browsable by goal, target and indicator on the government SDG Tracker, with interactive charts whose export menu offers CSV, XLS, PDF and image downloads.",
+   "source_url": "https://sdg.gov.bd/indicator-information/2oho0",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration",
+    "Economy & Finance",
+    "Health",
+    "Education"
+   ],
+   "subcategories": [
+    "SDG Indicators"
+   ],
+   "formats": [
+    "Dashboard",
+    "CSV",
+    "XLS"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "sdg",
+    "sustainable development goals",
+    "indicators",
+    "targets"
+   ],
+   "evidence_url": "https://sdg.gov.bd/indicator-information/2oho0",
+   "evidence_note": "SDG Tracker 'Indicator Information' page lists goals 1-17 and targets (e.g. '1.1 - By 2030, eradicate extreme poverty...'); its chart configuration includes downloadCSV and downloadXLS export options. The homepage shows each goal's target and indicator counts with 'Click to view Indicator Data'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "sdg-tracker-national-priority-targets",
+   "title": "SDG National Priority Targets (39+1 NPT) Progress",
+   "organization": "sdg-tracker",
+   "description": "Progress tracking for Bangladesh's 39+1 National Priority Targets (NPT) for the SDGs, such as reducing extreme poverty below 3%, stunting to 12% and neonatal mortality to 12 per 1,000 live births, shown with country averages and progress at a glance on the SDG Tracker.",
+   "source_url": "https://sdg.gov.bd/npt-indicator",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration",
+    "Health",
+    "Education"
+   ],
+   "subcategories": [
+    "SDG Indicators",
+    "National Priority Targets"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "sdg",
+    "national priority targets",
+    "npt",
+    "progress monitoring"
+   ],
+   "evidence_url": "https://sdg.gov.bd/npt-indicator",
+   "evidence_note": "SDG Tracker 'NPT Indicators' page shows '39 + 1 Targets / Indicators', 'Progress at a glance', 'Country Average' and lists targets such as 'NPT 1 - Reduce the proportion of population living below extreme poverty line below 3%'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "sdg-tracker-global-index",
+   "title": "Global Indices for Bangladesh (SDG Tracker Global Index)",
+   "organization": "sdg-tracker",
+   "description": "Bangladesh's scores and rankings on international composite indices (SDG Index, Human Development Index, Global Hunger Index, Human Capital Index, e-Government Development Index, Corruption Perceptions Index and others) with an interactive map, rankings, data explorer and country profiles, compiled on the government SDG Tracker.",
+   "source_url": "https://sdg.gov.bd/global-index",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Global Indices",
+    "Rankings"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh (with other countries for comparison)",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "global index",
+    "rankings",
+    "human development index",
+    "sdg index"
+   ],
+   "evidence_url": "https://sdg.gov.bd/global-index",
+   "evidence_note": "SDG Tracker 'Global Index' page offers 'Interactive Map, Rankings, Data Explorer, Country Profile' with index selection (SDG Index, Human Development Index, Global Hunger Index, ... GovTech Maturity Index), a year selector 2009-2030 and a country selector.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "sob-data-service-topographic-gis-data",
+   "title": "SOB Data Service: Topographic Maps, GIS, Tide and Geodetic Data",
+   "organization": "sob",
+   "description": "Online portal of the Survey of Bangladesh for purchasing 12 types of official geospatial data: topographic map sheets at 1:1,000,000, 1:500,000 and 1:25,000 (open series, 980 sheets), 1:25,000 GIS data (980 sheets) in GDB/shapefile format, tide data (6-second and hourly), geodetic control points, and digital maps of divisions, districts and upazilas, guide maps and the Bangladesh communication map. Access requires sign-up and the data are paid; a price list PDF is published on the SOB website.",
+   "source_url": "https://data.sob.gov.bd/",
+   "download_url": null,
+   "categories": [
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Topographic Maps",
+    "Geodetic Control",
+    "Tide Data"
+   ],
+   "formats": [
+    "SHP",
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "topographic maps",
+    "gis",
+    "shapefile",
+    "geodetic control points",
+    "tide data",
+    "survey of bangladesh"
+   ],
+   "evidence_url": "https://data.sob.gov.bd/",
+   "evidence_note": "SOB Data Service login page states 'Now you can buy 12 types of data including Sheets: Scale 1:10,00000 (4 Sheets), Scale 1:5,00000 (6 Sheets), and Scale 1:25,000 (Open Series)(980 Sheets). Also GIS Data: 1:25,000 Scale (980 Sheets) in GDB, shp format, Tide Data: 6 Second and Hourly, Geodetic Control Points and Digital Maps of Division, Districts, Upazilla...'; signup/login is required.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bbs-bdgis-environmental-statistics-layers",
+   "title": "BD GIS: Web GIS of Environmental Statistics (ECDS)",
+   "organization": "bbs",
+   "description": "Web GIS application of the Bangladesh Bureau of Statistics, built under the ECDS (environment, climate change and disaster statistics) project, presenting environmental and natural-resource map layers (e.g. land use and land cover, forest, rivers, irrigation equipment) by theme and sub-theme, with map view and map comparison tools. Registration/login is offered for users.",
+   "source_url": "https://ecds.bbs.gov.bd/",
+   "download_url": null,
+   "categories": [
+    "Environment",
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Land Use",
+    "Environmental Statistics"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "web gis",
+    "environment statistics",
+    "land cover",
+    "rivers",
+    "ecds",
+    "bbs"
+   ],
+   "evidence_url": "https://ecds.bbs.gov.bd/",
+   "evidence_note": "Homepage 'BD GIS Web Application of Environmental Statistics, Bangladesh Bureau of Statistics (BBS)' lists 'Recently added layers' with theme 'Environmental & Natural Resources', sub-themes 'Land Use and Land Cover' / 'Soil and Agriculture' and layers such as 'forest polygon', 'Irrigation Equipment_Mymensingh' and 'Rivers' uploaded 5/26/2024, plus Map View and Map Comparison tools; linked from bbs.gov.bd.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "national-dashboard-open-dashboards",
+   "title": "National Dashboard: Open Dashboards of Ministries and Agencies",
+   "organization": "national-dashboard",
+   "description": "Collection of public ('open') data dashboards published by Bangladesh ministries and agencies on the National Dashboard platform, including the ICT Division, Ministry of Social Welfare, National Helpline 333, Bangladesh Rice Research Institute, SME Foundation, Directorate General of Health Services (DGHS) and IMED. The dashboards are interactive (JavaScript) and their contents could not be read without a browser.",
+   "source_url": "https://dashboard.gov.bd/public/dashboards",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration",
+    "Health",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Dashboards"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "national dashboard",
+    "open dashboards",
+    "a2i",
+    "dghs",
+    "imed"
+   ],
+   "evidence_url": "https://dashboard.gov.bd/public/dashboards",
+   "evidence_note": "Page 'উন্মুক্ত ড্যাশবোর্ড' says '২৫ টি প্রকাশিত উন্মুক্ত ড্যাশবোর্ড' (25 published open dashboards) and lists dashboards for ICT Division, Ministry of Social Welfare, National Helpline 333, BNSWC, BRRI, SMEF, DGHS and others with 'ড্যাশবোর্ড দেখুন' links; the individual dashboard pages render only via JavaScript.",
+   "checked_at": "2026-10-01"
+  }
+ ],
+ "unreachable": [
+  {
+   "url": "https://data.gov.bd/api/3/action/package_search",
+   "note": "404. Portal is DKAN (Drupal 7), not CKAN. /api/3/action/package_list returns malformed JSON ({\"result\":[\"l\",null]}); package_show returns an empty body; current_package_list_with_resources returns only one package regardless of limit/offset. All API responses are prefixed with an injected Google AdSense <script> block, so they are not valid JSON. /data.json returns a catalog with 0 datasets. HTML listing pagination (?page=N) returned the same 10 datasets although the page reports 140 results."
+  },
+  {
+   "url": "https://data.gov.bd/sites/default/files/data-resource/2020/12/22/CMI1992-93.csv",
+   "note": "404 Not Found, although the DKAN API lists it as the resource URL for Census of Manufacturing Industries 1992-93."
+  },
+  {
+   "url": "https://mics.unicef.org/surveys",
+   "note": "403 Forbidden (WebFetch and curl); MICS Bangladesh 2019 recorded via the World Bank Microdata Library instead."
+  },
+  {
+   "url": "https://dhsprogram.com/Countries/Country-Main.cfm?ctry_id=1&c=Bangladesh",
+   "note": "403 via WebFetch; loads (200) with a browser user agent but the survey list is not in the static HTML. Survey details were taken from the official DHS API (api.dhsprogram.com)."
+  },
+  {
+   "url": "https://www.imf.org/external/datamapper/profile/BGD",
+   "note": "403 via curl; WebFetch returned only the site template. The IMF DataMapper API (/api/v1/NGDP_RPCH/BGD) responds but ignores the country filter and returns all economies, so no IMF entry was added."
+  },
+  {
+   "url": "https://www.fao.org/faostat/en/#country/16",
+   "note": "JavaScript-only page, no content retrievable; the FAOSTAT API (faostatservices.fao.org) returns 'Missing Authorization Header'."
+  },
+  {
+   "url": "https://kidb.adb.org/economies/bangladesh",
+   "note": "JavaScript-only page; only the title 'Key Indicators Database - Asian Development Bank' was retrievable."
+  },
+  {
+   "url": "https://ilostat.ilo.org/data/country-profiles/",
+   "note": "403 Forbidden; ILOSTAT recorded via its SDMX API instead."
+  },
+  {
+   "url": "https://data.humdata.org/group/bgd",
+   "note": "403 via WebFetch (bot protection); HDX dataset pages return 200 via curl and the HDX CKAN API works fully (376 Bangladesh datasets)."
+  },
+  {
+   "url": "https://bids.org.bd/",
+   "note": "406 via curl; WebFetch loaded the homepage, which lists publications (research reports, working papers) but no datasets or data portal."
+  },
+  {
+   "url": "https://brri.gov.bd/",
+   "note": "Loaded; no rice statistics dataset page found. knowledgebank-brri.org loaded but showed only production-technology guides, no statistics tables."
+  },
+  {
+   "url": "https://tourismboard.gov.bd/",
+   "note": "Loaded; no tourism statistics or data links found on the homepage. parjatan.gov.bd has monthly/annual corporate report pages, not verified as statistical datasets."
+  },
+  {
+   "url": "https://download.geofabrik.de/asia/bangladesh.html",
+   "note": "Loaded fine (bangladesh-latest.osm.pbf, bangladesh-latest-free.shp.zip, bangladesh-latest-free.gpkg.zip; ODbL; data up to 2026-09-25) but not added because Geofabrik (a private company) has no allowed org_type; OSM extracts are covered via HOT on HDX."
+  },
+  {
+   "url": "https://geodash.gov.bd/",
+   "note": "GeoDASH national geospatial portal (linked from data.gov.bd/dataset/geodash resource) - DNS lookup failed (Could not resolve host) for geodash.gov.bd and www.geodash.gov.bd on 2026-10-01; no layers could be verified."
+  },
+  {
+   "url": "http://gis.gov.bd/bn/",
+   "note": "Bangladesh GIS Platform (BGISP), linked from bbs.gov.bd; page loads (200) and has GIS data/metadata menus but the homepage shows a defacement message (\"This Site Hacked By ASR827\"), so it was not catalogued as a trustworthy source."
+  }
+ ]
+}

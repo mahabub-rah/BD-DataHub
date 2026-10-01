@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Categories · BD DataHub{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="breadcrumb"><a href="/">Home</a> › Categories</div>
+  <h1>Categories</h1>
+  <p class="muted" style="max-width:44em">Every dataset belongs to one or more of {{ categories | length }} standard categories. Subcategories make it quicker to narrow down.</p>
+  <div class="cat-list">
+    {% for c in categories %}
+    <section>
+      <h2><a href="/datasets?category={{ c.slug }}">{{ c.name }}</a>
+        <span class="n">{{ c.count }} dataset{{ 's' if c.count != 1 }}</span></h2>
+      <div>
+        {% if c.description %}<p>{{ c.description }}</p>{% endif %}
+        {% if c.children %}
+        <div class="subs">{% for s in c.children %}<a href="/datasets?category={{ s.slug }}">{{ s.name }}</a>{% if s.count %} <span class="muted">{{ s.count }}</span>{% endif %}{{ ' ' }}{% endfor %}</div>
+        {% endif %}
+      </div>
+    </section>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

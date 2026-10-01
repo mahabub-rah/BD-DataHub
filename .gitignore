@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+# Runtime files: the SQLite database and harvest state/cursor files. data/ is rebuilt
+# from seed/ on every boot, so nothing in it is committed.
+data/*
+**/.harvest_state.json
+**/.fill_state.json

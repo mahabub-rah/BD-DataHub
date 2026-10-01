@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set qp = request.query_params %}
+{% set here = '/research/' ~ category.slug %}
+{% block title %}{{ category.name }} research · BD DataHub{% endblock %}
+{% block description %}Research papers about Bangladesh on {{ category.name | lower }}. Metadata from OpenAlex.{% endblock %}
+{% block content %}
+<div class="search-head"><div class="container">
+  <div class="breadcrumb"><a href="/">Home</a> › <a href="/research">Research</a> › {{ category.name }}</div>
+  <h1>{{ category.name }}</h1>
+  <p class="muted" style="max-width:44em;margin-bottom:0">{{ category.count | num }} research paper{{ 's' if category.count != 1 }} about Bangladesh in this category. Metadata from OpenAlex. To search within them, use <a href="/papers?category={{ category.slug }}">paper search</a>.</p>
+</div></div>
+
+<div class="container search-layout">
+  <aside class="filters" id="filters" aria-label="Filters">
+    <h2>Filter papers</h2>
+    <div class="facet"><h4>Access</h4>
+      <a href="{{ without(qp, 'oa', path=here) if p.oa else with_params(qp, here, oa='1', page=None) }}" class="{{ 'on' if p.oa }}" rel="nofollow"><span>Open access only</span><span class="n"></span></a>
+    </div>
+    <div class="facet"><h4>Publication year</h4>
+      {% set yrs = res.facets.years if res.facets and res.facets.years else (None, None) %}
+      <form action="{{ here }}" method="get">
+        {% for k, v in qp.multi_items() if k not in ('year_from', 'year_to', 'page') %}<input type="hidden" name="{{ k }}" value="{{ v }}">{% endfor %}
+        <input type="number" name="year_from" min="1800" max="2100" placeholder="{{ yrs[0] or 'From' }}" value="{{ p.year_from or '' }}" aria-label="From year">
+        <input type="number" name="year_to" min="1800" max="2100" placeholder="{{ yrs[1] or 'To' }}" value="{{ p.year_to or '' }}" aria-label="To year">
+        <button class="btn sm secondary">Go</button>
+      </form>
+    </div>
+
+    <div class="facet related-data">
+      <h4>Data on this topic</h4>
+      {% if datasets.total %}
+        <ol class="paper-mini">
+          {% for ds in datasets['items'] %}
+          <li><a href="/datasets/{{ ds.slug }}">{{ ds.title }}</a><span class="by">{{ ds.organization.acronym or ds.organization.name }}</span></li>
+          {% endfor %}
+        </ol>
+        <p class="small" style="margin:.6rem 0 0"><a href="/datasets?category={{ category.slug }}">See all {{ datasets.total | num }} dataset{{ 's' if datasets.total != 1 }} →</a></p>
+      {% else %}
+        <p class="small muted" style="margin:0">No datasets in this category yet.</p>
+      {% endif %}
+    </div>
+  </aside>
+
+  <section aria-live="polite">
+    <div class="results-head">
+      <span class="count">{{ res.total | num }} paper{{ 's' if res.total != 1 }}</span>
+      <a class="filters-jump btn sm secondary" href="#filters">Filters and data</a>
+      <div class="row">
+        {% if p.oa %}<span class="chip">Open access <a href="{{ without(qp, 'oa', path=here) }}" aria-label="Remove">×</a></span>{% endif %}
+        {% if p.year_from or p.year_to %}<span class="chip">{{ p.year_from or '…' }}–{{ p.year_to or '…' }} <a href="{{ without(qp, 'year_from', 'year_to', path=here) }}" aria-label="Remove">×</a></span>{% endif %}
+      </div>
+      <span class="spacer"></span>
+      <form method="get" action="{{ here }}" class="row small">
+        {% for k, v in qp.multi_items() if k not in ('sort', 'page') %}<input type="hidden" name="{{ k }}" value="{{ v }}">{% endfor %}
+        <label for="sort" class="sr-only">Sort by</label>
+        <select id="sort" name="sort" data-autosubmit>
+          {% for key, label in sorts.items() if key != 'relevance' %}<option value="{{ key }}" {{ 'selected' if p.sort == key }}>{{ label }}</option>{% endfor %}
+        </select>
+        <noscript><button class="btn sm secondary">Sort</button></noscript>
+      </form>
+    </div>
+
+    {% for pp in res['items'] %}{{ m.paper_result(pp) }}
+    {% else %}
+      <div class="empty-state">
+        {% if filtered %}<p>No papers in this category match those filters. <a href="{{ here }}">Clear filters</a>.</p>
+        {% else %}<p>No research papers in this category yet. <a href="/research">Back to all categories</a>.</p>{% endif %}
+      </div>
+    {% endfor %}
+    {{ m.pagination(res, qp, here) }}
+  </section>
+</div>
+{% endblock %}

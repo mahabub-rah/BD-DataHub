@@ -1,0 +1,24 @@
+# Render Blueprint: free web service.
+# The free plan has no persistent disk, so the SQLite database is rebuilt from seed/ on every
+# start (the app seeds itself when the database is empty). Link-check results come from
+# seed/link_checks.json (written by a local `python -m app.monitor` run, then committed); checks
+# started on Render and view counts reset on restart or redeploy.
+services:
+  - type: web
+    name: bd-data-hub
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    # One worker: the "Check sources now" button allows one background run per process.
+    # --forwarded-allow-ips lets uvicorn trust Render's proxy so generated URLs use https.
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1 --proxy-headers --forwarded-allow-ips="*"
+    healthCheckPath: /healthz
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.14.7"
+      - key: BDH_REFRESH_COOLDOWN_HOURS
+        value: "6"
+      # After the first deploy, set this in the Render dashboard to the address Render gave you
+      # (e.g. bd-data-hub.onrender.com) so forged Host headers are rejected. Unset = allow any.
+      - key: BDH_ALLOWED_HOSTS
+        sync: false

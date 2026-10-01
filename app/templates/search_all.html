@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block title %}{% if q %}“{{ q }}” — search{% else %}Search{% endif %} · BD DataHub{% endblock %}
+{% block content %}
+<div class="search-head"><div class="container">
+  <div class="breadcrumb"><a href="/">Home</a> › Search</div>
+  <h1>{% if q %}Results for “{{ q }}”{% else %}Search{% endif %}</h1>
+  <form action="/search" method="get" role="search" class="searchbar compact" style="margin:.75rem 0 0">
+    <label class="sr-only" for="q">Search datasets and research papers</label>
+    <input id="q" type="search" name="q" value="{{ q }}" placeholder="Search datasets and research papers" autocomplete="off" {{ 'autofocus' if not q }}>
+    <button class="btn">Search</button>
+  </form>
+  {% if q %}
+  <p class="small muted" style="margin:.75rem 0 0">
+    <a href="#datasets">{{ datasets.total | num }} dataset{{ 's' if datasets.total != 1 }}</a> and
+    <a href="#papers">{{ papers_res.total | num }} research paper{{ 's' if papers_res.total != 1 }}</a> match.
+  </p>
+  {% endif %}
+</div></div>
+
+<div class="container">
+  {% if not q %}
+    <p class="muted" style="margin-top:1.75rem;max-width:44em">Search the dataset catalogue and research papers about Bangladesh at the same time. To use filters, go straight to <a href="/datasets">datasets</a> or <a href="/papers">research papers</a>.</p>
+  {% else %}
+    <section class="block" id="datasets">
+      <div class="section-head"><h2>Datasets</h2>
+        {% if datasets.total %}<a href="/datasets?q={{ q | urlencode }}">See all {{ datasets.total | num }} datasets →</a>{% endif %}</div>
+      {% for ds in datasets['items'] %}{{ m.result(ds) }}
+      {% else %}<p class="muted">No datasets match. <a href="/categories">Browse by category</a> instead.</p>{% endfor %}
+    </section>
+
+    <section class="block" id="papers">
+      <div class="section-head"><h2>Research papers</h2>
+        {% if papers_res.total %}<a href="/papers?q={{ q | urlencode }}">See all {{ papers_res.total | num }} papers →</a>{% endif %}</div>
+      {% for pp in papers_res['items'] %}{{ m.paper_result(pp) }}
+      {% else %}<p class="muted">No research papers match.</p>{% endfor %}
+      {% if papers_res.total %}<p class="xs muted" style="margin-top:1rem">Paper metadata from OpenAlex.</p>{% endif %}
+    </section>
+  {% endif %}
+</div>
+{% endblock %}

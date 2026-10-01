@@ -1,0 +1,800 @@
+[
+ {
+  "name": "Economy & Finance",
+  "icon": "💹",
+  "description": "National accounts, GDP, monetary and fiscal statistics, banking, prices and inflation, exchange rates, budgets.",
+  "subcategories": [
+   {
+    "name": "Macroeconomic Indicators",
+    "aliases": [
+     "Economic Review",
+     "Time Series",
+     "Development Indicators",
+     "Economic Indicators"
+    ]
+   },
+   {
+    "name": "National Accounts",
+    "aliases": [
+     "GDP",
+     "GNI",
+     "Gross Domestic Product"
+    ]
+   },
+   {
+    "name": "Inflation & Prices",
+    "aliases": [
+     "Inflation",
+     "Consumer Price Index",
+     "CPI",
+     "Prices"
+    ]
+   },
+   {
+    "name": "Monetary & Banking",
+    "aliases": [
+     "Banking",
+     "Money Supply",
+     "Monetary Policy",
+     "Financial Stability",
+     "Monetary Survey"
+    ]
+   },
+   {
+    "name": "Exchange Rates & Reserves",
+    "aliases": [
+     "Exchange Rates",
+     "Exchange Rate",
+     "Foreign Exchange Reserves",
+     "Reserves"
+    ]
+   },
+   {
+    "name": "Balance of Payments",
+    "aliases": [
+     "BOP"
+    ]
+   },
+   {
+    "name": "Remittances",
+    "aliases": [
+     "Remittance"
+    ]
+   },
+   {
+    "name": "Public Finance & Budget",
+    "aliases": [
+     "Budget",
+     "Budget Execution",
+     "Fiscal Operations",
+     "Public Finance"
+    ]
+   },
+   {
+    "name": "Tax Revenue",
+    "aliases": [
+     "Revenue",
+     "Tax",
+     "Taxation"
+    ]
+   },
+   {
+    "name": "Capital Markets",
+    "aliases": [
+     "Capital Market",
+     "Stock Market"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Population & Demographics",
+  "icon": "👥",
+  "description": "Census, vital statistics, households, migration and demographic surveys.",
+  "subcategories": [
+   {
+    "name": "Census",
+    "aliases": [
+     "Population Census"
+    ]
+   },
+   {
+    "name": "Population Estimates",
+    "aliases": [
+     "Population Statistics"
+    ]
+   },
+   {
+    "name": "Vital Statistics",
+    "aliases": [
+     "SVRS"
+    ]
+   },
+   {
+    "name": "Household Surveys",
+    "aliases": [
+     "Household Income",
+     "HIES"
+    ]
+   },
+   {
+    "name": "Migration",
+    "aliases": []
+   },
+   {
+    "name": "Gender",
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "name": "Health",
+  "icon": "🩺",
+  "description": "Public health, disease surveillance, health facilities, nutrition and family planning.",
+  "subcategories": [
+   {
+    "name": "Disease Surveillance",
+    "aliases": [
+     "Dengue",
+     "COVID-19",
+     "Outbreaks",
+     "Antimicrobial Resistance",
+     "AMR"
+    ]
+   },
+   {
+    "name": "Health Facilities",
+    "aliases": []
+   },
+   {
+    "name": "Maternal & Child Health",
+    "aliases": [
+     "Maternal Health",
+     "Child Health",
+     "Child Welfare",
+     "Maternal and Child Health"
+    ]
+   },
+   {
+    "name": "Nutrition",
+    "aliases": []
+   },
+   {
+    "name": "Family Planning",
+    "aliases": [
+     "Fertility",
+     "Logistics",
+     "Contraception"
+    ]
+   },
+   {
+    "name": "Health Surveys",
+    "aliases": [
+     "DHS",
+     "MICS",
+     "BDHS",
+     "Surveys",
+     "Demographic and Health Survey",
+     "Urban Health"
+    ]
+   },
+   {
+    "name": "Health Statistics",
+    "aliases": [
+     "Health Indicators",
+     "Health Information Systems",
+     "Universal Health Coverage",
+     "Health Bulletin"
+    ]
+   },
+   {
+    "name": "Mortality",
+    "aliases": [
+     "Maternal Mortality",
+     "Child Mortality"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Education",
+  "icon": "🎓",
+  "description": "Institutions, enrolment, teachers, examinations and higher education statistics.",
+  "subcategories": [
+   {
+    "name": "Primary Education",
+    "aliases": []
+   },
+   {
+    "name": "Secondary Education",
+    "aliases": []
+   },
+   {
+    "name": "Higher Education",
+    "aliases": []
+   },
+   {
+    "name": "Examinations",
+    "aliases": []
+   },
+   {
+    "name": "Technical & Vocational",
+    "aliases": []
+   },
+   {
+    "name": "Madrasah Education",
+    "aliases": []
+   },
+   {
+    "name": "Education Statistics",
+    "aliases": [
+     "Educational Institutions"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Agriculture",
+  "icon": "🌾",
+  "description": "Crops, livestock, fisheries, food security, agricultural prices and markets.",
+  "subcategories": [
+   {
+    "name": "Crops",
+    "aliases": [
+     "Crop Statistics",
+     "Crop Production",
+     "Production Targets"
+    ]
+   },
+   {
+    "name": "Livestock",
+    "aliases": []
+   },
+   {
+    "name": "Fisheries",
+    "aliases": [
+     "Fish Production",
+     "Marine Fisheries",
+     "Fish Stock"
+    ]
+   },
+   {
+    "name": "Food Security",
+    "aliases": [
+     "Food Stock",
+     "Foodgrain Stock"
+    ]
+   },
+   {
+    "name": "Agricultural Prices",
+    "aliases": [
+     "Food Prices",
+     "Market Prices",
+     "Retail Prices",
+     "Wholesale Prices",
+     "Farm-gate Prices"
+    ]
+   },
+   {
+    "name": "Agriculture Census",
+    "aliases": []
+   },
+   {
+    "name": "Soil & Land",
+    "aliases": [
+     "Land Resources",
+     "Soil"
+    ]
+   },
+   {
+    "name": "Agro-meteorology",
+    "aliases": [
+     "Weather Advisories",
+     "Agrometeorology"
+    ]
+   },
+   {
+    "name": "Agricultural Inputs",
+    "aliases": [
+     "Fertilizer",
+     "Seeds"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Environment",
+  "icon": "🌳",
+  "description": "Air and water quality, forests, biodiversity, hydrology, pollution and environmental compliance.",
+  "subcategories": [
+   {
+    "name": "Air Quality",
+    "aliases": [
+     "AQI"
+    ]
+   },
+   {
+    "name": "Water Quality",
+    "aliases": []
+   },
+   {
+    "name": "Hydrology & Water Resources",
+    "aliases": [
+     "Hydrology",
+     "Groundwater",
+     "Salinity",
+     "Rivers",
+     "Water Resources"
+    ]
+   },
+   {
+    "name": "Forests & Biodiversity",
+    "aliases": [
+     "Forestry",
+     "Forest Inventory",
+     "Biodiversity"
+    ]
+   },
+   {
+    "name": "Pollution",
+    "aliases": []
+   },
+   {
+    "name": "Environmental Clearance",
+    "aliases": [
+     "Environmental Impact Assessment",
+     "EIA"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Climate & Weather",
+  "icon": "🌦️",
+  "description": "Weather observations and forecasts, rainfall, temperature, cyclones, floods and climate data.",
+  "subcategories": [
+   {
+    "name": "Weather Forecasts",
+    "aliases": [
+     "Weather Forecast",
+     "Seasonal Outlook",
+     "Forecast"
+    ]
+   },
+   {
+    "name": "Climate Observations",
+    "aliases": [
+     "Climate Normals",
+     "Climate Data",
+     "Sunshine",
+     "Weather Observations"
+    ]
+   },
+   {
+    "name": "Rainfall",
+    "aliases": [
+     "Precipitation"
+    ]
+   },
+   {
+    "name": "Temperature",
+    "aliases": []
+   },
+   {
+    "name": "Cyclones",
+    "aliases": []
+   },
+   {
+    "name": "Floods & Water Levels",
+    "aliases": [
+     "Floods",
+     "Flood Bulletin",
+     "Flood Forecasting",
+     "Water Level",
+     "Flood Risk",
+     "Flood"
+    ]
+   },
+   {
+    "name": "Climate Change",
+    "aliases": []
+   },
+   {
+    "name": "Disaster Reports",
+    "aliases": [
+     "Disaster Situation Reports",
+     "Disasters",
+     "Natural Hazards",
+     "Hazards"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Crime & Justice",
+  "icon": "⚖️",
+  "description": "Crime statistics, policing, courts, cases and legal system data.",
+  "subcategories": [
+   {
+    "name": "Crime Statistics",
+    "aliases": []
+   },
+   {
+    "name": "Courts & Cases",
+    "aliases": [
+     "Courts",
+     "Case Statistics"
+    ]
+   },
+   {
+    "name": "Prisons",
+    "aliases": []
+   },
+   {
+    "name": "Road Accidents",
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "name": "Transport",
+  "icon": "🚆",
+  "description": "Roads, railways, aviation, ports, shipping and vehicle registration.",
+  "subcategories": [
+   {
+    "name": "Roads",
+    "aliases": [
+     "Road Network",
+     "Traffic",
+     "Highways"
+    ]
+   },
+   {
+    "name": "Railways",
+    "aliases": []
+   },
+   {
+    "name": "Aviation",
+    "aliases": []
+   },
+   {
+    "name": "Ports & Shipping",
+    "aliases": [
+     "Ports",
+     "Shipping",
+     "Port Statistics"
+    ]
+   },
+   {
+    "name": "Vehicle Registration",
+    "aliases": []
+   },
+   {
+    "name": "Public Transport",
+    "aliases": []
+   },
+   {
+    "name": "Road Safety",
+    "aliases": [
+     "Road Accidents Reports"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Labour & Employment",
+  "icon": "🧑‍🏭",
+  "description": "Labour force, employment, wages, overseas employment and workforce statistics.",
+  "subcategories": [
+   {
+    "name": "Labour Force",
+    "aliases": [
+     "Labour Force Survey",
+     "Unemployment",
+     "Employment",
+     "Informal Sector"
+    ]
+   },
+   {
+    "name": "Wages",
+    "aliases": [
+     "Agricultural Wages",
+     "Wage Rate"
+    ]
+   },
+   {
+    "name": "Overseas Employment",
+    "aliases": []
+   },
+   {
+    "name": "Child Labour",
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "name": "Industry & Business",
+  "icon": "🏭",
+  "description": "Manufacturing, enterprises, investment, business registration and industrial production.",
+  "subcategories": [
+   {
+    "name": "Manufacturing",
+    "aliases": []
+   },
+   {
+    "name": "Enterprises & Establishments",
+    "aliases": [
+     "Economic Census",
+     "Enterprise Survey"
+    ]
+   },
+   {
+    "name": "Investment",
+    "aliases": [
+     "FDI"
+    ]
+   },
+   {
+    "name": "SMEs",
+    "aliases": []
+   },
+   {
+    "name": "Industrial Production",
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "name": "Trade & Commerce",
+  "icon": "🚢",
+  "description": "Exports, imports, trade statistics, tariffs and commodity markets.",
+  "subcategories": [
+   {
+    "name": "Trade Statistics",
+    "aliases": [
+     "Foreign Trade"
+    ]
+   },
+   {
+    "name": "Exports",
+    "aliases": []
+   },
+   {
+    "name": "Imports",
+    "aliases": []
+   },
+   {
+    "name": "Tariffs & Customs",
+    "aliases": []
+   },
+   {
+    "name": "Commodity Prices",
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "name": "Government & Public Administration",
+  "icon": "🏛️",
+  "description": "Elections, public service, administrative units, budgets, and government performance.",
+  "subcategories": [
+   {
+    "name": "Elections",
+    "aliases": [
+     "Election",
+     "Voter Statistics",
+     "Delimitation",
+     "Constituencies"
+    ]
+   },
+   {
+    "name": "Administrative Units",
+    "aliases": []
+   },
+   {
+    "name": "Public Service",
+    "aliases": [
+     "Civil Service"
+    ]
+   },
+   {
+    "name": "Local Government",
+    "aliases": []
+   },
+   {
+    "name": "Development Projects",
+    "aliases": [
+     "Development Budget",
+     "ADP",
+     "Annual Development Programme"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Geography & GIS",
+  "icon": "🗺️",
+  "description": "Administrative boundaries, maps, spatial data, satellite imagery and land use.",
+  "subcategories": [
+   {
+    "name": "Administrative Boundaries",
+    "aliases": [
+     "Boundaries"
+    ]
+   },
+   {
+    "name": "Maps",
+    "aliases": [
+     "OpenStreetMap",
+     "GIS"
+    ]
+   },
+   {
+    "name": "Satellite & Remote Sensing",
+    "aliases": []
+   },
+   {
+    "name": "Land Use",
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "name": "Energy",
+  "icon": "⚡",
+  "description": "Electricity generation, transmission, gas, petroleum, tariffs and renewable energy.",
+  "subcategories": [
+   {
+    "name": "Electricity",
+    "aliases": [
+     "Power Generation",
+     "Peak Demand",
+     "Load Shedding",
+     "Electricity Demand",
+     "Grid Operations",
+     "Transmission",
+     "Power Sector Statistics",
+     "Power"
+    ]
+   },
+   {
+    "name": "Natural Gas",
+    "aliases": [
+     "Gas",
+     "Mineral Resources"
+    ]
+   },
+   {
+    "name": "Petroleum",
+    "aliases": []
+   },
+   {
+    "name": "Renewable Energy",
+    "aliases": [
+     "Rooftop Solar",
+     "Solar"
+    ]
+   },
+   {
+    "name": "Energy Prices & Tariffs",
+    "aliases": [
+     "Electricity Tariff",
+     "Gas Tariff",
+     "LPG Price",
+     "Fuel Prices",
+     "Energy Tariffs"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "Infrastructure",
+  "icon": "🏗️",
+  "description": "Physical infrastructure, rural roads, bridges, water supply, sanitation and utilities.",
+  "subcategories": [
+   {
+    "name": "Rural Infrastructure",
+    "aliases": [
+     "Rural Roads",
+     "Markets",
+     "Growth Centres"
+    ]
+   },
+   {
+    "name": "Bridges",
+    "aliases": []
+   },
+   {
+    "name": "Water Supply & Sanitation",
+    "aliases": []
+   },
+   {
+    "name": "Urban Development",
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "name": "Social Protection",
+  "icon": "🤝",
+  "description": "Poverty, safety net programmes, humanitarian response, refugees and social welfare.",
+  "subcategories": [
+   {
+    "name": "Poverty",
+    "aliases": [
+     "Urban Poverty"
+    ]
+   },
+   {
+    "name": "Safety Net Programmes",
+    "aliases": []
+   },
+   {
+    "name": "Humanitarian Response",
+    "aliases": [
+     "3W"
+    ]
+   },
+   {
+    "name": "Refugees",
+    "aliases": [
+     "Rohingya",
+     "Refugee Camps",
+     "Displacement"
+    ]
+   },
+   {
+    "name": "Disability",
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "name": "Tourism",
+  "icon": "🏝️",
+  "description": "Tourist arrivals, tourism infrastructure and tourism statistics.",
+  "subcategories": [
+   "Tourist Arrivals",
+   "Tourism Statistics"
+  ]
+ },
+ {
+  "name": "Science & Technology",
+  "icon": "🔬",
+  "description": "ICT, telecommunications, internet use, research and innovation.",
+  "subcategories": [
+   {
+    "name": "Telecommunications",
+    "aliases": [
+     "Mobile",
+     "Telecom"
+    ]
+   },
+   {
+    "name": "Internet & ICT",
+    "aliases": [
+     "Internet",
+     "ICT"
+    ]
+   },
+   {
+    "name": "Research & Development",
+    "aliases": []
+   }
+  ]
+ },
+ {
+  "name": "Other",
+  "icon": "📦",
+  "description": "Datasets that do not fit another category.",
+  "subcategories": [
+   {
+    "name": "Statistical Yearbooks",
+    "aliases": [
+     "Statistical Yearbook",
+     "Statistical Pocketbook"
+    ]
+   }
+  ]
+ }
+]

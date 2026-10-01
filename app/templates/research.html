@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block title %}Research by category · BD DataHub{% endblock %}
+{% block description %}Research papers about Bangladesh, sorted into the same categories as the dataset catalogue. Metadata from OpenAlex.{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="breadcrumb"><a href="/">Home</a> › Research</div>
+  <h1>Research</h1>
+  <p class="muted" style="max-width:44em">{{ total | num }} research paper{{ 's' if total != 1 }} about Bangladesh, sorted into the same categories as the datasets. Metadata from OpenAlex. To search every paper with full filters, use <a href="/papers">paper search</a>.</p>
+
+  <section class="block">
+    <div class="section-head"><h2>Categories</h2></div>
+    <ul class="cat-index">
+      {% for slug, name, n in categories %}
+      <li class="{{ 'empty' if not n }}"><a href="{{ '#' ~ slug if n else '/research/' ~ slug }}"><span class="name">{{ name }}</span><span class="count">{{ n | num }}</span></a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  {% for s in sections %}
+  <section class="block research-section" id="{{ s.slug }}">
+    <div class="section-head"><h2><a href="/research/{{ s.slug }}">{{ s.name }}</a></h2><a href="/research/{{ s.slug }}">Browse all {{ s.count | num }} →</a></div>
+    <div class="research-pair">
+      <div>
+        <h3>Most cited</h3>
+        <ol class="paper-mini">{% for pp in s.cited %}{{ m.paper_mini(pp) }}{% endfor %}</ol>
+      </div>
+      <div>
+        <h3>Newest</h3>
+        <ol class="paper-mini">{% for pp in s.newest %}{{ m.paper_mini(pp) }}{% endfor %}</ol>
+      </div>
+    </div>
+  </section>
+  {% else %}
+  <div class="empty-state">No research papers have been loaded yet.</div>
+  {% endfor %}
+</div>
+{% endblock %}

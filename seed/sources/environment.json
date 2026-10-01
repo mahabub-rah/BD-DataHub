@@ -1,0 +1,2608 @@
+{
+ "organizations": [
+  {
+   "slug": "bmd",
+   "name": "Bangladesh Meteorological Department",
+   "name_bn": "বাংলাদেশ আবহাওয়া অধিদপ্তর",
+   "acronym": "BMD",
+   "org_type": "Government Department",
+   "parent": "Ministry of Defence",
+   "website": "https://bmd.gov.bd",
+   "description": "National meteorological service of Bangladesh, providing weather forecasts, warnings and climate services."
+  },
+  {
+   "slug": "ffwc",
+   "name": "Flood Forecasting and Warning Centre",
+   "name_bn": "বন্যা পূর্বাভাস ও সতর্কীকরণ কেন্দ্র",
+   "acronym": "FFWC",
+   "org_type": "Government Department",
+   "parent": "Bangladesh Water Development Board, Ministry of Water Resources",
+   "website": "https://www.ffwc.gov.bd",
+   "description": "BWDB centre that monitors river water levels and rainfall and issues flood forecasts, bulletins and warnings for Bangladesh."
+  },
+  {
+   "slug": "bwdb",
+   "name": "Bangladesh Water Development Board",
+   "name_bn": "বাংলাদেশ পানি উন্নয়ন বোর্ড",
+   "acronym": "BWDB",
+   "org_type": "Statutory Body",
+   "parent": "Ministry of Water Resources",
+   "website": "https://bwdb.gov.bd",
+   "description": "Statutory body responsible for water resources development and management; its Hydrology wing runs the Hydrological Information Management System (HIMS)."
+  },
+  {
+   "slug": "doe",
+   "name": "Department of Environment",
+   "name_bn": "পরিবেশ অধিদপ্তর",
+   "acronym": "DoE",
+   "org_type": "Government Department",
+   "parent": "Ministry of Environment, Forest and Climate Change",
+   "website": "https://doe.gov.bd",
+   "description": "Government department responsible for environmental regulation, pollution monitoring (air and water quality) and environmental clearance in Bangladesh."
+  },
+  {
+   "slug": "ddm",
+   "name": "Department of Disaster Management",
+   "name_bn": "দুর্যোগ ব্যবস্থাপনা অধিদপ্তর",
+   "acronym": "DDM",
+   "org_type": "Government Department",
+   "parent": "Ministry of Disaster Management and Relief",
+   "website": "https://ddm.gov.bd",
+   "description": "Government department that coordinates disaster risk reduction, response and relief operations and publishes disaster situation reports."
+  },
+  {
+   "slug": "modmr",
+   "name": "Ministry of Disaster Management and Relief",
+   "name_bn": "দুর্যোগ ব্যবস্থাপনা ও ত্রাণ মন্ত্রণালয়",
+   "acronym": "MoDMR",
+   "org_type": "Ministry",
+   "parent": null,
+   "website": "https://modmr.gov.bd",
+   "description": "Ministry responsible for disaster management and relief; hosts the National Disaster Response Coordination Centre (NDRCC) daily disaster reports."
+  },
+  {
+   "slug": "power-division",
+   "name": "Power Division",
+   "name_bn": "বিদ্যুৎ বিভাগ",
+   "acronym": null,
+   "org_type": "Division",
+   "parent": "Ministry of Power, Energy and Mineral Resources",
+   "website": "https://powerdivision.gov.bd",
+   "description": "Division of the Ministry of Power, Energy and Mineral Resources responsible for the electricity sector."
+  },
+  {
+   "slug": "bpdb",
+   "name": "Bangladesh Power Development Board",
+   "name_bn": "বাংলাদেশ বিদ্যুৎ উন্নয়ন বোর্ড",
+   "acronym": "BPDB",
+   "org_type": "Statutory Body",
+   "parent": "Power Division, Ministry of Power, Energy and Mineral Resources",
+   "website": "https://bpdb.gov.bd",
+   "description": "State power utility responsible for generation planning and bulk power purchase; publishes daily generation reports and annual reports."
+  },
+  {
+   "slug": "pgcb",
+   "name": "Power Grid Bangladesh PLC",
+   "name_bn": "পাওয়ার গ্রিড বাংলাদেশ পিএলসি",
+   "acronym": "PGCB",
+   "org_type": "Public Utility",
+   "parent": "Power Division, Ministry of Power, Energy and Mineral Resources",
+   "website": "https://pgcb.gov.bd",
+   "description": "National electricity transmission company (formerly Power Grid Company of Bangladesh) operating the national grid and publishing grid operation reports."
+  },
+  {
+   "slug": "berc",
+   "name": "Bangladesh Energy Regulatory Commission",
+   "name_bn": "বাংলাদেশ এনার্জি রেগুলেটরি কমিশন",
+   "acronym": "BERC",
+   "org_type": "Regulatory Commission",
+   "parent": "Ministry of Power, Energy and Mineral Resources",
+   "website": "https://berc.org.bd",
+   "description": "Independent regulator for electricity, gas and petroleum products; sets tariffs and monthly LPG and fuel price adjustments."
+  },
+  {
+   "slug": "petrobangla",
+   "name": "Bangladesh Oil, Gas and Mineral Corporation (Petrobangla)",
+   "name_bn": "বাংলাদেশ তেল, গ্যাস ও খনিজ সম্পদ করপোরেশন (পেট্রোবাংলা)",
+   "acronym": "Petrobangla",
+   "org_type": "Statutory Body",
+   "parent": "Energy and Mineral Resources Division, Ministry of Power, Energy and Mineral Resources",
+   "website": "https://petrobangla.org.bd",
+   "description": "State corporation overseeing gas exploration, production, transmission and distribution and mineral resources in Bangladesh."
+  },
+  {
+   "slug": "sreda",
+   "name": "Sustainable and Renewable Energy Development Authority",
+   "name_bn": "টেকসই ও নবায়নযোগ্য জ্বালানি উন্নয়ন কর্তৃপক্ষ",
+   "acronym": "SREDA",
+   "org_type": "Statutory Body",
+   "parent": "Power Division, Ministry of Power, Energy and Mineral Resources",
+   "website": "https://sreda.gov.bd",
+   "description": "Authority promoting renewable energy and energy efficiency; maintains the National Database of Renewable Energy."
+  },
+  {
+   "slug": "bforest",
+   "name": "Bangladesh Forest Department",
+   "name_bn": "বন অধিদপ্তর",
+   "acronym": "BFD",
+   "org_type": "Government Department",
+   "parent": "Ministry of Environment, Forest and Climate Change",
+   "website": "https://bforest.gov.bd",
+   "description": "Government department managing forests and protected areas in Bangladesh; conducts national forest inventories and carbon surveys."
+  },
+  {
+   "slug": "sparrso",
+   "name": "Bangladesh Space Research and Remote Sensing Organization",
+   "name_bn": "বাংলাদেশ মহাকাশ গবেষণা ও দূর অনুধাবন প্রতিষ্ঠান",
+   "acronym": "SPARRSO",
+   "org_type": "Research Institute",
+   "parent": "Ministry of Defence",
+   "website": "https://sparrso.gov.bd",
+   "description": "Statutory national body for space research and the application of satellite remote sensing to agriculture, water, forestry, weather, environment and oceanography in Bangladesh."
+  },
+  {
+   "slug": "warpo",
+   "name": "Water Resources Planning Organization",
+   "name_bn": "পানি সম্পদ পরিকল্পনা সংস্থা",
+   "acronym": "WARPO",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://warpo.gov.bd",
+   "description": "Apex national body for macro-level water resources planning in Bangladesh; custodian of the National Water Resources Database and the Integrated Coastal Resources Database."
+  },
+  {
+   "slug": "hcu",
+   "name": "Hydrocarbon Unit",
+   "name_bn": "হাইড্রোকার্বন ইউনিট",
+   "acronym": "HCU",
+   "org_type": "Government Department",
+   "parent": "Energy and Mineral Resources Division",
+   "website": "https://hcu.gov.bd",
+   "description": "Technical unit of the Energy and Mineral Resources Division that monitors Bangladesh's hydrocarbon and mineral resources and publishes energy-sector statistics."
+  },
+  {
+   "slug": "bpc",
+   "name": "Bangladesh Petroleum Corporation",
+   "name_bn": "বাংলাদেশ পেট্রোলিয়াম কর্পোরেশন",
+   "acronym": "BPC",
+   "org_type": "Statutory Body",
+   "parent": "Ministry of Power, Energy and Mineral Resources",
+   "website": "https://bpc.gov.bd",
+   "description": "Statutory corporation responsible for importing, storing, refining, marketing and distributing petroleum products in Bangladesh."
+  },
+  {
+   "slug": "breb",
+   "name": "Bangladesh Rural Electrification Board",
+   "name_bn": "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড",
+   "acronym": "BREB",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://reb.gov.bd",
+   "description": "Board responsible for rural electricity distribution in Bangladesh through 80 Palli Bidyut Samities (rural electric cooperatives)."
+  },
+  {
+   "slug": "dphe",
+   "name": "Department of Public Health Engineering",
+   "name_bn": "জনস্বাস্থ্য প্রকৌশল অধিদপ্তর",
+   "acronym": "DPHE",
+   "org_type": "Government Department",
+   "parent": null,
+   "website": "https://dphe.gov.bd",
+   "description": "Government department responsible for rural and urban drinking water supply, sanitation and arsenic mitigation in Bangladesh."
+  }
+ ],
+ "datasets": [
+  {
+   "slug": "bmd-normal-monthly-rainfall",
+   "title": "Normal Monthly Rainfall (Station Climatological Normals)",
+   "organization": "bmd",
+   "description": "BMD reference table of long-term normal (average) monthly rainfall for its observatory stations across Bangladesh. Useful as a climatological baseline for comparing observed monthly rainfall.",
+   "source_url": "https://server6.bmd.gov.bd/p/Normal-Monthly-Rainfall",
+   "download_url": "https://server6.bmd.gov.bd/file/2016/08/17/pdf/53.pdf",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Rainfall",
+    "Climate Normals"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rainfall",
+    "climate normals",
+    "monthly",
+    "stations"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Normal-Monthly-Rainfall",
+   "evidence_note": "Page titled 'Normal Monthly Rainfall' embeds a PDF with a Download link (file/2016/08/17/pdf/53.pdf).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmd-daily-normal-rainfall",
+   "title": "Daily Normal Rainfall",
+   "organization": "bmd",
+   "description": "BMD table of long-term normal daily rainfall values for its meteorological stations. Provides a day-by-day climatological baseline for rainfall.",
+   "source_url": "https://server6.bmd.gov.bd/p/Daily-Normal-Rainfall",
+   "download_url": "https://server6.bmd.gov.bd/file/2016/08/17/pdf/55.pdf",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Rainfall",
+    "Climate Normals"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rainfall",
+    "climate normals",
+    "daily",
+    "stations"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Daily-Normal-Rainfall",
+   "evidence_note": "Page titled 'Daily Normal Rainfall' embeds a PDF with a Download link (file/2016/08/17/pdf/55.pdf).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmd-monthly-maximum-temperature",
+   "title": "Monthly Maximum Temperature (Normals)",
+   "organization": "bmd",
+   "description": "BMD table of monthly maximum temperature for its stations, published under the Climate section alongside minimum temperature and humidity normals.",
+   "source_url": "https://server6.bmd.gov.bd/p/Monthly-Maximum-Temperature",
+   "download_url": "https://server6.bmd.gov.bd/file/2016/08/17/pdf/50.pdf",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Temperature",
+    "Climate Normals"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "temperature",
+    "maximum temperature",
+    "climate normals",
+    "stations"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Monthly-Maximum-Temperature",
+   "evidence_note": "Page titled 'Monthly Maximum Temperature' embeds a PDF with a Download link (file/2016/08/17/pdf/50.pdf).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmd-historical-temperature-data",
+   "title": "Historical Temperature Data",
+   "organization": "bmd",
+   "description": "Historical temperature records for BMD observatory stations, listed in the Climate menu as 'Historical Temperature Data'.",
+   "source_url": "https://server6.bmd.gov.bd/p/Temperature-Data",
+   "download_url": "https://server6.bmd.gov.bd/file/2016/08/17/pdf/58.pdf",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Temperature"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "temperature",
+    "historical",
+    "stations"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Temperature-Data",
+   "evidence_note": "Page titled 'Temperature Data' embeds a PDF with a Download link (file/2016/08/17/pdf/58.pdf).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmd-sunshine-data",
+   "title": "Sunshine Duration Data",
+   "organization": "bmd",
+   "description": "BMD sunshine duration data for its meteorological stations, offered as an Excel spreadsheet under the Climate section.",
+   "source_url": "https://server6.bmd.gov.bd/p/Sunshine",
+   "download_url": "https://server6.bmd.gov.bd/file/2022/01/12/xls/124098.xls",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Sunshine"
+   ],
+   "formats": [
+    "XLS"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "sunshine",
+    "solar radiation",
+    "stations"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Sunshine",
+   "evidence_note": "Page titled 'Sunshine' has a Download link to an XLS file (file/2022/01/12/xls/124098.xls).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmd-daily-weather-forecast",
+   "title": "Daily Weather Forecast Bulletin",
+   "organization": "bmd",
+   "description": "BMD's daily national weather forecast bulletin, published as a PDF and replaced each day. Covers expected weather, temperature and rainfall across the country.",
+   "source_url": "https://server6.bmd.gov.bd/p/Weather-Forecast",
+   "download_url": null,
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Weather Forecast"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "weather forecast",
+    "bulletin",
+    "daily"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Weather-Forecast",
+   "evidence_note": "Page titled 'Weather Forecast' shows a Download link to the current PDF (file/2026/09/26/pdf/210048.pdf), uploaded 26 Sep 2026.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmd-one-month-outlook",
+   "title": "One Month Climate Outlook",
+   "organization": "bmd",
+   "description": "Monthly long-range outlook issued by BMD describing expected rainfall, temperature and weather events for the coming month.",
+   "source_url": "https://server6.bmd.gov.bd/p/One-Month-Outlook-108",
+   "download_url": null,
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Seasonal Outlook"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "outlook",
+    "long range forecast",
+    "monthly"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/One-Month-Outlook-108",
+   "evidence_note": "Page titled 'One Month Outlook' shows a Download link to a PDF uploaded 2026-09-01 (file/2026/09/01/pdf/208960.pdf).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmd-seven-day-rainfall",
+   "title": "7 Days Rainfall",
+   "organization": "bmd",
+   "description": "Rainfall summary for the recent seven-day period at BMD stations, published under the Agromet section.",
+   "source_url": "https://server6.bmd.gov.bd/p/7-days-Rainfall",
+   "download_url": null,
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Rainfall"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rainfall",
+    "agromet",
+    "weekly"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/7-days-Rainfall",
+   "evidence_note": "Page titled '7 days Rainfall' shows a Download link to a PDF (file/2023/08/16/pdf/152531.pdf).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmd-climate-data-portal",
+   "title": "BMD Climate Data Portal (Climate and Weather Data Purchase)",
+   "organization": "bmd",
+   "description": "Online portal for requesting and purchasing BMD station climate and weather data (3-hourly, daily, monthly and 10-minute data) by variable, station and time period. Data are charged at GoB-approved rates and delivered after processing.",
+   "source_url": "https://dataportal.bmd.gov.bd/web/",
+   "download_url": null,
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Weather Observations",
+    "Climate Data"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "climate data",
+    "weather observations",
+    "data purchase",
+    "stations"
+   ],
+   "evidence_url": "https://dataportal.bmd.gov.bd/web/",
+   "evidence_note": "Page 'BMD Climate Data Portal' shows a 'Climate and Weather Data Purchase' form (data type, variables, stations, time period) and a table 'GoB Approved Rate of Climate and Weather Data' (e.g. 3-Hour data Tk 1000).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmd-real-time-rainfall-network",
+   "title": "BMD Real-time Rainfall Network",
+   "organization": "bmd",
+   "description": "Real-time per-minute rain accumulation data from BMD's automatic rain gauge network, with dashboards, live graphs, last-24-hour data and a data download section, browsable by location.",
+   "source_url": "https://bmdrainfallnetwork.com/realtimedatas/",
+   "download_url": null,
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Rainfall"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Real-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rainfall",
+    "real-time",
+    "rain gauge",
+    "automatic"
+   ],
+   "evidence_url": "https://bmdrainfallnetwork.com/realtimedatas/",
+   "evidence_note": "Page 'Real-time Rainfall Network - Real Time Data' shows 'Per Minute wise Real-time Rain Accumulation Data with WMO Code' with menus for Real-time Data, Last 24 Hrs Data and Data Download; linked from bmd.gov.bd as 'Real Time Rainfall Network'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmd-changing-climate-of-bangladesh",
+   "title": "Changing Climate of Bangladesh (with Appendix)",
+   "organization": "bmd",
+   "description": "BMD climate-change report analysing observed trends in temperature, rainfall and other climate variables in Bangladesh, published with a separate data appendix. Listed with other BMD publications such as 'The future Climate of Bangladesh'.",
+   "source_url": "https://server6.bmd.gov.bd/p/Publications",
+   "download_url": "https://server6.bmd.gov.bd/file/2024/02/27/pdf/162368.pdf",
+   "categories": [
+    "Climate & Weather",
+    "Environment"
+   ],
+   "subcategories": [
+    "Climate Change"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "climate change",
+    "trends",
+    "temperature",
+    "rainfall"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Publications",
+   "evidence_note": "Publications page lists 'Changing Climate of Bangladesh' (PDF) and 'Changing Climate of Bangladesh Appendix' (PDF), plus 'The future Climate of Bangladesh'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ffwc-observed-water-levels",
+   "title": "Observed River Water Levels (Daily Table)",
+   "organization": "ffwc",
+   "description": "Daily table of observed river water levels (mMSL) at FFWC monitoring stations, grouped by basin, with each station's danger level for comparison.",
+   "source_url": "http://old.ffwc.gov.bd/ffwc_charts/waterlevelobs.php",
+   "download_url": null,
+   "categories": [
+    "Environment",
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Water Level",
+    "Flood Forecasting"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "water level",
+    "rivers",
+    "flood",
+    "danger level"
+   ],
+   "evidence_url": "http://old.ffwc.gov.bd/ffwc_charts/waterlevelobs.php",
+   "evidence_note": "Page shows 'TABLE OF OBSERVED WATER LEVELS : 26-09-2026' with river, station, danger level (mMSL) and 06:00 AM readings by basin.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ffwc-forecast-water-levels",
+   "title": "Forecast River Water Levels (5-Day)",
+   "organization": "ffwc",
+   "description": "Table of observed and forecast river water levels (mMSL) for FFWC stations over the coming days, alongside danger levels, used for flood early warning.",
+   "source_url": "http://old.ffwc.gov.bd/ffwc_charts/waterlevelfcast.php",
+   "download_url": null,
+   "categories": [
+    "Environment",
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Flood Forecasting",
+    "Water Level"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "flood forecast",
+    "water level",
+    "early warning"
+   ],
+   "evidence_url": "http://old.ffwc.gov.bd/ffwc_charts/waterlevelfcast.php",
+   "evidence_note": "Page shows 'TABLE OF FORECAST WATER LEVELS : 26-09-2026' with observed and forecast columns through 01-10.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ffwc-rainfall-situation",
+   "title": "Rainfall Situation Table (FFWC Stations)",
+   "organization": "ffwc",
+   "description": "Daily rainfall (mm) at FFWC stations for the last three days, the monthly cumulative total and the normal for the month, organised by river basin.",
+   "source_url": "http://old.ffwc.gov.bd/ffwc_charts/rainfall.php",
+   "download_url": null,
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Rainfall"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rainfall",
+    "basin",
+    "flood"
+   ],
+   "evidence_url": "http://old.ffwc.gov.bd/ffwc_charts/rainfall.php",
+   "evidence_note": "Page shows 'RAINFALL SITUATION UP TO 0900 HOURS ON : 26-09-2026 (in millimeter)' with normal for September, daily rainfall and monthly cumulative by station.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ffwc-flood-bulletin",
+   "title": "Daily Flood Bulletin",
+   "organization": "ffwc",
+   "description": "FFWC's daily flood bulletin (morning and afternoon editions) summarising river conditions, stations above danger level and forecasts. The PDF at the link is overwritten with each new issue.",
+   "source_url": "http://old.ffwc.gov.bd/",
+   "download_url": "http://old.ffwc.gov.bd/images/fbull.pdf",
+   "categories": [
+    "Climate & Weather",
+    "Environment"
+   ],
+   "subcategories": [
+    "Flood Forecasting",
+    "Flood Bulletin"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "flood bulletin",
+    "flood",
+    "warning"
+   ],
+   "evidence_url": "http://old.ffwc.gov.bd/",
+   "evidence_note": "FFWC home page menu links 'Flood Bulletin (Morning)' (images/fbull.pdf), 'Flood Bulletin (Afternoon)', 'Flood Summary', 'Flash Flood Bulletin' and '5-Days Deterministic Forecast' PDFs.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ffwc-annual-flood-reports",
+   "title": "Annual Flood Reports",
+   "organization": "ffwc",
+   "description": "FFWC's yearly reports reviewing each monsoon's flood events, rainfall, river water levels and forecast performance in Bangladesh.",
+   "source_url": "http://old.ffwc.gov.bd/index.php/reports/annual-flood-reports",
+   "download_url": "http://old.ffwc.gov.bd/images/annual21.pdf",
+   "categories": [
+    "Climate & Weather",
+    "Environment"
+   ],
+   "subcategories": [
+    "Floods",
+    "Flood Forecasting"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2008,
+   "temporal_end": 2021,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "flood report",
+    "annual",
+    "monsoon"
+   ],
+   "evidence_url": "http://old.ffwc.gov.bd/index.php/reports/annual-flood-reports",
+   "evidence_note": "Page lists 'Annual Flood Report 2021' down to 'Annual Flood Report 2008', each linking to a PDF (e.g. images/annual21.pdf).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bwdb-hims-surface-water-level",
+   "title": "BWDB Surface Water Level Data (HIMS)",
+   "organization": "bwdb",
+   "description": "Manual, real-time and coastal river water level records from BWDB hydrological stations, searchable by river and station in the Hydrological Information Management System. Data are supplied on request for a fee under a published rate chart (e.g. 3-hourly or daily high-low values per station-year).",
+   "source_url": "http://hims.bwdb.gov.bd/index.php?pagetitle=water_level&sub4=185&SUBID=131&id=125&id2=126&id3=308",
+   "download_url": null,
+   "categories": [
+    "Environment"
+   ],
+   "subcategories": [
+    "Water Level",
+    "Hydrology"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "water level",
+    "hydrology",
+    "rivers",
+    "HIMS"
+   ],
+   "evidence_url": "http://hims.bwdb.gov.bd/index.php?pagetitle=water_level&sub4=185&SUBID=131&id=125&id2=126&id3=308",
+   "evidence_note": "HIMS page 'Data Availability > Surface Water > Water Level > Manual' has a river selector (Arial Khan, Brahmaputra-Jamuna, Buriganga...); the 'Rate of Data' page lists 'Data Type Name : Water Level' at Tk 500 for 3-hourly data per year.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bwdb-hims-rainfall",
+   "title": "BWDB Rainfall Data (HIMS)",
+   "organization": "bwdb",
+   "description": "Manual and real-time rainfall records from BWDB rain gauge stations, with data availability searchable by district in HIMS. Data are obtained by request/registration at published rates.",
+   "source_url": "http://hims.bwdb.gov.bd/index.php?pagetitle=rainfall&sub4=186&SUBID=131&id=125&id2=126&id3=317",
+   "download_url": null,
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Rainfall",
+    "Hydrology"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rainfall",
+    "hydrology",
+    "HIMS"
+   ],
+   "evidence_url": "http://hims.bwdb.gov.bd/index.php?pagetitle=rainfall&sub4=186&SUBID=131&id=125&id2=126&id3=317",
+   "evidence_note": "HIMS page 'Data Availability > Surface Water > Rainfall > Manual' with a district selector (Bagerhat, Bandarban, Barguna...).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bwdb-hims-groundwater-level",
+   "title": "BWDB Groundwater Level Data (HIMS)",
+   "organization": "bwdb",
+   "description": "Weekly and daily groundwater level observations from BWDB observation wells, with availability searchable by district. HIMS also lists groundwater quality, lithology and pump test data.",
+   "source_url": "http://hims.bwdb.gov.bd/index.php?pagetitle=ground_water_weekly_data_available&sub3=191&SUBID=131&id=125&id2=127",
+   "download_url": null,
+   "categories": [
+    "Environment"
+   ],
+   "subcategories": [
+    "Groundwater",
+    "Hydrology"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Weekly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "groundwater",
+    "water table",
+    "observation wells",
+    "HIMS"
+   ],
+   "evidence_url": "http://hims.bwdb.gov.bd/index.php?pagetitle=ground_water_weekly_data_available&sub3=191&SUBID=131&id=125&id2=127",
+   "evidence_note": "HIMS page 'Data Availability > Ground Water > Ground Water Weekly Data' with a district selector.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bwdb-hims-salinity",
+   "title": "BWDB Surface Water Salinity Data (HIMS)",
+   "organization": "bwdb",
+   "description": "River salinity measurements at BWDB monitoring points, mostly on coastal rivers, with availability searchable by river in HIMS.",
+   "source_url": "http://hims.bwdb.gov.bd/index.php?pagetitle=salinity&sub3=187&SUBID=131&id=125&id2=126",
+   "download_url": null,
+   "categories": [
+    "Environment"
+   ],
+   "subcategories": [
+    "Salinity",
+    "Water Quality"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "salinity",
+    "coastal",
+    "rivers",
+    "HIMS"
+   ],
+   "evidence_url": "http://hims.bwdb.gov.bd/index.php?pagetitle=salinity&sub3=187&SUBID=131&id=125&id2=126",
+   "evidence_note": "HIMS page 'Data Availability > Surface Water > Salinity' with a river selector (Babuganj, Betna-Kholpetua, Bishkhali...).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bwdb-annual-reports",
+   "title": "BWDB Annual Reports",
+   "organization": "bwdb",
+   "description": "Annual reports of the Bangladesh Water Development Board covering its projects, flood control, irrigation, river management and hydrological activities.",
+   "source_url": "https://bwdb.gov.bd/annual-reports",
+   "download_url": "https://bwdb.gov.bd/archive/pdf/13647.pdf",
+   "categories": [
+    "Environment",
+    "Infrastructure"
+   ],
+   "subcategories": [
+    "Water Resources"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2023,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "annual report",
+    "water resources",
+    "BWDB"
+   ],
+   "evidence_url": "https://bwdb.gov.bd/annual-reports",
+   "evidence_note": "Archive page shows 'মোট নথির সংখ্যা : ১৮', first entry 'বার্ষিক প্রতিবেদন ২০২২-২৩', with PDF download links (archive/pdf/13647.pdf).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "doe-daily-aqi-report",
+   "title": "Daily Air Quality Index (AQI) Report",
+   "organization": "doe",
+   "description": "Daily AQI bulletins from DoE's continuous air monitoring stations, with air quality index values for major cities in Bangladesh. Each day's report is a separate downloadable file.",
+   "source_url": "https://doe.gov.bd/pages/static-pages/6922dfba933eb65569e23b0a",
+   "download_url": null,
+   "categories": [
+    "Environment"
+   ],
+   "subcategories": [
+    "Air Quality"
+   ],
+   "formats": [
+    "PDF",
+    "DOCX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "City Corporation",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "AQI",
+    "air quality",
+    "air pollution",
+    "CAMS"
+   ],
+   "evidence_url": "https://doe.gov.bd/pages/static-pages/6922dfba933eb65569e23b0a",
+   "evidence_note": "Page 'দৈনিক এয়ার কোয়ালিটি ইনডেক্স (AQI) রিপোর্ট' lists over 1,200 rows such as 'AQI for 15 th Sep 2026' with PDF (some older ones DOCX) Download links.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "doe-monthly-air-quality-report",
+   "title": "Monthly Air Quality Reports",
+   "organization": "doe",
+   "description": "Monthly reports summarising ambient air quality measured at DoE monitoring stations, organised by year with one file per month.",
+   "source_url": "https://doe.gov.bd/pages/static-pages/6922de32933eb65569e18f46",
+   "download_url": null,
+   "categories": [
+    "Environment"
+   ],
+   "subcategories": [
+    "Air Quality"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2013,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "air quality",
+    "monthly report",
+    "particulate matter"
+   ],
+   "evidence_url": "https://doe.gov.bd/pages/static-pages/6922de32933eb65569e18f46",
+   "evidence_note": "Page 'Monthly Air Quality Report' links yearly pages 2013 to 2026; the 2024 page lists January 2024 to December 2024 with PDF Download links.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "doe-ambient-air-quality-2018-2023",
+   "title": "Ambient Air Quality in Bangladesh (2018-2023)",
+   "organization": "doe",
+   "description": "DoE assessment of ambient air quality in Bangladesh over 2018-2023, based on its monitoring network.",
+   "source_url": "https://doe.gov.bd/pages/publications",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-doe/2024/12/014a6e225cf849098389d835538afdc9.pdf",
+   "categories": [
+    "Environment"
+   ],
+   "subcategories": [
+    "Air Quality"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2018,
+   "temporal_end": 2023,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "air quality",
+    "trend analysis",
+    "particulate matter"
+   ],
+   "evidence_url": "https://doe.gov.bd/pages/publications",
+   "evidence_note": "Publications page lists 'Ambient Air Quality In Bangladesh (2018-2023)' published 17-06-2025 with a PDF attachment.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "doe-surface-ground-water-quality-report",
+   "title": "Surface and Ground Water Quality Report",
+   "organization": "doe",
+   "description": "Annual DoE report on water quality monitoring of rivers, other surface water bodies and groundwater across Bangladesh. The 2021-2023 editions are on the Publications page, and a separate 'Water Quality Report' page has the 2017-2020 reports.",
+   "source_url": "https://doe.gov.bd/pages/publications",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-doe/2024/12/1cd36972b14549859d16e9b460496d56.pdf",
+   "categories": [
+    "Environment"
+   ],
+   "subcategories": [
+    "Water Quality"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2017,
+   "temporal_end": 2023,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "water quality",
+    "rivers",
+    "groundwater",
+    "pollution"
+   ],
+   "evidence_url": "https://doe.gov.bd/pages/publications",
+   "evidence_note": "Publications page lists 'Surface and Ground Water Quality Report-2023', '-2022' and '-2021' with PDFs; the page doe.gov.bd/pages/static-pages/6922dca1933eb65569e115ac lists 'Water quality report 2020' to '2017'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "doe-approved-eia-reports",
+   "title": "Approved Environmental Impact Assessment (EIA) Reports",
+   "organization": "doe",
+   "description": "Collection of EIA reports for development projects and industries approved by DoE, each downloadable as a PDF.",
+   "source_url": "https://doe.gov.bd/pages/static-pages/6922e11e933eb65569e2a549",
+   "download_url": null,
+   "categories": [
+    "Environment"
+   ],
+   "subcategories": [
+    "Environmental Impact Assessment"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "EIA",
+    "environmental clearance",
+    "projects"
+   ],
+   "evidence_url": "https://doe.gov.bd/pages/static-pages/6922e11e933eb65569e2a549",
+   "evidence_note": "Page 'অনুমোদিত ই আই এ প্রতিবেদন' (linked from the DoE home page) lists EIA reports with PDF Download links; the home page also shows items such as 'EIA Report of Bhola Eco Development Economic Zone (BEDEZ)'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ddm-daily-disaster-situation-report",
+   "title": "Daily Disaster Situation Report",
+   "organization": "ddm",
+   "description": "DDM's daily report on current disasters (floods, cyclones, landslides and similar events), covering affected areas, damage and relief response.",
+   "source_url": "https://ddm.gov.bd/pages/reports?filters=%7B%22reports_type%22%3A%20%226922d29b81fc96cef9e99593%22%7D",
+   "download_url": null,
+   "categories": [
+    "Climate & Weather",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Disaster Situation Reports"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "District",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "disaster",
+    "situation report",
+    "relief",
+    "damage"
+   ],
+   "evidence_url": "https://ddm.gov.bd/pages/reports?filters=%7B%22reports_type%22%3A%20%226922d29b81fc96cef9e99593%22%7D",
+   "evidence_note": "Reports page 'দুর্যোগ পরিস্থিতি প্রতিবেদন' lists 'দৈনন্দিন দুর্যোগ পরিস্থিতি প্রতিবেদন, ১৫ সেপ্টেম্বর ২০২৬ খ্রিস্টাব্দ' and earlier daily issues with attachments.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "modmr-ndrcc-daily-disaster-report",
+   "title": "NDRCC Daily Disaster Report",
+   "organization": "modmr",
+   "description": "Daily disaster reports from MoDMR's National Disaster Response Coordination Centre (NDRCC), covering weather hazards, warnings and disaster impacts across the country.",
+   "source_url": "https://modmr.gov.bd/pages/situation-reports",
+   "download_url": null,
+   "categories": [
+    "Climate & Weather",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Disaster Situation Reports"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "District",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "disaster",
+    "NDRCC",
+    "daily report"
+   ],
+   "evidence_url": "https://modmr.gov.bd/pages/situation-reports",
+   "evidence_note": "Situation reports page lists 'দৈনিক দুর্যোগ প্রতিবেদনঃ ২৪ সেপ্টেম্বর ২০২৬' and earlier daily entries with file attachments; linked from ddm.gov.bd as 'এনডিআরসিসি'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bpdb-daily-generation-report",
+   "title": "Daily Power Generation Report",
+   "organization": "bpdb",
+   "description": "Plant-by-plant daily report giving installed and derated capacity, forecast and actual day-peak and evening-peak generation for each power station, grouped by zone. Earlier dates can be chosen, and a reference PDF can be downloaded.",
+   "source_url": "https://misc.bpdb.gov.bd/daily-generation",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Power Generation"
+   ],
+   "formats": [
+    "HTML",
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "electricity",
+    "power generation",
+    "power plants",
+    "peak demand"
+   ],
+   "evidence_url": "https://misc.bpdb.gov.bd/daily-generation?date=21-09-2026",
+   "evidence_note": "Page 'Daily Generation' with 'Select Date' and 'Download reference PDF' shows a table by power station (Installed/Derated Capacity, Actual Generation Day Peak/Eve Peak) for 20-21 Sep 2026.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bpdb-daily-generation-archive",
+   "title": "Daily Generation Archive",
+   "organization": "bpdb",
+   "description": "Archive of BPDB's daily generation reports by date. Each day has three PDF report pages, a summary, and energy and load curve charts.",
+   "source_url": "https://misc.bpdb.gov.bd/daily-generation-archive",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Power Generation"
+   ],
+   "formats": [
+    "PDF",
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "electricity",
+    "generation archive",
+    "load curve"
+   ],
+   "evidence_url": "https://misc.bpdb.gov.bd/daily-generation-archive",
+   "evidence_note": "Page 'Daily Generation Archive' lists dates (e.g. 23/09/2026) with Download links for Page 1-3 PDFs and Energy/Load GIF charts under storage/daily_archive/.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bpdb-maximum-generation",
+   "title": "Maximum Generation Records",
+   "organization": "bpdb",
+   "description": "Query tool for BPDB's maximum electricity generation records by date, month, monthly maximum or year.",
+   "source_url": "https://misc.bpdb.gov.bd/daily-max-generation",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Power Generation",
+    "Peak Demand"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2020,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "peak generation",
+    "electricity",
+    "maximum demand"
+   ],
+   "evidence_url": "https://misc.bpdb.gov.bd/daily-max-generation",
+   "evidence_note": "Page 'Max Generation' offers 'Maximum Generation Queries' (Datewise, Monthwise, Monthly Maximum, Yearwise) with a year selector covering 2020-2026.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bpdb-area-wise-demand-loadshed",
+   "title": "Area-wise Electricity Demand and Load Shedding",
+   "organization": "bpdb",
+   "description": "Current electricity demand (MW) and load shedding (MW) by distribution zone, such as Dhaka, Chittagong, Khulna, Rajshahi and Comilla.",
+   "source_url": "https://misc.bpdb.gov.bd/area-wise-demand",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Load Shedding",
+    "Electricity Demand"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "load shedding",
+    "electricity demand",
+    "zones"
+   ],
+   "evidence_url": "https://misc.bpdb.gov.bd/area-wise-demand",
+   "evidence_note": "Page lists zones with 'Demand (MW)' and 'Load shed (MW)', e.g. Dhaka 4014 / 0, Chittagong 1069 / 0.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bpdb-annual-report",
+   "title": "BPDB Annual Report",
+   "organization": "bpdb",
+   "description": "BPDB's annual reports with power sector statistics: installed capacity, generation by fuel, demand, transmission and distribution, tariffs and finances.",
+   "source_url": "https://bpdb.gov.bd/pages/static-pages/6922dee6933eb65569e1e3c8",
+   "download_url": "https://drive.google.com/file/d/1iydhcFHm7YLBYJAZVYhFbBGd7LHB_zaE/view?usp=sharing",
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Power Sector Statistics"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2008,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "annual report",
+    "electricity",
+    "installed capacity",
+    "power statistics"
+   ],
+   "evidence_url": "https://bpdb.gov.bd/pages/static-pages/6922dee6933eb65569e1e3c8",
+   "evidence_note": "Page lists 'Annual Report 2024-25' (09/10/2025, Google Drive link) back to 'Annual Repot 2008-09', each with a Download link.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "pgcb-hourly-generation",
+   "title": "Hourly Power Generation by Fuel Type",
+   "organization": "pgcb",
+   "description": "Half-hourly national grid data on generation, demand, shortfall and load shedding (MW), split by fuel source (gas, liquid fuel, coal, hydro, solar, wind) and by imports from India and Nepal.",
+   "source_url": "https://erp.powergrid.gov.bd/w/generations/view_generations_bn",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Power Generation"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Real-time",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "generation",
+    "fuel mix",
+    "grid",
+    "electricity imports"
+   ],
+   "evidence_url": "https://erp.powergrid.gov.bd/w/generations/view_generations_bn",
+   "evidence_note": "Page 'ঘন্টাপ্রতি উৎপাদন' shows a table with date, time, generation (MW), demand, load shed and columns for gas, liquid fuel, coal, hydro, solar, wind, India, Nepal (e.g. 26-09-2026 20:00).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "pgcb-hourly-demand-supply-loadshed",
+   "title": "Hourly Demand, Supply and Load Shedding",
+   "organization": "pgcb",
+   "description": "Half-hourly records of demand at substation end, supply and load shedding (MW) on the national grid, with a searchable history.",
+   "source_url": "https://erp.powergrid.gov.bd/web/generations/view_demand_supply_loadshed_bn",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Load Shedding",
+    "Electricity Demand"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Real-time",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "load shedding",
+    "demand",
+    "supply",
+    "grid"
+   ],
+   "evidence_url": "https://erp.powergrid.gov.bd/web/generations/view_demand_supply_loadshed_bn",
+   "evidence_note": "Page 'ঘন্টাপ্রতি চাহিদা (সাবস্টেশন প্রান্ত), সরবরাহ ও লোডশেড' shows 'Total 3,922 Records' with demand, supply and load shed per half hour.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "pgcb-daily-operation-report",
+   "title": "Daily Grid Operation Report",
+   "organization": "pgcb",
+   "description": "Daily national grid operation reports from Power Grid Bangladesh, each downloadable as an Excel file.",
+   "source_url": "https://erp.powergrid.gov.bd/w/report/eyJpdiI6IldsU2ZQTGkvbkRnQU9FMjZ5UHhmeGc9PSIsInZhbHVlIjoiQzhONVl5ZGxRY3E3T3ZVNCtLZGt1Zz09IiwibWFjIjoiN2JiNTI5MzNhOWIxZDVjY2NkMmFlZWU4ZDU1N2I4OWZlYjNlZWM1ZGU4NzRiNWU4ZjQ3ZDc1ODRlMTk3MDc0YyIsInRhZyI6IiJ9/show_report",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Power Generation",
+    "Grid Operations"
+   ],
+   "formats": [
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "grid",
+    "daily report",
+    "electricity",
+    "operations"
+   ],
+   "evidence_url": "https://erp.powergrid.gov.bd/w/report/eyJpdiI6IldsU2ZQTGkvbkRnQU9FMjZ5UHhmeGc9PSIsInZhbHVlIjoiQzhONVl5ZGxRY3E3T3ZVNCtLZGt1Zz09IiwibWFjIjoiN2JiNTI5MzNhOWIxZDVjY2NkMmFlZWU4ZDU1N2I4OWZlYjNlZWM1ZGU4NzRiNWU4ZjQ3ZDc1ODRlMTk3MDc0YyIsInRhZyI6IiJ9/show_report",
+   "evidence_note": "Page 'Operation Daily Reports' shows 'Showing 30 of 4616' with entries like 'Daily Report 26-09-2026' linking to .xlsx downloads; linked from pgcb.gov.bd as 'দৈনিক পরিচালন প্রতিবেদন'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "pgcb-monthly-operation-report",
+   "title": "Monthly Grid Operation Report",
+   "organization": "pgcb",
+   "description": "Monthly national grid operation reports from Power Grid Bangladesh, published as Excel files.",
+   "source_url": "https://erp.powergrid.gov.bd/w/report/eyJpdiI6Ik53OTZRKzRRTVoxUUY4a3RMb250Y0E9PSIsInZhbHVlIjoiQmxnNjFqUUROVnk2RFh1OHJ0NGVkQT09IiwibWFjIjoiZDBlYmM3ZTUzMzBkNDM4NTNkZDQxYjc0YTc2NDQ3YTYzYmY1MjRjNDRjNTQ2MmQwOGM5MzY4MGRjNTIwYTFlYiIsInRhZyI6IiJ9/show_report",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Grid Operations"
+   ],
+   "formats": [
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "grid",
+    "monthly report",
+    "electricity"
+   ],
+   "evidence_url": "https://erp.powergrid.gov.bd/w/report/eyJpdiI6Ik53OTZRKzRRTVoxUUY4a3RMb250Y0E9PSIsInZhbHVlIjoiQmxnNjFqUUROVnk2RFh1OHJ0NGVkQT09IiwibWFjIjoiZDBlYmM3ZTUzMzBkNDM4NTNkZDQxYjc0YTc2NDQ3YTYzYmY1MjRjNDRjNTQ2MmQwOGM5MzY4MGRjNTIwYTFlYiIsInRhZyI6IiJ9/show_report",
+   "evidence_note": "Page 'Operation Monthly Reports' shows 'Showing 30 of 162' with entries 'July-2026', 'June-2026'... linking to .xlsx downloads.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "pgcb-annual-report",
+   "title": "PGCB Annual Report",
+   "organization": "pgcb",
+   "description": "Power Grid Bangladesh annual reports, including the directors' report, with data on the transmission network, grid operation and finances.",
+   "source_url": "https://erp.powergrid.gov.bd/w/report/eyJpdiI6Ik1TVUxIM1RLTDhaRnZCbndoRFMwS3c9PSIsInZhbHVlIjoiR2g3ZDFldHhxcG8rQ2ZXZlU3NVFsdz09IiwibWFjIjoiZDFjZTJlNGUzM2NhZjJjNWRmZWI3YmFkNDI2YTk2NTVjOTZhMTY3MGRiNTJkOWZjMmNjNzk4ZWJhOTg3YzBlOSIsInRhZyI6IiJ9/show_report",
+   "download_url": "https://erp.powergrid.gov.bd/web/files/download?location=erp%2Fweb%2Freport_docs%2F4755.pdf&title=Annual%20Report%20%28Including%20Directors%20Report%29%202024-2025",
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Transmission"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "annual report",
+    "transmission",
+    "grid"
+   ],
+   "evidence_url": "https://erp.powergrid.gov.bd/w/report/eyJpdiI6Ik1TVUxIM1RLTDhaRnZCbndoRFMwS3c9PSIsInZhbHVlIjoiR2g3ZDFldHhxcG8rQ2ZXZlU3NVFsdz09IiwibWFjIjoiZDFjZTJlNGUzM2NhZjJjNWRmZWI3YmFkNDI2YTk2NTVjOTZhMTY3MGRiNTJkOWZjMmNjNzk4ZWJhOTg3YzBlOSIsInRhZyI6IiJ9/show_report",
+   "evidence_note": "Page 'Annual Reports' shows 'Showing 27 of 27', first 'Annual Report (Including Directors Report) 2024-2025' (14-10-2025) with PDF download.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "powerdivision-power-sector-at-a-glance",
+   "title": "Power Sector at a Glance",
+   "organization": "power-division",
+   "description": "Headline power sector indicators kept current by the Power Division: number of power plants, generation capacity, maximum generation, transmission line length, grid substation capacity, import capacity, access rate, per-capita generation, consumers and distribution loss.",
+   "source_url": "https://powerdivision.gov.bd/pages/static-pages/694032b935ce18e1c0561465",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Power Sector Statistics"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "power sector",
+    "installed capacity",
+    "electricity access",
+    "indicators"
+   ],
+   "evidence_url": "https://powerdivision.gov.bd/pages/static-pages/694032b935ce18e1c0561465",
+   "evidence_note": "Page 'এক নজরে বিদ্যুৎ খাত' shows a table 'সর্বশেষ তথ্য (১৫ সেপ্টেম্বর ২০২৬)' including generation capacity 32,688 MW and maximum generation 17,201 MW (20 May 2026).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "berc-electricity-tariff-orders",
+   "title": "Electricity Tariff Orders",
+   "organization": "berc",
+   "description": "BERC orders setting bulk and retail electricity tariffs for BPDB, PGCB, BREB/PBS, DPDC, DESCO, WZPDCL, NESCO and other utilities, one PDF per order.",
+   "source_url": "https://berc.org.bd/pages/static-pages/6922e034933eb65569e25fb4",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Electricity Tariff"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2015,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "tariff",
+    "electricity price",
+    "regulation"
+   ],
+   "evidence_url": "https://berc.org.bd/pages/static-pages/6922e034933eb65569e25fb4",
+   "evidence_note": "Page 'ট্যারিফ আদেশ (বিদ্যুৎ)' lists orders such as 'বিউবো এর পাইকারি (বাল্ক) বিদ্যুৎ মূল্যহার আদেশ (বিইআরসি আদেশ নম্বর-২০২০-০২)' and 'BERC Order # 2015/01 (PDB-Bulk)' with PDF links.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "berc-gas-tariff-orders",
+   "title": "Gas Tariff Orders",
+   "organization": "berc",
+   "description": "BERC tariff orders for gas transmission and distribution companies (GTCL, Titas, Bakhrabad, Jalalabad, Pashchimanchal and others).",
+   "source_url": "https://berc.org.bd/pages/static-pages/6922de7d933eb65569e1afd3",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Gas Tariff"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "gas tariff",
+    "gas price",
+    "regulation"
+   ],
+   "evidence_url": "https://berc.org.bd/pages/static-pages/6922de7d933eb65569e1afd3",
+   "evidence_note": "Page 'ট্যারিফ আদেশ (গ্যাস)' lists orders e.g. '২০১৯/০১ জিটিসিএল এর ট্যারিফ আদেশ', 'তিতাস গ্যাস এর ট্যারিফ আদেশ' with PDF download links.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "berc-lpg-fuel-price-orders",
+   "title": "Monthly LPG and Fuel Price Adjustment Orders",
+   "organization": "berc",
+   "description": "BERC's monthly orders and press releases adjusting consumer prices of liquefied petroleum gas (LPG), Jet A-1 aviation fuel and furnace oil, published as notices.",
+   "source_url": "https://berc.org.bd/pages/notices",
+   "download_url": null,
+   "categories": [
+    "Energy",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Fuel Prices",
+    "LPG Price"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "LPG price",
+    "fuel price",
+    "jet fuel",
+    "furnace oil"
+   ],
+   "evidence_url": "https://berc.org.bd/pages/notices",
+   "evidence_note": "Notices page lists 'লিকুইফাইড পেট্রোলিয়াম গ্যাস (এলপিজি)’র সেপ্টেম্বর ২০২৬ মাসের জন্য মূল্য সমন্বয় আদেশ' and 'জেট এ-১ (এভিয়েশন ফুয়েল) এর সেপ্টেম্বর ২০২৬ মাসের মূল্য সমন্বয় আদেশ' (10/09/2026).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "petrobangla-daily-gas-report",
+   "title": "Daily Gas Intake-Offtake Report",
+   "organization": "petrobangla",
+   "description": "Petrobangla's daily report on national gas intake (production and imports) and offtake by consumer category.",
+   "source_url": "https://petrobangla.org.bd/pages/reports?filters=%7B%22reports_type%22%3A%20%226922d2b181fc96cef9e99f16%22%7D",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Natural Gas"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "natural gas",
+    "gas production",
+    "LNG",
+    "gas supply"
+   ],
+   "evidence_url": "https://petrobangla.org.bd/pages/reports?filters=%7B%22reports_type%22%3A%20%226922d2b181fc96cef9e99f16%22%7D",
+   "evidence_note": "Reports page 'দৈনিক গ্যাস প্রতিবেদন' lists daily entries such as '২৫.০৯.২৬ দৈনিক-গ্যাস-ইনটেক-অফটেক-প্রতিবেদন' with PDF attachments.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "petrobangla-mis-report",
+   "title": "Petrobangla Monthly MIS Report",
+   "organization": "petrobangla",
+   "description": "Monthly management information system (MIS) reports from Petrobangla on the gas and mineral sector.",
+   "source_url": "https://petrobangla.org.bd/pages/monthly-reports",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Natural Gas",
+    "Mineral Resources"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "MIS report",
+    "gas production",
+    "monthly"
+   ],
+   "evidence_url": "https://petrobangla.org.bd/pages/monthly-reports",
+   "evidence_note": "Monthly reports page lists 'এমআইএস প্রতিবেদন, মে-২০২৬', 'এমআইএস প্রতিবেদন, এপ্রিল-২০২৬' and a June 2026 report with PDF attachments.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "petrobangla-annual-report",
+   "title": "Petrobangla Annual Report",
+   "organization": "petrobangla",
+   "description": "Petrobangla's annual reports on the activities and performance of the state oil, gas and mineral sector, including gas production, transmission and distribution.",
+   "source_url": "https://petrobangla.org.bd/pages/annual-reports",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-petrobangla/2026/1/a2c173a5-8557-4b94-b39e-829179f98897.pdf",
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Natural Gas",
+    "Mineral Resources"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2022,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "annual report",
+    "natural gas",
+    "energy statistics"
+   ],
+   "evidence_url": "https://petrobangla.org.bd/pages/annual-reports",
+   "evidence_note": "Annual reports page lists 'বার্ষিক প্রতিবেদন ২০২৪-২৫' (17-02-2026), '২০২৩-২৪' and '২০২২-২৩' with PDF files.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "sreda-national-renewable-energy-database",
+   "title": "National Database of Renewable Energy",
+   "organization": "sreda",
+   "description": "SREDA's national database of renewable energy projects and generation. It covers electricity generation mix, RE generation summaries and records, and project listings for solar parks, rooftop and net-metered solar, solar irrigation, mini-grids, wind, hydro, biogas, biomass and battery storage, including a map of large projects.",
+   "source_url": "http://www.renewableenergy.gov.bd/",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Renewable Energy"
+   ],
+   "formats": [
+    "Dashboard",
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "renewable energy",
+    "solar",
+    "wind",
+    "installed capacity"
+   ],
+   "evidence_url": "http://www.renewableenergy.gov.bd/",
+   "evidence_note": "Site 'SREDA | National Database of Renewable Energy' shows menus 'Electricity Generation Mix', 'RE Generation Summary Report', 'Statistics of Solar Irrigation Pumps', 'RE Large Projects on Map'; linked from sreda.gov.bd.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "sreda-net-metering-statistics",
+   "title": "Statistics of Installed Net Metering Systems",
+   "organization": "sreda",
+   "description": "Installed capacity (MWp) and number of net-metered rooftop solar systems by distribution utility (BPDB, BREB, DPDC, DESCO, WZPDCL, NESCO), with a dated record of progress over time.",
+   "source_url": "https://solar.sreda.gov.bd/nem/nemstatistics.php",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Renewable Energy",
+    "Rooftop Solar"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "net metering",
+    "rooftop solar",
+    "utilities"
+   ],
+   "evidence_url": "https://solar.sreda.gov.bd/nem/nemstatistics.php",
+   "evidence_note": "Page 'Statistics of Installed Net Metering System: 5011' lists capacity by utility (e.g. BREB 282.478 MWp, TOTAL 371.987 MWp) and 'Progress records' dated 2026-09-01.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bforest-bangladesh-forest-inventory",
+   "title": "Bangladesh Forest Inventory (BFI) Report",
+   "organization": "bforest",
+   "description": "Results of the national Bangladesh Forest Inventory: tree species, national growing stock, above-ground biomass and socio-economic findings from sample plots across five zones. Carried out under the REDD+ national forest inventory project completed in 2019.",
+   "source_url": "https://bforest.gov.bd/pages/static-pages/6922dfbf933eb65569e23c92",
+   "download_url": "http://bfis.bforest.gov.bd/bfi/wp-content/uploads/2020/08/BFI_report_final_8-12-20_2.pdf",
+   "categories": [
+    "Environment"
+   ],
+   "subcategories": [
+    "Forestry",
+    "Forest Inventory"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Multi-year",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "forest inventory",
+    "biomass",
+    "carbon",
+    "trees"
+   ],
+   "evidence_url": "https://bforest.gov.bd/pages/static-pages/6922dfbf933eb65569e23c92",
+   "evidence_note": "Page 'বাংলাদেশ বন জরিপ' describes 'Bangladesh Forest Inventory (BFI)' results (1858 sample plots, 390 tree species, national growing stock 384 million m3) and links 'বাংলাদেশ বনজসম্পদ সমীক্ষা (BFI) প্রতিবেদন' (PDF).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmd-monthly-humidity-normals",
+   "title": "Monthly Humidity Normal Data",
+   "organization": "bmd",
+   "description": "BMD reference table of long-term normal (average) monthly relative humidity for its observatory stations across Bangladesh. A climatological baseline for humidity.",
+   "source_url": "https://server6.bmd.gov.bd/p/Monthly-Humidity-Normal-Data",
+   "download_url": "https://server6.bmd.gov.bd/file/2016/08/17/pdf/52.pdf",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Humidity",
+    "Climate Normals"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "humidity",
+    "climate normals",
+    "monthly",
+    "stations"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Monthly-Humidity-Normal-Data",
+   "evidence_note": "Page titled 'Monthly Humidity Normal Data' embeds a PDF with a Download link (file/2016/08/17/pdf/52.pdf).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bmd-normal-monthly-rainy-days",
+   "title": "Normal Monthly Rainy Days",
+   "organization": "bmd",
+   "description": "BMD table of the long-term normal number of rainy days per month at its observatory stations. Complements the normal monthly rainfall amounts.",
+   "source_url": "https://server6.bmd.gov.bd/p/Normal-Monthly-Rainy-Day",
+   "download_url": "https://server6.bmd.gov.bd/file/2016/08/17/pdf/54.pdf",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Rainfall",
+    "Climate Normals"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rainy days",
+    "rainfall",
+    "climate normals",
+    "stations"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Normal-Monthly-Rainy-Day",
+   "evidence_note": "Page titled 'Normal Monthly Rainy Day' embeds a PDF with a Download link (file/2016/08/17/pdf/54.pdf).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bmd-normal-wind-speed",
+   "title": "Normal Wind Speed",
+   "organization": "bmd",
+   "description": "BMD table of long-term normal (average) wind speed at its observatory stations across Bangladesh.",
+   "source_url": "https://server6.bmd.gov.bd/p/Normal-Wind-Speed",
+   "download_url": "https://server6.bmd.gov.bd/file/2016/08/17/pdf/6206.pdf",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Wind",
+    "Climate Normals"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "wind speed",
+    "climate normals",
+    "stations"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Normal-Wind-Speed",
+   "evidence_note": "Page titled 'Normal Wind Speed' embeds a PDF with a Download link (file/2016/08/17/pdf/6206.pdf).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bmd-monthly-minimum-temperature-normals",
+   "title": "Monthly Minimum Temperature (Normals)",
+   "organization": "bmd",
+   "description": "BMD reference table of long-term normal monthly minimum temperature for its observatory stations. Companion to the monthly maximum temperature normals.",
+   "source_url": "https://server6.bmd.gov.bd/p/Monthly-Minimum-Temperature",
+   "download_url": "https://server6.bmd.gov.bd/file/2016/08/17/pdf/51.pdf",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Temperature",
+    "Climate Normals"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "minimum temperature",
+    "climate normals",
+    "monthly",
+    "stations"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Monthly-Minimum-Temperature",
+   "evidence_note": "Page titled 'Monthly Minimum Temperature' embeds a PDF with a Download link (file/2016/08/17/pdf/51.pdf).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bmd-daily-normal-maximum-temperature",
+   "title": "Daily Normal Maximum Temperature",
+   "organization": "bmd",
+   "description": "BMD table of day-by-day climatological normal maximum temperature at its observatory stations, useful for judging how unusual a given day's heat is.",
+   "source_url": "https://server6.bmd.gov.bd/p/Daily-Normal-Maximum-Temperature",
+   "download_url": "https://server6.bmd.gov.bd/file/2016/08/17/pdf/56.pdf",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Temperature",
+    "Climate Normals"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "maximum temperature",
+    "daily normals",
+    "stations"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Daily-Normal-Maximum-Temperature",
+   "evidence_note": "Page titled 'Daily Normal Maximum Temperature' embeds a PDF with a Download link (file/2016/08/17/pdf/56.pdf).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bmd-daily-normal-minimum-temperature",
+   "title": "Daily Normal Minimum Temperature",
+   "organization": "bmd",
+   "description": "BMD table of day-by-day climatological normal minimum temperature at its observatory stations, useful for assessing cold spells against the norm.",
+   "source_url": "https://server6.bmd.gov.bd/p/Daily-Normal-Minimum-Temperature",
+   "download_url": "https://server6.bmd.gov.bd/file/2016/08/17/pdf/57.pdf",
+   "categories": [
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Temperature",
+    "Climate Normals"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "minimum temperature",
+    "daily normals",
+    "stations"
+   ],
+   "evidence_url": "https://server6.bmd.gov.bd/p/Daily-Normal-Minimum-Temperature",
+   "evidence_note": "Page titled 'Daily Normal Minimum Temperature' embeds a PDF with a Download link (file/2016/08/17/pdf/57.pdf).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "sparrso-map-and-satellite-image-products",
+   "title": "SPARRSO Map and Satellite Image Products List",
+   "organization": "sparrso",
+   "description": "SPARRSO's list of available map and remote-sensing products, including the Bangladesh administrative unit map (division, district, upazila, thana) at 1:1,000,000, Landsat satellite digital mosaics of Bangladesh (including a land-use version), and generalised land-use maps of Dhaka and Chattogram cities at 1:25,000 derived from aerial photography. Products are supplied on request through SPARRSO's map/value-added product request form.",
+   "source_url": "https://sparrso.gov.bd/pages/static-pages/6922e07c933eb65569e274c5",
+   "download_url": null,
+   "categories": [
+    "Geography & GIS",
+    "Environment"
+   ],
+   "subcategories": [
+    "Remote Sensing",
+    "Land Use"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "satellite imagery",
+    "landsat",
+    "land use",
+    "maps",
+    "remote sensing"
+   ],
+   "evidence_url": "https://sparrso.gov.bd/pages/static-pages/6922e07c933eb65569e274c5",
+   "evidence_note": "Page 'ডাটার তালিকা' (data list) tabulates products such as 'বাংলাদেশ এডমিনিস্ট্রেটিভ ইউনিট ম্যাপ' (scale 1:1,000,000, revised 2004), 'ল্যান্ডসেট স্যাটেলাইট ডিজিটাল মোজাইক' and Dhaka/Chattogram city generalised land-use maps (1:25,000).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "warpo-national-water-resources-database",
+   "title": "National Water Resources Database (NWRD)",
+   "organization": "warpo",
+   "description": "Multidisciplinary national database set up at WARPO in 1998-2001, holding 557 GIS, time-series and tabular data layers on surface water, groundwater, soils and agriculture, fisheries, forests, socio-economics, meteorology and environment, compiled from about 50 agencies. Data are supplied to agencies and individuals on request; WARPO publishes a data catalogue and data list as PDFs.",
+   "source_url": "https://warpo.gov.bd/pages/static-pages/6922dc5f933eb65569e0ffa9",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-warpo/2024/12/3676e104168642b6a5bb0e0412614131.pdf",
+   "categories": [
+    "Environment",
+    "Geography & GIS",
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Water Resources",
+    "Groundwater"
+   ],
+   "formats": [
+    "PDF",
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "water resources",
+    "nwrd",
+    "gis",
+    "hydrology",
+    "groundwater",
+    "database"
+   ],
+   "evidence_url": "https://warpo.gov.bd/pages/static-pages/6922dc5f933eb65569e0ffa9",
+   "evidence_note": "Page 'সংক্ষেপে জাতীয় পানি সম্পদ ডেটাবেস' states NWRD holds 557 GIS, time-series and tabular data layers, with its data catalogue posted on the site (linked PDF 'জাতীয় পানি সম্পদ ডাটাবেস এর ডেটা ক্যাটালগ' at pages/files/6922daaf933eb65569e0603f).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "warpo-integrated-coastal-resources-database",
+   "title": "Integrated Coastal Resources Database (ICRD)",
+   "organization": "warpo",
+   "description": "Database of the 19 coastal districts of Bangladesh, established by WARPO in December 2005 as a subset of the NWRD, with 563 data layers grouped into administration and institutions, economy and finance, funding and interventions, human resources and social conditions, natural resources and environment, and infrastructure. A PDF data catalogue is available; data are supplied on request.",
+   "source_url": "https://warpo.gov.bd/pages/static-pages/6922e115933eb65569e2a162",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-warpo/2024/12/381f5ec1c1144b57a07a5655bc67f1d6.pdf",
+   "categories": [
+    "Environment",
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Coastal Zone",
+    "Water Resources"
+   ],
+   "formats": [
+    "PDF",
+    "Other"
+   ],
+   "geographic_coverage": "Coastal zone of Bangladesh (19 districts)",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "coastal zone",
+    "icrd",
+    "gis",
+    "database",
+    "natural resources"
+   ],
+   "evidence_url": "https://warpo.gov.bd/pages/files/6922da17933eb65569e02701",
+   "evidence_note": "File page 'সমন্বিত উপকূলীয় সম্পদ ডেটাবেস এর ডেটা ক্যাটালগ' offers 'ICRD ডেটা ক্যাটালগ' PDF for download; the linked ICRD overview page states the database has 563 data layers for 19 coastal districts.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "hcu-energy-scenario-of-bangladesh",
+   "title": "Energy Scenario of Bangladesh",
+   "organization": "hcu",
+   "description": "Annual Hydrocarbon Unit report summarising Bangladesh's energy situation for a fiscal year, covering primary energy supply and consumption across natural gas, petroleum, coal, electricity and renewables. Editions are published per fiscal year as PDFs.",
+   "source_url": "https://hcu.gov.bd/pages/publications",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Energy Balance",
+    "Natural Gas"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "energy statistics",
+    "natural gas",
+    "petroleum",
+    "coal",
+    "energy consumption"
+   ],
+   "evidence_url": "https://hcu.gov.bd/pages/publications",
+   "evidence_note": "Publications page lists 'Energy Scenario of Bangladesh 2024-25 শীর্ষক বার্ষিক প্রতিবেদন' along with the 2023-24, 2022-23 and 2021-22 editions.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "hcu-gas-production-distribution-consumption-annual-report",
+   "title": "Gas Production, Distribution and Consumption Annual Report",
+   "organization": "hcu",
+   "description": "Annual Hydrocarbon Unit report on natural gas in Bangladesh: production by field and company, distribution by the gas marketing companies, and consumption by sector (power, fertiliser, industry, captive power, domestic, CNG, commercial). Published per fiscal year.",
+   "source_url": "https://hcu.gov.bd/pages/publications/%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8-%E0%A6%89%E0%A7%8E%E0%A6%AA%E0%A6%BE%E0%A6%A6%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%95%E0%A6%A8%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B6%E0%A6%A8-%E0%A6%B6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%95-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AA-%E0%A7%A8%E0%A7%AB-wxxbe4-6992cbf1308ead1121b54ea3",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-hcu/2026/1/4927a8a2-ee6c-4bc2-82b6-eeb10063b0f3.pdf",
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Natural Gas"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "natural gas",
+    "gas production",
+    "gas consumption",
+    "gas distribution"
+   ],
+   "evidence_url": "https://hcu.gov.bd/pages/publications/%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B8-%E0%A6%89%E0%A7%8E%E0%A6%AA%E0%A6%BE%E0%A6%A6%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A6%B0%E0%A6%A3-%E0%A6%93-%E0%A6%95%E0%A6%A8%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B6%E0%A6%A8-%E0%A6%B6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%95-%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AA-%E0%A7%A8%E0%A7%AB-wxxbe4-6992cbf1308ead1121b54ea3",
+   "evidence_note": "Detail page '\"গ্যাস উৎপাদন, বিতরণ ও কনজাম্পশন\" শীর্ষক বার্ষিক প্রতিবেদন ২০২৪-২৫' (published 13-11-2025) offers the report PDF for download; the publications list also shows 2023-24, 2022-23 and 2021-22 editions.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "hcu-monthly-gas-coal-reserve-production-report",
+   "title": "Monthly Report on Gas and Coal Reserves and Production",
+   "organization": "hcu",
+   "description": "Monthly Hydrocarbon Unit report on remaining natural gas and coal reserves and on monthly gas and coal production in Bangladesh. Each month's report is posted as a PDF.",
+   "source_url": "https://hcu.gov.bd/pages/monthly-reports",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Natural Gas",
+    "Coal"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "gas reserves",
+    "coal",
+    "gas production",
+    "monthly"
+   ],
+   "evidence_url": "https://hcu.gov.bd/pages/monthly-reports",
+   "evidence_note": "Monthly reports page lists 'গ্যাস এবং কয়লা মজুদ ও উৎপাদনের মাসিক প্রতিবেদন' for months from August 2025 to June 2026, each with a PDF.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bpc-petroleum-product-sales-statistics",
+   "title": "Petroleum Product Sales Statistics",
+   "organization": "bpc",
+   "description": "Annual sales of petroleum products by BPC in metric tonnes for the last several fiscal years, broken down by product (Jet A-1, octane, petrol, kerosene, diesel, furnace oil, LDO, JBO, lube oil, SBPS, MTT, LPG, bitumen, grease, marine fuel) with totals and year-on-year change.",
+   "source_url": "https://bpc.gov.bd/pages/static-pages/6922e146933eb65569e2b3fa",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Petroleum",
+    "Fuel Sales"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2020,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "fuel sales",
+    "diesel",
+    "petrol",
+    "octane",
+    "furnace oil",
+    "petroleum"
+   ],
+   "evidence_url": "https://bpc.gov.bd/pages/static-pages/6922e146933eb65569e2b3fa",
+   "evidence_note": "Page 'পেট্রোলিয়াম পণ্য বিক্রয় পরিসংখ্যান' shows a table of fuel sales in metric tonnes by product for fiscal years 2019-20 to 2024-25 (e.g. total 6,835,341 MT in 2024-25).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bpc-petroleum-import-quantity",
+   "title": "Petroleum Import Quantity and Value",
+   "organization": "bpc",
+   "description": "Fiscal-year tables of BPC imports of crude oil (quantity in metric tonnes, FOB value in USD million and in crore taka) and of refined products (Jet A-1, SKO, mogas, HSD and marine fuel; lubricating base oil; furnace oil) with quantities and values.",
+   "source_url": "https://bpc.gov.bd/pages/static-pages/6922deb6933eb65569e1cd18",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Petroleum",
+    "Imports"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2017,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "crude oil imports",
+    "refined petroleum",
+    "fuel imports",
+    "import value"
+   ],
+   "evidence_url": "https://bpc.gov.bd/pages/static-pages/6922deb6933eb65569e1cd18",
+   "evidence_note": "Page 'পেট্রোলিয়াম পণ্য আমদানির পরিমাণ' tabulates crude oil imports and refined oil imports '২০১৬-১৭ হতে ২০২৪-২৫ পর্যন্ত' (2016-17 to 2024-25) with quantity (MT) and value (USD million / crore taka).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bpc-petroleum-product-local-selling-prices",
+   "title": "Local Selling Prices of Petroleum Products",
+   "organization": "bpc",
+   "description": "Current official local selling prices of petroleum products set for BPC sales, with the effective date of each price: diesel, kerosene, octane, petrol, Jet A-1 (domestic and international flights), BPC LPG cylinders, SBPS, MTT, JBO, LDO, furnace oil, light motor spirit and bunker prices for HSD and marine fuel at Chattogram and Mongla ports.",
+   "source_url": "https://bpc.gov.bd/pages/static-pages/6922ddb6933eb65569e15fbc",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Petroleum",
+    "Fuel Prices"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "fuel prices",
+    "diesel price",
+    "octane price",
+    "lpg price",
+    "jet fuel"
+   ],
+   "evidence_url": "https://bpc.gov.bd/pages/static-pages/6922ddb6933eb65569e15fbc",
+   "evidence_note": "Page 'পেট্রোলিয়াম পণ্যের স্থানীয় বিক্রয় মূল্য' (updated 1 October 2026) lists product prices with effective dates, e.g. diesel 135.00 Tk/litre effective 21/09/2026.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bpc-erl-crude-processing-and-production",
+   "title": "Crude Oil Processing and Production at Eastern Refinery",
+   "organization": "bpc",
+   "description": "Fiscal-year table of crude oil processed at Eastern Refinery Limited (by crude type: Arab Light, Murban, condensate) and the resulting output of refined products (LPG, naphtha, SBPS, MS, HOBC, MTT, Jet A-1, SKO, HSD, JBO and others) in metric tonnes.",
+   "source_url": "https://bpc.gov.bd/pages/static-pages/6922de73933eb65569e1ab30",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Petroleum",
+    "Refining"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2016,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "refinery",
+    "crude oil",
+    "eastern refinery",
+    "refined products"
+   ],
+   "evidence_url": "https://bpc.gov.bd/pages/static-pages/6922de73933eb65569e1ab30",
+   "evidence_note": "Page 'ক্রুড অয়েল প্রসেস এবং ইআরএল-এ উৎপাদন' shows a table in metric tonnes for fiscal years 2015-16 to 2024-25 of processed crude and refined product output.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "breb-system-loss-statistics",
+   "title": "BREB Year-wise System Loss Statistics",
+   "organization": "breb",
+   "description": "Fiscal-year series of distribution system loss (per cent) for the Bangladesh Rural Electrification Board network, a key performance indicator for the rural electricity distribution system.",
+   "source_url": "https://reb.gov.bd/pages/static-pages/6922e0d7933eb65569e28d0a",
+   "download_url": null,
+   "categories": [
+    "Energy"
+   ],
+   "subcategories": [
+    "Electricity Distribution",
+    "System Loss"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh (rural electrification areas)",
+   "geographic_level": "National",
+   "temporal_start": 2017,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "system loss",
+    "electricity distribution",
+    "rural electrification",
+    "palli bidyut"
+   ],
+   "evidence_url": "https://reb.gov.bd/pages/static-pages/6922e0d7933eb65569e28d0a",
+   "evidence_note": "Page 'সিস্টেম লস' shows 'Year wise System Loss Statistics' with BREB system loss by fiscal year from 2016-17 (11.44%) to 2024-25 (8.51%).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "breb-key-statistics-at-a-glance",
+   "title": "BREB at a Glance: Rural Electrification Key Statistics",
+   "organization": "breb",
+   "description": "Periodically updated summary of rural electrification statistics: number of Palli Bidyut Samities, districts and upazilas covered, villages electrified, line length built and energised, 33/11 kV substations and capacity, system loss, monthly electricity sales, bill collection rate, peak demand and the number of consumers by tariff category (residential, irrigation, industrial, commercial and others).",
+   "source_url": "https://reb.gov.bd/pages/static-pages/6922ded2933eb65569e1da23",
+   "download_url": null,
+   "categories": [
+    "Energy",
+    "Infrastructure"
+   ],
+   "subcategories": [
+    "Electricity Distribution",
+    "Electricity Consumers"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh (rural electrification areas)",
+   "geographic_level": "National",
+   "temporal_start": 2026,
+   "temporal_end": 2026,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "electricity consumers",
+    "rural electrification",
+    "electricity sales",
+    "substations",
+    "tariff categories"
+   ],
+   "evidence_url": "https://reb.gov.bd/pages/static-pages/6922ded2933eb65569e1da23",
+   "evidence_note": "Page 'এক নজরে বাপবিবোর্ড এর কার্যক্রম' (as of April 2026) lists 80 PBSs, 85,454 electrified villages, monthly sales of 453.157 crore units, peak demand 10,548 MW and consumer counts by tariff category (e.g. LT-A residential 3,40,18,421).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dphe-water-point-status-report",
+   "title": "Water Point Status Report",
+   "organization": "dphe",
+   "description": "Annual DPHE report on the status of drinking water sources (water points) in Bangladesh, issued as of June each year. Each year's report is offered as a PDF download on the DPHE website.",
+   "source_url": "https://dphe.gov.bd/pages/static-pages/6922db74933eb65569e0a358",
+   "download_url": null,
+   "categories": [
+    "Environment",
+    "Health"
+   ],
+   "subcategories": [
+    "Drinking Water",
+    "Water Supply"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": null,
+   "temporal_start": 2012,
+   "temporal_end": 2019,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "water points",
+    "tubewells",
+    "drinking water",
+    "water supply"
+   ],
+   "evidence_url": "https://dphe.gov.bd/pages/static-pages/6922db74933eb65569e0a358",
+   "evidence_note": "Page 'পানির উৎসের অবস্থার প্রতিবেদন' lists 'পানির উৎসের অবস্থার প্রতিবেদন জুন ২০১৯' and each June edition back to June 2012, each with a PDF download link.",
+   "checked_at": "2026-10-01"
+  }
+ ],
+ "unreachable": [
+  {
+   "url": "https://www.ffwc.gov.bd/",
+   "note": "Loads, but it is a JavaScript (Angular) app whose content could not be read without a browser. FFWC datasets were verified on the legacy site http://old.ffwc.gov.bd/, which is still live and updated daily."
+  },
+  {
+   "url": "https://server6.bmd.gov.bd/p/Recorded-Extreme-Rainfall",
+   "note": "Page loads but its body is empty; no table or file shown."
+  },
+  {
+   "url": "https://server6.bmd.gov.bd/p/Cyclone-Track",
+   "note": "Page loads but its body is empty; no cyclone track data shown."
+  },
+  {
+   "url": "http://hcu.org.bd/",
+   "note": "Returns a 'Site is not available: hcu.org.bd' placeholder (https fails); the Hydrocarbon Unit's live site is hcu.gov.bd."
+  }
+ ]
+}

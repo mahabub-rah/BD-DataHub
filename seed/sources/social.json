@@ -1,0 +1,2229 @@
+{
+ "organizations": [
+  {
+   "slug": "dghs",
+   "name": "Directorate General of Health Services",
+   "name_bn": "স্বাস্থ্য অধিদপ্তর",
+   "acronym": "DGHS",
+   "org_type": "Directorate",
+   "parent": "Health Services Division, Ministry of Health and Family Welfare",
+   "website": "https://dghs.gov.bd",
+   "description": "Government directorate responsible for public health services in Bangladesh; runs the national health MIS, DHIS2 and health dashboards."
+  },
+  {
+   "slug": "iedcr",
+   "name": "Institute of Epidemiology, Disease Control and Research",
+   "name_bn": "রোগতত্ত্ব, রোগ নিয়ন্ত্রণ ও গবেষণা ইনস্টিটিউট",
+   "acronym": "IEDCR",
+   "org_type": "Research Institute",
+   "parent": "Directorate General of Health Services",
+   "website": "https://iedcr.gov.bd",
+   "description": "National public health institute for disease surveillance, outbreak investigation and epidemiological research."
+  },
+  {
+   "slug": "niport",
+   "name": "National Institute of Population Research and Training",
+   "name_bn": "জাতীয় জনসংখ্যা গবেষণা ও প্রশিক্ষণ ইনস্টিটিউট (নিপোর্ট)",
+   "acronym": "NIPORT",
+   "org_type": "Research Institute",
+   "parent": "Medical Education and Family Welfare Division, Ministry of Health and Family Welfare",
+   "website": "https://niport.gov.bd",
+   "description": "Government institute that conducts national population and health surveys such as the BDHS, health facility and urban health surveys."
+  },
+  {
+   "slug": "dgfp",
+   "name": "Directorate General of Family Planning",
+   "name_bn": "পরিবার পরিকল্পনা অধিদপ্তর",
+   "acronym": "DGFP",
+   "org_type": "Directorate",
+   "parent": "Medical Education and Family Welfare Division, Ministry of Health and Family Welfare",
+   "website": "https://dgfp.gov.bd",
+   "description": "Government directorate for family planning and maternal and child health services; publishes service statistics and logistics reports."
+  },
+  {
+   "slug": "banbeis",
+   "name": "Bangladesh Bureau of Educational Information and Statistics",
+   "name_bn": "বাংলাদেশ শিক্ষাতথ্য ও পরিসংখ্যান ব্যুরো (ব্যানবেইস)",
+   "acronym": "BANBEIS",
+   "org_type": "Government Department",
+   "parent": "Secondary and Higher Education Division, Ministry of Education",
+   "website": "https://banbeis.gov.bd",
+   "description": "Official agency for education statistics in Bangladesh; conducts the annual education survey and publishes Bangladesh Education Statistics."
+  },
+  {
+   "slug": "dpe",
+   "name": "Directorate of Primary Education",
+   "name_bn": "প্রাথমিক শিক্ষা অধিদপ্তর",
+   "acronym": "DPE",
+   "org_type": "Directorate",
+   "parent": "Ministry of Primary and Mass Education",
+   "website": "https://dpe.gov.bd",
+   "description": "Government directorate managing primary education; publishes the Annual Primary School Census / Annual Primary School Statistics."
+  },
+  {
+   "slug": "moa",
+   "name": "Ministry of Agriculture",
+   "name_bn": "কৃষি মন্ত্রণালয়",
+   "acronym": "MoA",
+   "org_type": "Ministry",
+   "parent": null,
+   "website": "https://moa.gov.bd",
+   "description": "Government ministry responsible for crop agriculture, agricultural inputs and agricultural policy in Bangladesh."
+  },
+  {
+   "slug": "dam",
+   "name": "Department of Agricultural Marketing",
+   "name_bn": "কৃষি বিপণন অধিদপ্তর",
+   "acronym": "DAM",
+   "org_type": "Government Department",
+   "parent": "Ministry of Agriculture",
+   "website": "https://dam.gov.bd",
+   "description": "Government department that collects and publishes wholesale, retail and farm-gate prices of agricultural commodities."
+  },
+  {
+   "slug": "dae",
+   "name": "Department of Agricultural Extension",
+   "name_bn": "কৃষি সম্প্রসারণ অধিদপ্তর",
+   "acronym": "DAE",
+   "org_type": "Government Department",
+   "parent": "Ministry of Agriculture",
+   "website": "https://dae.gov.bd",
+   "description": "Government department for agricultural extension services; sets crop cultivation and production targets and runs the BAMIS agro-met portal."
+  },
+  {
+   "slug": "barc",
+   "name": "Bangladesh Agricultural Research Council",
+   "name_bn": "বাংলাদেশ কৃষি গবেষণা কাউন্সিল",
+   "acronym": "BARC",
+   "org_type": "Statutory Body",
+   "parent": "Ministry of Agriculture",
+   "website": "https://barc.gov.bd",
+   "description": "Apex body of the national agricultural research system; maintains climate and land resource information systems."
+  },
+  {
+   "slug": "dls",
+   "name": "Department of Livestock Services",
+   "name_bn": "প্রাণিসম্পদ অধিদপ্তর",
+   "acronym": "DLS",
+   "org_type": "Government Department",
+   "parent": "Ministry of Fisheries and Livestock",
+   "website": "https://dls.gov.bd",
+   "description": "Government department for livestock and poultry development; publishes livestock economy statistics."
+  },
+  {
+   "slug": "dof",
+   "name": "Department of Fisheries",
+   "name_bn": "মৎস্য অধিদপ্তর",
+   "acronym": "DoF",
+   "org_type": "Government Department",
+   "parent": "Ministry of Fisheries and Livestock",
+   "website": "https://fisheries.gov.bd",
+   "description": "Government department for fisheries development; publishes the Yearbook of Fisheries Statistics of Bangladesh."
+  },
+  {
+   "slug": "mofood",
+   "name": "Ministry of Food",
+   "name_bn": "খাদ্য মন্ত্রণালয়",
+   "acronym": "MoFood",
+   "org_type": "Ministry",
+   "parent": null,
+   "website": "https://mofood.gov.bd",
+   "description": "Government ministry responsible for public food management, foodgrain procurement, stocks and distribution."
+  },
+  {
+   "slug": "fpmu",
+   "name": "Food Planning and Monitoring Unit",
+   "name_bn": "খাদ্য পরিকল্পনা ও পরিধারণ ইউনিট (এফপিএমইউ)",
+   "acronym": "FPMU",
+   "org_type": "Government Department",
+   "parent": "Ministry of Food",
+   "website": "https://fpmu.mofood.gov.bd",
+   "description": "Unit of the Ministry of Food that monitors national food security and publishes periodic food situation reports."
+  },
+  {
+   "slug": "teaboard",
+   "name": "Bangladesh Tea Board",
+   "name_bn": "বাংলাদেশ চা বোর্ড",
+   "acronym": "BTB",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://teaboard.gov.bd",
+   "description": "Statutory board regulating and promoting the tea industry of Bangladesh; publishes monthly tea bulletins and tea production statistics."
+  },
+  {
+   "slug": "badc",
+   "name": "Bangladesh Agricultural Development Corporation",
+   "name_bn": "বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (বিএডিসি)",
+   "acronym": "BADC",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://badc.gov.bd",
+   "description": "State corporation supplying seed, fertilizer and minor irrigation services; publishes irrigation reports and fertilizer import/distribution data."
+  },
+  {
+   "slug": "dss",
+   "name": "Department of Social Services",
+   "name_bn": "সমাজসেবা অধিদপ্তর",
+   "acronym": "DSS",
+   "org_type": "Government Department",
+   "parent": null,
+   "website": "https://dss.gov.bd",
+   "description": "Government department implementing major social safety net allowance programmes (old age, widow, disability) and social welfare institutions."
+  },
+  {
+   "slug": "dgfood",
+   "name": "Directorate General of Food",
+   "name_bn": "খাদ্য অধিদপ্তর",
+   "acronym": "DGFood",
+   "org_type": "Directorate",
+   "parent": null,
+   "website": "https://dgfood.gov.bd",
+   "description": "Directorate responsible for public foodgrain procurement, storage and distribution in Bangladesh."
+  },
+  {
+   "slug": "srdi",
+   "name": "Soil Resource Development Institute",
+   "name_bn": "মৃত্তিকা সম্পদ উন্নয়ন ইনস্টিটিউট",
+   "acronym": "SRDI",
+   "org_type": "Research Institute",
+   "parent": null,
+   "website": "https://srdi.gov.bd",
+   "description": "Government institute for soil survey, soil testing and land/soil resource mapping."
+  },
+  {
+   "slug": "dgda",
+   "name": "Directorate General of Drug Administration",
+   "name_bn": "ঔষধ প্রশাসন অধিদপ্তর",
+   "acronym": "DGDA",
+   "org_type": "Directorate",
+   "parent": null,
+   "website": "https://dgda.gov.bd",
+   "description": "National drug regulatory authority; registers medicines and medical devices and licenses manufacturers."
+  },
+  {
+   "slug": "bsdb",
+   "name": "Bangladesh Sericulture Development Board",
+   "name_bn": "বাংলাদেশ রেশম উন্নয়ন বোর্ড",
+   "acronym": "BSDB",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://bsb.gov.bd",
+   "description": "Statutory board for development of sericulture (silk cocoon and yarn production) in Bangladesh."
+  }
+ ],
+ "datasets": [
+  {
+   "slug": "dghs-health-bulletin",
+   "title": "DGHS Health Bulletin (Annual)",
+   "organization": "dghs",
+   "description": "Annual Health Bulletin published centrally by the Directorate General of Health Services, compiling health service statistics, facility and workforce data and programme indicators for Bangladesh. The page lists editions for 1997 and 2007 through 2024, with a separate annex for 2024.",
+   "source_url": "https://dghs.gov.bd/pages/static-pages/6922decd933eb65569e1d7cf",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dghs/2024/12/186aa25dee52477a817cb494853355d4.pdf",
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Health Statistics"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 1997,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "health bulletin",
+    "health services",
+    "dghs",
+    "hospitals"
+   ],
+   "evidence_url": "https://dghs.gov.bd/pages/static-pages/6922decd933eb65569e1d7cf",
+   "evidence_note": "Page 'হেলথ বুলেটিন' lists links for হেলথ বুলেটিন ২০২৪ (plus পরিশিষ্ট), ২০২৩, ২০২২ … ২০০৭ and ১৯৯৭; the 2023 edition is a direct PDF.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dghs-local-health-bulletins",
+   "title": "Local Health Bulletins (Facility and District Level)",
+   "organization": "dghs",
+   "description": "Online local health bulletins generated automatically for about 550 public hospitals and local health offices (upazila health complexes, district hospitals, medical college hospitals, district and divisional offices). Users select facility type, year, division and district to view each bulletin.",
+   "source_url": "https://dashboard.dghs.gov.bd/pages/lhb/lhb_search.php?type=50",
+   "download_url": null,
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Health Facilities"
+   ],
+   "formats": [
+    "Dashboard",
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": 2010,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "local health bulletin",
+    "hospitals",
+    "upazila health complex",
+    "facility data"
+   ],
+   "evidence_url": "https://dashboard.dghs.gov.bd/pages/lhb/lhb_search.php?type=50",
+   "evidence_note": "'Local Health Bulletin' search page with selectors for facility type (Upazila Health Complex, District/General hospital, Medical College Hospital, etc.), year 2010–2026, division and district; DGHS Health Bulletin page describes ~550 hospitals/offices publishing them.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dghs-dengue-dashboard",
+   "title": "Dengue Situation Dashboard and Daily Press Release",
+   "organization": "dghs",
+   "description": "Daily dengue surveillance dashboard from the DGHS Health Emergency Operation Center & Control Room showing new cases and deaths in the last 24 hours, cumulative cases and deaths since 1 January, and breakdowns by division/city corporation, age group and gender. A year selector covers 2023 to 2026.",
+   "source_url": "https://dashboard.dghs.gov.bd/pages/heoc_dengue_v1.php",
+   "download_url": null,
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Disease Surveillance",
+    "Dengue"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Division",
+   "temporal_start": 2023,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "dengue",
+    "surveillance",
+    "daily cases",
+    "deaths",
+    "heoc"
+   ],
+   "evidence_url": "https://dashboard.dghs.gov.bd/pages/heoc_dengue_v1.php",
+   "evidence_note": "'Dengue Dynamic Dashboard for Bangladesh' — 'Daily Dengue Press Release 26-Sep-2026', with dengue cases/deaths of last 24 hours and division & city corporation breakdowns.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dghs-covid19-dashboard",
+   "title": "COVID-19 Dashboard for Bangladesh",
+   "organization": "dghs",
+   "description": "DGHS COVID-19 dashboard drawing on DHIS2 data, with national figures, hospital bed and facility information, graphical analysis, statistics and vaccination views. The page notes data quality may vary with reporting rates and completeness.",
+   "source_url": "https://dashboard.dghs.gov.bd/pages/covid19.php",
+   "download_url": null,
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Disease Surveillance",
+    "COVID-19"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "covid-19",
+    "dhis2",
+    "hospital beds",
+    "vaccination"
+   ],
+   "evidence_url": "https://dashboard.dghs.gov.bd/pages/covid19.php",
+   "evidence_note": "'COVID-19 Dashboard for Bangladesh — Last updated: December 30, 2025. Note: Data draws from the DHIS2 system.'",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dghs-uhc-indicators-dashboard",
+   "title": "Universal Health Coverage (UHC) Indicators Dashboard",
+   "organization": "dghs",
+   "description": "Real-time monitoring dashboard for health-related Universal Health Coverage indicators, combining survey and routine data from more than 14,000 public health facilities. Indicators include doctors, nurses/midwives and hospital beds per 10,000 population, essential medicines availability, service readiness, EOC/IMCI services, client satisfaction and 4+ ANC coverage.",
+   "source_url": "https://dashboard.dghs.gov.bd/pages/uhc_list.php",
+   "download_url": null,
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Universal Health Coverage",
+    "Health Indicators"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "uhc",
+    "health workforce",
+    "hospital beds",
+    "sdg",
+    "indicators"
+   ],
+   "evidence_url": "https://dashboard.dghs.gov.bd/pages/uhc_list.php",
+   "evidence_note": "'Status of Universal health coverage indicators - Bangladesh … This dashboard visualizes both survey and routine health data from more than 14,000 public health facilities.'",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dghs-rmnch-scorecard",
+   "title": "RMNCH Scorecard",
+   "organization": "dghs",
+   "description": "Reproductive, maternal, newborn and child health scorecard from DGHS MIS, filterable by period, month, division, district and upazila. It rates indicators such as ANC1/ANC4 coverage, delivery by skilled birth attendant, PNC1 coverage, full vaccination, neonatal and maternal case fatality rates and death review rates as on track, needing more effort, or not on track.",
+   "source_url": "https://dashboard.dghs.gov.bd/pages/dashboard_rmnch.php",
+   "download_url": null,
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Maternal and Child Health"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rmnch",
+    "anc",
+    "maternal health",
+    "newborn",
+    "vaccination",
+    "scorecard"
+   ],
+   "evidence_url": "https://dashboard.dghs.gov.bd/pages/dashboard_rmnch.php",
+   "evidence_note": "'RMNCH Scorecard' page with Period/Month/Division/District/Upazila filters and indicators like ANC 1 Coverage, ANC 4 Coverage, Delivery by SBA, PNC 1 Coverage, Full Vaccination, NMR, MMR.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dghs-bmms-2010",
+   "title": "Bangladesh Maternal Mortality Survey 2010 (BMMS 2010)",
+   "organization": "dghs",
+   "description": "Report of the Bangladesh Maternal Mortality Survey 2010, estimating maternal mortality and maternal health care use nationally. DGHS provides black-and-white and colour print versions and an executive summary as PDFs on its surveys page, alongside BDHS (2007, 2011, 2014), BHFS 2014, MICS and Urban Health Survey 2013 reports.",
+   "source_url": "https://dghs.gov.bd/pages/static-pages/6922dd6c933eb65569e14fb7",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dghs/2024/12/c51ddae1570a405a8346223d05d33700.pdf",
+   "categories": [
+    "Health",
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "Maternal Mortality",
+    "Surveys"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Division",
+   "temporal_start": 2010,
+   "temporal_end": 2010,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "bmms",
+    "maternal mortality",
+    "survey",
+    "maternal health"
+   ],
+   "evidence_url": "https://dghs.gov.bd/pages/static-pages/6922dd6c933eb65569e14fb7",
+   "evidence_note": "DGHS 'জরিপ' page lists '-বাংলাদেশ মাতৃমৃত্যু জরিপ ২০১০ প্রতিবেদন' with links 'সাদাকালো প্রিন্ট', 'রঙ্গিন প্রিন্ট' and 'নির্বাহী সারসংক্ষেপ'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "iedcr-outbreak-investigations",
+   "title": "List of Outbreak Investigations by IEDCR",
+   "organization": "iedcr",
+   "description": "Year-wise lists of disease outbreak investigations carried out by IEDCR, one page per year. Useful for tracking the timing, location and type of outbreaks investigated in Bangladesh.",
+   "source_url": "https://iedcr.gov.bd/pages/static-pages/6922e0a0933eb65569e27e92",
+   "download_url": null,
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Outbreaks",
+    "Disease Surveillance"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2012,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "outbreak",
+    "investigation",
+    "epidemiology",
+    "iedcr"
+   ],
+   "evidence_url": "https://iedcr.gov.bd/pages/static-pages/6922e0a0933eb65569e27e92",
+   "evidence_note": "Page 'আইইডিসিআর কর্তৃক সম্পন্ন বার্ষিক প্রাদুর্ভাবের তালিকা' links 'List of Outbreak Investigations done by IEDCR in 2026', 2025, 2024 … down to 2012.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "iedcr-amr-surveillance-dashboard",
+   "title": "Antimicrobial Resistance (AMR) Surveillance Dashboard",
+   "organization": "iedcr",
+   "description": "Dashboard for antimicrobial resistance surveillance in Bangladesh covering the human and animal health sectors. It includes active case-based surveillance at sentinel medical college hospitals since 2017 and passive lab-based surveillance since July 2022, with epidemiological and species-level views and AMR reports.",
+   "source_url": "https://dashboard.iedcr.gov.bd/amr/",
+   "download_url": null,
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Antimicrobial Resistance",
+    "Disease Surveillance"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2017,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "amr",
+    "antimicrobial resistance",
+    "sentinel surveillance",
+    "laboratory"
+   ],
+   "evidence_url": "https://dashboard.iedcr.gov.bd/amr/",
+   "evidence_note": "'ANTIMICROBIAL RESISTANCE (AMR) SURVEILLANCE IN BANGLADESH — Welcome to Data Dashboard', with Epidemiological Dashboard, Species level Dashboard and AMR report menus; case-based surveillance 'ongoing in eleven sentinel sites since 2017'. Linked from iedcr.gov.bd.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "niport-bdhs-2022",
+   "title": "Bangladesh Demographic and Health Survey 2022 (BDHS 2022)",
+   "organization": "niport",
+   "description": "Final report of the 2022 Bangladesh Demographic and Health Survey, the nationally representative household survey on fertility, family planning, maternal and child health, nutrition and related indicators. NIPORT also publishes a separate Key Indicators Report for BDHS 2022.",
+   "source_url": "https://niport.gov.bd/pages/publications/bangladesh-demographic-and-health-survey-report-2022-a4a0e2-6922dad781fc96cef9eb753b",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-niport/2024/12/62521f5b254145bb905d78b00cbd279c.pdf",
+   "categories": [
+    "Health",
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "Demographic and Health Survey",
+    "Surveys"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Division",
+   "temporal_start": 2022,
+   "temporal_end": 2022,
+   "update_frequency": "Multi-year",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "bdhs",
+    "dhs",
+    "fertility",
+    "family planning",
+    "child health",
+    "nutrition"
+   ],
+   "evidence_url": "https://niport.gov.bd/pages/publications",
+   "evidence_note": "NIPORT publications list shows 'Bangladesh Demographic and Health Survey Report-2022' (25-05-2025) and 'Bangladesh Demographic and Health Survey Key Indicators Report-2022', each with a PDF.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "niport-bhfs-2022",
+   "title": "Bangladesh Health Facility Survey 2022 (BHFS 2022)",
+   "organization": "niport",
+   "description": "Final report of the Bangladesh Health Facility Survey 2022, which assesses the availability and readiness of health services in health facilities, including infrastructure, staffing, equipment, medicines and quality of care.",
+   "source_url": "https://niport.gov.bd/pages/publications/bangladesh-health-facility-survey-bhfs-2022-final-report-4fc6e8-6922da4c81fc96cef9eb5e36",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-niport/2024/12/35d8a1bd750b4b54a8100a5e4e679a11.pdf",
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Health Facilities",
+    "Surveys"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Division",
+   "temporal_start": 2022,
+   "temporal_end": 2022,
+   "update_frequency": "Multi-year",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "bhfs",
+    "health facility survey",
+    "service readiness",
+    "quality of care"
+   ],
+   "evidence_url": "https://niport.gov.bd/pages/publications",
+   "evidence_note": "NIPORT publications list shows 'Bangladesh Health Facility Survey (BHFS) 2022 Final Report' dated 31-12-2024 with PDF.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "niport-urban-health-survey-2021",
+   "title": "Urban Health Survey 2021",
+   "organization": "niport",
+   "description": "Report of the Urban Health Survey 2021 on health, nutrition, family planning and service use among urban populations, including city corporation and slum areas.",
+   "source_url": "https://niport.gov.bd/pages/publications/urban-health-survey-report-2021-3a2e2f-6922da1781fc96cef9eb529e",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-niport/2024/12/794d1caa80744338a1887ef7bf225acd.pdf",
+   "categories": [
+    "Health",
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "Urban Health",
+    "Surveys"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh (urban areas)",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2021,
+   "temporal_end": 2021,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "urban health",
+    "slums",
+    "city corporation",
+    "survey"
+   ],
+   "evidence_url": "https://niport.gov.bd/pages/publications",
+   "evidence_note": "NIPORT publications list shows 'Urban Health Survey Report-2021' (23-01-2023) with PDF attachment.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dgfp-demographic-data",
+   "title": "DGFP Demographic Data – Key Population and Health Indicators",
+   "organization": "dgfp",
+   "description": "Summary table of key demographic and reproductive health indicators comparing 2009 and 2024, including life expectancy, TFR, CPR, unmet need, neonatal/infant/under-5 mortality, maternal mortality ratio, ANC coverage, institutional delivery, stunting, wasting and population growth. Sources cited are BSVS and BDHS.",
+   "source_url": "https://dgfp.gov.bd/pages/static-pages/6922dc24933eb65569e0ea11",
+   "download_url": null,
+   "categories": [
+    "Population & Demographics",
+    "Health"
+   ],
+   "subcategories": [
+    "Fertility",
+    "Family Planning"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2009,
+   "temporal_end": 2024,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "tfr",
+    "cpr",
+    "maternal mortality",
+    "child mortality",
+    "demographic indicators"
+   ],
+   "evidence_url": "https://dgfp.gov.bd/pages/static-pages/6922dc24933eb65569e0ea11",
+   "evidence_note": "Page 'ডেমোগ্রাফিক ডাটা' shows 'হালনাগাদকৃত ডেমোগ্রাফিক ডাটা' table with columns ২০০৯ and ২০২৪ (e.g., টিএফআর ২.৭ → ২.১৫, সিপিআর ৫৬.১% → ৬৪%).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dgfp-monthly-ss-lmis-reports",
+   "title": "DGFP Monthly Service Statistics and Logistics (LMIS) Reports",
+   "organization": "dgfp",
+   "description": "Monthly reports from the Directorate General of Family Planning: service statistics (SS) reports on family planning and MCH services, and logistics (LMIS) reports on contraceptive and commodity supply. The list contains 206 entries from August 2014 to July 2026.",
+   "source_url": "https://dgfp.gov.bd/pages/monthly-reports",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dgfp/2026/8/2f3888fa-d6a2-4bb2-937b-f0c72c1b83e0.pdf",
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Family Planning",
+    "Logistics"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2014,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "family planning",
+    "service statistics",
+    "lmis",
+    "contraceptives"
+   ],
+   "evidence_url": "https://dgfp.gov.bd/pages/monthly-reports?page=1&page_size=300",
+   "evidence_note": "'মাসিক প্রতিবেদন' list (মোট ২০৬ এন্ট্রি) from 'লজিস্টিক্স প্রতিবেদন - জুলাই, ২০২৬' back to 'এসএস প্রতিবেদন আগস্ট’ 2014', each with PDF.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dgfp-mis-service-statistics",
+   "title": "DGFP MIS – Service Statistics Portal",
+   "organization": "dgfp",
+   "description": "Management Information System portal of the DGFP MIS Unit giving access to family planning Service Statistics, FP DHIS2, Logistics MIS, MCH and nutrition services data, publications and historical MCH data (2008–2015).",
+   "source_url": "https://mis.dgfp.gov.bd",
+   "download_url": null,
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Family Planning",
+    "Health Information Systems"
+   ],
+   "formats": [
+    "Dashboard",
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "mis",
+    "service statistics",
+    "family planning",
+    "mch",
+    "dhis2"
+   ],
+   "evidence_url": "https://mis.dgfp.gov.bd",
+   "evidence_note": "'এম আই এস ইউনিট পরিবার পরিকল্পনা অধিদপ্তর' portal menu lists Service Statistics, FP DHIS2, Logistics MIS, MCH Services, Nutrition Services, Publication and 'MCH Data(2008-2015)'; linked from dgfp.gov.bd as 'SS - Service Statistics'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "banbeis-bangladesh-education-statistics",
+   "title": "Bangladesh Education Statistics",
+   "organization": "banbeis",
+   "description": "Annual national compendium of education statistics produced by BANBEIS from its education survey, covering institutions, teachers and students across education levels. Editions 2021–2024 are linked from the BANBEIS site (the 2024 edition via Google Drive).",
+   "source_url": "https://banbeis.gov.bd",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-banbeis/2024/12/18eb15a7026f431394e022af7e36a03a.pdf",
+   "categories": [
+    "Education"
+   ],
+   "subcategories": [
+    "Education Statistics"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2021,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "education statistics",
+    "schools",
+    "students",
+    "teachers",
+    "institutions"
+   ],
+   "evidence_url": "https://banbeis.gov.bd/pages/files/69199763933eb65569ddc6fc",
+   "evidence_note": "BANBEIS menu 'শিক্ষা পরিসংখ্যান রিপোর্ট' lists বাংলাদেশ শিক্ষা পরিসংখ্যান ২০২৪, ২০২৩, ২০২২, ২০২১; the 2023 file page offers 'বাংলাদেশ শিক্ষা পরিসংখ্যান ২০২৩ — ডাউনলোড করুন' (PDF).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "banbeis-pocket-book-education-statistics-2022",
+   "title": "Pocket Book of Bangladesh Education Statistics 2022",
+   "organization": "banbeis",
+   "description": "Compact summary of key Bangladesh education statistics for 2022 from BANBEIS, for quick reference to the main indicators by education level.",
+   "source_url": "https://banbeis.gov.bd/pages/files/69199761933eb65569ddc65b",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-banbeis/2024/12/b8258aebf15d4ad9a180cac7f21f5a11.pdf",
+   "categories": [
+    "Education"
+   ],
+   "subcategories": [
+    "Education Statistics"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2022,
+   "temporal_end": 2022,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "pocket book",
+    "education indicators",
+    "banbeis"
+   ],
+   "evidence_url": "https://banbeis.gov.bd/pages/files/69199761933eb65569ddc65b",
+   "evidence_note": "File page titled 'Pocket book of Bangladesh Education Statistics - 2022' with PDF 'ডাউনলোড করুন' link.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dpe-annual-primary-school-census",
+   "title": "Annual Primary School Census (APSC) / Annual Primary School Statistics (APSS)",
+   "organization": "dpe",
+   "description": "DPE's annual census of primary schools, reporting on schools, enrolment, teachers, infrastructure and efficiency indicators for primary education. From 2024 it is published as Annual Primary School Statistics (APSS); the list also includes APSC data collection forms.",
+   "source_url": "https://dpe.gov.bd/pages/publications",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dpe/2024/12/ef18eba7ff1b4cc29f48baf9135a7cc4.pdf",
+   "categories": [
+    "Education"
+   ],
+   "subcategories": [
+    "Primary Education",
+    "Census"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2019,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "apsc",
+    "apss",
+    "primary school census",
+    "enrolment",
+    "teachers"
+   ],
+   "evidence_url": "https://dpe.gov.bd/pages/publications?page=1&page_size=100",
+   "evidence_note": "DPE publications list includes 'Annual Primary School Statistics (APSS) 2024' (27-07-2025), 'Final Report APSC 2023', 'APSC 2022_Final Report_31.05.23', 'Annual Primary School Census Report 2021', '…2020' and 'Final Annual Primary School Census (APSC) - 2019 Report', each with PDF.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dam-daily-divisional-retail-prices",
+   "title": "Daily Divisional Retail Market Prices",
+   "organization": "dam",
+   "description": "Daily retail market price reports for agricultural commodities in each of the eight divisions (Dhaka, Chattogram, Khulna, Rajshahi, Barishal, Rangpur, Sylhet, Mymensingh), published by the Department of Agricultural Marketing as one PDF per division per day.",
+   "source_url": "https://dam.gov.bd/pages/static-pages/6922e0d1933eb65569e28b21",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dam/2026/8/ba551bc9-7c97-4680-aa48-d49bc7eb414a.pdf",
+   "categories": [
+    "Agriculture",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Market Prices",
+    "Retail Prices"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Division",
+   "temporal_start": 2026,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "retail prices",
+    "market prices",
+    "commodities",
+    "dam"
+   ],
+   "evidence_url": "https://dam.gov.bd/pages/static-pages/6922e0d1933eb65569e28b21",
+   "evidence_note": "Page 'দৈনিক বিভাগীয় খুচরা বাজারদর' table with date rows (latest ২৪-০৯-২০২৬, earliest listed ০১-০১-২০২৬) and a 'ডাউনলোড' PDF link per division.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dam-271-commodities-national-average-prices",
+   "title": "National Average Wholesale and Retail Prices of 271 Agricultural Commodities (Monthly)",
+   "organization": "dam",
+   "description": "Monthly bulletin of national average wholesale and retail prices for 271 agricultural commodities collected by the Department of Agricultural Marketing. One PDF per month is available for 2017 to 2026.",
+   "source_url": "https://dam.gov.bd/pages/static-pages/6922e000933eb65569e24ff9",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dam/2026/8/338ac4a6-4a34-4ce9-b6d6-a0bfe50ce5f2.pdf",
+   "categories": [
+    "Agriculture",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Market Prices",
+    "Wholesale Prices"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2017,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "wholesale prices",
+    "retail prices",
+    "271 commodities",
+    "monthly average"
+   ],
+   "evidence_url": "https://dam.gov.bd/pages/static-pages/6922e000933eb65569e24ff9",
+   "evidence_note": "Page 'বুলেটিন ২৭১টি কৃষিপণ্যের বাজারদর টাকায় (পাইকারী ও খুচরা)': 'কৃষি বিপণন অধিদপ্তর কর্তৃক সংগ্রহীত ২৭১টি কৃষিপণ্যের মাসভিত্তিক পাইকারী ও খুচরা এর জাতীয় গড় বাজারদর', with monthly PDFs for years ২০১৭–২০২৬.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dam-271-commodities-district-average-prices",
+   "title": "District-wise Average Prices of 271 Agricultural Commodities",
+   "organization": "dam",
+   "description": "District-level monthly average wholesale and retail prices of 271 agricultural commodities, published as separate wholesale and retail PDFs for six commodity groups (cereals; pulses, oilseeds and spices; jute, fertilizer and milk; poultry, fish, meat and eggs; potato, vegetables, sugar and salt; fruits and betel).",
+   "source_url": "https://dam.gov.bd/pages/static-pages/6922e0ca933eb65569e2899a",
+   "download_url": null,
+   "categories": [
+    "Agriculture",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Market Prices"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "District",
+   "temporal_start": 2024,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "district prices",
+    "wholesale",
+    "retail",
+    "agricultural commodities"
+   ],
+   "evidence_url": "https://dam.gov.bd/pages/static-pages/6922e0ca933eb65569e2899a",
+   "evidence_note": "Page '২৭১টি কৃষিপণ্যের জেলা ভিত্তিক গড় বাজারদর' with year rows ২০২৪ and ২০২৫ and 'পাইকারি'/'খুচরা' PDF links for each commodity group.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dam-farmgate-average-prices",
+   "title": "Commodity-wise Farm-gate (Farmer-received) Average Wholesale Prices",
+   "organization": "dam",
+   "description": "Annual tables of commodity-wise average wholesale prices received by farmers (farm-gate prices), compiled by the Department of Agricultural Marketing. The page lists editions for 2022 to 2026 (up to June 2026).",
+   "source_url": "https://dam.gov.bd/pages/static-pages/6922dc0f933eb65569e0e38c",
+   "download_url": null,
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Farm-gate Prices",
+    "Market Prices"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2022,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "farm-gate prices",
+    "farmers",
+    "wholesale prices"
+   ],
+   "evidence_url": "https://dam.gov.bd/pages/static-pages/6922dc0f933eb65569e0e38c",
+   "evidence_note": "Page 'কৃষকপ্রাপ্ত গড় বাজারদর' lists '২০২৬ সালের জুন পর্যন্ত …' and ২০২৫–২০২২ 'পণ্য ভিত্তিক কৃষক প্রাপ্ত পাইকারী গড় বাজারদর', each with a 'PDF' button (the buttons had no link target when checked).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dam-dhaka-weekly-retail-prices",
+   "title": "Weekly Retail Market Prices in Dhaka City",
+   "organization": "dam",
+   "description": "Weekly comparative statements of retail market prices of essential commodities in Dhaka city, published as one PDF per week of each month.",
+   "source_url": "https://dam.gov.bd/pages/monthly-reports/retail-market-prices-in-dhaka-city-ol414e-6a6ade32c202d618dd59d411",
+   "download_url": null,
+   "categories": [
+    "Agriculture",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Retail Prices",
+    "Market Prices"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Dhaka city",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2026,
+   "temporal_end": 2026,
+   "update_frequency": "Weekly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "dhaka",
+    "retail prices",
+    "weekly",
+    "essential commodities"
+   ],
+   "evidence_url": "https://dam.gov.bd/pages/monthly-reports/retail-market-prices-in-dhaka-city-ol414e-6a6ade32c202d618dd59d411",
+   "evidence_note": "Page 'ঢাকা মহানগরীর সপ্তাহিক খুচরা বাজারদর' — 'খুচরা বাজারদরের সপ্তাহিক তুলনামূলক বিবরণী সাল-২০২৬' with weekly PDF links for জুলাই, আগস্ট and সেপ্টেম্বর.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dof-yearbook-fisheries-statistics",
+   "title": "Yearbook of Fisheries Statistics of Bangladesh",
+   "organization": "dof",
+   "description": "Annual statistical yearbook of the Department of Fisheries on inland capture, aquaculture and marine fish production and related fisheries statistics. The series on the site runs from 1983-84 to 2024-25.",
+   "source_url": "https://fisheries.gov.bd/pages/static-pages/6922e13e933eb65569e2b13e",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-fisheries/2026/6/6900f8cb-1589-4fe8-92be-9a09070311cf.pdf",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Fisheries",
+    "Fish Production"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 1983,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "fisheries",
+    "fish production",
+    "aquaculture",
+    "yearbook"
+   ],
+   "evidence_url": "https://fisheries.gov.bd/pages/static-pages/6922e13e933eb65569e2b13e",
+   "evidence_note": "Page 'মৎস্য পরিসংখ্যান' table lists 'YearBook of Fisheries Statistics of Bangladesh' for 2024-25, 2023-24 … back to 1983-84, each with a download link.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dof-marine-fish-stock-assessment",
+   "title": "Marine Fish Stock Assessment Reports",
+   "organization": "dof",
+   "description": "Marine fisheries stock assessment reports published by the Department of Fisheries, including Stock Assessment Reports for 2019 and 2023 and a DFN report.",
+   "source_url": "https://fisheries.gov.bd/pages/static-pages/6922e158933eb65569e2b99f",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-fisheries/2024/12/25c566f8ed02467dad4a43aa72e6f3ec.pdf",
+   "categories": [
+    "Agriculture",
+    "Environment"
+   ],
+   "subcategories": [
+    "Marine Fisheries",
+    "Fish Stock"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh marine waters",
+   "geographic_level": "Mixed",
+   "temporal_start": 2019,
+   "temporal_end": 2023,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "marine fisheries",
+    "stock assessment",
+    "bay of bengal"
+   ],
+   "evidence_url": "https://fisheries.gov.bd/pages/static-pages/6922e158933eb65569e2b99f",
+   "evidence_note": "Page 'প্রতিবেদন (সামুদ্রিক)' lists 'DFN Report', 'Stock Assessment Report-2023' and 'Stock Assessment Report- 2019'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dls-livestock-economy-at-a-glance",
+   "title": "Livestock Economy at a Glance",
+   "organization": "dls",
+   "description": "Annual statistical summary of Bangladesh's livestock sector from the Department of Livestock Services, covering items such as livestock and poultry population, milk, meat and egg production, and the sector's economic contribution.",
+   "source_url": "https://dls.gov.bd/pages/static-pages/6922de4d933eb65569e19b16",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dls/2026/7/fa783dfb-33c7-497d-bd96-d68868d626ed.pdf",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Livestock"
+   ],
+   "formats": [
+    "PDF",
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2017,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "livestock",
+    "poultry",
+    "milk",
+    "meat",
+    "eggs"
+   ],
+   "evidence_url": "https://dls.gov.bd/pages/static-pages/6922de4d933eb65569e19b16",
+   "evidence_note": "Page 'Livestock Economy' lists 'Livestock Economy at a glance 2025-2026', 2024-2025 … 2017-18 (PDF; 2018-2019 and 2019-2020 as .doc files).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dls-annual-reports",
+   "title": "Department of Livestock Services Annual Reports",
+   "organization": "dls",
+   "description": "Annual reports of the Department of Livestock Services describing activities, livestock production, services and development programmes, including a 2016-17 report on milk, meat and eggs.",
+   "source_url": "https://dls.gov.bd/pages/annual-reports",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dls/2024/12/71a1a90a1d474e07a3966a3dd83236d4.pdf",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Livestock"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2014,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "livestock",
+    "annual report",
+    "dls"
+   ],
+   "evidence_url": "https://dls.gov.bd/pages/annual-reports",
+   "evidence_note": "'বার্ষিক প্রতিবেদন' list (মোট ১০ এন্ট্রি) from 'বার্ষিক প্রতিবেদন ২০২৩-২০২৪' back to '২০১৪-১৫', each with PDF.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dae-crop-production-targets",
+   "title": "Crop Cultivation and Production Targets by Season",
+   "organization": "dae",
+   "description": "DAE's seasonal breakdown of cultivation area and production targets for crops (Kharif and Rabi seasons, including Boro rice and sugarcane) under the intensive annual crop production programme, issued each fiscal year.",
+   "source_url": "https://dae.gov.bd/pages/static-pages/6922df51933eb65569e212ed",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dae/2026/4/3e7fe468-8090-494e-abbc-090bdbab0b97.pdf",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Crop Production",
+    "Production Targets"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2020,
+   "temporal_end": 2027,
+   "update_frequency": "Half-yearly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "crop targets",
+    "boro",
+    "rabi",
+    "kharif",
+    "production"
+   ],
+   "evidence_url": "https://dae.gov.bd/pages/static-pages/6922df51933eb65569e212ed",
+   "evidence_note": "Page 'ফসল উৎপাদন লক্ষ্যমাত্রা' lists PDFs such as '২০২৬-২৭ অর্থবছরে খরিফ মৌসুমে বিভিন্ন ফসলের আবাদ ও উৎপাদন লক্ষ্যমাত্রার বিভাজন' back to the ২০২০-২১ রবি ফসল targets.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dae-bamis-national-agromet-bulletin",
+   "title": "BAMIS National Agro-meteorological Bulletin",
+   "organization": "dae",
+   "description": "Weekly national agro-meteorological advisory bulletin from the Bangladesh Agro-Meteorological Information Service (BAMIS) portal of DAE, giving weather information and crop advisories. District bulletins are also on the portal; the national archive runs from April 2019.",
+   "source_url": "https://www.bamis.gov.bd/bulletin/nation/archive/",
+   "download_url": null,
+   "categories": [
+    "Agriculture",
+    "Climate & Weather"
+   ],
+   "subcategories": [
+    "Agro-meteorology",
+    "Weather Advisories"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2019,
+   "temporal_end": 2026,
+   "update_frequency": "Weekly",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "agromet",
+    "weather",
+    "crop advisory",
+    "bamis"
+   ],
+   "evidence_url": "https://www.bamis.gov.bd/bulletin/nation/archive/",
+   "evidence_note": "'জাতীয় বুলেটিন আর্কাইভ' table lists bulletins from ১৬ সেপ্টেম্বর ২০২৬ back to ১০ এপ্রিল ২০১৯, each with a 'দেখুন' link; linked from dae.gov.bd as 'জাতীয় বুলেটিন'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "moa-agriculture-statistics-at-a-glance",
+   "title": "Bangladesh Agriculture Statistics at a Glance",
+   "organization": "moa",
+   "description": "Ministry of Agriculture summary table of key agriculture statistics: farm and non-farm households, cultivable, irrigated and cropped land, cropping intensity, agriculture's GDP share and employment, and area and production of Aus, Aman, Boro, wheat, maize, potato, vegetables, oilseeds, pulses and onion, citing BBS sources.",
+   "source_url": "https://moa.gov.bd/pages/static-pages/694032ae35ce18e1c05607d5",
+   "download_url": null,
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Crop Production",
+    "Land Use"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2022,
+   "temporal_end": 2023,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "agriculture statistics",
+    "rice production",
+    "cropped area",
+    "land use"
+   ],
+   "evidence_url": "https://moa.gov.bd/pages/static-pages/694032ae35ce18e1c05607d5",
+   "evidence_note": "Page 'এক নজরে কৃষি পরিসংখ্যান' with a table including 'খাদ্যশস্যের আবাদ ও উৎপাদন, ২০২২-২৩' (আউশ, আমন, বোরো, গম, ভুট্টা) and land-use figures.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "moa-monthly-fertilizer-allocation",
+   "title": "Monthly Fertilizer Allocation (Urea and Non-urea)",
+   "organization": "moa",
+   "description": "Monthly allocation orders for urea and non-urea chemical fertilizers issued by the Ministry of Agriculture, with advance lifting instructions. Each month's allocation is a PDF notice.",
+   "source_url": "https://moa.gov.bd/pages/static-pages/694032a835ce18e1c0560196",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-moa/2026/8/ecf53069-6844-44f8-97c1-b656e00e4745.pdf",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Fertilizer",
+    "Agricultural Inputs"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "fertilizer",
+    "urea",
+    "allocation",
+    "agricultural inputs"
+   ],
+   "evidence_url": "https://moa.gov.bd/pages/static-pages/694032a835ce18e1c0560196",
+   "evidence_note": "Page 'সারের মাসিক বরাদ্দ' lists PDFs such as 'নন-ইউরিয়া সারের বরাদ্দ অক্টোবর ২০২৬', '…সেপ্টেম্বর ২০২৬', '…আগস্ট ২০২৬'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "barc-climate-information-management-system",
+   "title": "BARC Climate Information Management System",
+   "organization": "barc",
+   "description": "Climate database and dashboard from BARC with station data on temperature, rainfall, humidity, cloud cover, wind speed, sunshine, potential evapotranspiration, solar radiation and thermal/moisture regimes. Daily data come from the Bangladesh Meteorological Department; data access requires registration.",
+   "source_url": "https://apps.barc.gov.bd/climate/",
+   "download_url": null,
+   "categories": [
+    "Climate & Weather",
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Rainfall",
+    "Temperature"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "climate",
+    "rainfall",
+    "temperature",
+    "weather stations",
+    "bmd"
+   ],
+   "evidence_url": "https://apps.barc.gov.bd/climate/",
+   "evidence_note": "'Climate Information Management System' with Dashboard menus Temperature, Rainfall, Humidity, Cloud Coverage, Wind Speed, Sunshine, PET, Solar Radiation; 'The daily data is collected from Bangladesh Meteorological Department (BMD)'. Linked from barc.gov.bd as 'জলবায়ু ডাটাবেস'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "barc-land-resource-information-system",
+   "title": "BARC Land Resource Information Management System",
+   "organization": "barc",
+   "description": "BARC land resource database offering downloadable land resource maps and shapefiles after user login/sign-up.",
+   "source_url": "http://apps.barc.gov.bd/lri/",
+   "download_url": null,
+   "categories": [
+    "Agriculture",
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Land Resources",
+    "Soil"
+   ],
+   "formats": [
+    "SHP",
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "land resources",
+    "soil",
+    "maps",
+    "shapefiles",
+    "gis"
+   ],
+   "evidence_url": "http://apps.barc.gov.bd/lri/",
+   "evidence_note": "'Welcome to Land Resource Information Management System — To Download Maps and Shapefiles, Please login/signup first.' Linked from barc.gov.bd as 'ভূমি সম্পদ ডাটাবেজ'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mofood-public-foodgrain-stock",
+   "title": "Public Foodgrain Stock Situation",
+   "organization": "mofood",
+   "description": "Current government stock of foodgrains (rice, wheat, and paddy counted as rice) in metric tonnes, including floating stock, as updated by the Ministry of Food.",
+   "source_url": "https://mofood.gov.bd/pages/static-pages/%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%A6-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%A4%E0%A6%BF-6948c608678c4d204257a2fe",
+   "download_url": null,
+   "categories": [
+    "Agriculture",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Food Stock",
+    "Food Security"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2026,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "food stock",
+    "rice",
+    "wheat",
+    "public food distribution"
+   ],
+   "evidence_url": "https://mofood.gov.bd/pages/static-pages/%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%A6-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%A4%E0%A6%BF-6948c608678c4d204257a2fe",
+   "evidence_note": "Page 'মজুদ পরিস্থিতি' table: চাল ২০,৫৫,২৭৮, গম ২,৬৪,৭৭৩ মেঃ টন … '২৩ সেপ্টেম্বর ২০২৬ তারিখ পর্যন্ত খাদ্যশস্যের সরকারি মজুদ'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mofood-dhaka-foodgrain-market-prices",
+   "title": "Dhaka Foodgrain Market Prices (Rice and Atta)",
+   "organization": "mofood",
+   "description": "Current wholesale and retail prices per kg of coarse rice and loose atta in Dhaka markets, shown by the Ministry of Food based on Department of Agricultural Marketing data.",
+   "source_url": "https://mofood.gov.bd/pages/static-pages/%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A6%A6%E0%A6%B0-694a53144b6f274a1ca54653",
+   "download_url": null,
+   "categories": [
+    "Agriculture",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Market Prices",
+    "Food Prices"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Dhaka",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2026,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "rice price",
+    "atta price",
+    "dhaka",
+    "food prices"
+   ],
+   "evidence_url": "https://mofood.gov.bd/pages/static-pages/%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A6%A6%E0%A6%B0-694a53144b6f274a1ca54653",
+   "evidence_note": "Page 'বাজারদর' table of মোটা চাল (গুটি স্বর্ণা) and আটা (খোলা) wholesale/retail prices — 'কৃষি বিপণন অধিদপ্তরের তথ্যমতে ২৪ সেপ্টেম্বর ২০২৬ খ্রি. তারিখে ঢাকার বাজারদর'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "fpmu-quarterly-food-situation-report",
+   "title": "Bangladesh Food Situation Quarterly Report",
+   "organization": "fpmu",
+   "description": "Quarterly report of the Food Planning and Monitoring Unit on Bangladesh's food situation. The listing has 16 issues, from No. 130 (September 2022) to No. 145 (July 2026).",
+   "source_url": "https://fpmu.mofood.gov.bd/pages/miscellaneous-infos?filters=%7B%22miscellaneous_info_type%22%3A%20%226922d8ff81fc96cef9eb060e%22%7D",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-fpmu-mofood/2026/7/b8e0c2dc-fa88-484e-bddf-199eb4aed9a6.pdf",
+   "categories": [
+    "Agriculture",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Food Security"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2022,
+   "temporal_end": 2026,
+   "update_frequency": "Quarterly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "food situation",
+    "food security",
+    "foodgrain",
+    "fpmu"
+   ],
+   "evidence_url": "https://fpmu.mofood.gov.bd/pages/miscellaneous-infos?filters=%7B%22miscellaneous_info_type%22%3A%20%226922d8ff81fc96cef9eb060e%22%7D&page=1&page_size=300",
+   "evidence_note": "List (মোট ১৬ এন্ট্রি) from 'ত্রৈমাসিক প্রতিবেদন ১৪৫' (26-07-2026) to '১৩০' (29-09-2022), each with PDF; linked from mofood.gov.bd as 'বাংলাদেশ খাদ্য পরিস্থিতির ত্রৈমাসিক প্রতিবেদন'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "teaboard-monthly-tea-bulletin",
+   "title": "Monthly Tea Bulletin (মাসিক চা বুলেটিন)",
+   "organization": "teaboard",
+   "description": "Monthly bulletin of the Bangladesh Tea Board covering the tea sector. The monthly reports page lists 36 monthly editions as PDFs, the latest being August 2026 (published 27-09-2026); the first page goes back to November 2025.",
+   "source_url": "https://teaboard.gov.bd/pages/monthly-reports",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-teaboard/2026/8/7b575b8a-af96-4111-a740-941437ca40ad.pdf",
+   "categories": [
+    "Agriculture",
+    "Industry & Business"
+   ],
+   "subcategories": [
+    "Tea"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "tea",
+    "tea bulletin",
+    "plantation",
+    "tea board"
+   ],
+   "evidence_url": "https://teaboard.gov.bd/pages/monthly-reports",
+   "evidence_note": "Homepage menu 'মাসিক চা বুলেটিন' links to /pages/monthly-reports, which lists monthly PDFs titled 'আগস্ট ২০২৬', 'জুলাই, ২০২৬', 'জুন ২০২৬' … 'নভেম্বর ২০২৫' ('মোট ৩৬ এন্ট্রি').",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "teaboard-tea-production-statistics",
+   "title": "Tea Production Statistics – Garden-wise and District/Valley-wise",
+   "organization": "teaboard",
+   "description": "Annual tea production statistics published by the Bangladesh Tea Board, including garden-wise (বাগান ভিত্তিক) tea production for 2024 and 2025, district- and valley-wise production for 2025, and statistics on tea gardens and small-holding tea cultivation. The same publications list also carries the Annual Review of Bangladesh Tea 2024-25 and the list of 172 registered tea gardens.",
+   "source_url": "https://teaboard.gov.bd/pages/publications",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-teaboard/2026/2/ce751d4f-af08-42f9-8e46-ed9281523089.pdf",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Tea",
+    "Crop Production"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "District",
+   "temporal_start": 2024,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "tea",
+    "tea production",
+    "tea gardens",
+    "small-holding"
+   ],
+   "evidence_url": "https://teaboard.gov.bd/pages/publications",
+   "evidence_note": "Publications page lists '২০২৫ সালে বাগান ভিত্তিক চা উৎপাদন সংক্রান্ত পরিসংখ্যান (১৫.০৯.২০২৬)', 'চা বাগান ও ক্ষুদ্রায়তন চা চাষ সংক্রান্ত পরিসংখ্যান ২০২৬/২০২৫', '২০২৫ খ্রিষ্টাব্দের জেলা ও ভ্যালী ভিত্তিক উৎপাদন', '২০২৪ সালের বাগান ভিত্তিক চা উৎপাদন সংক্রান্ত পরিসংখ্যান' and 'Annual Review of Bangladesh Tea 2024-25', each with a PDF.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "badc-irrigation-summary-report",
+   "title": "Irrigation Summary Report (সেচের সংক্ষিপ্ত প্রতিবেদন)",
+   "organization": "badc",
+   "description": "Annual summary report on irrigation in Bangladesh published by BADC. The reports page holds 12 editions; the first page shows fiscal years 2014-15 through 2023-24, each as a PDF.",
+   "source_url": "https://badc.gov.bd/pages/reports?filters=%7B%22reports_type%22%3A%20%226922d30d81fc96cef9e9bb43%22%7D",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-badc/2024/12/98d963207cde451ebe11da9932c68891.pdf",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Irrigation"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": null,
+   "temporal_start": 2014,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "irrigation",
+    "minor irrigation",
+    "badc"
+   ],
+   "evidence_url": "https://badc.gov.bd/pages/reports?filters=%7B%22reports_type%22%3A%20%226922d30d81fc96cef9e9bb43%22%7D",
+   "evidence_note": "Reports page (type 'সেচ-প্রতিবেদন') lists 'সেচের সংক্ষিপ্ত প্রতিবেদন ২০২৩-২৪', '২০২২-২৩' … '২০১৪-১৫' with PDF attachments ('মোট ১২ এন্ট্রি').",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "badc-irrigation-survey-report",
+   "title": "Irrigation Survey Report (সেচ সংক্রান্ত সার্ভে রিপোর্ট)",
+   "organization": "badc",
+   "description": "Annual irrigation-related survey reports published by BADC. Seven editions are listed, covering fiscal years 2017-18 through 2023-24, each as a PDF.",
+   "source_url": "https://badc.gov.bd/pages/reports?filters=%7B%22reports_type%22%3A%20%226922d31181fc96cef9e9bd28%22%7D",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-badc/2024/12/0ccd7b55c5ec4aa69c3e82eeaa836545.pdf",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Irrigation",
+    "Survey"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": null,
+   "temporal_start": 2017,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "irrigation",
+    "survey",
+    "badc"
+   ],
+   "evidence_url": "https://badc.gov.bd/pages/reports?filters=%7B%22reports_type%22%3A%20%226922d31181fc96cef9e9bd28%22%7D",
+   "evidence_note": "Reports page (type 'সেচ-সার্ভে-রির্পোট') lists 'সেচ সংক্রান্ত সার্ভে রির্পোট ২০২৩-২৪', '২০২২-২৩', '২০২১-২২', '২০২০-২১', '২০১৯-২০', '২০১৮-১৯', '২০১৭-১৮' with PDFs ('মোট ৭ এন্ট্রি').",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "badc-fertilizer-import-distribution",
+   "title": "Fertilizer Import and Distribution Information (সার আমদানি ও বিতরণের তথ্য)",
+   "organization": "badc",
+   "description": "Monthly statements of fertilizer imported and distributed by BADC. The page lists 27 monthly PDF entries; the first page shows January–June 2021 and August–October 2024.",
+   "source_url": "https://badc.gov.bd/pages/miscellaneous-infos?filters=%7B%22miscellaneous_info_type%22%3A%20%226922d90881fc96cef9eb09e3%22%7D",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-badc/2024/12/6255df7038824991a961dbb125d68b18.pdf",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Fertilizer"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": null,
+   "temporal_start": null,
+   "temporal_end": 2024,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "fertilizer",
+    "import",
+    "distribution",
+    "badc"
+   ],
+   "evidence_url": "https://badc.gov.bd/pages/miscellaneous-infos?filters=%7B%22miscellaneous_info_type%22%3A%20%226922d90881fc96cef9eb09e3%22%7D",
+   "evidence_note": "Page of type 'সার-আমদানি-ও-বিতরণের-তথ্য' (linked from the homepage as 'সার আমদানি ও বিতরণের তথ্য') lists monthly PDFs titled 'অক্টোবর, ২০২৪', 'সেপ্টম্বর, ২০২৪', 'আগস্ট ২০২৪', 'জুন ২০২১' … 'জানুয়ারী ২০২১' ('মোট ২৭ এন্ট্রি').",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dss-old-age-allowance-statistics",
+   "title": "Old Age Allowance – Beneficiaries, Allowance Rate and Budget by Fiscal Year",
+   "organization": "dss",
+   "description": "Programme page for the Old Age Allowance (বয়স্ক ভাতা) with a time-series table of the number of beneficiaries (thousands), monthly allowance rate per person (Tk) and annual budget (crore Tk) for every fiscal year from 1997-98 to 2025-26. In 2025-26 it shows 6,100 thousand beneficiaries at Tk 650/month and a budget of Tk 4,791.31 crore. Programme guideline PDFs are attached.",
+   "source_url": "https://dss.gov.bd/pages/static-pages/6922dcb2933eb65569e11974",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dss/2024/12/1dc1cb350560492899dae073c1971b42.pdf",
+   "categories": [
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Social Safety Net",
+    "Allowances"
+   ],
+   "formats": [
+    "HTML",
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 1997,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "old age allowance",
+    "social safety net",
+    "beneficiaries",
+    "elderly"
+   ],
+   "evidence_url": "https://dss.gov.bd/pages/static-pages/6922dcb2933eb65569e11974",
+   "evidence_note": "Page 'বয়স্ক ভাতা' has a table 'বয়স্কভাতার কালানুক্রমিক বৃদ্ধি' with columns অর্থবছর / উপকারভোগীর সংখ্যা (হাজার জনে) / জনপ্রতি মাসিক ভাতার হার / বার্ষিক বাজেট (কোটি টাকায়), rows 1997-98 to 2025-26, plus PDF downloads.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dss-widow-allowance-statistics",
+   "title": "Allowance for Widowed and Husband-Deserted Women – Beneficiaries and Budget by Fiscal Year",
+   "organization": "dss",
+   "description": "Programme page for the allowance for widowed and husband-deserted women (বিধবা ও স্বামী নিগৃহীতা ভাতা) with a time-series table of beneficiaries (thousands), monthly allowance rate (Tk) and annual budget (crore Tk) from 1998-99 to 2026-27. The 2026-27 row shows 3,000 thousand beneficiaries at Tk 700/month. The programme policy is attached as a PDF.",
+   "source_url": "https://dss.gov.bd/pages/static-pages/6922de9e933eb65569e1c133",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dss/2024/12/27465ddd445546d8b1aae81b5b459ba8.pdf",
+   "categories": [
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Social Safety Net",
+    "Allowances",
+    "Gender"
+   ],
+   "formats": [
+    "HTML",
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 1998,
+   "temporal_end": 2027,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "widow allowance",
+    "women",
+    "social safety net",
+    "beneficiaries"
+   ],
+   "evidence_url": "https://dss.gov.bd/pages/static-pages/6922de9e933eb65569e1c133",
+   "evidence_note": "Page 'বিধবা ও স্বামী নিগৃহীতা ভাতা' has a table 'বিধবা ও স্বামী নিগৃহীতা ভাতা কালানুক্রমিক বৃদ্ধি' (অর্থবছর / উপকারভোগীর সংখ্যা / জনপ্রতি মাসিক ভাতার হার / বার্ষিক বাজেট) from 1998-99 to 2026-27, and a 'বিধবা ভাতার নীতিমালা' PDF.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dss-disability-allowance-statistics",
+   "title": "Disability Allowance – Beneficiaries and Budget by Fiscal Year",
+   "organization": "dss",
+   "description": "Programme page for the Disability Allowance (প্রতিবন্ধী ভাতা) with a time-series table of beneficiaries (thousands), monthly allowance rate (Tk) and annual budget (crore Tk) from 2005-06 to 2026-27. The page states that in 2026-27 beneficiaries rise to 3.8 million at Tk 1,000/month with an allocation of Tk 4,587.36 crore. Implementation policy PDFs are attached.",
+   "source_url": "https://dss.gov.bd/pages/static-pages/6922e03c933eb65569e261fc",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dss/2024/12/1f9238cef8e844a8a86d91e40d23826b.pdf",
+   "categories": [
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Social Safety Net",
+    "Allowances",
+    "Disability"
+   ],
+   "formats": [
+    "HTML",
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2005,
+   "temporal_end": 2027,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "disability allowance",
+    "persons with disabilities",
+    "social safety net",
+    "beneficiaries"
+   ],
+   "evidence_url": "https://dss.gov.bd/pages/static-pages/6922e03c933eb65569e261fc",
+   "evidence_note": "Page 'প্রতিবন্ধী ভাতা' has a table 'প্রতিবন্ধী ভাতার কালানুক্রমিক বৃদ্ধি' (অর্থবছর / উপকারভোগীর সংখ্যা (হাজারে) / জনপ্রতি মাসিক ভাতার হার / বার্ষিক বাজেট (কোটি টাকায়)) from 2005-06 to 2026-27, plus PDF downloads.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dgfood-domestic-aman-procurement",
+   "title": "Domestic Aman Procurement – Division, District and Upazila-wise Targets and Allocations",
+   "organization": "dgfood",
+   "description": "Directorate General of Food documents for the domestic Aman paddy/rice procurement drive, including division-, district- and upazila-wise procurement targets for paddy, parboiled (সিদ্ধ) and atap rice, and additional allocation orders. The page groups files by fiscal year from 2021-22 and earlier up to 2025-26 and the current season; a parallel page covers Boro procurement (/pages/static-pages/6922db6d933eb65569e0a167).",
+   "source_url": "https://dgfood.gov.bd/pages/static-pages/6922e0ad933eb65569e2822f",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dgfood/2024/12/0163ffb08e1a4c698bae13cb1a36f6ec.pdf",
+   "categories": [
+    "Agriculture",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Food Procurement",
+    "Rice"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "aman",
+    "procurement",
+    "rice",
+    "paddy",
+    "food stock"
+   ],
+   "evidence_url": "https://dgfood.gov.bd/pages/static-pages/6922e0ad933eb65569e2822f",
+   "evidence_note": "Page 'অভ্যন্তরীণ আমন সংগ্রহ' lists 'আমন সংগ্রহ (২০২৫-২৬ হতে বর্তমান)', '(অর্থ-বছর ২০২৫-২৬)', '(২০২৪-২৫)', '(২০২৩-২৪)', '(২০২১-২২ ও ২০২২-২৩)', '(২০২১-২২ ও পূর্ববর্তী)'; the 2025-26 file page has PDFs titled e.g. 'অভ্যন্তরীণ আমন সংগ্রহ ২০২৫-২৬ মৌসুমে ধানের বিভাগ, জেলা ও উপজেলাওয়ারি লক্ষ্যমাত্রা…'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "srdi-soil-thematic-maps",
+   "title": "Soil and Land Resource Thematic Maps of Bangladesh",
+   "organization": "srdi",
+   "description": "National thematic maps published by the Soil Resource Development Institute, including problem soil map (1997), peat soil map, land use maps (1996 and 2004), agro-ecological zone (AEZ) map, physiography map, soil reaction map, general soil map, and organic matter and phosphorus status maps, grouped as pre-2010, 2010 and 2020 editions. Maps are provided as PDF or image files.",
+   "source_url": "https://srdi.gov.bd/pages/static-pages/6922dfb3933eb65569e23904",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-srdi/2024/12/169510e1bec44c1ab747462d26b4462f.pdf",
+   "categories": [
+    "Agriculture",
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Soil",
+    "Land Use"
+   ],
+   "formats": [
+    "PDF",
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 1996,
+   "temporal_end": 2020,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "soil",
+    "maps",
+    "agro-ecological zones",
+    "land use",
+    "srdi"
+   ],
+   "evidence_url": "https://srdi.gov.bd/pages/static-pages/6922dfb3933eb65569e23904",
+   "evidence_note": "Page 'মানচিত্র' has a table with columns 'মানচিত্র (২০১০ পূর্ব)', 'মানচিত্র (২০১০)', 'মানচিত্র (২০২০)' listing 'সমস্যাক্লিষ্ট মৃত্তিকা মানচিত্র (১৯৯৭)', 'এইজেড মানচিত্র', 'পিট মাটি মানচিত্র', 'ফিজিওগ্রাফি মানচিত্র', 'ভূমি ব্যবহার মানচিত্র (১৯৯৬/২০০৪)', 'মাটির প্রতিক্রিয়া মানচিত্র', 'জেনারেল মৃত্তিকা মানচিত্র' etc.; the AEZ map page offers a PDF and the problem-soil map page a JPG.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dgda-registered-allopathic-generics",
+   "title": "Registered Allopathic Generics List with DCC Reference",
+   "organization": "dgda",
+   "description": "DGDA allopathic drug database table listing registered generic medicines with dosage form, strength, GDAR code and the Drug Control Committee (DCC) meeting reference; the list has about 3,599 rows. The same database offers trade-wise, generic-wise and company-wise search and a 'Company Information' table of licensed manufacturers (332 rows with address, licence numbers, validity and status).",
+   "source_url": "http://180.211.137.202:9310/Allopathic/?Generic_List_With_DCC_Number",
+   "download_url": null,
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Medicines",
+    "Drug Regulation"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "drugs",
+    "medicines",
+    "generics",
+    "drug registration",
+    "dgda"
+   ],
+   "evidence_url": "http://180.211.137.202:9310/Allopathic/?Generic_List_With_DCC_Number",
+   "evidence_note": "Linked from dgda.gov.bd as 'এ্যালোপ্যাথিক ড্রাগ ডাটাবেজ'; page 'Generic List With DCC Number' shows an HTML table with columns SL / Generic / Dosage / Strength / GDAR / Ref. of DCC, running to SL 3599. Served over plain HTTP from an IP address.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dgda-registered-medical-devices",
+   "title": "List of Registered Medical Devices",
+   "organization": "dgda",
+   "description": "DGDA lists of registered/imported medical devices: Imported Medical Devices (Class-A) 2011 to 2025, Imported Medical Devices (Class-A) 2026, the imported IVD reagent list, and the B, C & D class imported medical device list, each as a PDF.",
+   "source_url": "https://dgda.gov.bd/pages/files/6922da46933eb65569e03627",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dgda/2026/8/150abe7e-20fb-4e45-9a93-276553a59c7e.pdf",
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Medical Devices",
+    "Drug Regulation"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2011,
+   "temporal_end": 2026,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "medical devices",
+    "ivd",
+    "registration",
+    "dgda"
+   ],
+   "evidence_url": "https://dgda.gov.bd/pages/files/6922da46933eb65569e03627",
+   "evidence_note": "Page 'নিবন্ধিত মেডিকেল ডিভাইস-এর তালিকা' lists PDFs 'Imported Medical Devices (Class-A) 2011 to 2025.pdf', 'Imported Medical Devices (Class-A) 2026', 'IVD Re-agent List Imported' and 'B, C & D Class Imported Medical Device List'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "banbeis-school-list-2024",
+   "title": "List of Schools 2024 (স্কুল-২০২৪)",
+   "organization": "banbeis",
+   "description": "BANBEIS spreadsheet listing schools in Bangladesh for 2024, published under the 'স্কুল সমূহের তালিকা' link on the BANBEIS homepage.",
+   "source_url": "https://banbeis.gov.bd/pages/files/69199760933eb65569ddc637",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-banbeis/2024/12/5db6947e05cf4318a5bd45000f1bbcc6.xlsx",
+   "categories": [
+    "Education"
+   ],
+   "subcategories": [
+    "Educational Institutions"
+   ],
+   "formats": [
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": null,
+   "temporal_start": 2024,
+   "temporal_end": 2024,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "schools",
+    "institution list",
+    "eiin",
+    "banbeis"
+   ],
+   "evidence_url": "https://banbeis.gov.bd/pages/files/69199760933eb65569ddc637",
+   "evidence_note": "Homepage link 'স্কুল সমূহের তালিকা' opens the file page 'স্কুল-২০২৪' with an XLSX attachment 'স্কুল' and a download button.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "banbeis-college-list-2024",
+   "title": "List of Colleges and School & Colleges 2024",
+   "organization": "banbeis",
+   "description": "BANBEIS spreadsheet listing colleges and combined school-and-college institutions in Bangladesh for 2024, published under the 'কলেজ সমূহের তালিকা' link on the BANBEIS homepage.",
+   "source_url": "https://banbeis.gov.bd/pages/files/6919975e933eb65569ddc579",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-banbeis/2024/12/cb248464f0ed4f99b1e9c83d135a6e92.xlsx",
+   "categories": [
+    "Education"
+   ],
+   "subcategories": [
+    "Educational Institutions"
+   ],
+   "formats": [
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": null,
+   "temporal_start": 2024,
+   "temporal_end": 2024,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "colleges",
+    "institution list",
+    "banbeis"
+   ],
+   "evidence_url": "https://banbeis.gov.bd/pages/files/6919975e933eb65569ddc579",
+   "evidence_note": "Homepage link 'কলেজ সমূহের তালিকা' opens the file page 'কলেজ, স্কুল এন্ড কলেজ-২০২৪' with an XLSX attachment 'স্কুল এন্ড কলেজ, কলেজ'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "finance-division-social-security-budget-report",
+   "title": "Social Security Budget Report 2026-27 (সামাজিক নিরাপত্তা বাজেট প্রতিবেদন)",
+   "organization": "finance-division",
+   "description": "Finance Division budget document on social security (social safety net) programmes for fiscal year 2026-27, published in Bangla under the budget category 'সামাজিক নিরাপত্তা'.",
+   "source_url": "https://mof.gov.bd/pages/budget-mofs?filters=%7B%22budget_category%22%3A%226a0ff8189da92ab7e49b47b8%22%2C%22budget_year%22%3A%22695b656b29b978dc56937fcf%22%7D",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/5/4d4de077-26a7-4f8f-aad1-7b3f48043897.pdf",
+   "categories": [
+    "Social Protection",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Social Safety Net",
+    "Budget"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2026,
+   "temporal_end": 2027,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "social security",
+    "safety net",
+    "budget",
+    "finance division"
+   ],
+   "evidence_url": "https://mof.gov.bd/pages/budget-mofs?filters=%7B%22budget_category%22%3A%226a0ff8189da92ab7e49b47b8%22%2C%22budget_year%22%3A%22695b656b29b978dc56937fcf%22%7D",
+   "evidence_note": "Budget page (linked from mof.gov.bd as 'সামাজিক নিরাপত্তা প্রতিবেদন') lists one entry: 'সামাজিক নিরাপত্তা বাজেট প্রতিবেদন', অর্থবছর ২০২৬-২৭, বাজেট ক্যাটাগরী 'সামাজিক নিরাপত্তা', with a Bangla PDF.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "finance-division-cash-ssp-expenditure",
+   "title": "Expenditure Statement of Cash-based Social Security Programmes",
+   "organization": "finance-division",
+   "description": "Finance Division statements of expenditure on cash-based social security programmes, published per quarter for 2025-26 (Q1–Q4) and for 2024-25. On the page the Q1, Q2 and Q3 2025-26 links point to the same PDF file.",
+   "source_url": "https://mof.gov.bd/pages/static-pages/expenditure-statement-of-social-security-programs-635q49-69fc7f0829bac2093922d2a7",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/6/d9994a24-b1a5-4cce-92d4-aa38e8201426.pdf",
+   "categories": [
+    "Social Protection",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Social Safety Net",
+    "Public Expenditure"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2024,
+   "temporal_end": 2026,
+   "update_frequency": "Quarterly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "social security",
+    "cash transfer",
+    "expenditure",
+    "g2p"
+   ],
+   "evidence_url": "https://mof.gov.bd/pages/static-pages/expenditure-statement-of-social-security-programs-635q49-69fc7f0829bac2093922d2a7",
+   "evidence_note": "Page 'ক্যাশভিত্তিক সামাজিক নিরাপত্তা কর্মসুচিসমূহের ব্যয় বিবরণী' lists PDF links '২০২৫-২৬ [কোয়ার্টার-৪]', '[কোয়ার্টার-৩]', '[কোয়ার্টার-২]', '[কোয়ার্টার-১]' and '২০২৪-২৫'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bsdb-silk-yarn-production-stock",
+   "title": "Silk Yarn Production and Stock",
+   "organization": "bsdb",
+   "description": "Bangladesh Sericulture Development Board page showing current stock of silk yarn by type (fine and dupion) with market price and VAT, and a table of silk yarn produced at mini-filature centres from farmers' cocoons by fiscal year from 2016-17 to 2025-26 (to June 2026), e.g. 880 kg in 2024-25.",
+   "source_url": "https://bsb.gov.bd/pages/static-pages/6922e156933eb65569e2b908",
+   "download_url": null,
+   "categories": [
+    "Agriculture",
+    "Industry & Business"
+   ],
+   "subcategories": [
+    "Sericulture"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2016,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "silk",
+    "sericulture",
+    "yarn",
+    "cocoon"
+   ],
+   "evidence_url": "https://bsb.gov.bd/pages/static-pages/6922e156933eb65569e2b908",
+   "evidence_note": "Page 'রেশম সুতার উৎপাদন ও মজুদ' has a table 'মজুদ সুতার তথ্য' (সুতার ধরণ / পরিমান / বর্তমান বাজার দর / ভ্যাট ও উৎসে কর) and a table of অর্থ বছর / পরিমান from ২০১৬-২০১৭ (৭৯৩.০০ কেজি) to ২০২৫-২০২৬ (জুন/২৬) (৮৩২ কেজি).",
+   "checked_at": "2026-10-01"
+  }
+ ],
+ "unreachable": [
+  {
+   "url": "http://fpmu.gov.bd",
+   "note": "DNS resolution failure; FPMU content found instead at fpmu.mofood.gov.bd."
+  },
+  {
+   "url": "https://www.ugc.gov.bd/site/view/annual_reports",
+   "note": "UGC's current site returns a 'NotFound' page for annual reports; its publications menu only has UGC Bulletin and Research Publications. An old-portal annual report PDF (ugc.portal.gov.bd, found via search) returned HTTP 404. UGC annual report not included."
+  },
+  {
+   "url": "https://mohfw.gov.bd",
+   "note": "Home page is client-side rendered; no dataset links in the served HTML, so no MoHFW datasets could be verified."
+  },
+  {
+   "url": "https://moedu.gov.bd",
+   "note": "Home page is client-side rendered; no dataset links in the served HTML."
+  },
+  {
+   "url": "http://www.educationboard.gov.bd",
+   "note": "Loads, but only offers an individual SSC/HSC result lookup form; no published exam result statistics found."
+  },
+  {
+   "url": "https://old.dghs.gov.bd/index.php/bd/home/5200-daily-dengue-status-report",
+   "note": "Timed out (linked from IEDCR as the latest dengue update); the DGHS dengue dashboard was used instead."
+  },
+  {
+   "url": "https://nbph.iedcr.gov.bd",
+   "note": "HTTP 406 Not Acceptable."
+  },
+  {
+   "url": "https://moa-services.com/market-directory/market-daily-price-report",
+   "note": "Linked from DAM as daily market prices, but it serves only a JavaScript shell; contents could not be verified."
+  },
+  {
+   "url": "https://dashboard.dghs.gov.bd/pages/sdg.php",
+   "note": "Loaded, but the served HTML contains only navigation (indicator content renders client-side); not included."
+  },
+  {
+   "url": "https://dam.gov.bd",
+   "note": "WebFetch failed with a TLS certificate-chain error (also fisheries.gov.bd and mofood.gov.bd); these pages were loaded with curl instead."
+  },
+  {
+   "url": "https://coop.rdcd.gov.bd/coop",
+   "note": "Linked from coop.gov.bd as 'সকল প্রাথমিক সমবায় সমিতির তথ্য'; returns a 3.5 KB Next.js JavaScript shell with no data in the served HTML."
+  },
+  {
+   "url": "https://ugc.gov.bd/pages/annual-reports",
+   "note": "HTTP 404; the ugc.gov.bd homepage served only the title 'হোম | বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরী কমিশন' with no content or links in the HTML."
+  },
+  {
+   "url": "https://dj.gov.bd/",
+   "note": "Department of Jute: connection failed (no response); djute.gov.bd and jute.gov.bd also failed."
+  },
+  {
+   "url": "https://nns.gov.bd/",
+   "note": "National Nutrition Services: connection failed (no response); nnsbd.gov.bd and iphn.gov.bd also failed."
+  },
+  {
+   "url": "https://info.dgda.gov.bd/clinical-trials",
+   "note": "Linked from dgda.gov.bd as 'ক্লিনিক্যাল ট্রায়ালের তালিকা'; connection failed. fs.dgdagov.info (vaccine database) also failed and the old dgdagov.info drug-manufacturer page returned 404."
+  },
+  {
+   "url": "https://dwa.gov.bd/pages/monthly-reports",
+   "note": "Department of Women Affairs monthly reports page loads but shows 'কোনো তথ্য পাওয়া যায়নি' (no records); its publications page has only two IWD booklets, and mowca.gov.bd publications hold only booklets/manuals, no statistics."
+  },
+  {
+   "url": "https://dgnm.gov.bd/pages/static-pages/6922deaa933eb65569e1c74f",
+   "note": "DGNM 'মাসিক জনবলের প্রতিবেদন' loads but lists only two January 2020 PDFs; not included as a maintained dataset. dgnm.gov.bd/Human_Resources_Reports.html returned 404."
+  },
+  {
+   "url": "https://dshe.gov.bd/pages/static-pages/691997b4933eb65569dde346",
+   "note": "DSHE 'প্রকাশনা' page loads but lists only the DKAP 2019 country report and ISAS 2014 report; no education statistics series found on dshe.gov.bd."
+  }
+ ]
+}

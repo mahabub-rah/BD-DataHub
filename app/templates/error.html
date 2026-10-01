@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block title %}{{ status }} · BD DataHub{% endblock %}
+{% block content %}
+<div class="container error-page">
+  <p class="code">Error {{ status }}</p>
+  <h1>{{ 'Page not found' if status == 404 else 'Something went wrong' }}</h1>
+  <p class="muted">{{ detail }}</p>
+  {{ m.searchbar() }}
+  <p><a href="/">Back to the homepage</a></p>
+</div>
+{% endblock %}

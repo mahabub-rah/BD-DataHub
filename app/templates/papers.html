@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set qp = request.query_params %}
+{% block title %}{% if p.q %}“{{ p.q }}” in research papers{% else %}Research papers{% endif %} · BD DataHub{% endblock %}
+{% block description %}Research papers about Bangladesh, searchable by topic, year, venue and open access. Metadata from OpenAlex.{% endblock %}
+{% macro facet(title, key, items, selected, limit=8) %}
+  {% if items %}
+  <div class="facet">
+    <h4>{{ title }}</h4>
+    {% for name, n in items %}
+      {% set on = name == selected %}
+      {% if loop.index == limit + 1 %}<details><summary>Show {{ items|length - limit }} more</summary>{% endif %}
+      <a href="{{ without(qp, key, path='/papers') if on else with_params(qp, '/papers', page=None, **{key: name}) }}" class="{{ 'on' if on }}" rel="nofollow">
+        <span>{{ name }}</span><span class="n">{{ n | num }}</span></a>
+      {% if loop.last and loop.length > limit %}</details>{% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endmacro %}
+{% block content %}
+<div class="search-head"><div class="container">
+  <div class="breadcrumb"><a href="/">Home</a> › <a href="/research">Research</a> › Paper search</div>
+  <h1>Research papers</h1>
+  <p class="muted" style="max-width:44em;margin-bottom:0">Published research about Bangladesh. Metadata from <a href="https://openalex.org" rel="noopener external">OpenAlex</a>; each paper links to its publisher or an open-access copy.</p>
+  <form action="/papers" method="get" role="search" class="searchbar compact" style="margin:1rem 0 0">
+    <label class="sr-only" for="q">Search papers</label>
+    <input id="q" type="search" name="q" value="{{ p.q or '' }}" placeholder="Search titles, authors and abstracts" autocomplete="off">
+    {% for k, v in qp.multi_items() if k not in ('q', 'page') %}<input type="hidden" name="{{ k }}" value="{{ v }}">{% endfor %}
+    <button class="btn">Search</button>
+  </form>
+</div></div>
+
+<div class="container search-layout">
+  <aside class="filters" id="filters" aria-label="Filters">
+    <h2>Filter results</h2>
+    <div class="facet"><h4>Access</h4>
+      <a href="{{ without(qp, 'oa', path='/papers') if p.oa else with_params(qp, '/papers', oa='1', page=None) }}" class="{{ 'on' if p.oa }}" rel="nofollow"><span>Open access only</span><span class="n"></span></a>
+    </div>
+    <div class="facet"><h4>Publication year</h4>
+      {% set yrs = res.facets.years if res.facets and res.facets.years else (None, None) %}
+      <form action="/papers" method="get">
+        {% for k, v in qp.multi_items() if k not in ('year_from', 'year_to', 'page') %}<input type="hidden" name="{{ k }}" value="{{ v }}">{% endfor %}
+        <input type="number" name="year_from" min="1800" max="2100" placeholder="{{ yrs[0] or 'From' }}" value="{{ p.year_from or '' }}" aria-label="From year">
+        <input type="number" name="year_to" min="1800" max="2100" placeholder="{{ yrs[1] or 'To' }}" value="{{ p.year_to or '' }}" aria-label="To year">
+        <button class="btn sm secondary">Go</button>
+      </form>
+    </div>
+    {% if res.facets.category %}
+    <div class="facet">
+      <h4>Category</h4>
+      {% for slug, name, n in res.facets.category %}
+        {% set on = slug == p.category %}
+        {% if loop.index == 11 %}<details><summary>Show {{ loop.length - 10 }} more</summary>{% endif %}
+        <a href="{{ without(qp, 'category', path='/papers') if on else with_params(qp, '/papers', page=None, category=slug) }}" class="{{ 'on' if on }}" rel="nofollow">
+          <span>{{ name }}</span><span class="n">{{ n | num }}</span></a>
+        {% if loop.last and loop.length > 10 %}</details>{% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    {{ facet("Topic", "topic", res.facets.topic, p.topic, 10) }}
+    {{ facet("Journal or venue", "venue", res.facets.venue, p.venue, 8) }}
+  </aside>
+
+  <section aria-live="polite">
+    <div class="results-head">
+      <span class="count">{{ res.total | num }} paper{{ 's' if res.total != 1 }}</span>
+      <a class="filters-jump btn sm secondary" href="#filters">Jump to filters</a>
+      <div class="row">
+        {% if p.category %}<span class="chip">{{ category_names.get(p.category, p.category) }} <a href="{{ without(qp, 'category', path='/papers') }}" aria-label="Remove">×</a></span>{% endif %}
+        {% if p.topic %}<span class="chip">{{ p.topic }} <a href="{{ without(qp, 'topic', path='/papers') }}" aria-label="Remove">×</a></span>{% endif %}
+        {% if p.venue %}<span class="chip">{{ p.venue }} <a href="{{ without(qp, 'venue', path='/papers') }}" aria-label="Remove">×</a></span>{% endif %}
+        {% if p.oa %}<span class="chip">Open access <a href="{{ without(qp, 'oa', path='/papers') }}" aria-label="Remove">×</a></span>{% endif %}
+        {% if p.year_from or p.year_to %}<span class="chip">{{ p.year_from or '…' }}–{{ p.year_to or '…' }} <a href="{{ without(qp, 'year_from', 'year_to', path='/papers') }}" aria-label="Remove">×</a></span>{% endif %}
+        {% if filtered and (qp.keys() | list) != ['q'] %}<a class="small" href="/papers{{ '?q=' ~ (p.q | urlencode) if p.q }}">Clear filters</a>{% endif %}
+      </div>
+      <span class="spacer"></span>
+      <form method="get" action="/papers" class="row small">
+        {% for k, v in qp.multi_items() if k not in ('sort', 'page') %}<input type="hidden" name="{{ k }}" value="{{ v }}">{% endfor %}
+        <label for="sort" class="sr-only">Sort by</label>
+        <select id="sort" name="sort" data-autosubmit>
+          {% for key, label in sorts.items() %}<option value="{{ key }}" {{ 'selected' if p.sort == key }}>{{ label }}</option>{% endfor %}
+        </select>
+        <noscript><button class="btn sm secondary">Sort</button></noscript>
+      </form>
+    </div>
+
+    {% for pp in res['items'] %}
+    {{ m.paper_result(pp) }}
+    {% else %}
+      <div class="empty-state">
+        {% if filtered %}
+          <h3>No papers match</h3>
+          <p>Try fewer words, a wider year range, or <a href="/papers">clear all filters</a>.</p>
+        {% else %}
+          <h3>No papers yet</h3>
+          <p>The research paper catalogue hasn't been loaded. Browse <a href="/datasets">datasets</a> instead.</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+    {{ m.pagination(res, qp, '/papers') }}
+    <p class="xs muted" style="margin-top:1.5rem">Metadata from OpenAlex. Citation counts are OpenAlex's and may differ from other indexes.</p>
+  </section>
+</div>
+{% endblock %}

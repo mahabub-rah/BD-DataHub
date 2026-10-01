@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}{{ paper.title }}{% if paper.year %} ({{ paper.year }}){% endif %} · BD DataHub{% endblock %}
+{% block description %}{{ (paper.abstract or paper.title) | truncate(155) }}{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="breadcrumb"><a href="/">Home</a> › <a href="/research">Research</a>
+    {% if paper.categories %} › <a href="/research/{{ paper.categories[0][0] }}">{{ paper.categories[0][1] }}</a>{% endif %}</div>
+  <header class="ds-head">
+    <h1>{{ paper.title }}</h1>
+    <div class="publisher">{% if paper.authors %}{{ paper.authors | join(', ') }}{% else %}Author not listed{% endif %}</div>
+    <p class="small muted" style="margin:.3rem 0 0">{{ paper.year or 'Year unknown' }}{% if paper.venue %} · {{ paper.venue }}{% endif %}</p>
+    <div class="access">
+      {% if paper.is_oa and paper.oa_url %}<a class="btn" href="{{ paper.oa_url }}" target="_blank" rel="noopener external">Read open-access copy ↗</a>{% endif %}
+      {% if paper.landing_url %}<a class="btn {{ 'secondary' if paper.is_oa and paper.oa_url }}" href="{{ paper.landing_url }}" target="_blank" rel="noopener external">Publisher's page ↗</a>{% endif %}
+      {% if doi_url and doi_url != paper.landing_url %}<a class="btn secondary" href="{{ doi_url }}" target="_blank" rel="noopener external">DOI ↗</a>{% endif %}
+      <a class="btn secondary" href="#cite">Cite this paper</a>
+    </div>
+    <p class="xs muted">Metadata from OpenAlex. BD DataHub does not host the paper; links open the publisher's or repository's own site.</p>
+  </header>
+
+  <div class="ds-layout">
+    <div class="stack">
+      <section class="card">
+        <h2>Abstract</h2>
+        {% if paper.abstract %}<p style="white-space:pre-line">{{ paper.abstract }}</p>
+        {% else %}<p class="muted">No abstract provided by the source.</p>{% endif %}
+      </section>
+
+      <section class="card">
+        <h2>Details</h2>
+        <dl class="meta-list">
+          <dt>Authors</dt><dd>{% if paper.authors %}{{ paper.authors | join(', ') }}{% else %}Not listed{% endif %}</dd>
+          <dt>Year</dt><dd>{{ paper.year or 'Not stated' }}</dd>
+          <dt>Journal or venue</dt><dd>{% if paper.venue %}<a href="/papers?venue={{ paper.venue | urlencode }}">{{ paper.venue }}</a>{% else %}Not stated{% endif %}</dd>
+          {% if doi_url %}<dt>DOI</dt><dd><a href="{{ doi_url }}" class="mono" target="_blank" rel="noopener external">{{ doi_url | replace('https://doi.org/', '') }}</a></dd>{% endif %}
+          <dt>Paper categories</dt><dd>{% for slug, name in paper.categories or [] %}<a href="/research/{{ slug }}">{{ name }}</a>{{ ', ' if not loop.last }}{% else %}Not categorised{% endfor %}</dd>
+          <dt>Topics</dt><dd>{% for t in paper.topics %}<a href="/papers?topic={{ t | urlencode }}">{{ t }}</a>{{ ', ' if not loop.last }}{% else %}Not stated{% endfor %}</dd>
+          <dt>Open access</dt><dd>{% if paper.is_oa %}Yes{% if paper.oa_url %}: <a href="{{ paper.oa_url }}" target="_blank" rel="noopener external">{{ paper.oa_url | host }} ↗</a>{% endif %}{% else %}No known open-access copy{% endif %}</dd>
+          <dt>Cited by</dt><dd>{{ (paper.cited_by_count or 0) | num }} work{{ 's' if paper.cited_by_count != 1 }} <span class="muted">(OpenAlex count)</span></dd>
+          {% if paper.language %}<dt>Language</dt><dd>{{ vocab.LANGUAGES.get(paper.language, paper.language) }}</dd>{% endif %}
+          <dt>Source record</dt><dd><a href="https://openalex.org/{{ paper.openalex_id }}" class="mono" target="_blank" rel="noopener external">openalex.org/{{ paper.openalex_id }}</a></dd>
+        </dl>
+      </section>
+
+      <section class="card" id="cite" data-tabs>
+        <div class="row" style="justify-content:space-between"><h2 style="margin:0">Cite this paper</h2>
+          <button class="btn sm secondary" type="button" data-copy>Copy citation</button></div>
+        <p class="small muted">Generated from the OpenAlex record. Check it against the published version before you submit.</p>
+        <div class="tabs" role="tablist">
+          {% for key, label in styles.items() %}<button type="button" role="tab" aria-selected="{{ 'true' if loop.first else 'false' }}" aria-controls="cite-{{ key }}">{{ label }}</button>{% endfor %}
+        </div>
+        {% for key, text in citations.items() %}
+        <div role="tabpanel" id="cite-{{ key }}" {{ 'hidden' if not loop.first }}>
+          <div class="cite-text {{ 'mono' if key in ('bibtex', 'ris') }}">{% if key in ('bibtex', 'ris') %}{{ text }}{% else %}{{ text | cite_html }}{% endif %}</div>
+        </div>
+        {% endfor %}
+      </section>
+    </div>
+
+    <aside class="stack">
+      <section class="card">
+        <h3>About this record</h3>
+        <p class="small">Title, authors, venue, topics and citation count come from <a href="https://openalex.org" target="_blank" rel="noopener external">OpenAlex</a>, an open index of scholarly works. We don't edit them.</p>
+        <p class="xs muted" style="margin:0">Spotted a mistake? It needs fixing at the source; see <a href="https://help.openalex.org" target="_blank" rel="noopener external">OpenAlex help</a>.</p>
+      </section>
+    </aside>
+  </div>
+</div>
+{% endblock %}

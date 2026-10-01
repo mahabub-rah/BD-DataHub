@@ -1,0 +1,2351 @@
+{
+ "organizations": [
+  {
+   "slug": "bangladesh-police",
+   "name": "Bangladesh Police",
+   "name_bn": "বাংলাদেশ পুলিশ",
+   "acronym": "BP",
+   "org_type": "Law Enforcement",
+   "parent": "Public Security Division, Ministry of Home Affairs",
+   "website": "https://www.police.gov.bd",
+   "description": "National police force of Bangladesh; Police Headquarters publishes crime statistics by police unit."
+  },
+  {
+   "slug": "ecs",
+   "name": "Bangladesh Election Commission",
+   "name_bn": "বাংলাদেশ নির্বাচন কমিশন",
+   "acronym": "EC",
+   "org_type": "Constitutional Body",
+   "parent": null,
+   "website": "https://www.ecs.gov.bd",
+   "description": "Constitutional body that conducts national and local elections, maintains the voter list and delimits parliamentary constituencies."
+  },
+  {
+   "slug": "lgd",
+   "name": "Local Government Division",
+   "name_bn": "স্থানীয় সরকার বিভাগ",
+   "acronym": "LGD",
+   "org_type": "Division",
+   "parent": "Ministry of Local Government, Rural Development and Co-operatives",
+   "website": "https://lgd.gov.bd",
+   "description": "Government division responsible for city corporations, municipalities, zila, upazila and union parishads."
+  },
+  {
+   "slug": "lged",
+   "name": "Local Government Engineering Department",
+   "name_bn": "স্থানীয় সরকার প্রকৌশল অধিদপ্তর",
+   "acronym": "LGED",
+   "org_type": "Government Department",
+   "parent": "Local Government Division",
+   "website": "https://lged.gov.bd",
+   "description": "Government department that plans, builds and maintains rural and urban local infrastructure such as upazila, union and village roads, bridges and markets."
+  },
+  {
+   "slug": "rhd",
+   "name": "Roads and Highways Department",
+   "name_bn": "সড়ক ও জনপথ অধিদপ্তর",
+   "acronym": "RHD",
+   "org_type": "Government Department",
+   "parent": "Road Transport and Highways Division, Ministry of Road Transport and Bridges",
+   "website": "https://rhd.gov.bd",
+   "description": "Government department responsible for the national, regional and zilla highway network and its bridges."
+  },
+  {
+   "slug": "brta",
+   "name": "Bangladesh Road Transport Authority",
+   "name_bn": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ",
+   "acronym": "BRTA",
+   "org_type": "Statutory Body",
+   "parent": "Road Transport and Highways Division, Ministry of Road Transport and Bridges",
+   "website": "https://brta.gov.bd",
+   "description": "Regulator for motor vehicle registration, driving licences, fitness and route permits; publishes vehicle registration and road accident reports."
+  },
+  {
+   "slug": "btrc",
+   "name": "Bangladesh Telecommunication Regulatory Commission",
+   "name_bn": "বাংলাদেশ টেলিযোগাযোগ রেগুলেটরি কমিশন",
+   "acronym": "BTRC",
+   "org_type": "Regulatory Commission",
+   "parent": "Posts and Telecommunications Division",
+   "website": "https://btrc.gov.bd",
+   "description": "Independent telecom regulator; publishes monthly mobile and internet subscriber, teledensity, tower and handset statistics."
+  },
+  {
+   "slug": "cpa",
+   "name": "Chittagong Port Authority",
+   "name_bn": "চট্টগ্রাম বন্দর কর্তৃপক্ষ",
+   "acronym": "CPA",
+   "org_type": "Statutory Body",
+   "parent": "Ministry of Shipping",
+   "website": "https://cpa.gov.bd",
+   "description": "Statutory authority operating Chattogram Port, the country's main seaport; publishes cargo, container and vessel handling statistics."
+  },
+  {
+   "slug": "mor",
+   "name": "Ministry of Railways",
+   "name_bn": "রেলপথ মন্ত্রণালয়",
+   "acronym": "MoR",
+   "org_type": "Ministry",
+   "parent": null,
+   "website": "https://mor.gov.bd",
+   "description": "Ministry overseeing Bangladesh Railway; publishes the Railway Information Book."
+  },
+  {
+   "slug": "caab",
+   "name": "Civil Aviation Authority of Bangladesh",
+   "name_bn": "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ",
+   "acronym": "CAAB",
+   "org_type": "Statutory Body",
+   "parent": "Ministry of Civil Aviation and Tourism",
+   "website": "https://caab.gov.bd",
+   "description": "Civil aviation regulator and operator of Bangladesh's airports and air navigation services."
+  },
+  {
+   "slug": "mopa",
+   "name": "Ministry of Public Administration",
+   "name_bn": "জনপ্রশাসন মন্ত্রণালয়",
+   "acronym": "MoPA",
+   "org_type": "Ministry",
+   "parent": null,
+   "website": "https://mopa.gov.bd",
+   "description": "Ministry responsible for civil service management; its Statistics and Research Cell publishes statistics of government servants."
+  },
+  {
+   "slug": "supreme-court-bd",
+   "name": "Supreme Court of Bangladesh",
+   "name_bn": "বাংলাদেশ সুপ্রীম কোর্ট",
+   "acronym": "SCB",
+   "org_type": "Constitutional Body",
+   "parent": null,
+   "website": "https://www.supremecourt.gov.bd",
+   "description": "Highest court of Bangladesh, comprising the Appellate Division and the High Court Division; publishes annual reports with case statistics."
+  },
+  {
+   "slug": "bmet",
+   "name": "Bureau of Manpower, Employment and Training",
+   "name_bn": "জনশক্তি কর্মসংস্থান ও প্রশিক্ষণ ব্যুরো",
+   "acronym": "BMET",
+   "org_type": "Government Department",
+   "parent": "Ministry of Expatriates' Welfare and Overseas Employment",
+   "website": "https://bmet.gov.bd",
+   "description": "Department that regulates recruitment and emigration clearance of Bangladeshi migrant workers and runs technical training centres; publishes overseas employment statistics."
+  },
+  {
+   "slug": "bangladesh-railway",
+   "name": "Bangladesh Railway",
+   "name_bn": "বাংলাদেশ রেলওয়ে",
+   "acronym": "BR",
+   "org_type": "Government Department",
+   "parent": "Ministry of Railways",
+   "website": "https://railway.gov.bd",
+   "description": "State-owned and operated national railway, organised in East and West zones; publishes train timetables and fare information."
+  },
+  {
+   "slug": "biwta",
+   "name": "Bangladesh Inland Water Transport Authority",
+   "name_bn": "বাংলাদেশ অভ্যন্তরীণ নৌ-পরিবহন কর্তৃপক্ষ",
+   "acronym": "BIWTA",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://biwta.gov.bd",
+   "description": "Authority established by ordinance in 1958 (as EPIWTA) to develop, maintain, operate and regulate inland water transport and navigable waterways; runs hydrography, dredging and river port functions."
+  },
+  {
+   "slug": "mpa",
+   "name": "Mongla Port Authority",
+   "name_bn": "মোংলা বন্দর কর্তৃপক্ষ",
+   "acronym": "MPA",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://mpa.gov.bd",
+   "description": "Authority operating Mongla, Bangladesh's second seaport; its Traffic Department publishes vessel, cargo, container and vehicle handling statistics."
+  },
+  {
+   "slug": "acc",
+   "name": "Anti-Corruption Commission",
+   "name_bn": "দুর্নীতি দমন কমিশন",
+   "acronym": "ACC",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://acc.org.bd",
+   "description": "Independent commission that investigates and prosecutes corruption offences; publishes monthly case statistics and annual reports."
+  },
+  {
+   "slug": "bpsc",
+   "name": "Bangladesh Public Service Commission",
+   "name_bn": "বাংলাদেশ সরকারী কর্ম কমিশন",
+   "acronym": "BPSC",
+   "org_type": "Constitutional Body",
+   "parent": null,
+   "website": "https://bpsc.gov.bd",
+   "description": "Constitutional commission that recruits officers to the civil service (BCS and non-cadre posts) and advises on public service matters; publishes annual reports."
+  },
+  {
+   "slug": "dife",
+   "name": "Department of Inspection for Factories and Establishments",
+   "name_bn": "কলকারখানা ও প্রতিষ্ঠান পরিদর্শন অধিদপ্তর",
+   "acronym": "DIFE",
+   "org_type": "Government Department",
+   "parent": "Ministry of Labour and Employment",
+   "website": "https://dife.gov.bd",
+   "description": "Labour inspectorate that licenses and inspects factories, shops and establishments for compliance with labour, safety and health law."
+  },
+  {
+   "slug": "dmtcl",
+   "name": "Dhaka Mass Transit Company Limited",
+   "name_bn": "ঢাকা ম্যাস ট্রানজিট কোম্পানি লিমিটেড",
+   "acronym": "DMTCL",
+   "org_type": "Public Utility",
+   "parent": null,
+   "website": "https://dmtcl.gov.bd",
+   "description": "Government-owned company that builds and operates the Dhaka Metro Rail (MRT) network (MRT lines)."
+  },
+  {
+   "slug": "dncc",
+   "name": "Dhaka North City Corporation",
+   "name_bn": "ঢাকা উত্তর সিটি কর্পোরেশন",
+   "acronym": "DNCC",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://dncc.gov.bd",
+   "description": "City corporation governing northern Dhaka; publishes annual budgets and daily dengue situation reports."
+  },
+  {
+   "slug": "dscc",
+   "name": "Dhaka South City Corporation",
+   "name_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশন",
+   "acronym": "DSCC",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://dscc.gov.bd",
+   "description": "City corporation governing southern Dhaka; publishes annual budgets and annual administrative reports."
+  },
+  {
+   "slug": "dip",
+   "name": "Department of Immigration and Passports",
+   "name_bn": "ইমিগ্রেশন ও পাসপোর্ট অধিদপ্তর",
+   "acronym": "DIP",
+   "org_type": "Government Department",
+   "parent": null,
+   "website": "https://dip.gov.bd",
+   "description": "Department responsible for issuing machine-readable and e-passports and visas and for immigration and border control services."
+  },
+  {
+   "slug": "mwb",
+   "name": "Minimum Wage Board",
+   "name_bn": "নিম্নতম মজুরী বোর্ড",
+   "acronym": "MWB",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://mwb.portal.gov.bd",
+   "description": "Board that recommends and publishes minimum wage rates for workers in declared industry sectors; linked from the Ministry of Labour and Employment website."
+  },
+  {
+   "slug": "bangladesh-crime-data-project",
+   "name": "Bangladesh Crime Data (open-source project)",
+   "name_bn": null,
+   "acronym": null,
+   "org_type": "Non-Governmental Organization",
+   "parent": null,
+   "website": "https://github.com/mahabub-rah/Bangladesh-Crime-Data",
+   "description": "Independent GitHub project maintained by mahabub-rah that compiles the Bangladesh Police monthly crime statistics into machine-readable files and a public dashboard. Not an official source."
+  }
+ ],
+ "datasets": [
+  {
+   "slug": "police-annual-crime-statistics",
+   "title": "Crime Statistics by Police Unit (Annual)",
+   "organization": "bangladesh-police",
+   "description": "Annual table of reported criminal cases by police unit (DMP, CMP and other metropolitan police and ranges, railway range), broken down by crime type: dacoity, robbery, murder, speedy trial, riot, woman and child repression, kidnapping, police assault, burglary, theft, other cases, and recovery cases (arms act, explosives, narcotics, smuggling). Tables were found for 2010-2019 and 2024; the pages for 2020-2023 showed 'No Data Found' at check time.",
+   "source_url": "https://www.police.gov.bd/en/crime_statistic/year/2024",
+   "download_url": null,
+   "categories": [
+    "Crime & Justice"
+   ],
+   "subcategories": [
+    "Crime Statistics"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2010,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "crime",
+    "police",
+    "murder",
+    "narcotics",
+    "women and child repression"
+   ],
+   "evidence_url": "https://www.police.gov.bd/en/crime_statistic/year/2024",
+   "evidence_note": "Page titled 'Crime Statistics 2024' shows an HTML table with columns Unit Name, Dacoity, Robbery, Murder, Speedy Trial, Riot, Woman & Child Repression, Kidnapping, ... Narcotics, Smuggling, Total; /year/2010 and /year/2019 also show tables.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "police-monthly-crime-statistics",
+   "title": "Monthly Crime Statistics (Police Headquarters)",
+   "organization": "bangladesh-police",
+   "description": "Monthly crime statistics statements issued by Police Headquarters (PHQ), listed with upload date and View/Download links. Each month (e.g. 'Crime Statistics, August-2026') is published as an image file.",
+   "source_url": "https://www.police.gov.bd/en/january_2020",
+   "download_url": null,
+   "categories": [
+    "Crime & Justice"
+   ],
+   "subcategories": [
+    "Crime Statistics"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "crime",
+    "police",
+    "monthly"
+   ],
+   "evidence_url": "https://www.police.gov.bd/en/january_2020",
+   "evidence_note": "'List of Crime Statistics' table shows entries such as 'Crime Statistics, August-2026 - PHQ - 13-09-2026 - View Download', back to at least January-2025 on the first page, with pagination.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bangladesh-crime-data-monthly-by-police-unit",
+   "title": "Bangladesh Crime Data: Monthly Cases by Police Unit (2019–2026)",
+   "organization": "bangladesh-crime-data-project",
+   "description": "Monthly case counts for every Metropolitan Police unit (DMP, CMP, KMP, RMP, BMP, SMP, RPMP, GMP) and police range, January 2019 to June 2026, by crime type: dacoity, robbery, murder, speedy trial, riot, woman and child repression, kidnapping, police assault, burglary, theft, other cases, recovery cases and total cases. The figures were extracted from the Bangladesh Police Headquarters monthly reports using the Gemini model, so check important figures against the official reports. The repository also has yearly SQL insert files and an interactive map dashboard.",
+   "source_url": "https://github.com/mahabub-rah/Bangladesh-Crime-Data",
+   "download_url": "https://raw.githubusercontent.com/mahabub-rah/Bangladesh-Crime-Data/main/crime_data.csv",
+   "categories": [
+    "Crime & Justice"
+   ],
+   "subcategories": [
+    "Crime Statistics"
+   ],
+   "formats": [
+    "CSV",
+    "Dashboard",
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2019,
+   "temporal_end": 2026,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "crime",
+    "police",
+    "monthly",
+    "murder",
+    "robbery",
+    "woman and child repression",
+    "github"
+   ],
+   "evidence_url": "https://github.com/mahabub-rah/Bangladesh-Crime-Data",
+   "evidence_note": "Public repo (last push 2026-08-18) holds crime_data.csv with 1,530 rows (columns year, month, unit, dacoity … total_cases) covering January 2019 to June 2026, month_2019.sql–month_2026.sql, and a dashboard at mahabub-rah.github.io/Bangladesh-Crime-Data; README cites police.gov.bd monthly reports as the source; no license file.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "ecs-12th-parliament-election-results",
+   "title": "12th National Parliament Election Results by Constituency (2024)",
+   "organization": "ecs",
+   "description": "Results of the 12th Jatiya Sangsad (national parliament) election, published as one Excel file per constituency for all 300 seats (e.g. 'Panchagarh-1 (seat no. 1) result').",
+   "source_url": "https://ecs.gov.bd/page/result-for-12th-national-parliament-election",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Elections"
+   ],
+   "formats": [
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Constituency",
+   "temporal_start": 2024,
+   "temporal_end": 2024,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "election",
+    "parliament",
+    "results",
+    "constituency"
+   ],
+   "evidence_url": "https://ecs.gov.bd/page/result-for-12th-national-parliament-election",
+   "evidence_note": "Page 'দ্বাদশ জাতীয় সংসদ নির্বাচনের ফলাফল' lists 300 constituency rows each linking to an XLSX file (e.g. asset.ecs.gov.bd/.../2024/01/NPE_24_1.xlsx for পঞ্চগড়-১).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ecs-11th-parliament-centre-wise-results",
+   "title": "11th National Parliament Election Centre-wise Results (2018)",
+   "organization": "ecs",
+   "description": "Polling-centre-level results of the 11th national parliament election, arranged by seat in three Excel workbooks (seats 1-100, 101-198, 199-300). A gazette of the elected members for 298 seats is also provided as PDF.",
+   "source_url": "https://ecs.gov.bd/page/parliament-election-result",
+   "download_url": "https://asset.ecs.gov.bd/media/uploaded_files/package/filemanager/2019/06/11th nation_result_1_100.xlsx",
+   "categories": [
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Elections"
+   ],
+   "formats": [
+    "XLSX",
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2018,
+   "temporal_end": 2018,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "election",
+    "parliament",
+    "polling centre",
+    "results"
+   ],
+   "evidence_url": "https://ecs.gov.bd/page/election-results",
+   "evidence_note": "Page lists 'একাদশ জাতীয় সংসদ নির্বাচনে আসন অনুযায়ী কেন্দ্রভিত্তিক ফলাফল (১ থেকে ১০০)', '(১০১ থেকে ১৯৮)', '(১৯৯ থেকে ৩০০)' as XLSX links and the 298-seat gazette as PDF.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ecs-10th-parliament-election-results",
+   "title": "10th National Parliament Election Results (2014)",
+   "organization": "ecs",
+   "description": "Results of the 10th national parliament election published in two Excel parts.",
+   "source_url": "https://ecs.gov.bd/page/parliament-election-result",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Elections"
+   ],
+   "formats": [
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Constituency",
+   "temporal_start": 2014,
+   "temporal_end": 2014,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "election",
+    "parliament",
+    "results"
+   ],
+   "evidence_url": "https://ecs.gov.bd/page/parliament-election-result",
+   "evidence_note": "Row 4 'দশম জাতীয় সংসদ নির্বাচন-এর ফলাফল (১ম অংশ ও ২য় অংশ)' links to two XLSX files on asset.ecs.gov.bd.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ecs-city-corporation-election-results",
+   "title": "City Corporation Election Results",
+   "organization": "ecs",
+   "description": "Results of city corporation elections (mayor, general councillor and reserved women councillor) for Dhaka North, Dhaka South, Chattogram, Cumilla, Rangpur, Rajshahi, Sylhet, Khulna, Barishal, Narayanganj and others, from 2008 onward, mostly as Excel files with some PDFs; Cumilla 2022 has centre-wise results.",
+   "source_url": "https://ecs.gov.bd/page/election-results",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Elections",
+    "Local Government"
+   ],
+   "formats": [
+    "XLSX",
+    "XLS",
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2008,
+   "temporal_end": 2022,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "election",
+    "city corporation",
+    "mayor",
+    "councillor",
+    "local government"
+   ],
+   "evidence_url": "https://ecs.gov.bd/page/election-results",
+   "evidence_note": "Page 'নির্বাচনি ফলাফল' lists items such as 'ঢাকা উত্তর সিটি কর্পোরেশন নির্বাচন ২০১৫-এর ফলাফল(মেয়র)' (.xlsx), 'বরিশাল সিটি কর্পোরেশন নির্বাচন ২০০৮-এর ফলাফল' (.xls) and 'কুমিল্লা সিটি কর্পোরেশন নির্বাচন ২০১২-এর ফলাফল' (.pdf).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ecs-13th-parliament-referendum-results-portal",
+   "title": "13th National Parliament Election and 2026 Referendum Results Portal",
+   "organization": "ecs",
+   "description": "Interactive result search system linked from the Election Commission site, where users filter by result type, election type, election name, candidate type, district and seat to view results of the 13th national parliament election; a separate view shows 2026 referendum (gonovote) results.",
+   "source_url": "https://ecs.gov.bd/page/election-result",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Elections"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Constituency",
+   "temporal_start": 2026,
+   "temporal_end": 2026,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "election",
+    "parliament",
+    "referendum",
+    "results"
+   ],
+   "evidence_url": "http://103.183.38.66:81/",
+   "evidence_note": "ECS page links 'ত্রয়োদশ জাতীয় সংসদ নির্বাচনের ফলাফল' to http://103.183.38.66:81/ and 'গণভোট ২০২৬ এর ফলাফল' to /gonovote/result; the loaded portal shows filters for result type, election type, election name, candidate type, district and seat.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ecs-voters-by-constituency",
+   "title": "Registered Voters by Division, District and Constituency",
+   "organization": "ecs",
+   "description": "Interactive page showing registered voter totals, with male, female and hijra (third gender) breakdowns, filterable by division, district and electoral area; the national total was 127,711,899 voters at check time. The page also carries constituency map images.",
+   "source_url": "https://ecs.gov.bd/constituency",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration",
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "Elections",
+    "Voter Statistics"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Constituency",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "voters",
+    "voter list",
+    "constituency",
+    "gender"
+   ],
+   "evidence_url": "https://ecs.gov.bd/constituency",
+   "evidence_note": "Page 'নির্বাচনী এলাকা' has division/district/voter-area selectors and shows '১২,৭৭,১১,৮৯৯ মোট ভোটার, ৬,৪৮,২৫,১৫৪ মোট পুরুষ ভোটার, ৬,২৮,৮৫,৫২৫ মোট মহিলা ভোটার, ১,২২০ হিজড়া ভোটার'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ecs-constituency-delimitation-gazettes",
+   "title": "Parliamentary Constituency Delimitation Gazettes (2025-2026)",
+   "organization": "ecs",
+   "description": "Official gazettes defining the boundaries of the 300 parliamentary constituencies, including the preliminary delimitation of July 2025, the final list of September 2025, the December 2025 gazette of all 300 redrawn seats, and later amendments after court cases.",
+   "source_url": "https://ecs.gov.bd/page/gazette-related-to-electoral-areas",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration",
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Elections",
+    "Delimitation"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Constituency",
+   "temporal_start": 2025,
+   "temporal_end": 2026,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "constituency",
+    "delimitation",
+    "boundaries",
+    "gazette"
+   ],
+   "evidence_url": "https://ecs.gov.bd/page/gazette-related-to-electoral-areas",
+   "evidence_note": "Page 'নির্বাচনি এলাকা সংক্রান্ত গেজেট' lists '(নং-৮৭৫) জাতীয় সংসদের ৩০০ আসনের পুনঃনির্ধারিত সীমানার গেজেট (১১-১২-২০২৫)' and five other gazettes, each with a PDF 'ক্লিক করুন' link.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "ecs-13th-parliament-polling-centre-gazettes",
+   "title": "Polling Centre Gazettes for the 13th National Parliament Election",
+   "organization": "ecs",
+   "description": "Gazette notifications listing polling centres, published as one PDF per constituency for the 13th national parliament election.",
+   "source_url": "https://ecs.gov.bd/page/gazette-for-13th-national-parliament-election",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Elections"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Constituency",
+   "temporal_start": 2026,
+   "temporal_end": 2026,
+   "update_frequency": "One-time",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "polling centres",
+    "election",
+    "gazette"
+   ],
+   "evidence_url": "https://ecs.gov.bd/page/gazette-for-13th-national-parliament-election",
+   "evidence_note": "Page 'ত্রয়োদশ জাতীয় সংসদ নির্বাচনের কেন্দ্রসমূহের গেজেট' lists rows such as '১ পঞ্চগড়-১ এর কেন্দ্র সংক্রান্ত গেজেট - ডাউনলোড করুন' linking to PDFs.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "lgd-administrative-units-list",
+   "title": "List of Divisions, Districts, Upazilas, Unions, City Corporations and Municipalities",
+   "organization": "lgd",
+   "description": "'Bangladesh Organogram' web application linked from the Local Government Division site that lists the country's divisions, districts, upazilas and unions, as well as city corporations and paurashavas (municipalities), selectable step by step.",
+   "source_url": "http://180.211.161.250:93/Bangladesh",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration",
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Administrative Units",
+    "Local Government"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Union",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "administrative units",
+    "union",
+    "upazila",
+    "municipality",
+    "city corporation"
+   ],
+   "evidence_url": "https://lgd.gov.bd/",
+   "evidence_note": "LGD homepage links 'বিভাগ,জেলা,উপজেলা,ইউনিয়ন' to http://180.211.161.250:93/Bangladesh, which loads 'বাংলাদেশের বিভাগ, জেলা, উপজেলা ও ইউনিয়ন সমূহের তালিকা' and 'সিটি কর্পোরেশন ও পৌরসভা সমূহের তালিকা'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "lged-road-market-database",
+   "title": "LGED Road and Growth Centre/Rural Market Database",
+   "organization": "lged",
+   "description": "Database of LGED-managed roads with national summary lengths by road type (upazila, union, village A and B roads) and surface (earthen, bituminous, RCC/CC, HBB, uni-block), bridge/culvert length and gap length, plus district/upazila road lists and a growth centre and rural market database.",
+   "source_url": "https://oldweb.lged.gov.bd/ViewRoad2.aspx",
+   "download_url": null,
+   "categories": [
+    "Infrastructure",
+    "Transport"
+   ],
+   "subcategories": [
+    "Rural Roads",
+    "Markets"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": null,
+   "temporal_end": 2025,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "rural roads",
+    "road length",
+    "bridges",
+    "growth centres",
+    "markets"
+   ],
+   "evidence_url": "https://oldweb.lged.gov.bd/ViewRoad2.aspx",
+   "evidence_note": "Page shows 'Road Database as on November - 2025' with lengths for Upazila Road, Union Road, Village Road A/B and 'Total Roads: ... 411,043.31' km, a 'Table for Road List' district selector, and a 'Growth Center & Rural Market' tab.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "lged-digital-maps",
+   "title": "LGED Digital Maps (District and Upazila)",
+   "organization": "lged",
+   "description": "Download page for LGED digital maps, selectable by district and upazila, which show local road and infrastructure networks.",
+   "source_url": "https://oldweb.lged.gov.bd/ViewMap.aspx",
+   "download_url": null,
+   "categories": [
+    "Geography & GIS",
+    "Infrastructure"
+   ],
+   "subcategories": [
+    "Maps"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "maps",
+    "roads",
+    "upazila",
+    "district"
+   ],
+   "evidence_url": "https://oldweb.lged.gov.bd/ViewMap.aspx",
+   "evidence_note": "Page 'Digital Map Download' with District and Upazila select lists covering all districts and upazilas.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "lged-gis-portal",
+   "title": "LGED GIS Portal",
+   "organization": "lged",
+   "description": "Web GIS portal where users create customised road and other infrastructure maps from LGED GIS data; includes an analytical map of the upazila-level percentage of paved roads.",
+   "source_url": "https://gis.lged.gov.bd/",
+   "download_url": null,
+   "categories": [
+    "Geography & GIS",
+    "Infrastructure"
+   ],
+   "subcategories": [
+    "GIS",
+    "Rural Roads"
+   ],
+   "formats": [
+    "Dashboard"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Upazila",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "gis",
+    "roads",
+    "paved roads",
+    "maps"
+   ],
+   "evidence_url": "https://gis.lged.gov.bd/",
+   "evidence_note": "Page says 'Welcome to the GIS Portal of LGED. Create customized road and other infrastructure maps using our GIS data' and lists 'Analytical Map: Upazila Level % of Paved Road of Bangladesh'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "rhd-online-road-network",
+   "title": "RHD Online Road Network (Highway Data and Traffic)",
+   "organization": "rhd",
+   "description": "Online database of the RHD road network, summarising national, regional and zilla highways (998 roads, 22,736.58 km at check time), with road and link details, busiest links by annual average daily traffic (AADT), longest roads, and search by location and office.",
+   "source_url": "https://rhd.gov.bd/OnlineRoadNetwork/Default.asp",
+   "download_url": null,
+   "categories": [
+    "Transport",
+    "Infrastructure"
+   ],
+   "subcategories": [
+    "Road Network",
+    "Traffic"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "highways",
+    "road network",
+    "AADT",
+    "traffic"
+   ],
+   "evidence_url": "https://rhd.gov.bd/OnlineRoadNetwork/Default.asp",
+   "evidence_note": "Page shows 'Summary of Highways': National Highways 118 / 4,409.301 km, Regional 156 / 5,106.892 km, Zilla 724 / 13,220.387 km, and 'Busiest Links (top 10)' with AADT (e.g. N3-2, 217689).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "rhd-bridge-maintenance-database",
+   "title": "RHD Bridge Management and Maintenance System (BMMS)",
+   "organization": "rhd",
+   "description": "Internet version of the RHD Bridge Maintenance Management System for searching bridges and culverts on the RHD network by name, location, condition (A-D) and structure type. The site notes that the survey is incomplete and some data are under review.",
+   "source_url": "https://rhd.gov.bd/BridgeDatabase/Default.asp",
+   "download_url": null,
+   "categories": [
+    "Infrastructure",
+    "Transport"
+   ],
+   "subcategories": [
+    "Bridges"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "bridges",
+    "culverts",
+    "condition",
+    "highways"
+   ],
+   "evidence_url": "https://rhd.gov.bd/BridgeDatabase/Default.asp",
+   "evidence_note": "Page 'Welcome to BMMS' shows 'No. of Bridges by condition A 12331, B 2341, C 2821, D 765' and 'No. of structures by type' (Box Culvert 9441, ...).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "brta-registered-vehicles-bangladesh",
+   "title": "Number of Registered Motor Vehicles in Bangladesh (Year-wise)",
+   "organization": "brta",
+   "description": "Table of motor vehicles registered each year in Bangladesh by vehicle type (ambulance, auto rickshaw, bus, car, motorcycle, truck, etc.), from 'up to 2010' through each year to August 2026, with grand totals.",
+   "source_url": "https://brta.gov.bd/pages/static-pages/6922dcbd933eb65569e11bfe",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-brta/2026/8/654e8058-b679-4371-953c-9ba8cdfad7a1.pdf",
+   "categories": [
+    "Transport"
+   ],
+   "subcategories": [
+    "Vehicle Registration"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2010,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "vehicles",
+    "registration",
+    "motorcycles",
+    "buses"
+   ],
+   "evidence_url": "https://brta.gov.bd/pages/static-pages/6922dcbd933eb65569e11bfe",
+   "evidence_note": "Page 'সারা বাংলাদেশে মোটরযান নিবন্ধনের সংখ্যা' has a PDF download; the PDF is titled 'NUMBER OF REGISTERED MOTOR VEHICLES IN BANGLADESH (YEARWISE)' with columns Upto-2010, 2011 ... 2025, Up To Aug-26.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "brta-registered-vehicles-dhaka",
+   "title": "Number of Registered Motor Vehicles in Dhaka (Year-wise)",
+   "organization": "brta",
+   "description": "Year-wise registrations of motor vehicles in the Dhaka metropolitan area by vehicle type, from 'up to 2010' to August 2026.",
+   "source_url": "https://brta.gov.bd/pages/static-pages/6922e0fb933eb65569e29684",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-brta/2026/8/29d7caf0-b040-4156-aade-3cf52b00d850.pdf",
+   "categories": [
+    "Transport"
+   ],
+   "subcategories": [
+    "Vehicle Registration"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Dhaka metropolitan area",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2010,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "vehicles",
+    "registration",
+    "Dhaka"
+   ],
+   "evidence_url": "https://brta.gov.bd/pages/static-pages/6922e0fb933eb65569e29684",
+   "evidence_note": "Page 'ঢাকা মেট্টোতে মোটরযান নিবন্ধনের সংখ্যা' has a PDF download titled 'NUMBER OF REGISTERED MOTOR VEHICLES IN DHAKA (YEARWISE)'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "brta-monthly-road-accident-reports",
+   "title": "BRTA Monthly Road Accident Reports",
+   "organization": "brta",
+   "description": "Monthly reports on road accidents compiled by BRTA, published as one PDF per month.",
+   "source_url": "https://brta.gov.bd/pages/static-pages/6922de76933eb65569e1ac54",
+   "download_url": null,
+   "categories": [
+    "Transport"
+   ],
+   "subcategories": [
+    "Road Safety"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2023,
+   "temporal_end": 2025,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "road accidents",
+    "road safety",
+    "deaths",
+    "injuries"
+   ],
+   "evidence_url": "https://brta.gov.bd/pages/static-pages/6922de76933eb65569e1ac54",
+   "evidence_note": "Page 'সড়ক দুর্ঘটনার মাসিক প্রতিবেদন' lists PDFs from 'জানুয়ারি, ২০২৩ মাসের সড়ক দুর্ঘটনার প্রতিবেদন' through 'অক্টোবর ২০২৫ মাসের সড়ক দুর্ঘটনার প্রতিবেদন'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "brta-annual-reports",
+   "title": "BRTA Annual Reports",
+   "organization": "brta",
+   "description": "Annual reports of the Bangladesh Road Transport Authority on its activities and services, covering fiscal years 2016-17 to 2022-23.",
+   "source_url": "https://brta.gov.bd/pages/annual-reports",
+   "download_url": null,
+   "categories": [
+    "Transport"
+   ],
+   "subcategories": [
+    "Annual Report"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2016,
+   "temporal_end": 2023,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "annual report",
+    "road transport",
+    "BRTA"
+   ],
+   "evidence_url": "https://brta.gov.bd/pages/annual-reports",
+   "evidence_note": "Page 'বার্ষিক প্রতিবেদন' lists 'বার্ষিক প্রতিবেদন ২০২২-২৩' down to 'বার্ষিক প্রতিবেদন ২০১৬-১৭', each with a PDF file.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "btrc-mobile-subscribers",
+   "title": "Mobile Phone Subscribers by Operator (Monthly)",
+   "organization": "btrc",
+   "description": "Monthly number of mobile subscribers (in millions) for Grameenphone, Robi Axiata, Banglalink and Teletalk, plus the total. A subscriber is defined as a biometric-verified subscription with activity in the preceding 90 days.",
+   "source_url": "https://btrc.gov.bd/pages/static-pages/6922dda8933eb65569e15c3d",
+   "download_url": null,
+   "categories": [
+    "Science & Technology"
+   ],
+   "subcategories": [
+    "Telecommunications"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2021,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "mobile",
+    "subscribers",
+    "telecom",
+    "operators"
+   ],
+   "evidence_url": "https://btrc.gov.bd/pages/static-pages/6922dda8933eb65569e15c3d",
+   "evidence_note": "Page 'মোবাইল গ্রাহক' shows a table from 'আগস্ট ২০২১' to 'আগস্ট, ২০২৬' (latest total 191.09 million) with columns গ্রামীণফোন, রবি আজিয়াটা, বাংলালিংক, টেলিটক, মোট গ্রাহক (মিলিয়ন).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "btrc-internet-subscribers",
+   "title": "Internet Subscribers (Monthly)",
+   "organization": "btrc",
+   "description": "Monthly number of internet subscribers (in millions), split into mobile internet and ISP + PSTN (fixed) internet, with the total. ISP/PSTN figures are updated quarterly.",
+   "source_url": "https://btrc.gov.bd/pages/static-pages/6922e0a3933eb65569e27f59",
+   "download_url": null,
+   "categories": [
+    "Science & Technology"
+   ],
+   "subcategories": [
+    "Telecommunications",
+    "Internet"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2021,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "internet",
+    "broadband",
+    "subscribers",
+    "ISP"
+   ],
+   "evidence_url": "https://btrc.gov.bd/pages/static-pages/6922e0a3933eb65569e27f59",
+   "evidence_note": "Page 'ইন্টারনেট গ্রাহক' shows columns মোবাইল (মিলিয়ন), আইএসপি ও পিএসটিএন (মিলিয়ন), মোট গ্রাহক, latest 'আগস্ট, ২০২৬ ১২২.২৬ ১৫.৪০ ১৩৭.৬৬'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "btrc-teledensity-penetration",
+   "title": "Teledensity and Internet Penetration (Monthly)",
+   "organization": "btrc",
+   "description": "Monthly teledensity (voice and internet subscriptions), total internet penetration, fixed broadband and mobile internet penetration, mobile broadband subscribers and penetration, and 3G and 4G subscriber counts.",
+   "source_url": "https://btrc.gov.bd/pages/static-pages/teledensity-penetration-8ecc0e-6922e009933eb65569e2524c",
+   "download_url": null,
+   "categories": [
+    "Science & Technology"
+   ],
+   "subcategories": [
+    "Telecommunications",
+    "Internet"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2021,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "teledensity",
+    "internet penetration",
+    "4G",
+    "mobile broadband"
+   ],
+   "evidence_url": "https://btrc.gov.bd/pages/static-pages/teledensity-penetration-8ecc0e-6922e009933eb65569e2524c",
+   "evidence_note": "Page 'টেলিডেনসিটি ও পেনেট্রেশন' shows monthly rows from আগস্ট ২০২১ to আগস্ট, ২০২৬ (e.g. teledensity 108.27%, internet penetration 77.89%).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "btrc-operator-towers",
+   "title": "Number of Telecom Towers by Operator (Monthly)",
+   "organization": "btrc",
+   "description": "Monthly count of telecom towers owned by mobile network operators (GP, Robi, Banglalink, Teletalk), tower-sharing operators (edotco, Summit, Kirtonkhola, Frontier) and BTCL, with the total number of towers.",
+   "source_url": "https://btrc.gov.bd/pages/static-pages/number-of-operator-s-towers-3a9686-6922dbce933eb65569e0cab2",
+   "download_url": null,
+   "categories": [
+    "Science & Technology",
+    "Infrastructure"
+   ],
+   "subcategories": [
+    "Telecommunications"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2022,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "towers",
+    "telecom infrastructure",
+    "tower sharing"
+   ],
+   "evidence_url": "https://btrc.gov.bd/pages/static-pages/number-of-operator-s-towers-3a9686-6922dbce933eb65569e0cab2",
+   "evidence_note": "Page 'অপারেটর টাওয়ারের সংখ্যা' has a table from December 2022 to 'August, 2026' with Total Number of Towers 46,717.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "btrc-local-handset-production",
+   "title": "Locally Manufactured Mobile Handsets (Monthly)",
+   "organization": "btrc",
+   "description": "Monthly production of mobile handsets in Bangladesh (in lakh units) by technology (2G, 3G, 4G, 5G), with the share of feature phones and smartphones.",
+   "source_url": "https://btrc.gov.bd/pages/static-pages/6922df27933eb65569e20359",
+   "download_url": null,
+   "categories": [
+    "Science & Technology",
+    "Industry & Business"
+   ],
+   "subcategories": [
+    "Telecommunications",
+    "Manufacturing"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2022,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "handsets",
+    "smartphones",
+    "manufacturing"
+   ],
+   "evidence_url": "https://btrc.gov.bd/pages/static-pages/6922df27933eb65569e20359",
+   "evidence_note": "Page 'মোবাইল ফোন হ্যান্ডসেটের তথ্য' titled 'স্থানীয়ভাবে উৎপাদিত মোবাইল ফোন হ্যান্ডসেটের তথ্য' shows monthly rows from জানুয়ারি ২০২২ to আগস্ট, ২০২৬.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "cpa-annual-cargo-container-vessel-statistics",
+   "title": "Chattogram Port Cargo, Container and Vessel Handling Statistics (Annual)",
+   "organization": "cpa",
+   "description": "Annual statistics of cargo, container (TEU) and vessel handling at Chattogram Port, published as a scanned PDF.",
+   "source_url": "https://cpa.gov.bd/pages/static-pages/6922dc23933eb65569e0e979",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-cpa/2026/6/003e58fe-537f-4f2a-8caa-486b7a64c4db.pdf",
+   "categories": [
+    "Transport",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Ports",
+    "Shipping"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Chattogram Port",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "port",
+    "containers",
+    "TEU",
+    "cargo",
+    "vessels"
+   ],
+   "evidence_url": "https://cpa.gov.bd/pages/static-pages/6922dc23933eb65569e0e979",
+   "evidence_note": "Page 'কার্গো, কন্টেইনার ও জাহাজ হ্যান্ডলিং পরিসংখ্যানগত তথ্য (বার্ষিক)' offers a 6-page PDF (scanned) for download.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "cpa-monthly-cargo-container-vessel-statistics",
+   "title": "Chattogram Port Cargo, Container and Vessel Handling Statistics (Monthly)",
+   "organization": "cpa",
+   "description": "Month-by-month import, export and total cargo (metric tonnes), containers (TEUs) and number of vessels handled at Chattogram Port during the current year.",
+   "source_url": "https://cpa.gov.bd/pages/static-pages/6922df5f933eb65569e218a9",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-cpa/2026/7/e37843d6-bcc0-4ea4-b979-d8fc952d304f.pdf",
+   "categories": [
+    "Transport",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Ports",
+    "Shipping"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Chattogram Port",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2026,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "port",
+    "containers",
+    "TEU",
+    "cargo",
+    "imports",
+    "exports"
+   ],
+   "evidence_url": "https://cpa.gov.bd/pages/static-pages/6922df5f933eb65569e218a9",
+   "evidence_note": "Page 'কার্গো, কন্টেইনার ও জাহাজ হ্যান্ডলিং পরিসংখ্যানগত তথ্য (মাসিক)' links a PDF titled 'CARGO, CONTAINER & VESSEL HANDLING DURING 2026' with January-July figures.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "cpa-annual-reports",
+   "title": "Chittagong Port Authority Annual Reports",
+   "organization": "cpa",
+   "description": "Annual reports of the Chittagong Port Authority for fiscal years 2015-16 to 2023-24.",
+   "source_url": "https://cpa.gov.bd/pages/annual-reports",
+   "download_url": null,
+   "categories": [
+    "Transport",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Ports",
+    "Annual Report"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Chattogram Port",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2015,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "port",
+    "annual report",
+    "shipping"
+   ],
+   "evidence_url": "https://cpa.gov.bd/pages/annual-reports",
+   "evidence_note": "Page 'বার্ষিক প্রতিবেদন' lists 'বার্ষিক প্রতিবেদন ২০২৩-২০২৪' through 'বার্ষিক প্রতিবেদন ২০১৫-২০১৬' with PDF files.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mor-railway-information-book",
+   "title": "Railway Information Book",
+   "organization": "mor",
+   "description": "Annual information book on Bangladesh Railway, published by the Ministry of Railways; editions for 2019, 2020, 2021 and 2022 are available as PDFs.",
+   "source_url": "https://mor.gov.bd/pages/static-pages/694032c235ce18e1c0561ed3",
+   "download_url": null,
+   "categories": [
+    "Transport"
+   ],
+   "subcategories": [
+    "Railways"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2019,
+   "temporal_end": 2022,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "railway",
+    "rail transport",
+    "Bangladesh Railway"
+   ],
+   "evidence_url": "https://mor.gov.bd/pages/static-pages/694032c235ce18e1c0561ed3",
+   "evidence_note": "Page 'রেলওয়ে ইনফরমেশন বুক' lists 'রেলওয়ে ইনফরমেশন বুক (২০১৯)', '(২০২০)', '(২০২১)', '(২০২২)' with PDF download links.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "caab-annual-report-2023-24",
+   "title": "CAAB Annual Report 2023-24",
+   "organization": "caab",
+   "description": "Annual report (in Bangla) of the Civil Aviation Authority of Bangladesh for FY 2023-24, describing its organisation, activities and airport development projects such as terminal and cargo complex expansion.",
+   "source_url": "https://caab.gov.bd/",
+   "download_url": "https://new.caab.gov.bd/devlpmnts/Annual%20Report%202023-24.pdf",
+   "categories": [
+    "Transport"
+   ],
+   "subcategories": [
+    "Aviation",
+    "Annual Report"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2023,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "aviation",
+    "airports",
+    "annual report"
+   ],
+   "evidence_url": "https://caab.gov.bd/",
+   "evidence_note": "CAAB homepage links 'বার্ষিক প্রতিবেদন' to http://new.caab.gov.bd/devlpmnts/Annual%20Report%202023-24.pdf, which resolved to a 30-page PDF.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mopa-statistics-of-government-servants",
+   "title": "Statistics of Government Servants",
+   "organization": "mopa",
+   "description": "Annual statistical publication from the Ministry of Public Administration's Statistics and Research Cell on government employees in the civil service. Editions for 2022, 2023, 2024 and 2025 were listed.",
+   "source_url": "https://mopa.gov.bd/pages/mopa-report-publication?filters=%7B%22go_type%22%3A%20%22694137eda31054345f0e5bdc%22%7D",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mopa/2026/7/4ab3894e-a80e-4027-b14d-38f824682a5d.pdf",
+   "categories": [
+    "Government & Public Administration",
+    "Labour & Employment"
+   ],
+   "subcategories": [
+    "Civil Service"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2022,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "civil service",
+    "government employees",
+    "public administration"
+   ],
+   "evidence_url": "https://mopa.gov.bd/pages/mopa-report-publication?filters=%7B%22go_type%22%3A%20%22694137eda31054345f0e5bdc%22%7D",
+   "evidence_note": "The 'বই ও ম্যানুয়ল' list includes 'সরকারি কর্মচারীদের পরিসংখ্যান, ২০২৫' (13/08/2026), '... ২০২৪', 'STATISTICS OF GOVERNMENT SERVANTS 2023' and '... ২০২২', each from পরিসংখ্যান ও গবেষণা কোষ with a PDF.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mopa-annual-reports",
+   "title": "Ministry of Public Administration Annual Reports",
+   "organization": "mopa",
+   "description": "Annual reports of the Ministry of Public Administration for fiscal years 2018-19 to 2022-23.",
+   "source_url": "https://mopa.gov.bd/pages/mopa-report-publication?filters=%7B%22go_type%22%3A%20%22694137eda31054345f0e5bd9%22%7D",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Civil Service",
+    "Annual Report"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2018,
+   "temporal_end": 2023,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "annual report",
+    "public administration"
+   ],
+   "evidence_url": "https://mopa.gov.bd/pages/mopa-report-publication?filters=%7B%22go_type%22%3A%20%22694137eda31054345f0e5bd9%22%7D",
+   "evidence_note": "The list shows 'জনপ্রশাসন মন্ত্রণালয়ের বার্ষিক প্রতিবেদন ২০২২-২০২৩' back to 'বার্ষিক প্রতিবেদন ২০১৮-১৯', each with a PDF file.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "supreme-court-annual-reports",
+   "title": "Supreme Court of Bangladesh Annual Reports (with Case Statistics)",
+   "organization": "supreme-court-bd",
+   "description": "Annual reports of the Supreme Court for 2007 to 2024. The 2024 report includes statistics of new filings, disposals and pending cases in the Appellate Division, along with other information about the courts.",
+   "source_url": "https://www.supremecourt.gov.bd/web/?page=notices.php&menu=11&notice_type=5&lang=",
+   "download_url": "https://www.supremecourt.gov.bd/resources/contents/Annual_Report_2024.pdf",
+   "categories": [
+    "Crime & Justice"
+   ],
+   "subcategories": [
+    "Courts",
+    "Case Statistics"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2007,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "judiciary",
+    "court cases",
+    "pending cases",
+    "case disposal"
+   ],
+   "evidence_url": "https://www.supremecourt.gov.bd/web/?page=notices.php&menu=11&notice_type=5&lang=",
+   "evidence_note": "'Annual Reports' page lists 'Annual Report of 2024' through 'Annual Report of 2007' linking to resources/contents/Annual_Report_YYYY.pdf; the 2024 PDF has a section 'Statistics of New Filing, Disposal and Pending Cases in the Appellate Division'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bmet-overseas-employment-remittance-by-country",
+   "title": "Overseas Employment and Remittances by Destination Country (2004 onward)",
+   "organization": "bmet",
+   "description": "Year-by-destination-country table of Bangladeshi workers sent abroad (KSA, UAE, Kuwait, Oman, Qatar, Bahrain, Lebanon, Jordan, Libya, Sudan, Malaysia, Singapore, S. Korea, UK, Italy, Japan, Egypt, Brunei, Mauritius, Iraq, others), miscellaneous clearances, total employment and remittance inflow in million USD (remittance sourced from Bangladesh Bank), 2004 to May 2025, with charts. Published as an image table on a BMET statistics page.",
+   "source_url": "https://bmet.gov.bd/pages/static-pages/6922de24933eb65569e1887f",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bmet/2024/12/5a7da9cf93d747148e3069c06faa0370.jpg",
+   "categories": [
+    "Labour & Employment"
+   ],
+   "subcategories": [
+    "Overseas Employment",
+    "Remittances"
+   ],
+   "formats": [
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2004,
+   "temporal_end": 2025,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "migration",
+    "overseas employment",
+    "remittance",
+    "migrant workers",
+    "destination country"
+   ],
+   "evidence_url": "https://bmet.gov.bd/pages/static-pages/6922de24933eb65569e1887f",
+   "evidence_note": "Page titled 'দেশ অনুযায়ী বার্ষিক বৈদেশিক কর্মসংস্থান এবং রেমিটেন্স প্রবাহ (মে ২০২৫)' embeds a JPG table 'Overseas Employment & Remittances (2004 to 2025), Up to May 2025' with year rows, destination-country columns, total employment and remittances (million USD).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bmet-oep-emigration-clearance-by-country",
+   "title": "Emigration Clearances by Destination Country (Overseas Employment Platform)",
+   "organization": "bmet",
+   "description": "Queryable report on BMET's Overseas Employment Platform giving the number of workers granted emigration clearance by destination country, filterable by approval date range, gender, job category and skill; data available from 9 March 2023 (data migration in progress). The table is served as JSON to a DataTable with Excel export.",
+   "source_url": "https://www.oep.gov.bd/reports/country-clearance",
+   "download_url": null,
+   "categories": [
+    "Labour & Employment"
+   ],
+   "subcategories": [
+    "Overseas Employment"
+   ],
+   "formats": [
+    "HTML",
+    "JSON"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2023,
+   "temporal_end": null,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "migration",
+    "emigration clearance",
+    "overseas employment",
+    "migrant workers",
+    "destination country"
+   ],
+   "evidence_url": "https://www.oep.gov.bd/reports/country-clearance",
+   "evidence_note": "Page on www.oep.gov.bd (Overseas Employment Platform), linked from the bmet.gov.bd homepage menu item 'দেশ অনুযায়ী দৈনিক বৈদেশিক কর্মসংস্থান' (https://bmet.gov.bd/). Page 'Country Clearance - Overseas Employment Platform' has filters (approval date, country, gender, category, skill) and notes data is searchable from 09 March 2023; its AJAX endpoint returned JSON rows such as Saudi Arabia 755,194, Qatar 107,602 for 2025 (141 countries, total 1,132,368).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bmet-oep-emigration-clearance-by-district",
+   "title": "Emigration Clearances by Division and District (Overseas Employment Platform)",
+   "organization": "bmet",
+   "description": "Report on BMET's Overseas Employment Platform listing the number of emigration clearances by home division and district of the worker, filterable by date range, gender, division and district, with an export option.",
+   "source_url": "https://www.oep.gov.bd/reports/geo-clearance-count",
+   "download_url": null,
+   "categories": [
+    "Labour & Employment"
+   ],
+   "subcategories": [
+    "Overseas Employment"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "District",
+   "temporal_start": 2023,
+   "temporal_end": null,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "migration",
+    "emigration clearance",
+    "district",
+    "migrant workers"
+   ],
+   "evidence_url": "https://www.oep.gov.bd/reports/geo-clearance-count?date_from=2025-01-01&date_to=2025-12-31",
+   "evidence_note": "Page on www.oep.gov.bd (Overseas Employment Platform), linked as 'Division Wise Clearance' from the OEP country-clearance report that the bmet.gov.bd homepage links (https://bmet.gov.bd/). Page 'Division Wise Clearance' renders a table with columns #SL, Division, District, Total; for 2025 it listed Chattagram/Comilla 76,692, Chattagram/Brahmanbaria 67,217, Dhaka/Dhaka 53,004, etc.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bangladesh-railway-train-timetables",
+   "title": "Train Timetables, Eastern and Western Zones (Time Table No. 54)",
+   "organization": "bangladesh-railway",
+   "description": "Official working timetables of Bangladesh Railway passenger trains for the Eastern zone and the Western zone, issued under Time Table No. 54 effective 10 March 2025, published as downloadable PDF files (one per zone).",
+   "source_url": "https://railway.gov.bd/pages/static-pages/691997d5933eb65569ddf8e2",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-railway/2024/12/667d364484f84ac7b06d7e8e8804b2c9.pdf",
+   "categories": [
+    "Transport"
+   ],
+   "subcategories": [
+    "Railways",
+    "Timetables"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2025,
+   "temporal_end": 2025,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "railway",
+    "train schedule",
+    "timetable",
+    "stations"
+   ],
+   "evidence_url": "https://railway.gov.bd/pages/static-pages/691997bf933eb65569ddec51",
+   "evidence_note": "Page 'পূর্বাঞ্চলের ট্রেনের সময়সূচি (টাইম টেবিল নং ৫৪ অনুসারে, কার্যকরের তারিখ: ১০.০৩.২০২৫ ইং)' offers a 'ডাউনলোড করুন' link to a 4.7 MB PDF; the western-zone page (691997b8933eb65569dde71d) links a second PDF.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "biwta-realtime-tidal-water-levels",
+   "title": "Real-time Tidal Water Levels at Inland River Stations",
+   "organization": "biwta",
+   "description": "Live display of current tide/water levels (metres) and alerts at BIWTA's active automatic gauge stations on rivers and coastal channels (e.g. Arial Khan at Kalikapur, Bakkhali at Cox's Bazar, Buriganga at Pagla, Bay of Bengal at Saint Martin), linked from the BIWTA website as 'টাইডাল ডাটা (রিয়েল টাইম)'.",
+   "source_url": "http://biwta.port-log.net/live/display.php",
+   "download_url": null,
+   "categories": [
+    "Transport",
+    "Environment"
+   ],
+   "subcategories": [
+    "Inland Waterways",
+    "Tides"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Real-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "tide",
+    "water level",
+    "river",
+    "inland navigation",
+    "hydrography"
+   ],
+   "evidence_url": "http://biwta.port-log.net/live/display.php",
+   "evidence_note": "Hosted on biwta.port-log.net, a third-party service linked from the biwta.gov.bd homepage as 'টাইডাল ডাটা (রিয়েল টাইম)' (https://biwta.gov.bd/). Page 'Port-Log - Latest' lists '--- ALL ACTIVE STATIONS ---' with Tide Level (m) and Alerts per river/station, e.g. 'ARIAL KHAN KALIKAPUR: 2.02', 'BURIGANNGA PAGLA: 3.10', 'BAKKHALI COXS BAZAR: -0.99'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "biwta-standard-high-water-levels",
+   "title": "Standard High Water Level (SHWL) Values for 166 Locations",
+   "organization": "biwta",
+   "description": "Reference table of Standard High Water Level values for 166 river and coastal locations in Bangladesh, published by BIWTA as a downloadable PDF.",
+   "source_url": "https://biwta.gov.bd/pages/static-pages/6922decb933eb65569e1d6c0",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-biwta/2024/12/71dd06ba76e34cf497ae508da8b51c2d.pdf",
+   "categories": [
+    "Transport",
+    "Geography & GIS"
+   ],
+   "subcategories": [
+    "Inland Waterways",
+    "Water Levels"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Station/Point",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Unknown",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "SHWL",
+    "water level",
+    "rivers",
+    "navigation clearance"
+   ],
+   "evidence_url": "https://biwta.gov.bd/pages/static-pages/6922decb933eb65569e1d6c0",
+   "evidence_note": "Page titled 'বাংলাদেশের ১৬৬টি স্থানের Standard High Water Level (SHWL) এর মান' with a 'ডাউনলোড করুন' link to a PDF on the government object store.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "biwta-annual-reports",
+   "title": "BIWTA Annual Reports (2016-17 to 2023-24)",
+   "organization": "biwta",
+   "description": "Annual reports of the Bangladesh Inland Water Transport Authority for fiscal years 2016-17 through 2023-24, each as a PDF.",
+   "source_url": "https://biwta.gov.bd/pages/annual-reports",
+   "download_url": null,
+   "categories": [
+    "Transport",
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Inland Waterways",
+    "Annual Reports"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2016,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "inland water transport",
+    "annual report",
+    "dredging",
+    "river ports"
+   ],
+   "evidence_url": "https://biwta.gov.bd/pages/annual-reports",
+   "evidence_note": "Page 'বার্ষিক প্রতিবেদন' lists 'বার্ষিক প্রতিবেদন ২০১৬ - ২০১৭' through 'বার্ষিক প্রতিবেদন ২০২৩ - ২০২৪' (latest published 30-09-2024), each linking a PDF.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "mpa-vessel-handling-statistics",
+   "title": "Mongla Port Vessel Arrivals and Departures by Fiscal Year",
+   "organization": "mpa",
+   "description": "Annual counts of ships arriving at and departing Mongla Port, split into ships and India-Bangladesh protocol/other vessels, with totals, for fiscal years 2014-15 to 2025-26.",
+   "source_url": "https://mpa.gov.bd/pages/static-pages/6922e06c933eb65569e26fc0",
+   "download_url": null,
+   "categories": [
+    "Transport",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Ports",
+    "Shipping"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Mongla Port",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2014,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "port",
+    "vessels",
+    "shipping",
+    "Mongla"
+   ],
+   "evidence_url": "https://mpa.gov.bd/pages/static-pages/6922e06c933eb65569e26fc0",
+   "evidence_note": "Page 'জাহাজ পরিসংখ্যান' shows a Traffic Department table 'জাহাজ হ্যান্ডলিং এর বিবরণ' with arrivals and departures per year, e.g. 2014-15: 502 arrivals, 492 departures; 2025-26: 987 arrivals, 994 departures.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "mpa-cargo-handling-statistics",
+   "title": "Mongla Port Cargo Handling (Imports and Exports) by Fiscal Year",
+   "organization": "mpa",
+   "description": "Annual tonnage of cargo handled at Mongla Port: import cargo, export cargo in containers, export conventional cargo and total cargo in metric tonnes, fiscal years 2014-15 to 2025-26.",
+   "source_url": "https://mpa.gov.bd/pages/static-pages/6922dd7d933eb65569e153b7",
+   "download_url": null,
+   "categories": [
+    "Transport",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Ports",
+    "Cargo"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Mongla Port",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2014,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "port",
+    "cargo",
+    "imports",
+    "exports",
+    "Mongla"
+   ],
+   "evidence_url": "https://mpa.gov.bd/pages/static-pages/6922dd7d933eb65569e153b7",
+   "evidence_note": "Page 'কার্গো হ্যান্ডলিং' shows a table with columns year, import cargo (MT), export container cargo (MT), export conventional cargo (MT), total (MT), e.g. 2025-26 total 1,22,51,272 MT.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "mpa-container-handling-statistics",
+   "title": "Mongla Port Container Handling (TEUs and Boxes) by Fiscal Year",
+   "organization": "mpa",
+   "description": "Annual container traffic at Mongla Port's permanent jetties: number of container ships, discharged/loaded/total TEUs, discharged/loaded/total boxes and container cargo tonnage, fiscal years 2014-15 to 2025-26.",
+   "source_url": "https://mpa.gov.bd/pages/static-pages/6922dd3a933eb65569e14037",
+   "download_url": null,
+   "categories": [
+    "Transport",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Ports",
+    "Containers"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Mongla Port",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2014,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "port",
+    "containers",
+    "TEU",
+    "Mongla"
+   ],
+   "evidence_url": "https://mpa.gov.bd/pages/static-pages/6922dd3a933eb65569e14037",
+   "evidence_note": "Page 'কন্টেইনার হ্যান্ডলিং পরিসংখ্যান' shows a table with ship count, discharged/loaded/total TEUs and boxes and cargo tonnage per year, e.g. 2014-15: 67 ships, 42,137 TEUs.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "mpa-vehicle-handling-statistics",
+   "title": "Mongla Port Vehicle (Car) Handling by Fiscal Year",
+   "organization": "mpa",
+   "description": "Annual number of vehicles (imported cars) handled at Mongla Port, fiscal years 2014-15 to 2025-26.",
+   "source_url": "https://mpa.gov.bd/pages/static-pages/6922e101933eb65569e298c4",
+   "download_url": null,
+   "categories": [
+    "Transport",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Ports",
+    "Vehicle Imports"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Mongla Port",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2014,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "port",
+    "vehicles",
+    "car imports",
+    "Mongla"
+   ],
+   "evidence_url": "https://mpa.gov.bd/pages/static-pages/6922e101933eb65569e298c4",
+   "evidence_note": "Page 'গাড়ি হ্যান্ডলিং' shows a table 'গাড়ি হ্যান্ডলিং এর বিবরণ' with vehicle counts per fiscal year, e.g. 2014-15: 11,218; 2021-22: 21,484.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "mpa-income-expenditure",
+   "title": "Mongla Port Authority Income, Expenditure and Profit/Loss by Fiscal Year",
+   "organization": "mpa",
+   "description": "Annual total income, total expenditure and profit/loss (in lakh taka) of Mongla Port Authority from FY 2006-07 to FY 2024-25 (July 2024 to March 2025).",
+   "source_url": "https://mpa.gov.bd/pages/static-pages/6922dd44933eb65569e1438c",
+   "download_url": null,
+   "categories": [
+    "Transport",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Ports",
+    "Public Finance"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Mongla Port",
+   "geographic_level": "Station/Point",
+   "temporal_start": 2006,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "port",
+    "revenue",
+    "expenditure",
+    "Mongla"
+   ],
+   "evidence_url": "https://mpa.gov.bd/pages/static-pages/6922dd44933eb65569e1438c",
+   "evidence_note": "Page 'রাজস্ব আয় ও ব্যয়' shows a table of fiscal year, total income, total expenditure and profit/loss in lakh taka from 2006-07 (4934.09 / 5553.07 / -618.98) to 2024-25 (July'24 to March'25).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "acc-monthly-case-statistics",
+   "title": "Anti-Corruption Commission Monthly Case Statistics (2021-2026)",
+   "organization": "acc",
+   "description": "Monthly case statistics statements of the Anti-Corruption Commission, published as one PDF per month from March 2021 to the latest month (August 2026 at check time).",
+   "source_url": "https://acc.org.bd/pages/static-pages/6922dcd0933eb65569e1231f",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-acc-org-bd/2026/8/66d39d58-7a99-4d0b-a645-6152fdbb5457.pdf",
+   "categories": [
+    "Crime & Justice"
+   ],
+   "subcategories": [
+    "Corruption"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2021,
+   "temporal_end": 2026,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "corruption",
+    "cases",
+    "anti-corruption",
+    "prosecution"
+   ],
+   "evidence_url": "https://acc.org.bd/pages/static-pages/6922dcd0933eb65569e1231f",
+   "evidence_note": "Page titled 'মামলার পরিসংখ্যান (২০২১ ২০২৬)' lists 52 PDF links from 'মামলার পরিসংখ্যান (মার্চ - ২০২১)' to 'মামলা পরিসংখ্যান (আগস্ট-২০২৬)'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "acc-annual-reports",
+   "title": "Anti-Corruption Commission Annual Reports (2013-2024)",
+   "organization": "acc",
+   "description": "Annual reports of the Anti-Corruption Commission for 2013 to 2024 (2020 and 2021 combined), with separate Bangla and English editions from 2017, each as a downloadable file.",
+   "source_url": "https://acc.org.bd/pages/annual-reports",
+   "download_url": null,
+   "categories": [
+    "Crime & Justice",
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Corruption",
+    "Annual Reports"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2013,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "corruption",
+    "annual report",
+    "anti-corruption"
+   ],
+   "evidence_url": "https://acc.org.bd/pages/annual-reports",
+   "evidence_note": "Page 'বার্ষিক প্রতিবেদন' shows 'মোট ১৮ এন্ট্রি' from 'বার্ষিক প্রতিবেদন ২০১৩' (page 2) to 'বার্ষিক প্রতিবেদন- ২০২৪ (ইংরেজী)' and '(বাংলা)'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bpsc-annual-reports",
+   "title": "Bangladesh Public Service Commission Annual Reports (2014-2025)",
+   "organization": "bpsc",
+   "description": "Annual reports of the Bangladesh Public Service Commission for 2014 to 2025 (2019 in three parts), published as downloadable files on the commission's annual reports page.",
+   "source_url": "https://bpsc.gov.bd/pages/annual-reports",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Civil Service Recruitment",
+    "Annual Reports"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2014,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "public service commission",
+    "BCS",
+    "civil service",
+    "recruitment",
+    "annual report"
+   ],
+   "evidence_url": "https://bpsc.gov.bd/pages/annual-reports",
+   "evidence_note": "Page 'বার্ষিক প্রতিবেদন' (মোট ১৮ এন্ট্রি) lists 'বার্ষিক প্রতিবেদন - ২০২৫' and '- ২০২৪' (published 20-07-2026) back to 'বার্ষিক প্রতিবেদন ২০১৪' on page 2, alongside annual procurement plans.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dife-annual-reports",
+   "title": "DIFE Annual Reports (2015-16 to 2024-25)",
+   "organization": "dife",
+   "description": "Annual reports of the Department of Inspection for Factories and Establishments for fiscal years 2015-16 to 2024-25 (2017-18 not listed), each as a PDF.",
+   "source_url": "https://dife.gov.bd/pages/static-pages/6922e12e933eb65569e2abc5",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dife/2026/6/980b53bc-c215-487b-8170-c0229f80da2b.pdf",
+   "categories": [
+    "Labour & Employment",
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Labour Inspection",
+    "Annual Reports"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2015,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "labour inspection",
+    "factories",
+    "occupational safety",
+    "annual report"
+   ],
+   "evidence_url": "https://dife.gov.bd/pages/static-pages/6922e12e933eb65569e2abc5",
+   "evidence_note": "Page 'বার্ষিক প্রতিবেদন' links nine PDFs from 'বার্ষিক প্রতিবেদন, ২০১৫-২০১৬' to 'বার্ষিক প্রতিবেদন, ২০২৪-২০২৫'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dmtcl-annual-reports",
+   "title": "Dhaka Mass Transit Company Annual Reports (2017-18 to 2023-24)",
+   "organization": "dmtcl",
+   "description": "Annual reports of Dhaka Mass Transit Company Limited, operator of the Dhaka Metro Rail, for fiscal years 2017-18 through 2023-24, published as PDF files.",
+   "source_url": "https://dmtcl.gov.bd/pages/annual-reports",
+   "download_url": null,
+   "categories": [
+    "Transport",
+    "Infrastructure"
+   ],
+   "subcategories": [
+    "Metro Rail",
+    "Annual Reports"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Dhaka",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2017,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "metro rail",
+    "MRT",
+    "Dhaka",
+    "urban transport",
+    "annual report"
+   ],
+   "evidence_url": "https://dmtcl.gov.bd/pages/annual-reports",
+   "evidence_note": "Page 'বার্ষিক প্রতিবেদন' (মোট ৭ এন্ট্রি) lists 'বার্ষিক প্রতিবেদন ২০১৭-২০১৮' through 'বার্ষিক প্রতিবেদন ২০২৩-২০২৪' (published 15-10-2024), with PDF files on the government object store.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dncc-daily-dengue-situation-analysis",
+   "title": "DNCC Daily Dengue Situation Analysis Reports",
+   "organization": "dncc",
+   "description": "Daily 'Analysis of Dengue Situation' reports issued by Dhaka North City Corporation, one PDF per day, listed under the report type 'দৈনিক ডেঙ্গু পরিস্থিতি ও পর্যালোচনা' (171 reports at check time, from 01/04/2026 to 29/09/2026).",
+   "source_url": "https://dncc.gov.bd/pages/reports?filters=%7B%22reports_type%22%3A%2269d2075cf94cbc83926de345%22%7D",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dncc/2026/8/9d4c2b29-de09-4b49-b70d-e41d6e1ae7b3.pdf",
+   "categories": [
+    "Health"
+   ],
+   "subcategories": [
+    "Dengue"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Dhaka North City Corporation",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2026,
+   "temporal_end": 2026,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "dengue",
+    "vector-borne disease",
+    "Dhaka",
+    "city corporation"
+   ],
+   "evidence_url": "https://dncc.gov.bd/pages/reports?filters=%7B%22reports_type%22%3A%2269d2075cf94cbc83926de345%22%7D",
+   "evidence_note": "Reports page filtered to 'দৈনিক ডেঙ্গু পরিস্থিতি ও পর্যালোচনা' shows 'মোট ১৭১ এন্ট্রি', newest rows 'Analysis of Dengue Situation (29/09/2026)', '(28/09/2026)', '(27/09/2026)', each with a PDF attachment.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dncc-annual-budgets",
+   "title": "Dhaka North City Corporation Annual Budgets (FY 2016-17 to 2026-27)",
+   "organization": "dncc",
+   "description": "Annual budget documents of Dhaka North City Corporation for fiscal years 2016-17 through 2026-27, one PDF per year.",
+   "source_url": "https://dncc.gov.bd/pages/static-pages/6922df87933eb65569e22910",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dncc/2026/7/94af5edb-a20e-4afe-8670-842aaba92075.pdf",
+   "categories": [
+    "Government & Public Administration",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Local Government Budget"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Dhaka North City Corporation",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2016,
+   "temporal_end": 2027,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "budget",
+    "city corporation",
+    "Dhaka",
+    "local government finance"
+   ],
+   "evidence_url": "https://dncc.gov.bd/pages/static-pages/6922df87933eb65569e22910",
+   "evidence_note": "Page 'বাজেট' has a table 'ক্রমিক নং / বিষয় / ডাউনলোড' with 11 PDF download links from 'অর্থ বছর: ২০২৬-২০২৭' back to 'অর্থ বছর: ২০১৬-২০১৭'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dscc-annual-budgets",
+   "title": "Dhaka South City Corporation Annual Budgets (FY 2015-16 to 2025-26)",
+   "organization": "dscc",
+   "description": "Annual budget documents of Dhaka South City Corporation from FY 2015-16 to FY 2025-26 (2016-17 not listed), one PDF per year.",
+   "source_url": "https://dscc.gov.bd/pages/static-pages/6922df09933eb65569e1f646",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Local Government Budget"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Dhaka South City Corporation",
+   "geographic_level": "City Corporation",
+   "temporal_start": 2015,
+   "temporal_end": 2026,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "budget",
+    "city corporation",
+    "Dhaka",
+    "local government finance"
+   ],
+   "evidence_url": "https://dscc.gov.bd/pages/static-pages/6922df09933eb65569e1f646",
+   "evidence_note": "Page 'বাজেট' has a table 'ক্রমিক নং / বাজেট বিবরণ / ডাউনলোড' listing 'বাজেট ২০১৫-২০১৬', 'বাজেট ২০১৭-২০১৮' ... 'বাজেট ২০২৪-২০২৫' and 'বাজেট ২০২৫-২০২৬' with PDF links.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "dip-annual-reports",
+   "title": "Department of Immigration and Passports Annual Reports (2015-16 to 2022-23)",
+   "organization": "dip",
+   "description": "Annual reports on the activities of the Department of Immigration and Passports for fiscal years 2015-16 through 2022-23, published as PDF files.",
+   "source_url": "https://dip.gov.bd/pages/annual-reports",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Passports and Immigration",
+    "Annual Reports"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2015,
+   "temporal_end": 2023,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "passport",
+    "immigration",
+    "visa",
+    "annual report"
+   ],
+   "evidence_url": "https://dip.gov.bd/pages/annual-reports",
+   "evidence_note": "Page 'বার্ষিক প্রতিবেদন' (মোট ৯ এন্ট্রি) lists '২০২২-২০২৩ অর্থবছরের কার্যাবলি সম্পর্কিত বার্ষিক প্রতিবেদন' back to 'বার্ষিক প্রতিবেদন-২০১৫-১৬', plus an annual performance agreement 2014-2015, with PDF attachments.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "mwb-minimum-wage-gazettes-by-sector",
+   "title": "Minimum Wage Rates by Industry Sector (Final Gazettes)",
+   "organization": "mwb",
+   "description": "Final gazettes of minimum wage rates declared for individual industry sectors (e.g. petrol pumps, ayurvedic factories, iron foundry and engineering workshops, tea gardens, printing presses, cold storage, salt crushing), with gazette publication dates from 2010 to 2026 and PDF downloads; a separate page offers a consolidated PDF list of the latest declared sector minimum wage rates.",
+   "source_url": "https://mwb.portal.gov.bd/pages/static-pages/6922dc02933eb65569e0dedb",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mwb/2026/8/0b34c4f3-ed20-4111-8719-9b056eef81b0.pdf",
+   "categories": [
+    "Labour & Employment"
+   ],
+   "subcategories": [
+    "Minimum Wages"
+   ],
+   "formats": [
+    "PDF",
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2010,
+   "temporal_end": 2026,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "minimum wage",
+    "wages",
+    "industry sectors",
+    "gazette",
+    "workers"
+   ],
+   "evidence_url": "https://mwb.portal.gov.bd/pages/static-pages/6922dc02933eb65569e0dedb",
+   "evidence_note": "Page 'চূড়ান্ত গেজেট' has a table 'ক্রমিক নম্বর / শিল্প সেক্টরের নাম / গেজেট প্রকাশের তারিখ / ডাউনলোড' starting 'পেট্রোল পাম্প ০৬ আগস্ট ২০২৬', 'আয়ুর্বেদিক কারখানা ০৫ মে ২০২৫', 'টি গার্ডেন ১০ আগস্ট ২০২৩', 'ওয়েল মিলস ... ০১ জুলাই ২০১০'; page 6922dfad933eb65569e236a1 links 'ঘোষিত শিল্প সেক্টরের নিম্নতম মজুরি হারের তালিকা.pdf'.",
+   "checked_at": "2026-10-01"
+  }
+ ],
+ "unreachable": [
+  {
+   "url": "http://old.btrc.gov.bd/telco/mobile",
+   "note": "Linked as 'পুরাতন ফাইল' (old files) from BTRC subscriber pages; connection failed."
+  },
+  {
+   "url": "https://mapgis.lged.gov.bd/",
+   "note": "Linked from LGED homepage as 'জিআইএস ম্যাপ পোর্টাল'; returned HTTP 404."
+  },
+  {
+   "url": "https://mopa.gov.bd/site/mopa_report_publication/160c32a4-dffa-4299-89b6-063c133acd4a/STATISTICS-OF-CIVIL-OFFICERS-AND-STAFFS-2021",
+   "note": "Old-portal URL found via search; HTTP 404 after site migration (newer editions are listed on the current site)."
+  },
+  {
+   "url": "https://railway.portal.gov.bd/sites/default/files/files/railway.portal.gov.bd/page/4ec73cd2_6646_426f_ade5_6c05960865d4/INFORMATION%20BOOK%202019%20(PDF%20Version).pdf",
+   "note": "Old railway portal file found via search; connection failed."
+  },
+  {
+   "url": "https://axleload.rhd.gov.bd/",
+   "note": "Linked from RHD as 'এক্সেল লোড ডাটাবেস'; page loaded empty (JavaScript-only), contents not verified."
+  },
+  {
+   "url": "https://gis.rhd.gov.bd/portal/home/",
+   "note": "Linked from RHD as GIS Portal; page loaded empty (JavaScript-only), contents not verified."
+  },
+  {
+   "url": "https://railway.gov.bd/pages/files/6919975d933eb65569ddc534",
+   "note": "Bangladesh Railway 'বার্ষিক প্রতিবেদন' page loaded but showed only images, no report files."
+  },
+  {
+   "url": "https://dtca.gov.bd/",
+   "note": "Loaded; only annual report pages for 2015-16 and 2016-17 and a 'মাস্টার ফাইল ডাটাবেজ' link (portal.dtcabd.com) that is a login-only staff portal; no ridership or transport-plan dataset found."
+  },
+  {
+   "url": "https://dmtcl.gov.bd/",
+   "note": "Loaded; no metro ridership statistics found (only route maps, station pages and annual reports, the latter recorded)."
+  },
+  {
+   "url": "https://ecs.gov.bd/category/upazila-parishad-election",
+   "note": "Loaded; upazila, municipality, union and zila parishad election category pages list only circulars/gazettes on conduct rules and magistrates, no local-election result files. Existing ECS entries already cover national and city corporation results and voter counts."
+  },
+  {
+   "url": "https://bmet.gov.bd/pages/static-pages/6922dccf933eb65569e122ec",
+   "note": "Loaded; district-wise monthly overseas employment (May 2025) and the other monthly BMET statistics pages are single JPG images; only the annual country-wise employment & remittance table was recorded (image verified)."
+  },
+  {
+   "url": "https://mole.gov.bd/pages/static-pages/6940329c35ce18e1c055f52b",
+   "note": "Ministry of Labour 'প্রকাশনা ও বার্ষিক প্রতিবেদন' link returned HTTP 404; /pages/publications lists only the Labour Ordinance 2025, Labour Reform Commission report and similar documents, no statistics."
+  },
+  {
+   "url": "https://mwb.gov.bd/",
+   "note": "Connection failed (no response); Minimum Wage Board content found at mwb.portal.gov.bd instead."
+  },
+  {
+   "url": "https://acc.org.bd/pages/static-pages/6922dc96933eb65569e111ce",
+   "note": "Loaded; 'বিগত বছরের মামলার পরিসংখ্যান' is a set of images (e.g. cases filed 2020-2024: 348, 347, 406, 404, 451); not recorded separately as the monthly case statistics PDFs and annual reports were recorded."
+  }
+ ]
+}

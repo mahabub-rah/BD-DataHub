@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block title %}{{ ds.title }} — {{ ds.organization.acronym or ds.organization.name }} · BD DataHub{% endblock %}
+{% block description %}{{ ds.description | truncate(155) }}{% endblock %}
+{% block head %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="breadcrumb"><a href="/">Home</a> › <a href="/datasets">Datasets</a>
+    {% if ds.categories %} › <a href="/datasets?category={{ ds.categories[0].slug }}">{{ ds.categories[0].name }}</a>{% endif %}</div>
+  <header class="ds-head">
+    <h1>{{ ds.title }}</h1>
+    <div class="publisher">Published by <a href="/organizations/{{ ds.organization.slug }}"><strong>{{ ds.organization.name }}</strong></a>{% if ds.organization.acronym %} ({{ ds.organization.acronym }}){% endif %}</div>
+    <div class="access">
+      <a class="btn" href="{{ ds.source_url }}" target="_blank" rel="noopener external">Go to the source ↗</a>
+      {% if ds.download_url %}<a class="btn secondary" href="{{ ds.download_url }}" target="_blank" rel="noopener external">Download file{% if ds.formats %} ({{ ds.formats[0] }}){% endif %} ↗</a>{% endif %}
+      <a class="btn secondary" href="#cite">Cite this dataset</a>
+    </div>
+    {% if ds.link_status == 'broken' %}<p class="small link-warning">The source link did not respond at the last check.</p>{% endif %}
+    <p class="xs muted">Links open <strong>{{ ds.source_url | host }}</strong>, the publisher's own website. BD DataHub does not host or modify this data.</p>
+  </header>
+
+  <div class="ds-layout">
+    <div class="stack">
+      <section class="card">
+        <h2>About this dataset</h2>
+        <p style="white-space:pre-line">{{ ds.description or 'No description provided.' }}</p>
+      </section>
+
+      <section class="card">
+        <h2>Metadata</h2>
+        <dl class="meta-list">
+          <dt>Publisher</dt><dd><a href="/organizations/{{ ds.organization.slug }}">{{ ds.organization.name }}</a>{% if ds.organization.org_type %} <span class="muted">· {{ ds.organization.org_type }}</span>{% endif %}</dd>
+          <dt>Source URL</dt><dd><a href="{{ ds.source_url }}" target="_blank" rel="noopener external" class="mono">{{ ds.source_url }}</a></dd>
+          {% if ds.download_url %}<dt>Direct download</dt><dd><a href="{{ ds.download_url }}" class="mono" target="_blank" rel="noopener external">{{ ds.download_url }}</a></dd>{% endif %}
+          <dt>Categories</dt><dd>{% for c in ds.categories %}<a href="/datasets?category={{ c.slug }}">{{ c.name }}</a>{{ ', ' if not loop.last }}{% endfor %}
+            {% if ds.subcategories %}<br><span class="small muted">{% for c in ds.subcategories %}<a href="/datasets?category={{ c.slug }}">{{ c.name }}</a>{{ ' · ' if not loop.last }}{% endfor %}</span>{% endif %}</dd>
+          <dt>Formats</dt><dd>{{ m.formats(ds.formats) if ds.formats else 'Not specified' }}</dd>
+          <dt>Coverage period</dt><dd>{{ ds | coverage }}</dd>
+          <dt>Geographic coverage</dt><dd>{{ ds.geographic_coverage }}{% if ds.geographic_level %} <span class="muted">· {{ ds.geographic_level }} level</span>{% endif %}</dd>
+          <dt>Update frequency</dt><dd>{{ ds.update_frequency }}</dd>
+          <dt>Language</dt><dd>{% for l in ds.languages %}{{ vocab.LANGUAGES.get(l, l) }}{{ ', ' if not loop.last }}{% endfor %}</dd>
+          <dt>License / terms</dt><dd>{{ ds.license or 'Not stated by the publisher — check the source site before reuse.' }}</dd>
+          <dt>Catalogued</dt><dd>{{ ds.created_at | longdate }} · last updated {{ ds.updated_at | longdate }}</dd>
+        </dl>
+      </section>
+
+      {% if previewable %}
+      <section class="card" id="preview">
+        <div class="row" style="justify-content:space-between"><h2 style="margin:0">Data preview</h2>
+          {% if not preview %}<a class="btn sm secondary" href="/datasets/{{ ds.slug }}?preview=1#preview" rel="nofollow">Load first rows</a>{% endif %}</div>
+        <p class="small muted">Fetched live from the publisher's file (first 25 rows, cached for 24 hours). Always use the original file for analysis.</p>
+        {% if preview %}
+          {% if preview.status == 'ok' %}
+          <div class="table-wrap"><table class="xs"><thead><tr>{% for c in preview.columns %}<th>{{ c }}</th>{% endfor %}</tr></thead>
+            <tbody>{% for row in preview.rows %}<tr>{% for c in row %}<td>{{ c }}</td>{% endfor %}</tr>{% endfor %}</tbody></table></div>
+          <p class="xs muted">{{ preview.rows | length }} rows shown{% if preview.truncated %} (file continues){% endif %} · {{ 'cached' if preview.cached else 'fetched' }} {{ preview.fetched_at }} UTC</p>
+          {% else %}<div class="notice warn">{{ preview.note or 'Preview unavailable.' }}</div>{% endif %}
+        {% endif %}
+      </section>
+      {% endif %}
+
+      <section class="card" id="cite" data-tabs>
+        <div class="row" style="justify-content:space-between"><h2 style="margin:0">Cite this dataset</h2>
+          <button class="btn sm secondary" type="button" data-copy>Copy citation</button></div>
+        <p class="small muted">Access date is set to today. Always cite the original publisher.</p>
+        <div class="tabs" role="tablist">
+          {% for key, label in styles.items() %}<button type="button" role="tab" aria-selected="{{ 'true' if loop.first else 'false' }}" aria-controls="cite-{{ key }}">{{ label.split(' (')[0] }}</button>{% endfor %}
+        </div>
+        {% for key, text in citations.items() %}
+        <div role="tabpanel" id="cite-{{ key }}" {{ 'hidden' if not loop.first }}>
+          <div class="cite-text {{ 'mono' if key in ('bibtex', 'ris') }}">{% if key in ('bibtex', 'ris') %}{{ text }}{% else %}{{ text | cite_html }}{% endif %}</div>
+          {% if key == 'bibtex' %}<p class="xs" style="margin-top:.4rem"><a href="/datasets/{{ ds.slug }}/cite.bib">Download .bib</a></p>{% endif %}
+          {% if key == 'ris' %}<p class="xs" style="margin-top:.4rem"><a href="/datasets/{{ ds.slug }}/cite.ris">Download .ris</a> (opens in Zotero, Mendeley, EndNote)</p>{% endif %}
+        </div>
+        {% endfor %}
+      </section>
+
+      {% if related %}
+      <section>
+        <h2>Related datasets</h2>
+        {% for r in related %}{{ m.result(r) }}{% endfor %}
+      </section>
+      {% endif %}
+    </div>
+
+    <aside class="stack">
+      <section class="card">
+        <h3>Source monitoring</h3>
+        <p class="small">{{ LINK[ds.link_status] }}{% if ds.http_status %} (HTTP {{ ds.http_status }}){% endif %}{% if ds.link_checked_at %} · checked {{ ds.link_checked_at | longdate }}{% endif %}</p>
+        {% if checks %}
+        <table class="xs"><thead><tr><th>Checked</th><th>Result</th></tr></thead><tbody>
+          {% for c in checks %}<tr><td>{{ c.checked_at | shortdate }}</td><td>{{ c.status }}{% if c.http_status %} · {{ c.http_status }}{% endif %}{% if c.url != ds.source_url %} <span class="muted">(file)</span>{% endif %}</td></tr>{% endfor %}
+        </tbody></table>
+        {% endif %}
+        <p class="xs muted" style="margin-top:.6rem">Our checker reads only public pages, respects robots.txt and throttles its requests.</p>
+      </section>
+
+    </aside>
+  </div>
+</div>
+{% endblock %}

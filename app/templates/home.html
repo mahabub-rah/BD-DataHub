@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% block content %}
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1>Find Bangladesh data in one place.</h1>
+      <p class="lead">Search datasets published by <strong>government ministries, public institutions</strong> and other trusted sources. Each listing links straight to the publisher's own page.</p>
+      {{ m.searchbar(autofocus=True) }}
+      <p class="examples">For example:
+        <a href="/datasets?q=inflation">inflation</a>,
+        <a href="/datasets?q=population+census">population census</a>,
+        <a href="/datasets?q=rainfall">rainfall</a>,
+        <a href="/datasets?q=remittance+monthly">monthly remittance</a> or
+        <a href="/datasets?q=exports+xlsx">exports in Excel</a>.
+      </p>
+    </div>
+    <aside class="figures" aria-label="Catalog statistics">
+      <h2>The catalogue today</h2>
+      <dl>
+        <div><dt>Datasets</dt><dd>{{ stats.datasets | headline }}</dd></div>
+        <div><dt>Categories</dt><dd>{{ stats.categories }}</dd></div>
+        <div><dt>Last updated</dt><dd class="date">{{ stats.last_updated | longdate }}</dd></div>
+      </dl>
+      <p class="xs muted">Sources last checked: {{ stats.last_checked | bdtime }}</p>
+    </aside>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <div class="section-head"><h2>Recently updated</h2><a href="/datasets?sort=updated">All datasets by date</a></div>
+    {% if recent %}
+      <ol class="ds-rows">
+        <li class="ds-rows-head muted" aria-hidden="true"><span>Dataset</span><span>Format</span><span class="d">Updated</span></li>
+        {% for ds in recent %}{{ m.card(ds) }}{% endfor %}
+      </ol>
+    {% else %}
+      <div class="empty-state">No datasets yet. Run <code>python -m app.seed</code>.</div>
+    {% endif %}
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <div class="section-head"><h2>Browse by category</h2><a href="/categories">Categories and subcategories</a></div>
+    <ul class="cat-index">
+      {% for c in categories %}
+      <li class="{{ 'empty' if not c.count }}"><a href="/datasets?category={{ c.slug }}"><span class="name">{{ c.name }}</span><span class="count">{{ c.count }}</span></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <div class="section-head"><h2>Where the data comes from</h2></div>
+    <div class="sources">
+      <div class="src-group">
+        <h3>Bangladesh official data sources</h3>
+        <p>Government ministries, divisions, departments, Bangladesh Bank, statutory bodies and commissions</p>
+        <p class="src-count"><span>{{ stats.official }}</span> datasets</p>
+        <a href="/datasets?source_type=official">Browse official data →</a>
+      </div>
+      <div class="src-group">
+        <h3>International data sources</h3>
+        <p>Bangladesh data published by international organizations such as the World Bank and UN agencies</p>
+        <p class="src-count"><span>{{ stats.international }}</span> datasets</p>
+        <a href="/datasets?source_type=international">Browse international data →</a>
+      </div>
+      {% if stats.other %}
+      <div class="src-group">
+        <h3>Other sources</h3>
+        <p>Independent projects and non-governmental organizations that compile Bangladesh data. These are not official sources, so check figures against the original publisher.</p>
+        <p class="src-count"><span>{{ stats.other }}</span> dataset{{ 's' if stats.other != 1 }}</p>
+        <a href="/datasets?source_type=other">Browse other sources →</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% if paper_count %}
+<section class="block">
+  <div class="container">
+    <div class="section-head"><h2>Research papers</h2><a href="/research">Browse research by category →</a></div>
+    <p class="muted" style="max-width:44em">{{ paper_count | num }} research paper{{ 's' if paper_count != 1 }} about Bangladesh, with metadata from OpenAlex. The most cited:</p>
+    <ol class="ds-rows">
+      <li class="ds-rows-head muted" aria-hidden="true"><span>Paper</span><span>Year</span><span class="d">Cited by</span></li>
+      {% for pp in top_papers %}
+      <li>
+        <span class="t"><a href="/papers/{{ pp.openalex_id }}">{{ pp.title }}</a>
+          <span class="by">{{ m.authors(pp.authors) }}{% if pp.venue %} &middot; {{ pp.venue }}{% endif %}</span></span>
+        <span class="f">{{ pp.year or '&mdash;' | safe }}</span>
+        <span class="d">{{ (pp.cited_by_count or 0) | num }}</span>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+{% endif %}
+
+{% endblock %}

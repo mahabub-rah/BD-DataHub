@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% import "_macros.html" as m %}
+{% set qp = request.query_params %}
+{% block title %}{% if category %}{{ category.name }} datasets{% elif organization %}{{ organization.name }} datasets{% elif p.q %}“{{ p.q }}” — search{% else %}Datasets{% endif %} · BD DataHub{% endblock %}
+{% macro facet(title, key, items, selected, limit=8) %}
+  {% if items %}
+  <div class="facet">
+    <h4>{{ title }}</h4>
+    {% for it in items %}
+      {% set on = it.value in selected %}
+      {% if loop.index == limit + 1 %}<details><summary>Show {{ items|length - limit }} more</summary>{% endif %}
+      <a href="{{ toggle_url(qp, key, it.value) }}" class="{{ 'on' if on }} {{ 'zero' if not it.count and not on }}" {% if it.title %}title="{{ it.title }}"{% endif %} rel="nofollow">
+        <span>{{ it.label }}</span><span class="n">{{ it.count }}</span></a>
+      {% if loop.last and loop.length > limit %}</details>{% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endmacro %}
+{% block content %}
+<div class="search-head"><div class="container">
+  {% if category %}
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/categories">Categories</a> ›
+      {% if category.parent %}<a href="/datasets?category={{ category.parent.slug }}">{{ category.parent.name }}</a> › {% endif %}{{ category.name }}</div>
+    <h1>{{ category.name }}</h1>
+    {% if category.description %}<p class="muted">{{ category.description }}</p>{% endif %}
+    {% if category.children %}<div class="row" style="margin-bottom:1rem">{% for c in category.children %}<a class="chip" href="/datasets?category={{ c.slug }}">{{ c.name }}</a>{% endfor %}</div>{% endif %}
+  {% elif organization %}
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/organizations">Organizations</a> › <a href="/organizations/{{ organization.slug }}">{{ organization.acronym or organization.name }}</a></div>
+    <h1>{{ organization.name }}</h1>
+  {% else %}
+    <div class="breadcrumb"><a href="/">Home</a> › Datasets</div>
+    <h1>Datasets</h1>
+  {% endif %}
+  <form action="/datasets" method="get" role="search" class="searchbar compact" style="margin:.75rem 0 0">
+    <label class="sr-only" for="q">Search datasets</label>
+    <input id="q" type="search" name="q" value="{{ p.q }}" placeholder="Search by topic, publisher or year" autocomplete="off">
+    {% for k, v in qp.multi_items() if k not in ('q', 'page') %}<input type="hidden" name="{{ k }}" value="{{ v }}">{% endfor %}
+    <button class="btn">Search</button>
+  </form>
+</div></div>
+
+<div class="container search-layout">
+  <aside class="filters" id="filters" aria-label="Filters">
+    <h2>Filter results</h2>
+    {{ facet("Category", "category", res.facets.category, p.categories, 20) }}
+    {{ facet("Organization", "organization", res.facets.organization, p.organizations, 8) }}
+    {{ facet("Format", "format", res.facets.format, p.formats, 10) }}
+    <div class="facet"><h4>Access</h4>
+      <a href="{{ toggle_url(qp, 'machine_readable', 'true') }}" class="{{ 'on' if p.machine_readable }}" rel="nofollow"><span>Machine-readable</span><span class="n"></span></a>
+    </div>
+    {{ facet("Update frequency", "frequency", res.facets.frequency, p.frequencies) }}
+    {{ facet("Geographic level", "level", res.facets.level, p.levels) }}
+    <div class="facet"><h4>Coverage years</h4>
+      <form action="/datasets" method="get">
+        {% for k, v in qp.multi_items() if k not in ('year_from', 'year_to', 'page') %}<input type="hidden" name="{{ k }}" value="{{ v }}">{% endfor %}
+        <input type="number" name="year_from" min="1900" max="2100" placeholder="From" value="{{ p.year_from or '' }}" aria-label="From year">
+        <input type="number" name="year_to" min="1900" max="2100" placeholder="To" value="{{ p.year_to or '' }}" aria-label="To year">
+        <button class="btn sm secondary">Go</button>
+      </form>
+    </div>
+  </aside>
+
+  <section aria-live="polite">
+    {% if res.interpreted %}
+      <div class="notice">Interpreted your search as: {% for i in res.interpreted %}<strong>{{ i }}</strong>{{ ', ' if not loop.last }}{% endfor %}.
+        <a href="{{ with_params(qp, '/datasets', smart='0', page=None) }}">Search the exact words instead</a></div>
+    {% endif %}
+    {% if res.relaxed_filters %}
+      <div class="notice">Nothing matched {% for i in res.relaxed_filters %}<strong>{{ i }}</strong>{{ ', ' if not loop.last }}{% endfor %} exactly, so these results match your words only. Check each dataset's coverage and format.</div>
+    {% endif %}
+    {% if res.match_strategy == 'without_place' %}
+      <div class="notice">No dataset mentions that place by name. Showing national datasets that may include it (check each one's geographic level).</div>
+    {% elif res.match_strategy == 'any' %}
+      <div class="notice warn">No dataset matches every word. Showing datasets that match some of them.</div>
+    {% endif %}
+
+    <div class="results-head">
+      <span class="count">{{ res.total | num }} dataset{{ 's' if res.total != 1 }}</span>
+      <a class="filters-jump btn sm secondary" href="#filters">Jump to filters</a>
+      <div class="row">
+        {% for c in p.categories %}<span class="chip">{{ labels.get(c, c) }} <a href="{{ toggle_url(qp, 'category', c) }}" aria-label="Remove">×</a></span>{% endfor %}
+        {% for c in p.organizations %}<span class="chip">{{ labels.get(c, c) }} <a href="{{ toggle_url(qp, 'organization', c) }}" aria-label="Remove">×</a></span>{% endfor %}
+        {% for c in p.formats %}<span class="chip">{{ c }} <a href="{{ toggle_url(qp, 'format', c) }}" aria-label="Remove">×</a></span>{% endfor %}
+        {% for c in p.frequencies %}<span class="chip">{{ c }} <a href="{{ toggle_url(qp, 'frequency', c) }}" aria-label="Remove">×</a></span>{% endfor %}
+        {% for c in p.levels %}<span class="chip">{{ c }} <a href="{{ toggle_url(qp, 'level', c) }}" aria-label="Remove">×</a></span>{% endfor %}
+        {% if p.source_type %}<span class="chip">{{ {'official': 'Bangladesh official sources', 'international': 'International sources'}.get(p.source_type, 'Other sources') }} <a href="{{ without(qp, 'source_type') }}" aria-label="Remove">×</a></span>{% endif %}
+        {% if p.machine_readable %}<span class="chip">Machine-readable <a href="{{ without(qp, 'machine_readable') }}" aria-label="Remove">×</a></span>{% endif %}
+        {% if p.year_from or p.year_to %}<span class="chip">{{ p.year_from or '…' }}–{{ p.year_to or '…' }} <a href="{{ without(qp, 'year_from', 'year_to') }}" aria-label="Remove">×</a></span>{% endif %}
+        {% if qp|length and (qp.keys()|list) != ['q'] %}<a class="small" href="/datasets{{ '?q=' ~ (p.q|urlencode) if p.q }}">Clear filters</a>{% endif %}
+      </div>
+      <span class="spacer"></span>
+      <form method="get" action="/datasets" class="row small">
+        {% for k, v in qp.multi_items() if k not in ('sort', 'page') %}<input type="hidden" name="{{ k }}" value="{{ v }}">{% endfor %}
+        <label for="sort" class="sr-only">Sort by</label>
+        <select id="sort" name="sort" data-autosubmit>
+          {% for key, label in sorts.items() %}<option value="{{ key }}" {{ 'selected' if res.sort == key }}>{{ label }}</option>{% endfor %}
+        </select>
+        <noscript><button class="btn sm secondary">Sort</button></noscript>
+      </form>
+    </div>
+
+    {% for ds in res['items'] %}{{ m.result(ds) }}
+    {% else %}
+      <div class="empty-state">
+        <h3>No datasets found</h3>
+        <p>Try fewer words, remove a filter, or browse <a href="/categories">categories</a>.</p>
+      </div>
+    {% endfor %}
+    {{ m.pagination(res, qp) }}
+
+    {% if research and research.papers %}
+    <section class="block related-research">
+      <div class="section-head"><h2>Research on this topic</h2><a href="/research/{{ research.slug }}">More research →</a></div>
+      <ol class="paper-mini">{% for pp in research.papers %}{{ m.paper_mini(pp) }}{% endfor %}</ol>
+      <p class="xs muted" style="margin-top:.75rem">Papers about Bangladesh in {{ research.name }}, from OpenAlex.</p>
+    </section>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}

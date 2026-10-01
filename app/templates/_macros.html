@@ -1,0 +1,75 @@
+{% macro formats(list) -%}
+  {% for f in list %}<span class="fmt" title="{{ 'Machine-readable' if f in vocab.MACHINE_READABLE else 'Format' }}">{{ f }}</span>{% endfor %}
+{%- endmacro %}
+
+{% macro result(ds) %}
+<article class="result">
+  <h3><a href="/datasets/{{ ds.slug }}">{{ ds.title }}</a></h3>
+  <div class="by"><a href="/organizations/{{ ds.organization.slug }}">{{ ds.organization.name }}</a>{% if ds.organization.acronym %} ({{ ds.organization.acronym }}){% endif %}</div>
+  {% if ds.description %}<p class="desc">{{ ds.description | truncate(240) }}</p>{% endif %}
+  <div class="meta">
+    {% if ds.formats %}<span class="mi">{{ formats(ds.formats) }}</span>{% endif %}
+    <span class="mi" title="Coverage period">{{ ds | coverage }}</span>
+    <span class="mi" title="Update frequency">{{ ds.update_frequency }}</span>
+    {% if ds.geographic_level %}<span class="mi" title="Geographic level">{{ ds.geographic_level }}</span>{% endif %}
+    {% for c in ds.categories[:2] %}<span class="mi{{ ' more' if not loop.first }}"><a href="/datasets?category={{ c.slug }}">{{ c.name }}</a>{{ ',' if not loop.last }}</span>
+    {% endfor %}
+  </div>
+</article>
+{% endmacro %}
+
+{% macro card(ds) %}
+<li>
+  <span class="t"><a href="/datasets/{{ ds.slug }}">{{ ds.title }}</a>
+    <span class="by">{{ ds.organization.name }}</span></span>
+  <span class="f">{{ formats(ds.formats) if ds.formats else '&mdash;' | safe }}<br>{{ ds.update_frequency }}</span>
+  <span class="d">{{ ds.updated_at | shortdate }}</span>
+</li>
+{% endmacro %}
+
+{% macro authors(list, limit=3) -%}
+  {%- if list -%}{{ list[:limit] | join(', ') }}{% if list | length > limit %} et al.{% endif %}{%- else -%}Author not listed{%- endif -%}
+{%- endmacro %}
+
+{% macro paper_result(pp) %}
+<article class="result">
+  <h3><a href="/papers/{{ pp.openalex_id }}">{{ pp.title }}</a></h3>
+  <div class="by">{{ authors(pp.authors) }}</div>
+  {% if pp.abstract %}<p class="desc">{{ pp.abstract | truncate(240) }}</p>{% endif %}
+  <div class="meta">
+    <span class="mi">{{ pp.year or 'Year unknown' }}</span>
+    {% if pp.venue %}<span class="mi">{{ pp.venue }}</span>{% endif %}
+    <span class="mi">Cited by {{ (pp.cited_by_count or 0) | num }}</span>
+    {% if pp.is_oa and pp.oa_url %}<span class="mi"><a href="{{ pp.oa_url }}" target="_blank" rel="noopener external">Open-access copy ↗</a></span>{% endif %}
+  </div>
+</article>
+{% endmacro %}
+
+{% macro paper_mini(pp) %}
+<li>
+  <a href="/papers/{{ pp.openalex_id }}">{{ pp.title }}</a>
+  <span class="by">{{ authors(pp.authors, 2) }} &middot; {{ pp.year or 'year unknown' }} &middot; cited by {{ (pp.cited_by_count or 0) | num }}</span>
+</li>
+{% endmacro %}
+
+{% macro pagination(res, qp, path='/datasets') %}
+{% if res.pages > 1 %}
+<nav class="pagination" aria-label="Pagination">
+  {% if res.page > 1 %}<a href="{{ with_params(qp, path, page=res.page - 1) }}" rel="prev">Previous</a>{% endif %}
+  {% for n in range(1, res.pages + 1) %}
+    {% if n == res.page %}<span class="current" aria-current="page">{{ n }}</span>
+    {% elif n <= 2 or n > res.pages - 2 or (n - res.page)|abs <= 2 %}<a href="{{ with_params(qp, path, page=n) }}">{{ n }}</a>
+    {% elif n == 3 or n == res.pages - 2 %}<span>…</span>{% endif %}
+  {% endfor %}
+  {% if res.page < res.pages %}<a href="{{ with_params(qp, path, page=res.page + 1) }}" rel="next">Next</a>{% endif %}
+</nav>
+{% endif %}
+{% endmacro %}
+
+{% macro searchbar(autofocus=False, action='/search') %}
+<form class="searchbar" action="{{ action }}" method="get" role="search">
+  <label class="sr-only" for="q">{{ 'Search datasets and research papers' if action == '/search' else 'Search datasets' }}</label>
+  <input id="q" type="search" name="q" placeholder="e.g. rice prices, census 2022, rainfall" autocomplete="off" {{ 'autofocus' if autofocus }}>
+  <button class="btn" type="submit">Search</button>
+</form>
+{% endmacro %}

@@ -1,0 +1,2277 @@
+{
+ "organizations": [
+  {
+   "slug": "bbs",
+   "name": "Bangladesh Bureau of Statistics",
+   "name_bn": "বাংলাদেশ পরিসংখ্যান ব্যুরো",
+   "acronym": "BBS",
+   "org_type": "Government Department",
+   "parent": "Statistics and Informatics Division, Ministry of Planning",
+   "website": "https://bbs.gov.bd",
+   "description": "National statistical agency of Bangladesh, responsible for censuses, household surveys, price indices and national accounts."
+  },
+  {
+   "slug": "sid",
+   "name": "Statistics and Informatics Division",
+   "name_bn": "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা বিভাগ",
+   "acronym": "SID",
+   "org_type": "Division",
+   "parent": "Ministry of Planning",
+   "website": "https://sid.gov.bd",
+   "description": "Division of the Ministry of Planning that oversees the national statistical system and the Bangladesh Bureau of Statistics."
+  },
+  {
+   "slug": "planning-division",
+   "name": "Planning Division",
+   "name_bn": "পরিকল্পনা বিভাগ",
+   "acronym": null,
+   "org_type": "Division",
+   "parent": "Ministry of Planning",
+   "website": "https://plandiv.gov.bd",
+   "description": "Division of the Ministry of Planning that prepares the Annual Development Programme (ADP) and supports the Planning Commission."
+  },
+  {
+   "slug": "imed",
+   "name": "Implementation Monitoring and Evaluation Division",
+   "name_bn": "বাস্তবায়ন পরিবীক্ষণ ও মূল্যায়ন বিভাগ",
+   "acronym": "IMED",
+   "org_type": "Division",
+   "parent": "Ministry of Planning",
+   "website": "https://imed.gov.bd",
+   "description": "Division of the Ministry of Planning that monitors and evaluates implementation of public development projects under the ADP."
+  },
+  {
+   "slug": "bangladesh-bank",
+   "name": "Bangladesh Bank",
+   "name_bn": "বাংলাদেশ ব্যাংক",
+   "acronym": "BB",
+   "org_type": "Central Bank",
+   "parent": null,
+   "website": "https://www.bb.org.bd",
+   "description": "Central bank of Bangladesh; publishes monetary, banking, external sector and financial statistics."
+  },
+  {
+   "slug": "finance-division",
+   "name": "Finance Division, Ministry of Finance",
+   "name_bn": "অর্থ বিভাগ, অর্থ মন্ত্রণালয়",
+   "acronym": "MoF",
+   "org_type": "Division",
+   "parent": "Ministry of Finance",
+   "website": "https://mof.gov.bd",
+   "description": "Division of the Ministry of Finance responsible for the national budget, fiscal reporting, public debt management and the Bangladesh Economic Review."
+  },
+  {
+   "slug": "nbr",
+   "name": "National Board of Revenue",
+   "name_bn": "জাতীয় রাজস্ব বোর্ড",
+   "acronym": "NBR",
+   "org_type": "Government Department",
+   "parent": "Internal Resources Division, Ministry of Finance",
+   "website": "https://nbr.gov.bd",
+   "description": "Apex tax authority of Bangladesh administering income tax, VAT and customs duties."
+  },
+  {
+   "slug": "epb",
+   "name": "Export Promotion Bureau",
+   "name_bn": "রপ্তানি উন্নয়ন ব্যুরো",
+   "acronym": "EPB",
+   "org_type": "Statutory Body",
+   "parent": "Ministry of Commerce",
+   "website": "https://epb.gov.bd",
+   "description": "Government agency for export promotion that publishes official export statistics of Bangladesh."
+  },
+  {
+   "slug": "dse",
+   "name": "Dhaka Stock Exchange PLC",
+   "name_bn": "ঢাকা স্টক এক্সচেঞ্জ পিএলসি",
+   "acronym": "DSE",
+   "org_type": "Stock Exchange",
+   "parent": null,
+   "website": "https://www.dsebd.org",
+   "description": "Principal stock exchange of Bangladesh, publishing listed-company prices, indices and market statistics."
+  },
+  {
+   "slug": "tcb",
+   "name": "Trading Corporation of Bangladesh",
+   "name_bn": "ট্রেডিং কর্পোরেশন অব বাংলাদেশ",
+   "acronym": "TCB",
+   "org_type": "Statutory Body",
+   "parent": "Ministry of Commerce",
+   "website": "https://tcb.gov.bd",
+   "description": "State trading body that sells essential commodities at subsidised prices and publishes daily retail and wholesale market prices for Dhaka."
+  },
+  {
+   "slug": "erd",
+   "name": "Economic Relations Division",
+   "name_bn": "অর্থনৈতিক সম্পর্ক বিভাগ",
+   "acronym": "ERD",
+   "org_type": "Division",
+   "parent": "Ministry of Finance",
+   "website": "https://erd.gov.bd",
+   "description": "Division of the Ministry of Finance that mobilises and manages foreign assistance and publishes statistics on aid commitments, disbursements and external debt."
+  },
+  {
+   "slug": "planning-commission",
+   "name": "Bangladesh Planning Commission",
+   "name_bn": "বাংলাদেশ পরিকল্পনা কমিশন",
+   "acronym": null,
+   "org_type": "Government Department",
+   "parent": "Ministry of Planning",
+   "website": "https://plancomm.gov.bd",
+   "description": "Central planning body of the Government of Bangladesh that prepares five-year and perspective plans and publishes SDG progress reports."
+  },
+  {
+   "slug": "cse",
+   "name": "Chittagong Stock Exchange PLC",
+   "name_bn": null,
+   "acronym": "CSE",
+   "org_type": "Stock Exchange",
+   "parent": null,
+   "website": "https://www.cse.com.bd",
+   "description": "Stock exchange based in Chattogram; publishes daily market summaries, indices and weekly market reports."
+  },
+  {
+   "slug": "bsec",
+   "name": "Bangladesh Securities and Exchange Commission",
+   "name_bn": null,
+   "acronym": "BSEC",
+   "org_type": "Regulatory Commission",
+   "parent": null,
+   "website": "https://sec.gov.bd",
+   "description": "Regulator of the Bangladesh capital market; publishes quarterly and annual reports on the securities market."
+  },
+  {
+   "slug": "mra",
+   "name": "Microcredit Regulatory Authority",
+   "name_bn": "মাইক্রোক্রেডিট রেগুলেটরী অথরিটি",
+   "acronym": "MRA",
+   "org_type": "Statutory Body",
+   "parent": null,
+   "website": "https://mra.gov.bd",
+   "description": "Regulator of microfinance institutions in Bangladesh; publishes annual reports on the microcredit sector."
+  }
+ ],
+ "datasets": [
+  {
+   "slug": "bbs-population-housing-census-2022",
+   "title": "Population and Housing Census 2022",
+   "organization": "bbs",
+   "description": "Results of the 2022 Population and Housing Census of Bangladesh. The BBS census page offers the National Report (Volume I), preliminary report, post-enumeration check, urban area report, union statistics, metadata documentation and district-level reports.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922e073933eb65569e27220",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2024/12/ad6c94d02722448f92690a27c4313ec9.pdf",
+   "categories": [
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "Census"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Union",
+   "temporal_start": 2022,
+   "temporal_end": 2022,
+   "update_frequency": "Decennial",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "census",
+    "population",
+    "housing",
+    "households",
+    "district"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922e073933eb65569e27220",
+   "evidence_note": "Page 'জনশুমারি ও গৃহগণনা ২০২২' lists 'জনশুমারি ও গৃহগণনা ২০২২: ন্যাশনাল রিপোর্ট (ভলিউম ১)', 'Population and Housing Census 2022 : Union Statistics', 'Urban Area Report' and per-district reports (BARISHAL, BHOLA, ...) as PDF links.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-economic-census-2024",
+   "title": "Economic Census 2024",
+   "organization": "bbs",
+   "description": "Census of all economic units (establishments and household-based enterprises) in Bangladesh conducted in 2024. Includes national reports, a post-enumeration check report and chapter-wise Excel tables on units, persons engaged, financial profile, ICT use and gender.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/695b99a3c4774958d7b705e2",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2026/3/5c074dc0-09bd-41a5-9068-308e67afe931.pdf",
+   "categories": [
+    "Industry & Business"
+   ],
+   "subcategories": [
+    "Economic Census"
+   ],
+   "formats": [
+    "PDF",
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2024,
+   "temporal_end": 2024,
+   "update_frequency": "Multi-year",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "economic census",
+    "establishments",
+    "enterprises",
+    "employment"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/695b99a3c4774958d7b705e2",
+   "evidence_note": "Page 'অর্থনৈতিক শুমারি ২০২৪' links 'National Report (Volume-1) Final (PDF)', 'Economic Census 2024 National Report (Volume II)', 'Preliminary Report of Economic Census 2024' and Excel tables such as 'Chapter 3- Overview of Economic Unit' and 'Detail Statistical Table'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-agriculture-census-2019",
+   "title": "Agriculture Census 2019",
+   "organization": "bbs",
+   "description": "Results of the 2019 Agriculture Census covering farm holdings, crops, livestock, fisheries and cropping patterns. Published as a six-volume national report series plus district-level reports.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922dc81933eb65569e10b9e",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2024/12/deccac80a4a849999c8b1021bb71c19f.pdf",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Census"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "District",
+   "temporal_start": 2019,
+   "temporal_end": 2019,
+   "update_frequency": "Decennial",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "agriculture census",
+    "farm holdings",
+    "livestock",
+    "fisheries",
+    "crops"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922dc81933eb65569e10b9e",
+   "evidence_note": "Page 'কৃষি শুমারি ২০১৯' lists 'National Report Volume - 1', 'Crops Report Volume - 2', 'Livestock Report Volume - 3', 'Fisheries Report Volume - 4', 'Cropping Patterns Report Volume - 5', 'Analytical Report Volume - 6' and district PDFs.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-hies-2022",
+   "title": "Household Income and Expenditure Survey (HIES) 2022",
+   "organization": "bbs",
+   "description": "The main household survey for measuring income, consumption expenditure and poverty in Bangladesh. The BBS page provides the HIES 2022 final report, key findings, detailed tables and questionnaires, along with earlier rounds (2016, 2010) and poverty maps.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922dc57933eb65569e0fd4c",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2024/12/22b6e770f6a84cd9a48ff636ae506818.pdf",
+   "categories": [
+    "Economy & Finance",
+    "Social Protection"
+   ],
+   "subcategories": [
+    "Poverty",
+    "Household Income"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2022,
+   "temporal_end": 2022,
+   "update_frequency": "Multi-year",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "hies",
+    "poverty",
+    "income",
+    "consumption",
+    "household survey"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922dc57933eb65569e0fd4c",
+   "evidence_note": "Page 'আয়, ব্যয় ও দারিদ্র্য' lists 'খানার আয় ও ব্যয় জরিপ ২০২২ এর চূড়ান্ত প্রতিবেদন (English Version)' (Upload: 14-12-2023), 'HIES 2022: Key Findings', detailed tables, and HIES 2016 / 2010 reports.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-labour-force-survey",
+   "title": "Labour Force Survey (LFS) and Quarterly Labour Force Survey",
+   "organization": "bbs",
+   "description": "Official labour market statistics including labour force participation, employment and unemployment. Includes the Labour Force Survey 2024 final report (PDF with Excel tables), LFS 2022 and 2016-17, and quarterly LFS releases.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922ddd1933eb65569e166e7",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2024/12/abd949a21b234e41b8c4fce5f0aceec3.xlsx",
+   "categories": [
+    "Labour & Employment"
+   ],
+   "subcategories": [
+    "Labour Force Survey",
+    "Unemployment"
+   ],
+   "formats": [
+    "PDF",
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Quarterly",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "labour force",
+    "employment",
+    "unemployment",
+    "qlfs"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922ddd1933eb65569e166e7",
+   "evidence_note": "Page 'লেবার এন্ড ইমপ্লয়মেন্ট' lists 'Labour Force Survey 2024 Final Report PDF' with an 'Excel' link, 'QUARTERLY LABOUR FORCE SURVEY- 2024 (3rd quarter: July to September)', 'Labour Force Survey 2022 Final Report' and 'Labour Force Survey Bangladesh 2016-2017'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-cpi-wage-rate-index",
+   "title": "Consumer Price Index (CPI), Inflation and Wage Rate Index – Monthly Release",
+   "organization": "bbs",
+   "description": "Monthly release on price and wage statistics with national, rural and urban CPI, food and non-food inflation, and the Wage Rate Index (base 2021-22). The page also hosts methodology books for rebasing the CPI, WRI, building materials price index, house rent index, PPI and industrial production index.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922de7a933eb65569e1ae8f",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Inflation",
+    "Consumer Price Index",
+    "Wages"
+   ],
+   "formats": [
+    "PDF",
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "cpi",
+    "inflation",
+    "wage rate index",
+    "prices"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922de7a933eb65569e1ae8f",
+   "evidence_note": "Page 'মূল্য এবং মজুরী (সিপিআই, আইআইপি)' shows 'Monthly Release on Price & Wage Statistics: (CPI and WRI)' for Year-2025 and Year-2026 with PDF and Excel links per month, plus 'Revision and Rebasing of the Consumer price Index (CPI), 2021-2022'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-gdp-quarterly-annual",
+   "title": "Gross Domestic Product (GDP) – Annual and Quarterly Estimates",
+   "organization": "bbs",
+   "description": "Provisional and final annual GDP estimates and quarterly GDP (QGDP) for Bangladesh, published as PDF reports with Excel tables. Covers GDP growth, sectoral value added and related national accounts aggregates.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922df6e933eb65569e21f3f",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2026/6/212df70a-6b72-4107-9fdd-8943a16d1fde.xlsx",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "GDP",
+    "National Accounts"
+   ],
+   "formats": [
+    "PDF",
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Quarterly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "gdp",
+    "qgdp",
+    "economic growth",
+    "national accounts"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922df6e933eb65569e21f3f",
+   "evidence_note": "Page 'জিডিপি' table lists 'QGDP 2025-26, 3rd Quarter (January-March, 2026)' (20-07-2026), 'Gross Domestic Product_2025-26 (Provisional)' (10-06-2026) and 'Gross Domestic Product of Bangladesh 2024-25 (Final)', each with PDF and Excel links.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-national-accounts-statistics",
+   "title": "National Accounts Statistics (Annual Publication)",
+   "organization": "bbs",
+   "description": "Annual national accounts statistics publication of BBS with GDP, GNI, consumption, investment and sectoral accounts. Editions are available back to 2016, plus 'Fifty Years of National Accounts Statistics of Bangladesh'.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922deda933eb65569e1dd83",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2026/7/b1adef33-b106-4c18-b2b7-9f55f074c887.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "National Accounts"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "national accounts",
+    "gdp",
+    "gni",
+    "investment"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922deda933eb65569e1dd83",
+   "evidence_note": "Page 'ন্যাশনাল একাউন্টস পরিসংখ্যান' lists 'জাতীয় হিসাব পরিসংখ্যান -২০২৬', editions 2025 back to 'মে ২০১৬', and 'Fifty Years of National Accounts Statistics of Bangladesh' as PDFs.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-statistical-yearbook",
+   "title": "Statistical Yearbook of Bangladesh",
+   "organization": "bbs",
+   "description": "Flagship annual compendium of official statistics covering population, economy, agriculture, industry, trade, prices, education, health and more. Editions from 2011 to 2025 are available as PDFs.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922de79933eb65569e1ae07",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2026/7/49661c30-24aa-4c70-b22f-c5600836eacc.pdf",
+   "categories": [
+    "Other",
+    "Economy & Finance",
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "Statistical Yearbook"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2011,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "yearbook",
+    "compendium",
+    "official statistics"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922de79933eb65569e1ae07",
+   "evidence_note": "Page 'পরিসংখ্যান বর্ষগ্রন্হ' lists 'Statistical Yearbook of Bangladesh 2025 (Revised)', 'Statistical Yearbook of Bangladesh 2024' and earlier editions down to 2011 as PDF links.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-statistical-pocketbook",
+   "title": "Statistical Pocketbook of Bangladesh",
+   "organization": "bbs",
+   "description": "Compact annual summary of key statistics on Bangladesh's population, economy and social sectors. Editions from 2013 to 2025 are available.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922de53933eb65569e19e10",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2026/7/656b606f-12aa-441b-a3c7-f5fac7fc2d26.pdf",
+   "categories": [
+    "Other",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Statistical Pocketbook"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2013,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "pocketbook",
+    "key indicators",
+    "summary statistics"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922de53933eb65569e19e10",
+   "evidence_note": "Page 'পরিসংখ্যান পকেটবুক' lists 'Statistical Pocketbook 2025 (Revised)', 'Statistical Pocketbook 2025' and editions back to 'Statistical Pocketbook 2013' as PDFs.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-yearbook-agricultural-statistics",
+   "title": "Yearbook of Agricultural Statistics of Bangladesh",
+   "organization": "bbs",
+   "description": "Annual yearbook of crop area, production and yield, livestock, fisheries, forestry, agricultural prices and related statistics. Editions from 2012 to 2025 are available.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922e0d6933eb65569e28cbf",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2026/5/cfb80ec8-1c7f-4632-8a59-7649b6ac7ffe.pdf",
+   "categories": [
+    "Agriculture"
+   ],
+   "subcategories": [
+    "Crop Statistics"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "District",
+   "temporal_start": 2012,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "agriculture",
+    "crop production",
+    "yearbook"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922e0d6933eb65569e28cbf",
+   "evidence_note": "Page 'কৃষি পরিসংখ্যান বর্ষগ্রন্থ' lists 'Year Book of Agricultural Statistics of Bangladesh 2025' down to 'Yearbook of Agricultural Statistics of Bangladesh 2012' as PDFs.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-quarterly-crop-statistics-agri-wage",
+   "title": "Quarterly Report on Crop Statistics and Agricultural Labour Wage",
+   "organization": "bbs",
+   "description": "Quarterly BBS report on crop estimates and agricultural labour wage rates. The agriculture page also hosts crop-specific estimate reports (Aman, Aus rice, etc.) and other agriculture surveys.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922e0f6933eb65569e29564",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2026/5/0ea8af85-59f0-401c-8852-5d8dc6c18a1d.pdf",
+   "categories": [
+    "Agriculture",
+    "Labour & Employment"
+   ],
+   "subcategories": [
+    "Crop Statistics",
+    "Agricultural Wages"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Quarterly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "crops",
+    "agricultural wage",
+    "rice"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922e0f6933eb65569e29564",
+   "evidence_note": "Page 'কৃষি' lists 'Quarterly Report on Crop Statistics and Agricultural Labour Wage (January-March, 2026)' and earlier quarters back to July-September 2023, plus 'Aman Rice' and 'Aus Rice' reports.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-sample-vital-statistics-svrs",
+   "title": "Sample Vital Registration System (SVRS) – Bangladesh Sample Vital Statistics",
+   "organization": "bbs",
+   "description": "Annual demographic indicators from the Sample Vital Registration System including births, deaths, fertility, mortality, life expectancy, marriage and migration. Reports from 2010 to 2023 are available.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922db9a933eb65569e0b356",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2024/12/3cb7d989942d47e6a89522ad75d72ff5.pdf",
+   "categories": [
+    "Population & Demographics",
+    "Health"
+   ],
+   "subcategories": [
+    "Vital Statistics"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2010,
+   "temporal_end": 2023,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "svrs",
+    "fertility",
+    "mortality",
+    "life expectancy"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922db9a933eb65569e0b356",
+   "evidence_note": "Page 'ভাইটাল স্ট্যাটিসটিকস' lists 'Bangladesh Sample Vital Statistics (SVRS) 2023', 'Bangladesh Sample Vital Statistics 2022' and SVRS reports back to 2010.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-unicef-mics-2025",
+   "title": "Multiple Indicator Cluster Survey (MICS) 2025",
+   "organization": "bbs",
+   "description": "Household survey conducted by BBS with UNICEF support on the situation of children and women, covering child health, nutrition, education, child protection and WASH. Earlier rounds (MICS 2019, 2012-13, 2006) and district summaries are also listed.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922e096933eb65569e27b7b",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2026/7/bc8dd6e2-284a-49d9-baab-25f3d15fc7e3.pdf",
+   "categories": [
+    "Health",
+    "Population & Demographics"
+   ],
+   "subcategories": [
+    "MICS",
+    "Child Welfare"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2025,
+   "temporal_end": 2025,
+   "update_frequency": "Multi-year",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "mics",
+    "unicef",
+    "children",
+    "women",
+    "nutrition"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922e096933eb65569e27b7b",
+   "evidence_note": "Page 'ডেমোগ্রাফি এন্ড হেলথ' lists 'Multiple Indicator Cluster Survey (MICS) 2025 (23-07-2026)', 'Multiple Indicator Cluster Survery (MICS) 2019 - Final' and 'MICS 2019 District Summary Findings Report'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-foreign-trade-statistics",
+   "title": "Foreign Trade Statistics of Bangladesh",
+   "organization": "bbs",
+   "description": "Annual BBS report on merchandise exports and imports by commodity and country, published in multiple volumes. The 2024-25 edition includes Excel tables.",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922e14e933eb65569e2b6c9",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2026/5/9cd6864b-318f-4cfa-a482-d078de060d41.xlsx",
+   "categories": [
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Exports",
+    "Imports"
+   ],
+   "formats": [
+    "PDF",
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "foreign trade",
+    "exports",
+    "imports",
+    "commodity"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922e14e933eb65569e2b6c9",
+   "evidence_note": "Page 'বৈদেশিক বাণিজ্য পরিসংখ্যান' lists 'বৈদেশিক বাণিজ্য পরিসংখ্যান-২০২৪-২৫' (Volume 1 and 2 in parts) and 'বৈদেশিক বাণিজ্য পরিসংখ্যান-২০২৪-২৫-Excel Table', with earlier editions back to 2019-20.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bbs-survey-manufacturing-industries",
+   "title": "Survey of Manufacturing Industries (SMI)",
+   "organization": "bbs",
+   "description": "Establishment survey of manufacturing industries covering employment, output, value added and fixed assets. SMI 2019 is the latest round listed, with earlier rounds 2012 and 2005-06; the page also hosts the Wholesale and Retail Trade Survey 2020 and national classifications (BSIC, BSCO).",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922de09933eb65569e17bb3",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2024/12/f7d17edff8a9422a8dd356299c8d227f.pdf",
+   "categories": [
+    "Industry & Business"
+   ],
+   "subcategories": [
+    "Manufacturing"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2019,
+   "temporal_end": 2019,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "manufacturing",
+    "industry survey",
+    "smi"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922de09933eb65569e17bb3",
+   "evidence_note": "Page 'ইন্ডাস্ট্রিয়াল স্ট্যাটিসটিকস' lists 'Survey of Manufacturing Industries (SMI) 2019', 'Survey of Manufacturing Industries (SMI) 2012', 'Wholesale and Retail Trade Survey 2020' and 'Bangladesh Standard Industrial Classification (BSIC) 2020'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-exchange-rate-of-taka",
+   "title": "Exchange Rate of Taka",
+   "organization": "bangladesh-bank",
+   "description": "Daily exchange rate of the Bangladesh Taka against the US dollar (bid, ask and weighted average rate from the interbank market) and cross rates for major currencies such as EUR, GBP, JPY, INR and CNH. A search tool gives access to historical rates.",
+   "source_url": "https://www.bb.org.bd/en/index.php/econdata/exchangerate",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Exchange Rates"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "exchange rate",
+    "taka",
+    "usd",
+    "forex"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/econdata/exchangerate",
+   "evidence_note": "Page titled 'Exchange Rate of Taka' shows USD Bid/Ask/WAR rates and a cross-rate table for EUR, GBP, AUD, JPY, CAD, SEK, SGD, CNH, INR, LKR with a search for historical data.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-wage-earners-remittance",
+   "title": "Wage Earners' Remittance Inflow",
+   "organization": "bangladesh-bank",
+   "description": "Monthly and yearly inflows of wage earners' remittances in million USD and billion Taka. Supplementary PDFs give remittances by top source countries, by district and remittance costs.",
+   "source_url": "https://www.bb.org.bd/en/index.php/econdata/wageremitance",
+   "download_url": "https://www.bb.org.bd/econdata/provisionalwrem/premittances.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Remittances"
+   ],
+   "formats": [
+    "HTML",
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "remittance",
+    "migrant workers",
+    "inflows"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/econdata/wageremitance",
+   "evidence_note": "Page 'Wage Earners' Remittance Inflow' shows a monthly table in million US$ and billion Taka (July 2023 onward) and links to top_30_country.pdf, districtwise_remittance.pdf and remittance_cost.pdf.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-balance-of-payments",
+   "title": "Balance of Payments (BOP)",
+   "organization": "bangladesh-bank",
+   "description": "Bangladesh's balance of payments with current, capital and financial accounts, plus commodity-wise export shipments, commodity-wise imports, services and income account, and workers' remittances, available in monthly and yearly views.",
+   "source_url": "https://www.bb.org.bd/en/index.php/econdata/bopindex",
+   "download_url": "https://www.bb.org.bd/econdata/bopgraph/bop_monthly.pdf",
+   "categories": [
+    "Economy & Finance",
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Balance of Payments"
+   ],
+   "formats": [
+    "HTML",
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "balance of payments",
+    "current account",
+    "exports",
+    "imports"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/econdata/bopindex",
+   "evidence_note": "BOP page offers 'Balance of payments', 'Commodity wise export shipments', 'Commodity-wise import recorded by customs', 'Services and income account' and 'Workers' remittances inflows' (monthly/yearly) plus bop_monthly.pdf and bop_yearly.pdf.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-foreign-exchange-reserves",
+   "title": "Foreign Exchange Reserve (Monthly)",
+   "organization": "bangladesh-bank",
+   "description": "Month-end gross foreign exchange reserves of Bangladesh and reserves as per the IMF BPM6 methodology, in million US dollars.",
+   "source_url": "https://www.bb.org.bd/en/index.php/econdata/intreserve",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Foreign Exchange Reserves"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "reserves",
+    "forex reserves",
+    "bpm6"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/econdata/intreserve",
+   "evidence_note": "Page 'Foreign Exchange Reserve (Monthly)' shows a table of 'Foreign Exchange Reserves (Gross)' and 'as per BPM6' in million US$ from July 2024 to August 2026, source Accounts & Budgeting Department.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-monetary-survey",
+   "title": "Monetary Survey",
+   "organization": "bangladesh-bank",
+   "description": "Monetary survey of Bangladesh showing net foreign assets, net domestic assets, domestic credit and broad money (Taka million), compared across recent months with percentage changes. Related pages cover money supply and bank credit/deposits.",
+   "source_url": "https://www.bb.org.bd/en/index.php/econdata/monetarysurvey",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Money Supply"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "monetary survey",
+    "broad money",
+    "domestic credit",
+    "m2"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/econdata/monetarysurvey",
+   "evidence_note": "Page 'Monetary Survey' shows net foreign assets, net domestic assets, domestic credit and broad money in 'Taka in Million' for July 2026, June 2026 and July 2025; source Statistics Department.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-historical-time-series-1972-2024",
+   "title": "Historical Time Series Data (1972–2024)",
+   "organization": "bangladesh-bank",
+   "description": "Long-run Excel workbook of Bangladesh macroeconomic and financial time series compiled by Bangladesh Bank, covering 1972 to 2024 and updated yearly.",
+   "source_url": "https://www.bb.org.bd/en/index.php/econdata/index",
+   "download_url": "https://www.bb.org.bd/econdata/time_series_data1972-2024.xlsx",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Time Series"
+   ],
+   "formats": [
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 1972,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "time series",
+    "historical data",
+    "macroeconomic"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/econdata/index",
+   "evidence_note": "Economic data upload page lists historical time series data 1972-2024 (updated yearly) linking to /econdata/time_series_data1972-2024.xlsx.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-monthly-economic-trends",
+   "title": "Monthly Economic Trends",
+   "organization": "bangladesh-bank",
+   "description": "Monthly statistical publication of Bangladesh Bank with tables on money and credit, prices, interest rates, external trade, remittances, reserves and exchange rates. Issues since December 2011 are archived; the statistical tables are also provided as an Excel file.",
+   "source_url": "https://www.bb.org.bd/en/index.php/publication/publictn/3/10",
+   "download_url": "https://www.bb.org.bd/pub/monthly/econtrds/statisticaltable.xlsx",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Macroeconomic Indicators"
+   ],
+   "formats": [
+    "PDF",
+    "XLSX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2011,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "monthly economic trends",
+    "money",
+    "credit",
+    "interest rates"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/publication/publictn/3/10",
+   "evidence_note": "Publication page 'Monthly Economic Trends' lists August 2026 (etaug26.pdf), July 2026 and June 2026 issues back to December 2011; the econdata page links /pub/monthly/econtrds/statisticaltable.xlsx.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-major-economic-indicators",
+   "title": "Selected / Major Economic Indicators: Monthly Update",
+   "organization": "bangladesh-bank",
+   "description": "Monthly update summarising key macroeconomic indicators for Bangladesh, including money and credit, reserve money, bank liquidity, interest rates, prices, external sector and public finance. Issues are available from January 2011.",
+   "source_url": "https://www.bb.org.bd/en/index.php/publication/publictn/3/11",
+   "download_url": "https://www.bb.org.bd/pub/monthly/selectedecooind/2026_july.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Macroeconomic Indicators"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2011,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "major economic indicators",
+    "macroeconomy",
+    "monthly update"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/publication/publictn/3/11",
+   "evidence_note": "Page 'Selected Macroeconomic Indicators' lists July 2026 (2026_july.pdf), June 2026 and May 2026 issues back to January 2011 (magecoindjan11.pdf); PDFs are titled 'Major Economic Indicators: Monthly Update'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-annual-report",
+   "title": "Bangladesh Bank Annual Report",
+   "organization": "bangladesh-bank",
+   "description": "Annual report of Bangladesh Bank reviewing the economy, monetary policy, banking sector, external sector and the central bank's operations for each fiscal year, with statistical annexes.",
+   "source_url": "https://www.bb.org.bd/en/index.php/publication/publictn/0/2",
+   "download_url": "https://www.bb.org.bd/pub/annual/anreport/ar2024-2025.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Banking",
+    "Monetary Policy"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "annual report",
+    "central bank",
+    "banking sector"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/publication/publictn/0/2",
+   "evidence_note": "Publication page 'Annual Report' lists editions 2024-2025 (ar2024-2025.pdf), 2023-2024 and July 2022-June 2023.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-scheduled-banks-statistics",
+   "title": "Scheduled Banks Statistics",
+   "organization": "bangladesh-bank",
+   "description": "Quarterly statistics on deposits and advances of scheduled banks in Bangladesh, by bank group, sector, and geographic area. Editions since January-March 2009 are available.",
+   "source_url": "https://www.bb.org.bd/en/index.php/publication/publictn/2/14",
+   "download_url": "https://www.bb.org.bd/pub/quaterly/schbanksta/sbs23apriljune2026.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Banking"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "Mixed",
+   "temporal_start": 2009,
+   "temporal_end": null,
+   "update_frequency": "Quarterly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "bank deposits",
+    "bank advances",
+    "scheduled banks"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/publication/publictn/2/14",
+   "evidence_note": "Publication page 'Scheduled Banks Statistics' lists April-June 2026, January-March 2026 and October-December 2025 PDFs, with the earliest edition January-March 2009.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-financial-stability-report",
+   "title": "Financial Stability Report",
+   "organization": "bangladesh-bank",
+   "description": "Annual assessment of the resilience of Bangladesh's financial system, covering banks, non-bank financial institutions, capital markets, stress tests and systemic risks. Issued since 2010.",
+   "source_url": "https://www.bb.org.bd/en/index.php/publication/publictn/0/37",
+   "download_url": "https://www.bb.org.bd/pub/annual/fsr/financialstabilityreport2025.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Financial Stability"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2010,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "financial stability",
+    "banking",
+    "stress test"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/publication/publictn/0/37",
+   "evidence_note": "Publication page 'Financial Stability Report' lists the 2025 report (Issue 16, June 2026), 2024 and 2023 reports, with the earliest 2010 (Issue 1, October 2011).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "bb-national-summary-data-page",
+   "title": "National Summary Data Page (NSDP) – Bangladesh",
+   "organization": "bangladesh-bank",
+   "description": "IMF e-GDDS National Summary Data Page for Bangladesh hosted by Bangladesh Bank, providing core macroeconomic and financial data (national accounts, CPI, government operations, monetary surveys, interest rates, BOP, reserves, trade, exchange rates, IIP) in Excel and SDMX formats with metadata links.",
+   "source_url": "https://www.bb.org.bd/econdata/nsdp/nsdp_bb.php",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Macroeconomic Indicators"
+   ],
+   "formats": [
+    "XLSX",
+    "XLS",
+    "XML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "nsdp",
+    "imf",
+    "e-gdds",
+    "sdmx",
+    "macroeconomic data"
+   ],
+   "evidence_url": "https://www.bb.org.bd/econdata/nsdp/nsdp_bb.php",
+   "evidence_note": "Page 'National Summary Data Page (NSDP)- Bangladesh' lists data categories (National Accounts, CPI, Central Government Operations, Balance of Payments, Official Reserve Assets, etc.) with Excel browse files and SDMX XML downloads.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mof-bangladesh-economic-review-2025",
+   "title": "Bangladesh Economic Review 2025 (বাংলাদেশ অর্থনৈতিক সমীক্ষা)",
+   "organization": "finance-division",
+   "description": "Annual review of the Bangladesh economy published by the Finance Division alongside the budget, with chapters on macroeconomic situation, GDP, prices and employment, fiscal policy, monetary and external sectors, agriculture, industry, energy, transport, human development and poverty, plus a statistical appendix. Earlier editions are in the archive.",
+   "source_url": "https://mof.gov.bd/pages/static-pages/6940329f35ce18e1c055f89a",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2024/12/a433c73d20974ac79813f953b8435a01.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Economic Review"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2025,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "economic review",
+    "economic survey",
+    "macroeconomy",
+    "statistical appendix"
+   ],
+   "evidence_url": "https://mof.gov.bd/pages/static-pages/6940329f35ce18e1c055f89a",
+   "evidence_note": "Page 'বাংলাদেশ অর্থনৈতিক সমীক্ষা' lists chapter PDFs such as '১ম অধ্যায় : সামষ্টিক অর্থনৈতিক পরিস্থিতি' through '১৫শ অধ্যায় : পরিবেশ, জলবায়ু পরিবর্তন ও উন্নয়ন' and 'পরিসংখ্যান পরিশিষ্ট' (statistical appendix).",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mof-bangladesh-economic-review-archive",
+   "title": "Bangladesh Economic Review – Archive (2013–2024)",
+   "organization": "finance-division",
+   "description": "Archive of past editions of the Bangladesh Economic Review, each provided as a compressed bundle of chapter files.",
+   "source_url": "https://mof.gov.bd/pages/static-pages/694032aa35ce18e1c05602bc",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2024/12/99ebb50a52c947219464729193111424.rar",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Economic Review"
+   ],
+   "formats": [
+    "ZIP",
+    "Other"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2013,
+   "temporal_end": 2024,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "economic review",
+    "archive"
+   ],
+   "evidence_url": "https://mof.gov.bd/pages/static-pages/694032aa35ce18e1c05602bc",
+   "evidence_note": "Page 'বাংলাদেশ অর্থনৈতিক সমীক্ষা- আর্কাইভ' lists 'বাংলাদেশ অর্থনৈতিক সমীক্ষা - ২০২৪' (.rar) and editions 2023 back to 2013 as .zip/.rar downloads.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mof-budget-in-brief-2026-27",
+   "title": "National Budget 2026-27 – Budget in Brief (বাজেটের সংক্ষিপ্তসার)",
+   "organization": "finance-division",
+   "description": "Summary budget document for FY2026-27 with budget at a glance, sources of financing, statements of revenue receipts, operating and development expenditure and economic analysis of expenditure.",
+   "source_url": "https://mof.gov.bd/pages/budget-mofs?filters=%7B%22budget_category%22%3A%2269402ff43a9d8304af772aad%22%2C%22budget_year%22%3A%22695b656b29b978dc56937fcf%22%7D",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/5/448d6ecd-6109-4019-b3e1-ac74e3b2d25b.pdf",
+   "categories": [
+    "Government & Public Administration",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Budget"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2026,
+   "temporal_end": 2027,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "budget",
+    "public finance",
+    "revenue",
+    "expenditure"
+   ],
+   "evidence_url": "https://mof.gov.bd/pages/budget-mofs?filters=%7B%22budget_category%22%3A%2269402ff43a9d8304af772aad%22%2C%22budget_year%22%3A%22695b656b29b978dc56937fcf%22%7D",
+   "evidence_note": "Budget page for 'বাজেটের সংক্ষিপ্তসার' 2026-27 lists PDFs including 'এক নজরে বাজেট', 'বিবরণী ১ : রাজস্ব প্রাপ্তির বিবরণ' and 'পরিচালন ও উন্নয়ন ব্যয়ের অর্থনৈতিক বিশ্লেষণ'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mof-annual-financial-statement-2026-27",
+   "title": "Annual Financial Statement 2026-27 (বার্ষিক আর্থিক বিবৃতি)",
+   "organization": "finance-division",
+   "description": "Annual Financial Statement for FY2026-27 presenting receipts and expenditure of the Consolidated Fund and Public Account, with ministry/division-wise operating and development expenditure and economic analysis summaries.",
+   "source_url": "https://mof.gov.bd/pages/budget-mofs?filters=%7B%22budget_category%22%3A%2269402ff43a9d8304af772aae%22%2C%22budget_year%22%3A%22695b656b29b978dc56937fcf%22%7D",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/5/0effbd38-3f78-483d-8f87-82e957768180.pdf",
+   "categories": [
+    "Government & Public Administration",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Budget"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2026,
+   "temporal_end": 2027,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "annual financial statement",
+    "budget",
+    "consolidated fund"
+   ],
+   "evidence_url": "https://mof.gov.bd/pages/budget-mofs?filters=%7B%22budget_category%22%3A%2269402ff43a9d8304af772aae%22%2C%22budget_year%22%3A%22695b656b29b978dc56937fcf%22%7D",
+   "evidence_note": "Budget page for 'বার্ষিক আর্থিক বিবৃতি' 2026-27 lists PDFs including 'বাজেট বরাদ্দের সংক্ষিপ্তসার', 'প্রজাতন্ত্রের সরকারি হিসাব - প্রাপ্তি' and ministry/division-wise operating and development expenditure.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mof-demands-for-grants-2026-27",
+   "title": "Demands for Grants and Appropriations 2026-27 (মঞ্জুরি ও বরাদ্দের দাবীসমূহ)",
+   "organization": "finance-division",
+   "description": "Ministry- and division-wise demands for grants and appropriations (operating and development) for FY2026-27, detailing budget allocations for each government ministry and office.",
+   "source_url": "https://mof.gov.bd/pages/budget-mofs?filters=%7B%22budget_category%22%3A%2269402ff33a9d8304af772964%22%2C%22budget_year%22%3A%22695b656b29b978dc56937fcf%22%7D",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Budget"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2026,
+   "temporal_end": 2027,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "demands for grants",
+    "appropriations",
+    "ministry budget"
+   ],
+   "evidence_url": "https://mof.gov.bd/pages/budget-mofs?filters=%7B%22budget_category%22%3A%2269402ff33a9d8304af772964%22%2C%22budget_year%22%3A%22695b656b29b978dc56937fcf%22%7D",
+   "evidence_note": "Budget page lists 2026-27 'মঞ্জুরি ও বরাদ্দের দাবীসমূহ (পরিচালন ও উন্নয়ন)' PDFs for individual ministries/offices, including a code-wise version.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mof-quarterly-budget-implementation",
+   "title": "Quarterly Budget Implementation Statements",
+   "organization": "finance-division",
+   "description": "Quarterly statements on implementation of the national budget (revenue collection and expenditure against budget) for recent fiscal years.",
+   "source_url": "https://mof.gov.bd/pages/budget-mofs?filters=%7B%22budget_category%22%3A%226a1405a18cecc6bec6d47377%22%7D",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/4/c2d1d4bb-816f-4df5-82e5-8037033d801e.pdf",
+   "categories": [
+    "Government & Public Administration",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Budget Execution"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Quarterly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "budget implementation",
+    "fiscal",
+    "expenditure"
+   ],
+   "evidence_url": "https://mof.gov.bd/pages/budget-mofs?filters=%7B%22budget_category%22%3A%226a1405a18cecc6bec6d47377%22%7D",
+   "evidence_note": "Page lists '2025-26 : Statement-1 First/Second/Third Quarter', '2025-26 : Statement-2' and 2024-25 quarterly statements under 'বাজেট বাস্তবায়ন'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "mof-monthly-fiscal-report",
+   "title": "Monthly Fiscal Report (মাসিক রাজস্ব প্রতিবেদন)",
+   "organization": "finance-division",
+   "description": "Monthly report of the Finance Division on government fiscal operations: revenue receipts, expenditure, budget deficit and its financing.",
+   "source_url": "https://mof.gov.bd/pages/static-pages/6940329635ce18e1c055ef1a",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/3/c513580c-f220-49aa-9305-605585b84180.pdf",
+   "categories": [
+    "Economy & Finance",
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Fiscal Operations"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "fiscal report",
+    "revenue",
+    "expenditure",
+    "deficit"
+   ],
+   "evidence_url": "https://mof.gov.bd/pages/static-pages/6940329635ce18e1c055ef1a",
+   "evidence_note": "Page 'মাসিক রাজস্ব প্রতিবেদন' lists monthly PDFs from 'October, 2025' back through 'October, 2024' and earlier.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "nbr-revenue-collection-statements",
+   "title": "NBR Revenue Collection Statements",
+   "organization": "nbr",
+   "description": "Monthly and year-end statements of revenue collected by the National Board of Revenue (income tax, VAT and customs), with growth rates, published as provisional figures during each fiscal year. The page also includes NBR annual reports.",
+   "source_url": "https://nbr.gov.bd/publications/research-statistics/eng",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance",
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Tax Revenue"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn",
+    "en"
+   ],
+   "tags": [
+    "tax revenue",
+    "vat",
+    "income tax",
+    "customs",
+    "nbr"
+   ],
+   "evidence_url": "https://nbr.gov.bd/publications/research-statistics/eng",
+   "evidence_note": "Research & Statistics page lists '২০২৫-২৬ অর্থবছরের জুন’২৬ মাস এবং জুন’২৬ মাস পর্যন্ত রাজস্ব আহরণ (সাময়িক)' and monthly revenue collection statements back to 2022-23, plus 'Annual Report 2020-2021'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "epb-export-statistics",
+   "title": "Export Statistics (Goods and Services)",
+   "organization": "epb",
+   "description": "Official monthly and cumulative fiscal-year export statistics of Bangladesh published by EPB as Excel files, including monthly summary sheets, product-wise and country-wise export of goods, services exports and mission-wise export performance.",
+   "source_url": "https://epb.gov.bd/views/epb-export-data",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-epb/2026/8/dc513db2-d75e-4900-a3f0-74ee8624a367.xlsx",
+   "categories": [
+    "Trade & Commerce"
+   ],
+   "subcategories": [
+    "Exports"
+   ],
+   "formats": [
+    "XLSX",
+    "DOCX"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "exports",
+    "export performance",
+    "product-wise",
+    "country-wise"
+   ],
+   "evidence_url": "https://epb.gov.bd/views/epb-export-data",
+   "evidence_note": "Page 'রপ্তানি পরিসংখ্যান' lists periods such as '২০২৬-২৭ (জুলাই-আগস্ট)' and '২০২৫-২০২৬ (জুলাই-জুন)' with xlsx files titled e.g. 'Monthly Summary Sheet 2025-2026 For The Month of July-June', 'Country Wise Export (Goods)' and 'Product Wise Export (Goods)'.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "plandiv-annual-development-programme-2026-27",
+   "title": "Annual Development Programme (ADP) 2026-27",
+   "organization": "planning-division",
+   "description": "The Annual Development Programme for FY2026-27 listing public development projects and their allocations by ministry/division and sector. The Planning Division site also links ADP 2025-26 and RADP 2025-26.",
+   "source_url": "https://plandiv.gov.bd/pages/files/69acf7cda901085f01fe7424",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-plandiv/2026/6/d515c26e-4548-48a1-a53a-d30b3a6cf8a9.pdf",
+   "categories": [
+    "Government & Public Administration",
+    "Infrastructure"
+   ],
+   "subcategories": [
+    "Development Budget"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2026,
+   "temporal_end": 2027,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "adp",
+    "development projects",
+    "public investment"
+   ],
+   "evidence_url": "https://plandiv.gov.bd/pages/files/69acf7cda901085f01fe7424",
+   "evidence_note": "Page '২০২৬ ২৭ অর্থবছরের এডিপি' offers a download named 'বার্ষিক উন্নয়ন কর্মসূচি ২০২৬-২০২৭' (PDF) and the ADP preparation guidelines.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "imed-adp-implementation-progress",
+   "title": "ADP Implementation Progress – Monthly Reports",
+   "organization": "imed",
+   "description": "Monthly reports from IMED on the financial progress of Annual Development Programme implementation, by ministry/division, for the current fiscal year.",
+   "source_url": "https://imed.gov.bd/pages/reports?filters=%7B%22reports_type%22%3A%2269402ff33a9d8304af772720%22%7D",
+   "download_url": null,
+   "categories": [
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "Development Budget"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "adp",
+    "implementation",
+    "project monitoring"
+   ],
+   "evidence_url": "https://imed.gov.bd/pages/reports?filters=%7B%22reports_type%22%3A%2269402ff33a9d8304af772720%22%7D",
+   "evidence_note": "Reports page lists 'জুলাই-আগস্ট'২০২৬ পর্যন্ত এডিপি বাস্তবায়ন অগ্রগতি' (21-09-2026), 'জুলাই ২০২৬ মাসের এডিপি বাস্তবায়ন অগ্রগতি' and earlier monthly progress reports.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dse-latest-share-price",
+   "title": "DSE Latest Share Prices",
+   "organization": "dse",
+   "description": "Live share price table for securities listed on the Dhaka Stock Exchange, with last traded price, high, low, closing price, yesterday's close, change, number of trades, value and volume.",
+   "source_url": "https://www.dsebd.org/markets/latest-share-price?sort=code",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance",
+    "Industry & Business"
+   ],
+   "subcategories": [
+    "Capital Market"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Real-time",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "stock prices",
+    "capital market",
+    "dse"
+   ],
+   "evidence_url": "https://www.dsebd.org/markets/latest-share-price?sort=code",
+   "evidence_note": "Latest Share Price page shows a table with Trading Code, LTP, High, Low, Closing Price, YCP, Change, Trade, Value (mn) and Volume, sortable by code, sector, category, etc.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "dse-data-archives",
+   "title": "DSE Data Archives (Market Summary, Day-End and Close Price)",
+   "organization": "dse",
+   "description": "Historical market data from the Dhaka Stock Exchange for about the last two years, including daily market summary, day-end archive and closing prices, selectable by date range.",
+   "source_url": "https://www.dsebd.org/data-archives",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance",
+    "Industry & Business"
+   ],
+   "subcategories": [
+    "Capital Market"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "stock market",
+    "historical prices",
+    "market summary",
+    "dse"
+   ],
+   "evidence_url": "https://www.dsebd.org/data-archives",
+   "evidence_note": "Page 'DSE Data Archive' offers 'Historical market data, last two years' with 'DSE Market Summary' (one row per trading day), 'Day End Archive' and 'Close Price' using From/To date selectors.",
+   "checked_at": "2026-09-27"
+  },
+  {
+   "slug": "tcb-daily-retail-market-prices",
+   "title": "Daily Retail Market Prices of Essential Commodities in Dhaka",
+   "organization": "tcb",
+   "description": "TCB's daily list of retail prices of essential commodities in Dhaka city markets. Each day's price list is posted as a downloadable Excel file.",
+   "source_url": "https://tcb.gov.bd/pages/daily-rmps",
+   "download_url": null,
+   "categories": [
+    "Trade & Commerce",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Commodity Prices"
+   ],
+   "formats": [
+    "XLSX"
+   ],
+   "geographic_coverage": "Dhaka",
+   "geographic_level": "City Corporation",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "prices",
+    "retail prices",
+    "essential commodities",
+    "dhaka",
+    "market prices"
+   ],
+   "evidence_url": "https://tcb.gov.bd/pages/daily-rmps",
+   "evidence_note": "Page 'প্রতিদিনের খুচরা বাজার দর' lists daily entries titled 'ঢাকা মহানগরীর নিত্য প্রয়োজনীয় পণ্যের দৈনিক খুচরা বাজার দর' (latest 30-09-2026), each linked to an .xlsx file.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "tcb-daily-wholesale-market-prices",
+   "title": "Daily Wholesale Market Prices (Dhaka)",
+   "organization": "tcb",
+   "description": "TCB's daily wholesale market price lists for essential commodities in Dhaka. Each day's list is posted as a downloadable Excel file.",
+   "source_url": "https://tcb.gov.bd/pages/monthly-rmps/",
+   "download_url": null,
+   "categories": [
+    "Trade & Commerce",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Commodity Prices"
+   ],
+   "formats": [
+    "XLSX"
+   ],
+   "geographic_coverage": "Dhaka",
+   "geographic_level": "City Corporation",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "prices",
+    "wholesale prices",
+    "essential commodities",
+    "dhaka"
+   ],
+   "evidence_url": "https://tcb.gov.bd/pages/monthly-rmps/",
+   "evidence_note": "Page 'পাইকারী বাজার দর' (TCB menu item 'দৈনিক পাইকারি বাজার দর') lists daily entries titled 'পাইকারি বাজার দর' (latest 30-09-2026), each linked to an .xlsx file.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bb-interest-rates-monthly",
+   "title": "Interest Rates (Monthly): Bank Rate, Call Money and Lending/Deposit Rates",
+   "organization": "bangladesh-bank",
+   "description": "Monthly table of the bank rate, weighted average call money market rate, and scheduled banks' weighted average interest rates on borrowing, lending, deposits and advances, with the resulting spread.",
+   "source_url": "https://www.bb.org.bd/en/index.php/econdata/intrate",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Interest Rates"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "interest rates",
+    "lending rate",
+    "deposit rate",
+    "call money",
+    "spread",
+    "bank rate"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/econdata/intrate",
+   "evidence_note": "Page 'Interest Rates (Monthly)' shows a table with columns End of period, Bank rate, Weighted Average Call Money Market Rates, Scheduled Banks Weighted Average Interest Rate (Borrowing, Lending, Deposits, Advances) and Spread, for January 2025 to August 2026.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bb-treasury-bill-bond-auctions",
+   "title": "Treasury Bill and Bond Auction Results",
+   "organization": "bangladesh-bank",
+   "description": "Results of primary auctions of Government of Bangladesh treasury bills (91, 182 and 364 day) and treasury bonds (2 to 20 year), including bids received and accepted, face value, yield range, weighted average price and cut-off yield.",
+   "source_url": "https://www.bb.org.bd/en/index.php/monetaryactivity/treasury",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Government Securities"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Weekly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "treasury bills",
+    "treasury bonds",
+    "government securities",
+    "auction",
+    "yields"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/monetaryactivity/treasury",
+   "evidence_note": "Page 'Treasury bill/bond auctions' shows 'Primary Issue/Auction of 91-day, 182-day & 364-day T-Bills, and 2-yr, 5-yr, 10-yr,15-yr & 20-yr Treasury Bonds' with columns Issue date, ISIN Number, Bids received, Bids accepted, Face value (Cr.Tk.), Cut off yield (%); latest auction dated 23/09/2026.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bb-interest-rate-spread-by-bank",
+   "title": "Interest Rate Spread by Bank (Weighted Average Deposit and Advance Rates)",
+   "organization": "bangladesh-bank",
+   "description": "Each bank's monthly weighted average interest rates on deposits and advances and the resulting spread. It is shown three ways: overall, excluding credit cards, and excluding consumer finance and credit cards. You can filter by bank type, month and year.",
+   "source_url": "https://www.bb.org.bd/en/index.php/econdata/w_avg_interest",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Interest Rates"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2018,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "interest rate spread",
+    "banks",
+    "deposit rate",
+    "lending rate"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/econdata/w_avg_interest",
+   "evidence_note": "Page 'Interest Rate Spread based on Monthly Weighted Average Rate of Interest on Deposits and Advances' shows tables 'Interest Rate Spread (Overall)', '(Excl. Credit Card)' and '(Excl. Consumer Finance & Credit Card)' with columns Name of Banks, W. Avg. Deposits, W. Avg. Advances, Spread for July 2026; year selector goes back to 2018.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bb-commodity-wise-import-statistics",
+   "title": "Commodity-wise Import Statistics (Customs-based, Monthly)",
+   "organization": "bangladesh-bank",
+   "description": "Monthly imports by commodity group recorded by customs, in million US dollars. Groups are food grains, consumer goods, intermediate goods, capital goods and others, with a year-on-year comparison. NBR supplies the source data and Bangladesh Bank compiles it.",
+   "source_url": "https://www.bb.org.bd/en/index.php/econdata/bop_imp_statistics",
+   "download_url": null,
+   "categories": [
+    "Trade & Commerce",
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Imports"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "imports",
+    "trade",
+    "commodities",
+    "customs"
+   ],
+   "evidence_url": "https://www.bb.org.bd/en/index.php/econdata/bop_imp_statistics",
+   "evidence_note": "Page 'Commodity-wise import statistics recorded by customs [Monthly]' shows a table in million US$ with columns Items, 2025-26 July, 2026-27 July, % Changes, sections A. Food Grains to E. Others n.i.e.; source 'National Board of Revenue, compiled by Statistics Department, Bangladesh Bank'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "erd-foreign-assistance-at-a-glance",
+   "title": "Foreign Assistance to Bangladesh at a Glance (1971/72-2024/25)",
+   "organization": "erd",
+   "description": "Historical series of foreign assistance to Bangladesh from 1971/72 to 2024/25, published by ERD as part of its historical debt data. Related ERD pages give disbursements by the 20 major development partners and debt outstanding by currency.",
+   "source_url": "https://erd.gov.bd/pages/static-pages/694032e435ce18e1c0563f63",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-erd/2026/1/2340bdf5-1461-4e0f-b2da-3e9842ba37e2.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Foreign Aid"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 1972,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "foreign aid",
+    "foreign assistance",
+    "development partners",
+    "external debt",
+    "disbursement"
+   ],
+   "evidence_url": "https://erd.gov.bd/pages/static-pages/694032e435ce18e1c0563f63",
+   "evidence_note": "Page titled '2a. Foreign Assistance To Bangladesh At A Glance (1971/72 2024/25)' embeds a PDF (office-erd/2026/1/2340bdf5-...pdf); the ERD home page lists it under '2. Historical Debt Data'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "erd-debt-liabilities-major-development-partners",
+   "title": "Debt Liabilities to Major Development Partners",
+   "organization": "erd",
+   "description": "Statement of Bangladesh's outstanding external debt to its major development partners as of 30 June 2025. It is part of ERD's historical debt data series.",
+   "source_url": "https://erd.gov.bd/pages/static-pages/694032d635ce18e1c0563372",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-erd/2026/1/ba7ba56e-d617-4f61-bb67-670ccfe418d7.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "External Debt"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2025,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "external debt",
+    "debt liabilities",
+    "development partners"
+   ],
+   "evidence_url": "https://erd.gov.bd/pages/static-pages/694032d635ce18e1c0563372",
+   "evidence_note": "Page titled '2c. Debt Liabilities To Major Development Partner (As Of 30 June 2025)' embeds a PDF (office-erd/2026/1/ba7ba56e-...pdf).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "erd-foreign-assistance-monthly-report",
+   "title": "Foreign Assistance Monthly Report",
+   "organization": "erd",
+   "description": "ERD's provisional monthly report on foreign assistance for the current fiscal year. The current page covers July to August 2026 of FY 2026-27.",
+   "source_url": "https://erd.gov.bd/pages/static-pages/694032b735ce18e1c056119d",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-erd/2026/8/9d507129-c76f-41fd-a4d5-5f93f5adba47.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Foreign Aid"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Monthly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "foreign aid",
+    "commitments",
+    "disbursements",
+    "development partners"
+   ],
+   "evidence_url": "https://erd.gov.bd/pages/static-pages/694032b735ce18e1c056119d",
+   "evidence_note": "ERD home page lists '4. Foreign Assistance Monthly Report FY 2026-27' > 'A. July to August 2026 (Provisional)', which opens page '4a. July To August 2026' embedding a PDF (office-erd/2026/8/9d507129-...pdf).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "planning-commission-sdg-progress-report-2020",
+   "title": "Sustainable Development Goals: Bangladesh Progress Report 2020",
+   "organization": "planning-commission",
+   "description": "Bangladesh's national report on progress towards the SDGs, 2020. The Planning Commission site also hosts the SDG Monitoring and Evaluation Framework and earlier MDG progress reports.",
+   "source_url": "https://plancomm.gov.bd/pages/files/6922dac8933eb65569e0693c",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-plancomm/2024/12/058ce9a8b63d40158e48604baf2d45fe.pdf",
+   "categories": [
+    "Economy & Finance",
+    "Government & Public Administration"
+   ],
+   "subcategories": [
+    "SDGs"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2020,
+   "temporal_end": 2020,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "sdg",
+    "sustainable development goals",
+    "progress report",
+    "indicators"
+   ],
+   "evidence_url": "https://plancomm.gov.bd/pages/files/6922dac8933eb65569e0693c",
+   "evidence_note": "Page titled 'Sustainable Development Goals Bangladesh Progress Report 2020 | ফাইল সমূহ | বাংলাদেশ পরিকল্পনা কমিশন' links a PDF (office-plancomm/2024/12/058ce9a8...pdf).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "cse-daily-market-summary",
+   "title": "CSE Historical Market Summary (Daily Trades, Turnover, Market Cap and Indices)",
+   "organization": "cse",
+   "description": "Daily market summary for the Chittagong Stock Exchange: number of trades, volume, value traded, market capitalisation and the CSE30, CSCX, CASPI, CSE50 and CSI indices. The page also lists all-time highest records.",
+   "source_url": "https://www.cse.com.bd/market/historical_market",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Capital Market"
+   ],
+   "formats": [
+    "HTML"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Daily",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "stock market",
+    "cse",
+    "indices",
+    "market capitalisation",
+    "turnover"
+   ],
+   "evidence_url": "https://www.cse.com.bd/market/historical_market",
+   "evidence_note": "Page 'Historical Market Summary' shows 'HIGHEST RECORDS' and a 'MARKET SUMMARY' table with columns Date, Trade, Volume, Value(Tk), Market Cap(mn), CSE30, CSCX, CASPI, CSE50, CSI (latest row 2026-09-30).",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "cse-weekly-report",
+   "title": "CSE Weekly Market Report",
+   "organization": "cse",
+   "description": "Weekly reports from the Chittagong Stock Exchange summarising the week's trading, published as PDF files and organised by year.",
+   "source_url": "https://www.cse.com.bd/market/weekly_report",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Capital Market"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Weekly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "stock market",
+    "cse",
+    "weekly report"
+   ],
+   "evidence_url": "https://www.cse.com.bd/market/weekly_report",
+   "evidence_note": "Page shows 'Weekly Reports for the year : 2026' with PDF entries such as 'CSE WEEKLY REPORT ( 20th Sep 2026_24th Sep, 2026 )' dated September 24, 2026.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bsec-quarterly-reports",
+   "title": "BSEC Quarterly Reports on the Capital Market",
+   "organization": "bsec",
+   "description": "Quarterly reports of the Bangladesh Securities and Exchange Commission in English and Bangla, one for each quarter. The page lists reports from 2022 to July-September 2025, plus an archive.",
+   "source_url": "https://www.sec.gov.bd/quarterly-reports-1",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Capital Market"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2025,
+   "update_frequency": "Quarterly",
+   "license": null,
+   "languages": [
+    "en",
+    "bn"
+   ],
+   "tags": [
+    "capital market",
+    "securities",
+    "regulator",
+    "quarterly report"
+   ],
+   "evidence_url": "https://www.sec.gov.bd/quarterly-reports-1",
+   "evidence_note": "Page 'Quarterly Reports' lists reports by year (2022-2026 plus Archive), e.g. 'QR JULY-SEPTEMBER 2025', 'QR APRIL-JUNE 2025', 'QR OCT-DEC 2024', each with English and Bangla PDF links.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "mra-annual-report",
+   "title": "Microcredit Regulatory Authority Annual Report",
+   "organization": "mra",
+   "description": "Annual reports of the Microcredit Regulatory Authority on the microfinance sector and the authority's activities, in Bangla. The page lists editions from 2016 to 2025.",
+   "source_url": "https://mra.gov.bd/pages/annual-reports",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Microfinance"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2016,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "microcredit",
+    "microfinance",
+    "mfi",
+    "annual report"
+   ],
+   "evidence_url": "https://mra.gov.bd/pages/annual-reports",
+   "evidence_note": "Page 'বার্ষিক প্রতিবেদন' lists 13 entries including 'বার্ষিক প্রতিবেদন-২০২৫' (published 30-03-2026) back to 'বার্ষিক প্রতিবেদন-২০১৬', with PDF files.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bbs-ict-access-use-survey",
+   "title": "ICT Access and Use Survey (Households and Individuals)",
+   "organization": "bbs",
+   "description": "BBS survey results on ICT access and use by households and individuals. The page has quarterly reports for 2025-26, the 2024-25 annual report, and earlier survey reports (2013, 2022 and 2023).",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922e012933eb65569e25543",
+   "download_url": null,
+   "categories": [
+    "Science & Technology"
+   ],
+   "subcategories": [
+    "ICT"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": null,
+   "update_frequency": "Quarterly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "ict",
+    "internet",
+    "mobile phone",
+    "digital",
+    "household survey"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922e012933eb65569e25543",
+   "evidence_note": "Page 'আইসিটি পরিসংখ্যান' lists PDFs including 'Quarterly Report on ICT Access and Use Survey 2025-26 (4th Quarter: April-June, 2026)', 'ICT Access and use by Households and Indivisuals Survey 2024-25 Annual Report' and 'Survey on ICT Use and Access by Individuals and Household 2022'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "bbs-statistical-bulletin",
+   "title": "Statistical Bulletin of Bangladesh",
+   "organization": "bbs",
+   "description": "BBS statistical bulletin with issues from 2016 to 2026. On the page, issues are arranged by year and mostly come out every other month (February, April, June, August, October, December).",
+   "source_url": "https://bbs.gov.bd/pages/static-pages/6922dc4b933eb65569e0f8eb",
+   "download_url": null,
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Statistical Bulletin"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2016,
+   "temporal_end": 2026,
+   "update_frequency": "Irregular",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "statistical bulletin",
+    "official statistics"
+   ],
+   "evidence_url": "https://bbs.gov.bd/pages/static-pages/6922dc4b933eb65569e0f8eb",
+   "evidence_note": "Page 'পরিসংখ্যান বুলেটিন' (content heading 'Monthly Report') has tabs Year 2016 to Year 2026, each listing PDF issues by month such as December, October, August, June, April, February.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "finance-division-debt-bulletin",
+   "title": "Quarterly Debt Bulletin",
+   "organization": "finance-division",
+   "description": "Finance Division's bulletin on the Government of Bangladesh's public debt. The page lists issues up to Issue No-18 (March 2026).",
+   "source_url": "https://mof.gov.bd/pages/static-pages/694032c935ce18e1c056266d",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2026/7/22739037-b412-45e4-a0b4-5f7ea2e41253.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Public Debt"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": null,
+   "temporal_end": 2026,
+   "update_frequency": "Quarterly",
+   "license": null,
+   "languages": [
+    "en"
+   ],
+   "tags": [
+    "public debt",
+    "government debt",
+    "external debt",
+    "domestic debt"
+   ],
+   "evidence_url": "https://mof.gov.bd/pages/static-pages/694032c935ce18e1c056266d",
+   "evidence_note": "Page 'প্রান্তিক ডেট বুলেটিন' lists PDF issues including 'ISSUE NO-18, March 2026', 'ISSUE NO-17, December 2025', 'ISSUE NO-16, September 2025' and 'Issue No-15, June 2025'.",
+   "checked_at": "2026-10-01"
+  },
+  {
+   "slug": "finance-division-annual-fiscal-report",
+   "title": "Annual Fiscal Report (বার্ষিক রাজস্ব প্রতিবেদন)",
+   "organization": "finance-division",
+   "description": "Finance Division's annual report on the government's fiscal results for each fiscal year, in Bangla. Editions run from 2011-12 to 2024-25.",
+   "source_url": "https://mof.gov.bd/pages/static-pages/694032e435ce18e1c0563f45",
+   "download_url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-mof/2025/11/31c72698-c39a-4199-a5b0-de8419dcbea5.pdf",
+   "categories": [
+    "Economy & Finance"
+   ],
+   "subcategories": [
+    "Public Finance"
+   ],
+   "formats": [
+    "PDF"
+   ],
+   "geographic_coverage": "Bangladesh",
+   "geographic_level": "National",
+   "temporal_start": 2012,
+   "temporal_end": 2025,
+   "update_frequency": "Annual",
+   "license": null,
+   "languages": [
+    "bn"
+   ],
+   "tags": [
+    "fiscal",
+    "public finance",
+    "revenue",
+    "expenditure"
+   ],
+   "evidence_url": "https://mof.gov.bd/pages/static-pages/694032e435ce18e1c0563f45",
+   "evidence_note": "Page 'বার্ষিক রাজস্ব প্রতিবেদন' lists PDFs 'বার্ষিক রাজস্ব প্রতিবেদন : ২০২৪-২৫', ': ২০২৩-২৪', ': ২০২২-২৩' down to ': ২০১১-১২'.",
+   "checked_at": "2026-10-01"
+  }
+ ],
+ "unreachable": [
+  {
+   "url": "https://bida.gov.bd/",
+   "note": "TLS handshake failure (SSLV3_ALERT_HANDSHAKE_FAILURE) via https; http returns Cloudflare 409 Conflict. No BIDA FDI/investment data could be verified."
+  },
+  {
+   "url": "https://ged.gov.bd",
+   "note": "DNS resolution failure ('Could not resolve host'), also for http://www.ged.gov.bd; the SDG Progress Report 2020 was recorded from plancomm.gov.bd instead."
+  },
+  {
+   "url": "https://ged.portal.gov.bd",
+   "note": "Returns a placeholder page 'Domain is not available: ged.portal.gov.bd' (website temporarily unavailable)."
+  },
+  {
+   "url": "https://idra.org.bd/",
+   "note": "Loads (200) but is a client-side Nuxt JavaScript app; the served HTML and WebFetch output show only 'সকল সার্ভিস' and FAQ headings, with no statistics, premium data or report links."
+  }
+ ]
+}
